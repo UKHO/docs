@@ -1,6 +1,6 @@
 # Migrating an existing project
 
-As part of [the Open Source Governance Checklist](../OpenSourceGovernanceChecklist.md), it is a requirement that sensitive data has been remove from the repository history. This can be acheived with Git's `filter-branch` command to walk over the history of a branch and apply changes throughout.
+As part of [the Open Source Governance Checklist](../OpenSourceGovernanceChecklist.md), it is a requirement that sensitive data has been removed from the repository history. This can be acheived with Git's `filter-branch` command to walk over the history of a branch and apply changes throughout.
 
 ## Remove lines from commit messages
 
