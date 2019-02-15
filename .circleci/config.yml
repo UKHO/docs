@@ -1,0 +1,44 @@
+version: 2.1
+
+jobs:
+  build:
+    docker:
+      - image: squidfunk/mkdocs-material:4.0.1
+        entrypoint: ""
+    steps:
+      - checkout
+      - run: mkdocs build
+      - run: mv site public
+      - persist_to_workspace:
+          root: .
+          paths: public
+  gh-pages:
+    docker:
+      - image: node:11.9.0
+    steps:
+      - attach_workspace:
+          at: .
+      - run:
+          name: Install and configure dependencies
+          command: |
+            npm install -g --silent gh-pages@2.0.1
+            git config user.email "circle-ci@ukho.gov.uk"
+            git config user.name "circle-ci"
+      - add_ssh_keys:
+          fingerprints:
+            - "df:2f:bb:e8:16:52:04:e3:0a:8f:12:d7:2c:32:17:ae"
+      - run:
+          name: Deploy docs to gh-pages
+          command: gh-pages --dist public
+
+workflows:
+  version: 2.1
+  default_workflow:
+    jobs:
+      - build
+      - gh-pages:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
