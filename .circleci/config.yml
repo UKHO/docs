@@ -12,6 +12,17 @@ jobs:
       - persist_to_workspace:
           root: .
           paths: public
+  test:
+    docker:
+      - image: dkhamsing/awesome_bot
+        entrypoint: ""
+    steps:
+      - checkout
+      - attach_workspace:
+          at: .
+      - run:
+          name: Lint markdown files
+          command: awesome_bot --allow-dupe --allow-redirect --skip-save-results `find . -name "*.md"`
   gh-pages:
     docker:
       - image: node:11.9.0
@@ -40,6 +51,7 @@ workflows:
   default_workflow:
     jobs:
       - build
+      - test
       - gh-pages:
           requires:
             - build
