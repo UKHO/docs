@@ -1,6 +1,10 @@
 pr:
 - master
 
+resources:
+- repo: self
+  clean: true
+
 queue:
   name: NautilusBuild
 
