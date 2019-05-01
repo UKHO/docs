@@ -3,6 +3,7 @@ name: docs_$(Date:yyyy)$(DayOfYear)$(Rev:.r)
 jobs:
 - job: build
   container: squidfunk/mkdocs-material:4.0.1
+    endpoint: ""
   steps:
   - script: mkdocs build
   - script: mv site public
