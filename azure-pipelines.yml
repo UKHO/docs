@@ -1,9 +1,13 @@
-pr:
-- master
+name: docs_$(Date:yyyy)$(DayOfYear)$(Rev:.r)
 
 resources:
 - repo: self
   clean: true
+
+trigger:
+  branches:
+    include:
+      - refs/heads/*
 
 queue:
   name: NautilusBuild
