@@ -1,6 +1,14 @@
 name: docs_$(Date:yyyy)$(DayOfYear)$(Rev:.r)
 
+resources:
+  containers:
+    - container: mkdocsmaterial
+      image: squidfunk/mkdocs-material:4.0.1
+      options: --entrypoint "bash"
+
 jobs:
 - job: build
-  steps:
-  - script: /usr/bin/docker pull squidfunk/mkdocs-material:4.0.1
+  container: mkdocsmaterial
+  steps:      
+  - script: mkdocs build
+  - script: mv site public
