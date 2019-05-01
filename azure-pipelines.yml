@@ -1,3 +1,5 @@
+pr:
+- master
 jobs:
 - job: build
   container: 
