@@ -3,5 +3,4 @@ name: docs_$(Date:yyyy)$(DayOfYear)$(Rev:.r)
 jobs:
 - job: build
   steps:
-  - script: |
-    /usr/bin/docker pull squidfunk/mkdocs-material:4.0.1
+  - script: /usr/bin/docker pull squidfunk/mkdocs-material:4.0.1
