@@ -2,7 +2,8 @@ name: docs_$(Date:yyyy)$(DayOfYear)$(Rev:.r)
 
 jobs:
 - job: build
-  container: squidfunk/mkdocs-material:4.0.1
+  container: 
+    image: squidfunk/mkdocs-material:4.0.1
     options: --entrypoint ""
   steps:
   - script: mkdocs build
