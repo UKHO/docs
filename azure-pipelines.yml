@@ -3,7 +3,7 @@ name: docs_$(Date:yyyy)$(DayOfYear)$(Rev:.r)
 resources:
   containers:
     - container: mkdocs
-      image: ubuntu:18.04
+      image: brunneis/python:2.7.15-ubuntu-18.04
 
 jobs:
 - job: build
