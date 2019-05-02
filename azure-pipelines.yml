@@ -2,8 +2,8 @@ name: docs_$(Date:yyyy)$(DayOfYear)$(Rev:.r)
 
 resources:
   containers:
-    - container: mkdocs
-      image: python:3.6.8-alpine3.9
+    - container: mkdocsmaterial
+      image: squidfunk/mkdocs-material:4.0.1
       options: --entrypoint "bash /run.sh"
 
 jobs:
