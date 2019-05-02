@@ -2,13 +2,16 @@ name: docs_$(Date:yyyy)$(DayOfYear)$(Rev:.r)
 
 resources:
   containers:
-    - container: mkdocsmaterial
-      image: squidfunk/mkdocs-material:4.0.1
-      options: -it --entrypoint "bash"
+    - container: mkdocs
+      image: python:3.6.8-alpine3.9
 
 jobs:
 - job: build
-  container: mkdocsmaterial
+  container: mkdocs
   steps:    
+  - script: python --version
+  - script: pip --version
+  - script: pip install mkdocs && mkdocs --version
+  - script: pip install mkdocs-material
   - script: mkdocs build
   - script: mv site public
