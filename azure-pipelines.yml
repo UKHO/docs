@@ -3,16 +3,12 @@ name: docs_$(Date:yyyy)$(DayOfYear)$(Rev:.r)
 resources:
   containers:
     - container: mkdocs
-      image: ubuntu:18.04
+      image: python:3.6.8-alpine3.9
+      options: --entrypoint "bash /run.sh"
 
 jobs:
 - job: build
-  container: mkdocs
+  container: mkdocsmaterial
   steps:    
-  - script: pip install python 2.7
-  - script: python --version
-  - script: pip --version
-  - script: pip install mkdocs && mkdocs --version
-  - script: pip install mkdocs-material
   - script: mkdocs build
   - script: mv site public
