@@ -9,7 +9,7 @@ jobs:
 - job: build
   container: mkdocsmaterial
   steps:    
-  - script: apt-get intsall python2.7.13
+  - script: apt-get install python2.7.13
   - script: python --version
   - script: pip install mkdocs && mkdocs --version
   - script: pip install mkdocs-material
