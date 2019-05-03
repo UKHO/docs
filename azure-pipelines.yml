@@ -3,15 +3,11 @@ name: docs_$(Date:yyyy)$(DayOfYear)$(Rev:.r)
 resources:
   containers:
     - container: mkdocsmaterial
-      image: ubuntu:18.04      
-
+      image: squidfunk/mkdocs-material:4.0.1
+      options: --entrypoint "top -b" --cmd "-c"
 jobs:
 - job: build
   container: mkdocsmaterial
   steps:    
-  - script: sudo apt-get install python2.7.13
-  - script: python --version
-  - script: pip install mkdocs && mkdocs --version
-  - script: pip install mkdocs-material
   - script: mkdocs build
   - script: mv site public
