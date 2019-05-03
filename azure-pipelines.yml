@@ -4,7 +4,7 @@ resources:
   containers:
     - container: mkdocsmaterial
       image: squidfunk/mkdocs-material:4.0.1
-      options: --entrypoint "top -b" --cmd "-c"
+      options: --entrypoint "top -b"
 jobs:
 - job: build
   container: mkdocsmaterial
