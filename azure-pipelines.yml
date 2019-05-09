@@ -2,11 +2,15 @@ name: docs_$(Date:yyyy)$(DayOfYear)$(Rev:.r)
 
 resources:
   containers:
+    - container: ubuntu
+      image: ubuntu:18.04
     - container: mkdocsmaterial
       image: squidfunk/mkdocs-material:4.0.1
-      options: --entrypoint "top -b"
 jobs:
+- job: get
+  container: ubuntu
 - job: build
+  dependsOn: get
   container: mkdocsmaterial
   steps:    
   - script: mkdocs build
