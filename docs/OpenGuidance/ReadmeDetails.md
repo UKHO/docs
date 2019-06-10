@@ -39,7 +39,6 @@ The README.md is the first file people look in when evaluating whether to use or
 - [Awesome Readme](https://github.com/matiassingers/awesome-readme) - An "awesome-list" for readme
 - [Art Of Readme](https://github.com/noffle/art-of-readme) - Aimed at Node projects but lots of relevant information and philosophy of writing good readme's.
 - [GOV.UK Readme Guidance incl Template](https://docs.publishing.service.gov.uk/manual/readmes.html) - A bit heavyweight compared to other advice but relevant and useful.
-- [How to write a Readme](http://jfhbrook.github.io/2011/11/09/readmes.html)
 - [Template](https://github.com/RichardLitt/standard-readme)
 
 ## Examples
