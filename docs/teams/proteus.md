@@ -12,6 +12,7 @@ Team Proteus is a delivery team currently working on the Data Platform. The team
 - Benjamin Morgan - Software Engineer
 - Andy Graham - Software Engineer
 - Andy Pickin - Software Engineer
+- Kevin Harragan - Trainee Software Engineer
 - Andy Cleveland - Test Engineer
 - Chris Sutcliffe - DevOps Engineer
 
