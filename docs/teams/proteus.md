@@ -26,26 +26,30 @@ Delivery efforts made by Team Proteus follow these principles.
 
 ## Definition of Done
 Our definition of done must be followed for all work delivered. Sections may only apply to some work.
+
 ### All Work
-All acceptance criteria are met
-All tasks are marked as done
-The boundary of the VNet is not compromised
-All knowledge transfer complete across team
-Risks identified and added to RAID log
-Tech Debt considered and added to Tech Debt log
-Threat Modelling completed and captured
-Cost was considered in implementation
+- All acceptance criteria are met
+- All tasks are marked as done
+- The boundary of the VNet is not compromised
+- All knowledge transfer complete across team
+- Risks identified and added to RAID log
+- Tech Debt considered and added to Tech Debt log
+- Threat Modelling completed and captured
+- Cost was considered in implementation
+
 ### Software Dev
-Code review complete
-Related pull requests merged
-Continuous integration pipeline written and passing
-PR linked to Azure Board items
-[POST-AB#6266] Appropriate tests written and passing
+- Code review complete
+- Related pull requests merged
+- Continuous integration pipeline written and passing
+- Pull Request linked to Azure Board items
+- [POST-AB#6266] Appropriate tests written and passing
+
 ### Container Apps
-[POST-AB#6335] Should have readiness probe
-[POST-AB#6349] Should expose appropriate monitoring endpoints
-[POST-AB#6267] Logging out to appropriate log service
-App deployment written and deployed by Flux
+- [POST-AB#6335] Should have readiness probe
+- [POST-AB#6349] Should expose appropriate monitoring endpoints
+- [POST-AB#6267] Logging out to appropriate log service
+- App deployment written and deployed by Flux
+
 ### Migrations
-[POST-AB#6266] Tests remain passing after migration
-[POST-AB#6266] Tests re-written where appropriate
+- [POST-AB#6266] Tests remain passing after migration
+- [POST-AB#6266] Tests re-written where appropriate
