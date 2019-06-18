@@ -18,6 +18,7 @@ Team Proteus is a delivery team currently working on the Data Platform. The team
 
 ## Principles
 Delivery efforts made by Team Proteus follow these principles.
+
 - Use Continuous Delivery - Never build-up work to release
 - Use Design System - All UI work should use components and patterns from the system
 - Use Open Standards - Should be favoured over proprietary lock-in, at least for an interface
