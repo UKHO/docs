@@ -5,7 +5,7 @@ This page attempts to outline how you can set up your linux workstation VM to ru
 
 ## Obtaining VMWare player 
 
-If your laptop doesn't have vmware player installed, in the first instance open Software center from the start menu and see if it is available. If it is, install it from here. If it is not available for you in Software Center, speak to service desk (or ideally Matt Page, as he managed this rollout originally) to have this added to your software center.
+If your laptop doesn't have VMware player installed, in the first instance open Software center from the start menu and see if it is available. If it is, install it from here. If it is not available for you in Software Center, speak to service desk (or ideally Matt Page, as he managed this rollout originally) to have this added to your software center.
 
 ## Obtaining the VM image 
 
