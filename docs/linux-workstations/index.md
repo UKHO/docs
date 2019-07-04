@@ -123,7 +123,7 @@ For password: <See password in PMP under "Mint VMWare Dev Workstation Root">
 
 <u>Press space, this will display a set of users you can log in as (initially, this is the user you created earlier):</u>
 
-![Login password screen](400px-Linux_workstations_login_screen_1.png)
+![Login password screen](400px-Linux_workstations_login_screen_2.png)
 
 <u>Login by selecting the name of the user you entered earlier and enter the password, you should be presented with a screen as follows:</u>
 
