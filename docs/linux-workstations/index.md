@@ -7,7 +7,7 @@ This page attempts to outline how you can set up your linux workstation VM to ru
 
 <u>The first step of the process is to access the image which is held on:</u>
 
-<code>\\business.ukho.gov.uk\dfs\Prod_Prod\Mint\OVF Image</code>
+<code>\\\\business.ukho.gov.uk\dfs\Prod_Prod\Mint\OVF Image</code>
 
 <code>U:\Prod_Prod\Mint\OVF Image</code>
 
@@ -15,10 +15,9 @@ and copy this directory to your laptop.
 
 <u>Once copied, start up VMware Player Pro and on the "Home Screen" select the option "Open a Virtual Machine":</u>
 
-[
+[IMAGE]
 
 Please use the file browser displayed to select the location where the image was copied.
-
 
 <u>You will be asked for a name and a storage path - please ensure that the name of the VM image is:</u>
 
@@ -35,7 +34,7 @@ Please use the file browser displayed to select the location where the image was
 
 <u>Ensure the 'tab' for the virtual machine in the UI is selected and click on the 'Edit Virtual Machine Settings' link on the left-hand-side of the page:</u>
 
-[[File:Linux_workstations_settings_1.PNG]([File:Linux_workstations_importvm.PNG]])]
+[IMAGE]
 
 
 In the window displayed, select the 'Network Adapter' entry on the left hand side.
@@ -47,7 +46,7 @@ In the window displayed, select the 'Network Adapter' entry on the left hand sid
 
 * Replicate physical network connection state is selected.
 
-[
+[IMAGE]
 
 Click OK when done.
 
@@ -59,8 +58,7 @@ Start-up the Virtual Machine by selecting the "Power On" (Ctrl+B) option.
 
 <u>You will shortly see a screen having the option "Install Centos 7 - With Hydro Kickstart".  Press Enter to continue:</u>
 
-[[File:Linux_workstations_kickstart.PNG]([File:Linux_workstations_settings_2.PNG]])]
-
+[IMAGE]
 
 You will then see a screen which displays "Press <Enter> to start the installation process" - either press Enter (or wait and the install should start automatically.
 
@@ -70,7 +68,7 @@ This starts the kickstart installation process.
 
 <u>After some minutes (Approx. 7mins, Go grab a lengthy coffee/tea/soft drink) you should see the following:</u>
 
-[
+[IMAGE]
 
 Press return.  You will get a message box stating that the machine has halted.
 
@@ -84,7 +82,7 @@ Select the "Restart Guest" option (or press Ctrl+R) on the VM power settings.
 
 <u>After a few minutes the VM should boot and you should be presented with a login prompt:</u>
 
-[[File:Linux_workstations_first_login.PNG]([File:Linux_workstations_kickstart_ends.PNG]])]
+[IMAGE]
 
 
 <u>Enter the following:</u>
@@ -117,23 +115,22 @@ For password: <See password in PMP under "Mint VMWare Dev Workstation Root">
 
 <u>The installation process will then continue, and you should see a login manager displayed after some time:</u>
 
-[[File:Linux_workstations_login_screen_1.PNG|400px]([File:Linux_workstations_new_user.PNG]])]
+[IMAGE]
 
 
 <u>Press space, this will display a set of users you can log in as (initially, this is the user you created earlier):</u>
 
-[
+[IMAGE]
 
 <u>Login by selecting the name of the user you entered earlier and enter the password, you should be presented with a screen as follows:</u>
 
-[[File:Linux_workstations_gui_login_screen_1.PNG|400px]([File:Linux_workstations_login_screen_2.PNG|400px]])]
-
+[IMAGE]
 
 Initially, this looks a little spartan!
 
 <u>You can get an initial desktop created by selecting the 'Use Default Config' option - you should then see something as follows:</u>
 
-[[File:Linux_workstations_gui_login_screen_2.PNG|400px]]
+[IMAGE]
 
 # Installing development utils 
 
