@@ -1,7 +1,11 @@
 # Introduction 
 
-This page attempts to outline how you can set up your linux workstation VM to run under VMWare Player Pro V15.2 or greater.
+This page attempts to outline how you can set up your linux workstation VM to run under VMWare Player Pro V15.0.2 or greater.
 
+
+## Obtaining VMWare player 
+
+If your laptop doesn't have vmware player installed, in the first instance open Software center from the start menu and see if it is available. If it is, install it from here. If it is not available for you in Software Center, speak to service desk (or ideally Matt Page, as he managed this rollout originally) to have this added to your software center.
 
 ## Obtaining the VM image 
 
@@ -18,6 +22,8 @@ and copy this directory to your laptop.
 ![VMWare workstation](Linux_workstations_importvm.png)
 
 Please use the file browser displayed to select the location where the image was copied.
+
+You will recieve a dialog referring to a mismatch of versions, this is a known bug in VMWare workstation, press Retry and the process will continue.
 
 <u>You will be asked for a name and a storage path - please ensure that the name of the VM image is:</u>
 
