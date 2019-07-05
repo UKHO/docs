@@ -11,9 +11,12 @@ If your laptop doesn't have VMware player installed, in the first instance open 
 
 <u>The first step of the process is to access the image which is held on:</u>
 
-<code>\\\\business.ukho.gov.uk\dfs\Prod_Prod\Mint\OVF Image</code>
-
-<code>U:\Prod_Prod\Mint\OVF Image</code>
+``` bash 
+    \\\\business.ukho.gov.uk\dfs\Prod_Prod\Mint\OVF Image
+```
+``` bash 
+    U:\Prod_Prod\Mint\OVF Image
+```
 
 and copy this directory to your laptop.
 
@@ -34,7 +37,7 @@ You will recieve a dialog referring to a mismatch of versions, this is a known b
 <code>C:\VirtualMachines\DevVM</code>
 
 
-!!! warning
+!!! danger
     It is important that the specified location is used for compliance with SyOps!
 
 ## Settings for the VM image 
@@ -80,9 +83,9 @@ Press return.  You will get a message box stating that the machine has halted.
 Select the "Restart Guest" option (or press Ctrl+R) on the VM power settings.
 
 ## Installation - Logging in the first time 
-------------------------------------------------------------------------------------------------------
-<b>IMPORTANT! Don't try this on UKHO_LAPTOPS wifi, as the setup will not be able to access GitHub</b>
-------------------------------------------------------------------------------------------------------
+!!! warning
+    Don't try this on UKHO_LAPTOPS wifi, as the setup will not be able to access GitHub
+
 
 <u>After a few minutes the VM should boot and you should be presented with a login prompt:</u>
 
@@ -90,25 +93,34 @@ Select the "Restart Guest" option (or press Ctrl+R) on the VM power settings.
 
 
 <u>Enter the following:</u>
+
 For username: <code>root</code>
+
 For password: <See password in PMP under "Mint VMWare Dev Workstation Root">
 
 
 <u>You will be asked for the username of the new user you wish to create on the VM.</u>
 !!! example
     * joe.bloggs
+    
     * jane.doe
+    
 !!! note "Username constraints"
     The username must be:
+    
     * Lower-case
+    
     * Alphabetic
+    
     * No spaces
 
 
 <u>Next, you will be asked for your full name, which should be alphabetic</u>
 
 <u>Next, you will be asked for your password:</u>
+
 !!! warning
+
     There are restrictions on the password you can use; passwords which are too lenient will be rejected.
 
 <u>The set of interactions (for a user named jane.doe) might look as follows:</u>
