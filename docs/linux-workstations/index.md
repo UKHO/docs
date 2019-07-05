@@ -27,14 +27,15 @@ You will recieve a dialog referring to a mismatch of versions, this is a known b
 
 <u>You will be asked for a name and a storage path - please ensure that the name of the VM image is:</u>
 
-* UKHO CentOS 7
+<code>UKHO CentOS 7</code>
 
 <u>Please ensure that the storage path of the VM image is:</u>
 
-* C:\VirtualMachines\DevVM
+<code>C:\VirtualMachines\DevVM</code>
 
 
-'''<u>NOTE:</u> It is important that the specified location is used for compliance with SyOps!'''
+!!! warning
+    It is important that the specified location is used for compliance with SyOps!
 
 ## Settings for the VM image 
 
@@ -89,28 +90,26 @@ Select the "Restart Guest" option (or press Ctrl+R) on the VM power settings.
 
 
 <u>Enter the following:</u>
-
 For username: <code>root</code>
-
 For password: <See password in PMP under "Mint VMWare Dev Workstation Root">
 
 
-<u>You will be asked for the username of the new user you wish to create on the VM, which should be:</u>
+<u>You will be asked for the username of the new user you wish to create on the VM.</u>
+!!! example
+    * joe.bloggs
+    * jane.doe
+!!! note "Username constraints"
+    The username must be:
+    * Lower-case
+    * Alphabetic
+    * No spaces
 
-* Lower-case
 
-* Alphabetic
-
-* No spaces
-
-* (E.g. joe.bloggs, jane.doe)
-
-
-<u>Next, you will be asked for your full name, which should be:</u>
-* Alphabetic
+<u>Next, you will be asked for your full name, which should be alphabetic</u>
 
 <u>Next, you will be asked for your password:</u>
-* NOTE: There are restrictions on the password you can use; passwords which are too lenient will be rejected.
+!!! warning
+    There are restrictions on the password you can use; passwords which are too lenient will be rejected.
 
 <u>The set of interactions (for a user named jane.doe) might look as follows:</u>
 
@@ -139,28 +138,24 @@ Initially, this looks a little spartan!
 
 <u>Once you have logged in, if you wish to install maven, Java 8 Sdk and Yarn please go to a terminal and type:</u>
 
-<code>cd ~/linux-workstation/ansible</code>
-
-<code>sudo ansible-playbook -i inventories/laptop-vm/hosts --vault-password-file=$HOME/.config/linux-workstation/.vaultpass development.yml</code>
+``` bash
+   cd ~/linux-workstation/ansible
+```
+``` bash
+   sudo ansible-playbook -i inventories/laptop-vm/hosts --vault-password-file=$HOME/.config/linux-workstation/.vaultpass development.yml
+```
 
 This should then install the basic utilities needed.
 
 # Known Issues 
 
-<u>Currently, the VPN on the Linux VM has an issue if you do the following:</u>
-
-* Suspend the Linux VM when the laptop is connected to the network via USB-C
-
-* Resume the Linux VM when the laptop is connected to the network via WiFi
-
-Or:
-
-* Suspend the Linux VM when the laptop is connected to the network via WiFi
-
-* Resume the Linux VM when the laptop is connected to the network via USB-C
-
-<b>Alternatively, keeping the VM un-suspended whilst changing networks avoids this scenario.</b>
-
-
-The issue is that the VPN on the Linux VM never seems to be able to reconnect successfully - the best way around this is to reboot the VM.
+!!! bug
+   Currently, the VPN on the Linux VM has an issue if you do the following:</u>
+   * Suspend the Linux VM when the laptop is connected to the network via USB-C
+   * Resume the Linux VM when the laptop is connected to the network via WiFi
+   Or:
+   * Suspend the Linux VM when the laptop is connected to the network via WiFi
+   * Resume the Linux VM when the laptop is connected to the network via USB-C
+   <b>Alternatively, keeping the VM un-suspended whilst changing networks avoids this scenario.</b>
+   The issue is that the VPN on the Linux VM never seems to be able to reconnect successfully - the best way around this is to reboot the VM.
 
