@@ -48,7 +48,7 @@ Test automation has provided the opportunity to move away from the traditional d
 
 A high-level set of standards acts as a guide for the creation of automated tests:
 
-![Test Automation Standards](test-automation-vision.md)
+[Test Standards](test-code-standards.md)
 
 ## How we measure our progress
 
