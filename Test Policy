@@ -3,6 +3,7 @@
 The purpose of this document is to communicate at a high level the policy for UKHO for testing of new software, updates, hardware and other related changes.
 
 Why do we Test?
+
 *	To build confidance in our systems
 *	Detect defects
 *	Generate information
