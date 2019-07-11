@@ -1,30 +1,30 @@
-# Purpose and Scope 
+# Purpose and Scope
 
-The purpose of this document is to communicate at a high level the policy for UKHO for testing of new software, updates, hardware and other related changes.
+The purpose of this document is to communicate the policy for UKHO for testing of new software, updates, hardware and other related changes.
 
-Why do we Test?
+## Why do we Test?
 
-*	To build confidance in our systems
-*	Detect defects
-*	Generate information
-*	Manage quality risks
+* To build confidence in our systems
+* Detect defects
+* Generate information
+* Manage quality risks
 
-## How do we measure the effectives of testing?
+## How do we measure the effectiveness of testing?
 
-Delivery to customers of software and hardware that provides business value
+Delivery to customers of software and hardware that provides business value.
 
 ## UKHO Long Term Testing Goals
 
-*	To move to a Devops Model
-*	Test Automation provides the bulk of testing functionality
-*	High Value manual testing is used 
-*	Testing across UKHO is done within an agile framework
+* To move to a DevOps Model
+* Test Automation provides the bulk of testing functionality
+* High Value manual testing is used
+* Testing across UKHO is done within an agile framework
 
 ## Who Tests?
 
-Test Engineering line managers a group of Test Engineers, ranging from junior to lead people, they provide testing capability across most of UKHO where testing is carried out within scrum teams.
+Test Engineering line manages a group of test engineers, ranging from junior to lead people; they provide testing capability across most of UKHO where testing is carried out within Scrum teams.
 
-Outside of the scrum teams other people do test, for instance within Operations testing of hardware is carried out by the relevant SME, like network engineers carry out network testing. In some non-agile teams Business Analysts also carry out testing.
+Outside of the Scrum teams other people do test, for instance within Operations testing of hardware is carried out by the relevant SME, like network engineers carry out network testing. In some non-Agile teams, Business Analysts also carry out testing.
 
 ## Who Manages Testing?
 
@@ -32,36 +32,31 @@ The Head of Test line manages all test engineers, but test engineers are tasked 
 
 Other areas of the business carry out various testing activities, but these people will not necessarily be professional software testers, they are line managed by their relevant program.
 
-# Roles and Responsibilities of Test Engineering
+## Roles and Responsibilities of Test Engineering
 
-This will only deal with the roles within Test Engineering
+This will only deal with the roles within Test Engineering.
 
-## In Scope 
+## In Scope
 
-*	All software applications
-*	Any changes to database structures
-*	Network Changes
-*	Hardware Changes
-*	3rd Party Software
-*	Cloud Based Applications
+* All software applications
+* Any changes to database structures
+* Third-party software
+* Cloud-based applications
 
+## The Testing Life-Cycle
 
-## The Testing Lifecycle
+UKHO follows the Disciplined Agile Delivery (DAD) and testing forms part of that life-cycle process which is collectively referred to as the Agile Delivery Governance Framework (ADGF).
 
-UKHO follows the Disciplined Agile Delivery(DAD) and testing forms part of that lifecycle process which is collectively referred to as the Agile Delivery Governance Framework.
+Testing will be carried out at all stages of the development of software and products.
 
-Testing will be done at all stages of the development of software and products
-
-There are sub policies that cover the Agile and Non-Agile methods as well as Security, Penetration , Load and Performance testing,they can be found here.
-
+There are sub-policies that cover the Agile and Non-Agile methods as well as security, penetration , load and performance testing.
 
 The test guidance within the ADGF provides guidance/support for all teams that will carry out testing across UKHO.
-Testing Standards
 
-Our baseline of standards are the  BS ISO/IEC/IEEE 29119
+## Testing Standards
 
+Our baseline of standards are the BS ISO/IEC/IEEE 29119.
 
-Testing Process Followed
+## Testing Process Followed
 
-UKHO follows the fundermantal test process as defined by ISTQB
-
+UKHO follows the fundamental test process as defined by ISTQB.
