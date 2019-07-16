@@ -163,17 +163,17 @@ This should then install the basic utilities needed.
 
 !!! bug
 
-   Currently, the VPN on the Linux VM has an issue if you do the following:</u>
+    Currently, the VPN on the Linux VM has an issue if you do the following:</u>
    
-   * Suspend the Linux VM when the laptop is connected to the network via USB-C
-   * Resume the Linux VM when the laptop is connected to the network via WiFi
+    * Suspend the Linux VM when the laptop is connected to the network via USB-C
+    * Resume the Linux VM when the laptop is connected to the network via WiFi
    
-   Or:
+    Or:
    
-   * Suspend the Linux VM when the laptop is connected to the network via WiFi
-   * Resume the Linux VM when the laptop is connected to the network via USB-C
+    * Suspend the Linux VM when the laptop is connected to the network via WiFi
+    * Resume the Linux VM when the laptop is connected to the network via USB-C
    
-   <b>Alternatively, keeping the VM un-suspended whilst changing networks avoids this scenario.</b>
+    <b>Alternatively, keeping the VM un-suspended whilst changing networks avoids this scenario.</b>
    
-   The issue is that the VPN on the Linux VM never seems to be able to reconnect successfully - the best way around this is to reboot the VM.
+    The issue is that the VPN on the Linux VM never seems to be able to reconnect successfully - the best way around this is to reboot the VM.
 
