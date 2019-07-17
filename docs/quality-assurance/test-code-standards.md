@@ -5,7 +5,7 @@
 1. API Testing
 1. UI Testing
 1. Gherkin
-1. Test and DefectManagement
+1. Test and Defect Management
 
 ## C# and Java
 
@@ -43,5 +43,5 @@
 
 ## Test and Defect Management
 
-* For C# projects, unit and SpecFlow tests should exists in their own projects
-* Open defects should be managed, a regular review session is recommended
+* For C# projects, unit and SpecFlow tests should exist in separate projects
+* Open defects should be managed, a regular team/project review session is recommended 
