@@ -5,6 +5,7 @@
 1. API Testing
 1. UI Testing
 1. Gherkin
+1. Test and DefectManagement
 
 ## C# and Java
 
@@ -32,9 +33,15 @@
 
 ## Gherkin
 
+* Consider whether using Gherkin is required - will it add value or can the extra technical layer be avoided
 * Feature name should reflect the area being tested
 * Scenario name should reflect the purpose of the test, e.g. “Ensure two numbers are added correctly” rather than “add two numbers” or “add”
 * Similar scenarios should be in one feature file – a feature file should only contain similar scenarios
 * Ensure only one result is tested per scenario, try to avoid having too many assertions, better to split into different scenarios
 * Move repeated steps into a Background
 * Perform technical setup and teardown in the Steps classes, not in the Gherkin.
+
+## Test and Defect Management
+
+* For C# projects, unit and SpecFlow tests should exists in their own projects
+* Open defects should be managed, a regular review session is recommended
