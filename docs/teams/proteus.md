@@ -44,7 +44,7 @@ Our definition of done must be followed for all work delivered. Sections may onl
 - Related pull requests merged
 - Continuous integration pipeline written and passing
 - Pull Request linked to Azure Board items
-- [POST-AB#6266] Appropriate tests written and passing
+- Appropriate unit/component tests written, passing and executed in build pipeline
 
 ### Container Apps
 - [POST-AB#6335] Should have readiness probe
