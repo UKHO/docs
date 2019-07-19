@@ -42,7 +42,7 @@ Our definition of done must be followed for all work delivered. Sections may onl
 ### Software Dev
 - Code review complete
 - Related pull requests merged
-- Continuous integration pipeline written and passing
+- Continuous integration pipeline written, passing and configured to run appropriate test, test_e2e and build jobs
 - Pull Request linked to Azure Board items
 - Appropriate unit/component tests written, passing and executed in build pipeline
 
@@ -53,5 +53,5 @@ Our definition of done must be followed for all work delivered. Sections may onl
 - App deployment written and deployed by Flux
 
 ### Migrations
-- [POST-AB#6266] Tests remain passing after migration
-- [POST-AB#6266] Tests re-written where appropriate
+- Tests remain passing after migration
+- Tests re-written where appropriate
