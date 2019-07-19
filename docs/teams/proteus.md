@@ -42,7 +42,7 @@ Our definition of done must be followed for all work delivered. Sections may onl
 ### Software Dev
 - Code review complete
 - Related pull requests merged
-- Continuous integration pipeline written, passing and configured to run appropriate test, test_e2e and build jobs
+- Continuous integration pipeline written, passing and configured to run appropriate unit test, component test and build jobs
 - Pull Request linked to Azure Board items
 - Appropriate unit/component tests written, passing and executed in build pipeline
 
