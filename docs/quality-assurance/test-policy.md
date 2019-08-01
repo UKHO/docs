@@ -29,7 +29,7 @@ Outside of the Scrum teams other people do test, for instance within Operations 
 
 ## Who Manages Testing?
 
-The Head of Test line manages all test engineers, but test engineers are tasked managed by the overall technology program in conjunction with the Head of Test.
+The Head of Test line manages all test engineers, but test engineers are task-managed by the overall technology program in conjunction with the Head of Test.
 
 Other areas of the business carry out various testing activities, but these people will not necessarily be professional software testers, they are line managed by their relevant program.
 
@@ -46,17 +46,17 @@ This will only deal with the roles within Test Engineering.
 
 ## The Testing Life-Cycle
 
-UKHO follows the Disciplined Agile Delivery (DAD) and testing forms part of that life-cycle process which is collectively referred to as the Agile Delivery Governance Framework (ADGF).
+UKHO follows the Disciplined Agile Delivery (DAD) and testing forms part of that lifecycle process which is collectively referred to as the Agile Delivery Governance Framework (ADGF).
 
-Testing will be carried out at all stages of the development of software and products.
+Testing will be carried out at all stages of development of software and products.
 
-There are sub-policies that cover the Agile and Non-Agile methods as well as security, penetration , load and performance testing.
+There are sub-policies that cover the Agile and Non-Agile methods as well as security, penetration, load and performance testing.
 
 The test guidance within the ADGF provides guidance/support for all teams that will carry out testing across UKHO.
 
-## Testing Standards
+## International Standards
 
-Our baseline of standards are the BS ISO/IEC/IEEE 29119.
+Our baseline for standards is [ISO/IEC 29119](http://www.softwaretestingstandard.org/).
 
 ## Testing Process Followed
 
