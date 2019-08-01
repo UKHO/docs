@@ -10,5 +10,5 @@ These documents detail how we work as a Test Community at UKHO. We aim to provid
   * The guidelines for using Test Automation
 * [Our Test Standards](test-code-standards.md)
   * How we plan, write and organise our tests
- * [Our Test Policy](test-policycode.md)
+ * [Our Test Policy](test-policy.md)
   * UKHO overall testing policy
