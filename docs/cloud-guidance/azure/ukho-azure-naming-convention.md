@@ -10,9 +10,9 @@ The owner of this document is Digital Operations. Please submit suggestions/chan
 
 ## References
 
-- Microsoft Best Practices: Naming Conventions
+- [Microsoft Best Practices: Naming Conventions](https://docs.microsoft.com/en-us/azure/architecture/best-practices/naming-conventions)
 
-- Microsoft Cloud Adoption Framework: Enterprise Scaffold
+- [Microsoft Cloud Adoption Framework: Enterprise Scaffold](https://docs.microsoft.com/en-us/azure/architecture/cloud-adoption/appendix/azure-scaffold)
 
 - UKHO VM Naming Convention {Site}{Service}{Env}{Role}{ID}
 
@@ -26,11 +26,7 @@ The owner of this document is Digital Operations. Please submit suggestions/chan
 | Virtual Machine | {CloudKey}{Product/Service/Area} }[{SubArea}]{Env}VM[nn] | Length: < 15 <br /> Rules as above <br /> Casing is not important, hyphens help but are not important | M-TidalApi-PRD-VM01 |
 | VM elements | {CloudKey}-{ Product/Service/Area} }[-{SubArea}]-{Env}-VM[nn]-{component} | Rules as above <br /> Must be prefixed with Virtual Machine resource name <br /> Casing is not important, hyphens help but are not important | M-TidalApi-Prd-VM01-nsg |
 | Virtual Network | {CloudKey}-{ Product/Service/Area} }[-{SubArea}]-{Env}-vnet | Length: < 64 <br /> Rules as above | M-tidalapi-dev-vnet |
-| SaaS/PaaS | {CloudKey}-{ Product/Service/Area} }[-{SubArea}]-{Env}-{SaaS/Paas} <br /> {CloudKey}-{Env}-{ Product/Service/Area} }[-{SubArea}]-{SaaS/Paas} | Length: depends on service refer to naming-conventions <br />Casing is not important, hyphens help but are not important | M-TidalApi-dev-api-appservice |
-
-## AWS Reference Table
-
-Things about aws... guess we need to find out...
+| SaaS/PaaS | {CloudKey}-{ Product/Service/Area} }[-{SubArea}]-{Env}-{SaaS/Paas} <br /> {CloudKey}-{Env}-{ Product/Service/Area} }[-{SubArea}]-{SaaS/Paas} | Length: depends on service refer to [naming-conventions](https://docs.microsoft.com/en-us/azure/architecture/best-practices/naming-conventions) <br />Casing is not important, hyphens help but are not important | M-TidalApi-dev-api-appservice |
 
 ## Legend
 
