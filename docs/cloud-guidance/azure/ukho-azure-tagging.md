@@ -1,7 +1,16 @@
 # Azure Tagging Strategy v0.1
 
+This document outlines which tags must be applied when creating resources in the Azure.
 
-This document outlines which tags must be applied when creating resources in the Azure. 
+## Tags
+
+| Tag Key | Tag Value Description | Examples | Type |
+|---------|-----------------------|----------|------|
+| SERVICE | A human-readable name of the service – ideally the common reference of the business. | - Core Data Platform <br /> - Task Manager <br /> - POD | Required |
+| ENVIRONMENT | The shorthand representing the environment. | - DEV <br /> - QA <br /> - PREPRD <br /> - PRD | Required |
+| SERVICE_OWNER | The service owner or product owner in the business. | - Joanna Bloggs <br /> - Fred Stoodley | Required |
+| RESPONSIBLE_TEAM | The current or last team from a technical perspective to support the product/service. | - Proteus <br /> - Digital Operations <br /> - Mazu | Required for production |
+| COST_CENTRE | The cost code allocated to the service for OPEX |  | Optional |
 
 ## How to contribute to this document
 
@@ -15,13 +24,3 @@ The following has been used to inform the creation of these standards:
 - [AWS Tagging Strategies](https://aws.amazon.com/answers/account-management/aws-tagging-strategies/)
 - [Google Labelling Resources](https://cloud.google.com/compute/docs/labeling-resources)
 - UKHO Solarwinds
-
-## Tags
-
-| Tag Key | Tag Value Description | Examples | Type |
-|---------|-----------------------|----------|------|
-| SERVICE | A human-readable name of the service – ideally the common reference of the business. | - Core Data Platform <br /> - Task Manager <br /> - POD | Required |
-| ENVIRONMENT | The shorthand representing the environment. | - DEV <br /> - QA <br /> - PREPRD <br /> - PRD | Required |
-| SERVICE_OWNER | The service owner or product owner in the business. | - Joanna Bloggs <br /> - Fred Stoodley | Required |
-| RESPONSIBLE_TEAM | The current or last team from a technical perspective to support the product/service. | - Proteus <br /> - Digital Operations <br /> - Mazu | Required for production |
-| COST_CENTRE | The cost code allocated to the service for OPEX |  | Optional |
