@@ -1,6 +1,5 @@
 # Azure Tagging Strategy v0.1
 
-## How to use this document
 
 This document outlines which tags should be applied when creating resources in the cloud. Use the table below to ensure you are conforming to the UKHO tagging strategy.
 
