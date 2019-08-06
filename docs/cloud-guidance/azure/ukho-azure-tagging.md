@@ -24,5 +24,5 @@ The following has been used to inform the creation of these standards:
 | SERVICE | A human-readable name of the service – ideally the common reference of the business. | - Core Data Platform <br /> - Task Manager <br /> - POD | Required |
 | ENVIRONMENT | The shorthand representing the environment. | - DEV <br /> - QA <br /> - PREPRD <br /> - PRD | Required |
 | SERVICE_OWNER | The service owner or product owner in the business. | - Joanna Bloggs <br /> - Fred Stoodley | Required |
-| RESPONSIBLE_TEAM | The current or last team from a technical perspective to support the product/service. | - Proteus <br /> - Digital Operations <br /> - Mazu | Reuqired for production |
+| RESPONSIBLE_TEAM | The current or last team from a technical perspective to support the product/service. | - Proteus <br /> - Digital Operations <br /> - Mazu | Required for production |
 | COST_CENTRE | The cost code allocated to the service for OPEX |  | Optional |
