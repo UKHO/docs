@@ -1,4 +1,4 @@
-# UKHO Azure Tagging Strategy v0.1 DRAFT
+# Azure Tagging Strategy v0.1
 
 ## How to use this document
 
