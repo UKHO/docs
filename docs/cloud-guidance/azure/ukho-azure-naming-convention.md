@@ -1,20 +1,6 @@
 # Cloud Naming Convention
 
-## How to use this document
-
 This document outlines the naming conventions that should be used when generating new cloud resources. The naming conventions provided in this document give a computable convention to follow, allowing you to implement these in automation. Follow the naming conventions in this document to comply with UKOH governance of naming cloud resources.
-
-## How to contribute to the is document
-
-The owner of this document is Digital Operations. Please submit suggestions/changes/amendments to Digital Operations.
-
-## References
-
-- [Microsoft Best Practices: Naming Conventions](https://docs.microsoft.com/en-us/azure/architecture/best-practices/naming-conventions)
-
-- [Microsoft Cloud Adoption Framework: Enterprise Scaffold](https://docs.microsoft.com/en-us/azure/architecture/cloud-adoption/appendix/azure-scaffold)
-
-- UKHO VM Naming Convention {Site}{Service}{Env}{Role}{ID}
 
 ## Azure Reference Table
 
@@ -52,3 +38,15 @@ The owner of this document is Digital Operations. Please submit suggestions/chan
 The resource name cannot be too long as services like key vault are limited to 24 characters. Some processes might be using a string concatenation to build up the name of a resource, so any prefixed values need to be considered.
 
 Hyphens could take up precious characters, so do not hold that hyphens are always needed, proper casing could be used in place (Where resources allow), so long as similarly grouped resources are named the same.
+
+## How to contribute to the is document
+
+The owner of this document is Digital Operations. Please submit suggestions/changes/amendments to Digital Operations.
+
+## References
+
+- [Microsoft Best Practices: Naming Conventions](https://docs.microsoft.com/en-us/azure/architecture/best-practices/naming-conventions)
+
+- [Microsoft Cloud Adoption Framework: Enterprise Scaffold](https://docs.microsoft.com/en-us/azure/architecture/cloud-adoption/appendix/azure-scaffold)
+
+- UKHO VM Naming Convention {Site}{Service}{Env}{Role}{ID}
