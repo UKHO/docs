@@ -2,8 +2,6 @@
 
 This document outlines the naming conventions that should be used when creating new cloud resources.
 
-## Reference Table
-
 | Type | Pattern | Rules | Examples |
 |-|-|-|-|
 | Subscription | {Product Line} {Subscription Type} | {Subscription Type} is either “Dev/Test” or “Live” | - Tidal API Dev/Test <br /> - Tidal API Live <br /> |
@@ -26,9 +24,9 @@ Tips:
 - When using resources with short character limits, omit hypens as a first step
 
 
-## How to contribute to the is document
+## How to contribute to this document
 
-The owner of this document is Digital Operations. Please submit suggestions/changes/amendments to Digital Operations.
+The owner of this document is Digital Operations. Please submit suggestions/changes/amendments via pull request.
 
 ## References
 
