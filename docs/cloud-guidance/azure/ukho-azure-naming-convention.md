@@ -21,9 +21,7 @@ This document outlines the naming conventions that should be used when generatin
 - M / MS = Azure,
 - A = AWS,
 - G = Google,
-- I = IBM,
-- H = Taunton,
-- D = Plymton
+- I = IBM
 
 ### {Env}
 
