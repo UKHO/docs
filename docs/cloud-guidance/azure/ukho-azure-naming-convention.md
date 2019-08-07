@@ -1,8 +1,8 @@
-# Cloud Naming Convention
+# Azure Naming Convention v0.1
 
 This document outlines the naming conventions that should be used when generating new cloud resources. The naming conventions provided in this document give a computable convention to follow, allowing you to implement these in automation. Follow the naming conventions in this document to comply with UKOH governance of naming cloud resources.
 
-## Azure Reference Table
+## Reference Table
 
 | Type | Pattern | Rules | Examples |
 |-|-|-|-|
