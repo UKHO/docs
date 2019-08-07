@@ -1,8 +1,6 @@
-# Naming Convention v0.1
+# Naming Conventions v0.1
 
-This document outlines the naming conventions that should be used when creating new cloud resources.
-
-| Type | Pattern | Rules | Examples |
+| Resource Type | Pattern To Follow | Extra Rules | Examples |
 |-|-|-|-|
 | Subscription | {Product Line} {Subscription Type} | {Subscription Type} is either “Dev/Test” or “Live” | - Tidal API Dev/Test <br /> - Tidal API Live <br /> |
 | Resource Groups | {CloudKey}-{Product/Service/Area}[-{SubArea}]-{Env}-RG | Must be less than 90 characters |M-TidalAPI-PRD-RG <br /> M-TidalAPI-APPLICATION-DQC-RG <br /> |
