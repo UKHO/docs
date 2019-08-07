@@ -1,41 +1,30 @@
-# Azure Naming Convention v0.1
+# Naming Convention v0.1
 
-This document outlines the naming conventions that should be used when generating new cloud resources. The naming conventions provided in this document give a computable convention to follow, allowing you to implement these in automation. Follow the naming conventions in this document to comply with UKHO governance of naming cloud resources.
+This document outlines the naming conventions that should be used when creating new cloud resources.
 
 ## Reference Table
 
 | Type | Pattern | Rules | Examples |
 |-|-|-|-|
-| Subscription | {Product Line} {Subscription Type} | {Subscription Type} can = “Dev/Test” or “Live” | - Tidal API Dev/Test <br /> - Tidal API Live <br /> - NMWebSearch Dev/Test <br /> - NMWebSearch Live <br /> - Shared Services Dev/Test <br /> - Shared Services Live |
-| Resource Groups | {CloudKey}-{Product/Service/Area}[-{SubArea}]-{Env}-RG | Length: < 90 |M-TidalAPI-PRD-RG <br /> M-TidalAPI-NETWORK-DEV-RG <br /> M-TidalAPI-APPLICATION-DQC-RG <br /> M-TidalAPI-DATA-PRD-RG |
-| Storage Account | {CloudKey}{Product/Service/Area}{Env}storage <br /> {CloudKey}{Env}{Product/Service/Area}storage | *No Hyphens, must be lowercase* | mtidalapistorage |
-| Virtual Machine | {CloudKey}{Product/Service/Area} }[{SubArea}]{Env}VM[nn] | Length: < 15 <br /> Rules as above <br /> Casing is not important, hyphens help but are not important | M-TidalApi-PRD-VM01 |
-| VM elements | {CloudKey}-{ Product/Service/Area} }[-{SubArea}]-{Env}-VM[nn]-{component} | Rules as above <br /> Must be prefixed with Virtual Machine resource name <br /> Casing is not important, hyphens help but are not important | M-TidalApi-Prd-VM01-nsg |
-| Virtual Network | {CloudKey}-{ Product/Service/Area} }[-{SubArea}]-{Env}-vnet | Length: < 64 <br /> Rules as above | M-tidalapi-dev-vnet |
-| SaaS/PaaS | {CloudKey}-{ Product/Service/Area} }[-{SubArea}]-{Env}-{SaaS/Paas} <br /> {CloudKey}-{Env}-{ Product/Service/Area} }[-{SubArea}]-{SaaS/Paas} | Length: depends on service refer to [naming-conventions](https://docs.microsoft.com/en-us/azure/architecture/best-practices/naming-conventions) <br />Casing is not important, hyphens help but are not important | M-TidalApi-dev-api-appservice |
+| Subscription | {Product Line} {Subscription Type} | {Subscription Type} is either “Dev/Test” or “Live” | - Tidal API Dev/Test <br /> - Tidal API Live <br /> |
+| Resource Groups | {CloudKey}-{Product/Service/Area}[-{SubArea}]-{Env}-RG | Must be less than 90 characters |M-TidalAPI-PRD-RG <br /> M-TidalAPI-APPLICATION-DQC-RG <br /> |
+| Storage Account | {CloudKey}{Product/Service/Area}{Env}storage <br /> | **No Hyphens** <br /> **Must be lowercase** <br />| mtidalapidevstorage |
+| Virtual Machine | {CloudKey}{Product/Service/Area}[{SubArea}]{Env}VM[nn] | Must be less than 15 characters <br /> Hypens are optional <br /> | M-TidalAPI-PRD-VM01 |
+| VM elements | {CloudKey}{Product/Service/Area}[{SubArea}]{Env}VM[nn]-{component} | Must start with the VM name from rules above <br /> Hypens are optional | M-TidalAPI-PRD-VM01-nsg |
+| Virtual Network | {CloudKey}-{Product/Service/Area}[-{SubArea}]-{Env}-vnet | Must be less than 64 characters <br /> | M-TidalAPI-DEV-vnet |
+| SaaS/PaaS | {CloudKey}-{Product/Service/Area}[-{SubArea}]-{Env}-{SaaS/Paas} <br /> | Character limit depends on service - [naming-conventions](https://docs.microsoft.com/en-us/azure/architecture/best-practices/naming-conventions) <br /> | M-TidalAPI-DEV-api-appservice |
 
-## Legend
+Tips: 
+- Anything in `[]` is optional
+- Keep {Product/Service/Area} as short as possible. It is used in ALL names and will eat into your character 
+- Env refers to the development environemnt i.e. DEV, PRD, DAT
+- 99.9% of resources are case insentive (storage being the outlier). 
+- CamelCase is preferred but not mandated.
+- Cloud Key for Azure Resources should be `M` or `MS`
+- Avoid speical characters and spaces where possible
+- Window VMs resource names cannot be over 15 characters
+- When using resources with short character limits, omit hypens as a first step
 
-### {Cloud Key}
-
-- M / MS = Azure,
-- A = AWS,
-- G = Google,
-- I = IBM
-
-### {Env}
-
-- DEV = Development
-- PRD = Production
-- AT = Acceptance Testing
-- QA = Quality Assurance
-- PRE = PreProd
-
-## Notes
-
-The resource name cannot be too long as services like key vault are limited to 24 characters. Some processes might be using a string concatenation to build up the name of a resource, so any prefixed values need to be considered.
-
-Hyphens could take up precious characters, so do not hold that hyphens are always needed, proper casing could be used in place (Where resources allow), so long as similarly grouped resources are named the same.
 
 ## How to contribute to the is document
 
