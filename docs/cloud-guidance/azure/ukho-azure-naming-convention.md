@@ -10,17 +10,17 @@
 | Virtual Network | {CloudKey}-{Product/Service/Area}[-{SubArea}]-{Env}-vnet | Must be less than 64 characters <br /> | MSTDLAPIPRDVM01-vnet |
 | SaaS/PaaS | {CloudKey}-{Product/Service/Area}[-{SubArea}]-{Env}-{SaaS/Paas} <br /> | Character limit depends on service - [naming-conventions](https://docs.microsoft.com/en-us/azure/architecture/best-practices/naming-conventions) <br /> | M-TidalAPI-DEV-api-appservice |
 
-Tips: 
+**Tips:**
+
 - Anything in `[]` is optional
-- Keep {Product/Service/Area} as short as possible. It is used in ALL names and will eat into your character 
+- Keep {Product/Service/Area} as short as possible. It is used in ALL names and will eat into your character
 - Env refers to the development environemnt i.e. DEV, PRD, DAT
-- 99.9% of resources are case insentive (storage being the outlier). 
+- 99.9% of resources are case insentive (storage being the outlier).
 - CamelCase is preferred but not mandated.
 - Cloud Key for Azure Resources should be `M` or `MS`
 - Avoid speical characters and spaces where possible
 - Window VMs resource names cannot be over 15 characters
 - When using resources with short character limits, omit hypens as a first step
-
 
 ## How to contribute to this document
 
