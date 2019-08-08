@@ -5,9 +5,9 @@
 | Subscription | {Product Line} {Subscription Type} | {Subscription Type} is either “Dev/Test” or “Live” | - Tidal API Dev/Test <br /> - Tidal API Live <br /> |
 | Resource Groups | {CloudKey}-{Product/Service/Area}[-{SubArea}]-{Env}-RG | Must be less than 90 characters |M-TidalAPI-PRD-RG <br /> M-TidalAPI-APPLICATION-DQC-RG <br /> |
 | Storage Account | {CloudKey}{Product/Service/Area}{Env}storage <br /> | **No Hyphens** <br /> **Must be lowercase** <br />| mtidalapidevstorage |
-| Virtual Machine | {CloudKey}{Product/Service/Area}[{SubArea}]{Env}VM[nn] | Must be less than 15 characters <br /> Hypens are optional <br /> | M-TidalAPI-PRD-VM01 |
-| VM elements | {CloudKey}{Product/Service/Area}[{SubArea}]{Env}VM[nn]-{component} | Must start with the VM name from rules above <br /> Hypens are optional | M-TidalAPI-PRD-VM01-nsg |
-| Virtual Network | {CloudKey}-{Product/Service/Area}[-{SubArea}]-{Env}-vnet | Must be less than 64 characters <br /> | M-TidalAPI-DEV-vnet |
+| Virtual Machine | {CloudKey}{Product/Service/Area}[{SubArea}]{Env}VM[nn] | Must be less than 15 characters <br /> Hypens are optional <br /> | MSTDLAPIPRDVM01 |
+| VM elements | {CloudKey}{Product/Service/Area}[{SubArea}]{Env}VM[nn]-{component} | Must start with the VM name from rules above <br /> Hypens are optional | MSTDLAPIPRDVM01-nsg |
+| Virtual Network | {CloudKey}-{Product/Service/Area}[-{SubArea}]-{Env}-vnet | Must be less than 64 characters <br /> | MSTDLAPIPRDVM01-vnet |
 | SaaS/PaaS | {CloudKey}-{Product/Service/Area}[-{SubArea}]-{Env}-{SaaS/Paas} <br /> | Character limit depends on service - [naming-conventions](https://docs.microsoft.com/en-us/azure/architecture/best-practices/naming-conventions) <br /> | M-TidalAPI-DEV-api-appservice |
 
 Tips: 
