@@ -1,4 +1,4 @@
-# Naming Conventions v0.1
+# Naming Conventions v0.2
 
 | Resource Type | Pattern To Follow | Extra Rules | Examples |
 |-|-|-|-|
