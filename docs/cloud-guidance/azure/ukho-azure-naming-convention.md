@@ -1,9 +1,9 @@
-# Naming Conventions v0.3
+# Naming Conventions v0.4
 
 | Resource Type | Pattern To Follow | Extra Rules | Examples |
 |-|-|-|-|
 | Subscription | {Product Line} {Subscription Type} | {Subscription Type} is either “Dev/Test” or “Live” | - Tidal API Dev/Test <br /> - Tidal API Live <br /> |
-| Resource Groups | {CloudKey}-{Product/Service/Area}[-{SubArea}]-{Env}-RG | Must be less than 90 characters |M-TidalAPI-PRD-RG <br /> M-TidalAPI-APPLICATION-DQC-RG <br /> |
+| Resource Groups | {CloudKey}-{Product/Service/Area}[-{SubArea}]-{Env}-RG | Must be less than 90 characters |M-TidalAPI-PRD-RG <br /> M-TidalAPI-DQC-RG <br /> |
 | Storage Account | {CloudKey}{Product/Service/Area}{Env}storage <br /> | **No Hyphens** <br /> **Must be lowercase** <br />| mtidalapidevstorage |
 | Virtual Machine | {CloudKey}{Service}{Env}{Role}[nn] | Must be less than 15 characters <br /> | MTAPIPRD01 |
 | VM elements | {CloudKey}{Service}[{SubArea}]{Env}{Role}[nn]-{component} | Must start with the VM name from rules above | MTAPIPRD01-nic |
@@ -12,7 +12,8 @@
 | Network Security Group | {CloudKey}-{Product/Service/Area}[-{SubArea}]-{Env}-nsg | Must be less than 64 characters <br /> | m-tidalapi-prd-nsg |
 | Routing Table | {CloudKey}-{Product/Service/Area}[-{SubArea}]-{Env}-rt | Must be less than 64 characters <br /> | m-tidalapi-prd-rt |
 | Routing Table Route | {Destination Product/Service/Area}[-{SubArea}]-route | Must be less than 64 characters <br /> | m-SharedServicesSQL-route |
-| SaaS/PaaS | {CloudKey}-{Product/Service/Area}[-{SubArea}]-{Env}-{SaaS/Paas} <br /> | Character limit depends on service - [naming-conventions](https://docs.microsoft.com/en-us/azure/architecture/best-practices/naming-conventions) <br /> | M-TidalAPI-api-Prd-appservice |
+| keyvault | {CloudKey}{Service}[{Env}]kv | must be less than 24 characters | mtapiprdkv |
+| other SaaS/PaaS not mentioned | {CloudKey}-{Product/Service/Area}[-{SubArea}]-{Env}-{SaaS/Paas} <br /> | Character limit depends on service - [naming-conventions](https://docs.microsoft.com/en-us/azure/architecture/best-practices/naming-conventions) | M-TidalAPI-api-Prd-appservice |
 
 **Tips:**
 
