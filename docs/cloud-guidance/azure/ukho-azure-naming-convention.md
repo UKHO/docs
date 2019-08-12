@@ -24,7 +24,7 @@
 - Cloud Key for Azure Resources should be `M` or `MS`
 - Avoid speical characters and spaces where possible
 - Window VMs resource names cannot be over 15 characters
-- When using resources with short character limits, omit hypens as a first step
+- **When using resources with short character limits, omit hypens as a first step**
 
 ## How to contribute to this document
 
