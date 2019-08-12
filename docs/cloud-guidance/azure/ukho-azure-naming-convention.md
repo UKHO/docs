@@ -5,8 +5,8 @@
 | Subscription | {Product Line} {Subscription Type} | {Subscription Type} is either “Dev/Test” or “Live” | - Tidal API Dev/Test <br /> - Tidal API Live <br /> |
 | Resource Groups | {CloudKey}-{Product/Service/Area}[-{SubArea}]-{Env}-RG | Must be less than 90 characters |M-TidalAPI-PRD-RG <br /> M-TidalAPI-DQC-RG <br /> |
 | Storage Account | {CloudKey}{Product/Service/Area}{Env}storage <br /> | **No Hyphens** <br /> **Must be lowercase** <br />| mtidalapidevstorage |
-| Virtual Machine | {CloudKey}{Service}{Env}{Role}[nn] | Must be less than 15 characters <br /> | MTAPIPRD01 |
-| VM elements | {CloudKey}{Service}[{SubArea}]{Env}{Role}[nn]-{component} | Must start with the VM name from rules above | MTAPIPRD01-nic |
+| Virtual Machine | {Official Sensitive} | Must be less than 15 characters <br /> | {Official Sensitive} |
+| VM elements | {Official Sensitive}-{component} | Must start with the VM name from rules above | {Official Sensitive}-nic |
 | Virtual Network | {CloudKey}-{Product/Service/Area}[-{SubArea}]-{Env}-vnet | Must be less than 64 characters <br /> | m-tidalapi-prd-vnet |
 | Subnet | {CloudKey}-{Product/Service/Area}[-{SubArea}]-{Env}-subnet | Must be less than 64 characters <br /> | m-tidalapi-prd-subnet |
 | Network Security Group | {CloudKey}-{Product/Service/Area}[-{SubArea}]-{Env}-nsg | Must be less than 64 characters <br /> | m-tidalapi-prd-nsg |
