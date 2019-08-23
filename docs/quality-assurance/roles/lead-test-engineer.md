@@ -1,0 +1,18 @@
+# Lead Tester
+
+|  Areas | Tasks | Stories |
+| --- | --- | --- |
+| To Continually Improve our Testing Approach (30%) | Provide support, consultancy and guidance in testing matters to UKHO development teams | A team is trying out a new test technology. The lead will assist the team in implementing it. |
+|  | They will ensure that automated tests are following best practice guidelines | A team is automating BDD tests. The lead will work with the team to ensure Gherkin written follows the UKHO standards. |
+|  | They will work with the ALM team helping to build and support delivery pipelines. | A team is starting to use a new build pipeline. The lead will assist in adding automated tests to the pipeline. |
+|  | They will work with teams helping to resolve issues with automated tests and looking for solutions to automation issues. | A team has a failing test that they are unable to resolve. The lead will aid in fixing. |
+|  | They have responsibility for the upgrade path for relevant testing tools, advising teams on when and how to upgrade, plus any related issues they should be aware of. | A team discovers they are using an old version of a BDD test tool. The lead will aid in upgrading this, in line with the wider organisation. |
+| To Automate 100% of what is Automatable (30%) | They will implement new automation frameworks and work with teams on new processes and tools to help improve the return from test automation (and improve delivery to the customer). | The organisation is using different techniques for API testing. The lead will review available option, suggest a preferred approach and create a framework to deliver this. |
+|  | Working with teams ensuring that relevant automation metrics provide feedback to teams and wider stakeholders. | A stakeholder wants to understand how much automation is used on a project. The lead will prepare and deliver this information. |
+|  | Provide guidance and mentoring in test automation to teams. | A new project is starting. The lead will suggest how test automation can be used to improve quality. |
+| To have Security Testing as an Integral part of our approach (25%) | Assist teams with improving security testing | A team would like to automate the results of threat modelling. The lead assists in implementing these as part of the test approach. |
+|  | Investigate tools, frameworks or approaches that would be beneficial to the UKHO | OWASP develop a new tool to discover potential security flaws. The lead will investigate this and determine whether and how it could be used to improve security testing. |
+| To have a Thriving Test Community (10%) | Mentoring | Some testers are learning a new programming language. The lead will provide support to help them in their journey. |
+|  | Take part in wider government discussions around test automation, both to influence and learn from. | The lead recognises that a team may not be using a tool correctly. They seek guidance from another government organisation on how they use the tool. |
+|  | Facilitate the promotion of testing at UKHO | A tester has come up with a new way of testing a product. The lead suggests that the tester do a short presentation to the community on this. |
+| ​Continually develop own skills as part of a program of professional development (5%) | ​Creates and takes pro-active ownership of a continuous learning cycle for themselves | ​Reviewing their current skill level, they identify that they have a knowledge gap on how DevOps works. They put together a plan that utilises books, and online materials to gain a better understanding. |
