@@ -1,10 +1,10 @@
-# Standard Tester  
+# Test Engineer
   
 |  Areas | Tasks | Stories |  
 | --- | --- | --- |  
 | ​Deliver, under tuition, test automation as part of the Agile Scrum Team (35%) | ​Writing test automation code | ​A PBI requires automated tests; it is building on existing functionality so the automation tester can use existing automation code and add in the extra tests. |  
 | Create relevant test documents for project (Test Approach, Test Strategy, Test Summary Report) (5%)) | Responsible for the creation of the Test Strategy, Test Approach and the Test Summary report as required | At the start of a project the tester takes ownership of producing the relevant document that provides details on how testing of the product will be undertaken. This must be produced in conjunction with the developers and Delivery Manager, and they will ensure the document is signed off.If required, the tester will create a Test Summary Report that provides an overview of the testing completed. |  
-| ​Assist with the management of defects through to resolution, by processing them in the test tools, communicating effectively on the issue and carrying out re-tests as required (5%). | Raise good quality defects | The tester discovers a defect in a product. They raise a defect and include details on the impact, how the defect can be re-created and its importance. |  
+| ​ |  Assist with the management of defects through to resolution, by processing them in the test tools, communicating effectively on the issue and carrying out re-tests as required (5%). | Raise good quality defects | The tester discovers a defect in a product. They raise a defect and include details on the impact, how the defect can be re-created and its importance. |  
 | ​ | ​Ensures that all defects raised within a sprint are followed up | ​There are several open defects, the tester can see that if one of them is fixed it will allow a PBI to be completed. They discuss with the developers and they agree to focus on that defect first. |  
 | Analysing Requirements and designing manual or automated tests (25%) | Review requirements to understand how they can be tested | The role helps review requirements; the tester sees that altering the requirement slightly would help the testing of it so he discusses this with the Delivery Manager and lead developer. |  
 | ​ | ​Design manual tests | ​A feature needs to be manually tested so the tester uses test design techniques to create both happy and unhappy path test plans. |  

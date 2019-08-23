@@ -1,4 +1,4 @@
-# Lead Tester
+# Lead Test Engineer
 
 |  Areas | Tasks | Stories |
 | --- | --- | --- |
