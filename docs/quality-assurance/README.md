@@ -12,3 +12,5 @@ These documents detail how we work as a Test Community at UKHO. We aim to provid
   * How we plan, write and organise our tests
 * [Our Test Policy](test-policy.md)
   * UKHO overall testing policy
+* [Our Testers](test-profiles.md)
+  * Our test roles and their responsibilities
