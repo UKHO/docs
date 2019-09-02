@@ -1,4 +1,4 @@
-# Lead Test Engineer (Expert)
+# Lead Test Engineer (Team)
 
 | Area | Tasks | Example stories |
 | --- | --- | --- |
