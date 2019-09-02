@@ -1,4 +1,4 @@
-# Lead Test Engineer (Automation)
+# Lead Test Engineer (Program)
 
 |  Areas | Tasks | Stories |
 | --- | --- | --- |

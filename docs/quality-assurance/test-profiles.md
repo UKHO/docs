@@ -3,5 +3,5 @@ Our job roles adhere to the [DDAT](https://www.gov.uk/government/collections/dig
 
 * [Test Engineer](roles/test-engineer.md)
 * [Senior Test Engineer](roles/senior-test-engineer.md)
-* [Lead Test Engineer (Expert)](roles/expert-test-engineer.md)
-* [Lead Test Engineer (Automation)](roles/lead-test-engineer.md)
+* [Lead Test Engineer (Team)](roles/lead-team-test-engineer.md)
+* [Lead Test Engineer (Program)](roles/lead-program-test-engineer.md)
