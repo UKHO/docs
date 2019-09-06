@@ -14,3 +14,5 @@ These documents detail how we work as a Test Community at UKHO. We aim to provid
   * UKHO overall testing policy
 * [Our Testers](test-profiles.md)
   * Our test roles and their responsibilities
+* [Our Open Source Repositories](test-repositories.md)
+  * The projects produced that support the way we work
