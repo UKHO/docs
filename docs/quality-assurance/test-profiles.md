@@ -1,7 +1,7 @@
 # UKHO Test Engineer Profiles, Skill Levels & Responsibilities
 Our job roles adhere to the [DDAT](https://www.gov.uk/government/collections/digital-data-and-technology-profession-capability-framework#qat:-test-engineer-) QAT Test Engineer roles. 
 
-The different levels of Test Engineer, as per DDaT, are: 
+The different levels of Test Engineer are: 
 * [Test Engineer](https://www.gov.uk/government/publications/test-engineer-skills-they-need)
 * [Senior Test Engineer](https://www.gov.uk/government/publications/senior-test-engineer-skills-they-need)
 * [Lead Test Engineer](https://www.gov.uk/government/publications/lead-test-engineer-skills-they-need)
