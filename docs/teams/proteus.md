@@ -2,7 +2,7 @@
 Team Proteus is a delivery team currently working on the Data Platform. The team was formerly known as Peppermint but has changed considerably since then to include members from the former Glaciermint team and elsewhere.
 
 ## Members
-- Scott Drayton - Delivery Manager
+- Brian Stenson - Delivery Manager
 - Chris Hall-Palmer - Solution Architect
 - Carl Molyneux - DS&T Representative
 - Antony Derham - Expert Software Engineer/Product Owner
@@ -13,7 +13,7 @@ Team Proteus is a delivery team currently working on the Data Platform. The team
 - Kevin Harragan - Software Engineer
 - Andy Cleveland - Test Engineer
 - Chris Sutcliffe - DevOps Engineer
-- Brian Stenson - Delivery Manager
+
 ## Principles
 Delivery efforts made by Team Proteus follow these principles.
 
