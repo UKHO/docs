@@ -2,7 +2,6 @@
 Team Proteus is a delivery team currently working on the Data Platform. The team was formerly known as Peppermint but has changed considerably since then to include members from the former Glaciermint team and elsewhere.
 
 ## Members
-- Ildar Galikov - Lead Software Engineer
 - Scott Drayton - Delivery Manager
 - Chris Hall-Palmer - Solution Architect
 - Carl Molyneux - DS&T Representative
@@ -10,9 +9,8 @@ Team Proteus is a delivery team currently working on the Data Platform. The team
 - Sean Siford - Senior Software Engineer
 - Alex Bush - Senior Software Engineer
 - Benjamin Morgan - Software Engineer
-- Andy Graham - Software Engineer
 - Andy Pickin - Software Engineer
-- Kevin Harragan - Trainee Software Engineer
+- Kevin Harragan - Software Engineer
 - Andy Cleveland - Test Engineer
 - Chris Sutcliffe - DevOps Engineer
 
@@ -51,6 +49,7 @@ Our definition of done must be followed for all work delivered. Sections may onl
 - [POST-AB#6349] Should expose appropriate monitoring endpoints
 - [POST-AB#6267] Logging out to appropriate log service
 - App deployment written and deployed by Flux
+- Context paths in container context and rewrite rules in ingresses
 
 ### Migrations
 - Tests remain passing after migration
