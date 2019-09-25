@@ -24,8 +24,8 @@ Teams should adhere to this strategy when determining their team approach to tes
 
 ### Test Generation
 
-* Test scenarios should be generated from a BDD approach. See the [UKHO BDD Information](bdd-approach.md) for more information.
-* A risk-based approach should be used to determine the priority of test cases.
+* Test scenarios should be generated from a BDD approach
+* A risk-based approach should be used to determine the priority of test cases
 
 ### Non-Functional
 
@@ -43,7 +43,7 @@ Teams should adhere to this strategy when determining their team approach to tes
 
 ### Security
 
-* Testing to ensure security should take place throughout development.
+* Testing to ensure security should take place throughout development
 * The OWASP ZAP scanner should be used for development of APIs and UIs - see [UKHO OWASP Zap Scanner project](https://github.com/UKHO/owasp-zap-scan) for more information.
 
 ### User Testing
@@ -54,10 +54,6 @@ Teams should adhere to this strategy when determining their team approach to tes
 ## Test Standards
 
 See the [UKHO Test Standards](test-code-standards.md) for information on the standards that should be adhered to.
-
-## Test Tooling
-
-See the [UKHO Test Tooling](test-tooling.md) page to view the recommended test tooling.
 
 ## Test Management
 
