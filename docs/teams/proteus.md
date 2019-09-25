@@ -13,7 +13,7 @@ Team Proteus is a delivery team currently working on the Data Platform. The team
 - Kevin Harragan - Software Engineer
 - Andy Cleveland - Test Engineer
 - Chris Sutcliffe - DevOps Engineer
-
+- Brian Stenson - Delivery Manager
 ## Principles
 Delivery efforts made by Team Proteus follow these principles.
 
