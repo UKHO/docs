@@ -6,7 +6,7 @@ These documents detail how we work as a Test Community at UKHO. We aim to provid
 
 * [Our Vision](test-vision.md)
   * The principles that guide everything we do as a Test Community
-* [Our Testing Principles] (testing-principles.md)
+* [Our Testing Principles](testing-principles.md)
   * The principles that guide our testing
 * [Our Test Automation Strategy](test-automation-strategy.md)
   * The guidelines for using Test Automation
