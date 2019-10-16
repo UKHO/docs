@@ -5,7 +5,7 @@ THIS IS A PLACEHOLDER
 ## Location of Hasura
 
 Hasura Portal can be found at:
-https://data.ukho.gov.uk/apis/metadata/console 
+[https://data.ukho.gov.uk/apis/metadata/console](https://data.ukho.gov.uk/apis/metadata/console) 
 
 ## Note when new tables/relationships are added
 
