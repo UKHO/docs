@@ -18,5 +18,5 @@ These documents detail how we work as a Test Community at UKHO. We aim to provid
   * Our test roles and their responsibilities
 * [Our Open Source Repositories](test-repositories.md)
   * The projects produced that support the way we work
- * [Our Test Tools](test-tooling.md)
+* [Our Test Tools](test-tooling.md)
   * The tools we use to carry out our automated and manual testing
