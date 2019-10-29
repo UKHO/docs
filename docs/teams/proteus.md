@@ -9,7 +9,6 @@ Team Proteus is a delivery team currently working on the Data Platform. The team
 - Sean Siford - Senior Software Engineer
 - Alex Bush - Senior Software Engineer
 - Benjamin Morgan - Software Engineer
-- Andy Pickin - Software Engineer
 - Kevin Harragan - Software Engineer
 - Andy Cleveland - Test Engineer
 - Chris Sutcliffe - DevOps Engineer
@@ -45,9 +44,9 @@ Our definition of done must be followed for all work delivered. Sections may onl
 - Appropriate unit/component tests written, passing and executed in build pipeline
 
 ### Container Apps
-- [POST-AB#6335] Should have readiness probe
-- [POST-AB#6349] Should expose appropriate monitoring endpoints
-- [POST-AB#6267] Logging out to appropriate log service
+- Should have readiness probe
+- Should expose appropriate monitoring endpoints
+- Logging out to appropriate log service
 - App deployment written and deployed by Flux
 - Context paths in container context and rewrite rules in ingresses
 
