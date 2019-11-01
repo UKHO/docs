@@ -1,4 +1,4 @@
-# Behavioural-Driven Design (BDD) at UKHO
+# Behaviour-Driven Design (BDD) at UKHO
 
 > "An approach that enhances communication between stakeholders and project team members by expressing product needs as concrete examples"
 
@@ -21,8 +21,10 @@ BDD aims to make the development of software more successful by:
 
 * Incorporating diverse perspectives when defining requirements
 * Creating a shared understanding in a delivery team of the required product changes
-* Reducing the amount of re-work required in the maintenance phase (by making the original change more complete)
 * Simplifying and shortening team Scrum events (refinement and planning)
+* Ensures only the functionality to meet requirements is developed
+* Reducing the amount of re-work required in the maintenance phase (by making the original change more complete)
+
 
 ## Stages of BDD
 
@@ -32,9 +34,9 @@ BDD aims to make the development of software more successful by:
 
 ## Suggested BDD Approach
 
-* Discovery - Customer Representative brings requirements to the team as user stories (PBIs)
+* Discovery - The customer representative brings requirements to the team as user stories (PBIs)
 * Discovery - The Example Mapping technique is applied to these stories by either the whole team or a “Three Amigos” subset
-* Discovery - Create rules and examples.. will drive out questions about the story, with the output a list of examples as acceptance criteria
+* Discovery - This will create rules and examples that illustrate understanding of the story
 * Discovery - Stories are then ready for full team refinement and planning sessions
 * Formulation - Examples can be formulated into gherkin
 * Automation - Create automated tests from the gherkin
@@ -67,7 +69,7 @@ Different colour post-its can be used to represent rules, examples and questions
 
 * Discovery: Explore behaviour using examples - Gaspar Nagy
   [Amazon link](https://www.amazon.co.uk/Discovery-Explore-behaviour-using-examples/dp/1983591254/ref=sr_1_2?keywords=bdd+discovery&qid=1572530563&s=books&sr=1-2)
-* BDD in Action: Behavior-driven development for the whole software lifecycle - John Ferguson Smart
+* BDD in Action: Behaviour-driven development for the whole software lifecycle - John Ferguson Smart
   [Amazon link](https://www.amazon.co.uk/BDD-Action-Behavior-driven-development-lifecycle/dp/161729165X/ref=sr_1_1?keywords=bdd&qid=1572530667&s=books&sr=1-1)
 
 ## On-line resources
