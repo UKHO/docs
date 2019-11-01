@@ -40,6 +40,7 @@ Our definition of done must be followed for all work delivered. Sections may onl
 - Code review complete
 - Related pull requests merged
 - Continuous integration pipeline written, passing and configured to run appropriate unit test, component test and build jobs
+- [POST-AB#7553] Contract test behaviour written for Consumers, verified on Providers and passing in build pipeline.
 - Pull Request linked to Azure Board items
 - Appropriate unit/component tests written, passing and executed in build pipeline
 
