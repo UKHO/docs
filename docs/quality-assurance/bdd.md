@@ -80,3 +80,4 @@ Different colour post-its can be used to represent rules, examples and questions
 * [Who should formulate the Gherkin](https://cucumber.ghost.io/blog/who-should-formulate-the-scenarios/?goal=0_02cca1920b-383aa96ce0-289488633&mc_cid=383aa96ce0&mc_eid=a98df43caa)
 * [Gherkin - keeping your scenarios BRIEF](https://cucumber.io/blog/keep-your-scenarios-brief/)
 * [How writing good gherkin enables better automation](http://angiejones.tech/writing-good-gherkin-enables-good-test-automation/?goal=0_02cca1920b-4b08e68d18-289488633&mc_cid=4b08e68d18&mc_eid=a98df43caa)
+* [How to facilitate an Example Mapping session](http://gasparnagy.com/2019/04/example-mapping-the-good-enough-facilitator/?utm_source=BDD+Addicts+Newsletter&utm_campaign=1c0d110c08-BDD_Addict_Newsletter_August_2019_COPY_01&utm_medium=email&utm_term=0_becf448392-1c0d110c08-180800965)
