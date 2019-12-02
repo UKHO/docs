@@ -33,51 +33,51 @@ If a technology is on this list it means that time can be spent investigating it
 
 ## Using
 
-| Technology | Kind | Sponsor | Approval | Usage | Notes |
+| Technology | Kind | Contact | Approval | Usage | Notes |
 |---|---|---|---|---|---|
-| Kubernetes | Environment | Antony Derham | Yes | Data Platform | Cloud Native container scheduler; used as Azure Kubernetes Service |
+| Kubernetes | Environment | Cloud Native Guild | Yes | Data Platform | Cloud Native container scheduler; used as Azure Kubernetes Service |
 | GraphQL | Language | Antony Derham | Yes | Data Platform with Hasura | Open source query language; alternative choice to REST |
-| TypeScript | Language | Antony Derham | Yes | Data Platform, Design System | Superset of Javascript with type system |
-| Angular | Framework | Antony Derham | Yes | Data Platform, Design System | Enterprise frontend framework |
-| Jest | Tool | Antony Derham | None | Data Platform | Unit test runner for frontend |
-| Cypress | Tool | Antony Derham | None | Data Platform | E2E test runner for frontend |
+| TypeScript | Language | Frontend Guild | Yes | Data Platform, Design System | Superset of Javascript with type system |
+| Angular | Framework | Frontend Guild | Yes | Data Platform, Design System | Enterprise frontend framework |
+| Jest | Tool | Frontend Guild | None | Data Platform | Unit test runner for frontend |
+| Cypress | Tool | Frontend Guild | None | Data Platform | E2E test runner for frontend |
 | Java | Language |  | Yes | Data Platform |  |
 | Spring | Framework |  | Yes | Data Platform |  |
 | Postgres | Software | Antony Derham | Yes | Data Platform | Open source relational SQL database |
 | Hasura | Software | Antony Derham | Yes | Data Platform | Backend-as-a-service providing GraphQL endpoint on top of Postgres |
-| Flux | Tool | Antony Derham | Yes | Data Platform | GitOps operator for Kubernetes |
-| Kamus | Tool | Antony Derham | Yes | Data Platform | GitOps secrets management tool |
+| Flux | Tool | Cloud Native Guild | Yes | Data Platform | GitOps operator for Kubernetes |
+| Kamus | Tool | Cloud Native Guild | Yes | Data Platform | GitOps secrets management tool |
 | Azure DevOps Pipelines | Software |  | Yes | Data Platform | CI/CD pipelines |
 | Azure Container Registry | Software |  | Yes | Data Platform | Docker Container/Helm Chart repository |
 | Fluentd | Software |  |  | Data Platform | Log aggregator |
 | ElasticSearch | Software |  | Yes | Data Platform | Log storage and indexing |
 | Kibana | Software |  | Yes | Data Platform | Log view interface |
-| Grafana | Software | | None | Data Platform | Monitoring dashboard |
+| Grafana | Software |  | None | Data Platform | Monitoring dashboard |
 | Prometheus | Software |  | None | Data Platform | Metrics collector |
 | Terraform | Tool |  | Yes | Data Platform | Cloud provisioning tool |
 | Azure Data Lake Storage | Software |  | Yes | Data Platform | File-based storage service with Hadoop-like interfaces |
-| Yarn | Tool |  | Yes | Data Platform, Design System | Package manager for the Node ecosystem |
-| Storybook | Tool |  | No | Design System | Story-based component testing, documentation and sandbox tool |
+| Yarn | Tool | Frontend Guild | Yes | Data Platform, Design System | Package manager for the Node ecosystem |
+| Storybook | Tool | Frontend Guild | No | Design System | Story-based component testing, documentation and sandbox tool |
 | GitHub | Software |  | Yes | Data Platform, Design System | Git-based code repository service |
 | Axe | Software |  | No | Design System | Automated web accessbility checker |
 | OAuth2 | Pattern |  | No | Data Platform | Used as part of Azure B2C/MS Auth Library for authorization |
 | OpenID Connect | Pattern |  | No | Data Platform | Used as part of Azure B2C/MS Auth Library for authentication |
 | JWT | Pattern |  | No | Data Platform | Used as part of Azure B2C/MS Auth Library for token structure |
-| CentOS | Environment |  | Yes | Dev Workstations | Linux-based operating system |
-| Docker | Environment |  | Yes | Data Platform | Containerisation |
-| Ansible | Tool |  | Yes | Dev Workstations | Used to construct the Dev Workstation image |
+| CentOS | Environment | Dev Workstation Team | Yes | Dev Workstations | Linux-based operating system |
+| Docker | Environment | Cloud Native Guild | Yes | Data Platform | Containerisation |
+| Ansible | Tool | Dev Workstation Team | Yes | Dev Workstations | Used to construct the Dev Workstation image |
 | Azure Blob Store | Software |  | Yes | Data Platform | Blob-based storage service |
 | Azure File Store | Software |  | Yes | Data Platform | File-based storage service |
 | Nginx | Software |  | Yes | Data Platform | Web server; reverse proxy; Kubernetes ingress controller |
-| RedHat Kickstart | Tool |  | Yes | Dev Workstations | Used to provision the CentOS environment |
-| Helm | Tool |  | Yes | Data Platform | Package Manager for Kubernetes |
+| RedHat Kickstart | Tool | Dev Workstation Team | Yes | Dev Workstations | Used to provision the CentOS environment |
+| Helm | Tool | Cloud Native Guild | Yes | Data Platform | Package Manager for Kubernetes |
 | Azure Dev Spaces | Tool |  | Yes | Data Platform | Development workflow and staging service for AKS |
-| Sass | Tool |  | Yes | Data Platform, Design System | CSS pre-processor and language superset |
-| ESLint | Tool |  | Yes | Data Platform, Design System | Linter for TypeScript/Javascript |
+| Sass | Tool | Frontend Guild | Yes | Data Platform, Design System | CSS pre-processor and language superset |
+| ESLint | Tool | Frontend Guild | Yes | Data Platform, Design System | Linter for TypeScript/Javascript |
 
 ## End of life
 
 If a technology is on this list, we should be actively looking to move away from using it.
 
-| Technology | Kind | Sponsor | Approval | Usage | Notes |
+| Technology | Kind | Contact | Approval | Usage | Notes |
 |---|---|---|---|---|---|
