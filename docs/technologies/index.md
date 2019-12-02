@@ -26,13 +26,14 @@ If a technology is on this list it means that time can be spent investigating it
 |---|---|---|---|---|---|
 | Kubernetes | Environment | Antony Derham | Yes | Data Platform | Cloud Native container scheduler; used as Azure Kubernetes Service |
 | GraphQL | Language | Antony Derham | Yes | Data Platform with Hasura | Open source query language; alternative choice to REST |
-| TypeScript | Language | Antony Derham | Yes | Data Platform |  |
-| Angular | Framework | Antony Derham | Yes | Data Platform |  |
+| TypeScript | Language | Antony Derham | Yes | Data Platform | Superset of Javascript with type system |
+| Angular | Framework | Antony Derham | Yes | Data Platform | Enterprise frontend framework |
 | Jest | Tool | Antony Derham | None | Data Platform | Unit test runner for frontend |
 | Cypress | Tool | Antony Derham | None | Data Platform | E2E test runner for frontend |
 | Java | Language |  | Yes | Data Platform |  |
 | Spring | Framework |  | Yes | Data Platform |  |
-| Hasura | Software | Antony Derham | Yes | Data Platform |  |
+| Postgres | Software | Antony Derham | Yes | Data Platform | Open source relational SQL database |
+| Hasura | Software | Antony Derham | Yes | Data Platform | Backend-as-a-service providing GraphQL endpoint on top of Postgres |
 | Flux | Tool | Antony Derham | Yes | Data Platform | GitOps operator for Kubernetes |
 | Kamus | Tool | Antony Derham | Yes | Data Platform | GitOps secrets management tool |
 | Azure DevOps Pipelines | Software |  | Yes | Data Platform | CI/CD pipelines |
@@ -43,6 +44,7 @@ If a technology is on this list it means that time can be spent investigating it
 | Grafana | Software | | None | Data Platform | Monitoring dashboard |
 | Prometheus | Software |  | None | Data Platform | Metrics collector |
 | Terraform | Tool |  | Yes | Data Platform | Cloud provisioning tool |
+| Azure Data Lake Storage | Software |  | Yes | Data Platform | File-based storage service with Hadoop-like interfaces |
 
 ## End of life
 
