@@ -4,6 +4,17 @@ Tools and technologies being used by UKHO engineering teams. Investigation of th
 
 These lists have been agreed and approved by the Lead Engineer Forum and the Architecture Team and will be reviewed on a regular basis with the latest version published here.
 
+### Key
+
+| Kind | Description |
+|---|---|
+| Language | Any sort of programming, markup, query, etc. language |
+| Tool | Tooling used in development |
+| Software | Any deployable software/service |
+| Framework | Any application programming framework |
+| Pattern | Any architectural, design, data flow, etc. pattern |
+| Environment | Operating systems and execution environments |
+
 ## Horizon
 
 If a technology is on this list it means that time can be spent investigating it (e.g. on JFDIs).
@@ -26,8 +37,8 @@ If a technology is on this list it means that time can be spent investigating it
 |---|---|---|---|---|---|
 | Kubernetes | Environment | Antony Derham | Yes | Data Platform | Cloud Native container scheduler; used as Azure Kubernetes Service |
 | GraphQL | Language | Antony Derham | Yes | Data Platform with Hasura | Open source query language; alternative choice to REST |
-| TypeScript | Language | Antony Derham | Yes | Data Platform | Superset of Javascript with type system |
-| Angular | Framework | Antony Derham | Yes | Data Platform | Enterprise frontend framework |
+| TypeScript | Language | Antony Derham | Yes | Data Platform, Design System | Superset of Javascript with type system |
+| Angular | Framework | Antony Derham | Yes | Data Platform, Design System | Enterprise frontend framework |
 | Jest | Tool | Antony Derham | None | Data Platform | Unit test runner for frontend |
 | Cypress | Tool | Antony Derham | None | Data Platform | E2E test runner for frontend |
 | Java | Language |  | Yes | Data Platform |  |
@@ -45,6 +56,24 @@ If a technology is on this list it means that time can be spent investigating it
 | Prometheus | Software |  | None | Data Platform | Metrics collector |
 | Terraform | Tool |  | Yes | Data Platform | Cloud provisioning tool |
 | Azure Data Lake Storage | Software |  | Yes | Data Platform | File-based storage service with Hadoop-like interfaces |
+| Yarn | Tool |  | Yes | Data Platform, Design System | Package manager for the Node ecosystem |
+| Storybook | Tool |  | No | Design System | Story-based component testing, documentation and sandbox tool |
+| GitHub | Software |  | Yes | Data Platform, Design System | Git-based code repository service |
+| Axe | Software |  | No | Design System | Automated web accessbility checker |
+| OAuth2 | Pattern |  | No | Data Platform | Used as part of Azure B2C/MS Auth Library for authorization |
+| OpenID Connect | Pattern |  | No | Data Platform | Used as part of Azure B2C/MS Auth Library for authentication |
+| JWT | Pattern |  | No | Data Platform | Used as part of Azure B2C/MS Auth Library for token structure |
+| CentOS | Environment |  | Yes | Dev Workstations | Linux-based operating system |
+| Docker | Environment |  | Yes | Data Platform | Containerisation |
+| Ansible | Tool |  | Yes | Dev Workstations | Used to construct the Dev Workstation image |
+| Azure Blob Store | Software |  | Yes | Data Platform | Blob-based storage service |
+| Azure File Store | Software |  | Yes | Data Platform | File-based storage service |
+| Nginx | Software |  | Yes | Data Platform | Web server; reverse proxy; Kubernetes ingress controller |
+| RedHat Kickstart | Tool |  | Yes | Dev Workstations | Used to provision the CentOS environment |
+| Helm | Tool |  | Yes | Data Platform | Package Manager for Kubernetes |
+| Azure Dev Spaces | Tool |  | Yes | Data Platform | Development workflow and staging service for AKS |
+| Sass | Tool |  | Yes | Data Platform, Design System | CSS pre-processor and language superset |
+| ESLint | Tool |  | Yes | Data Platform, Design System | Linter for TypeScript/Javascript |
 
 ## End of life
 
