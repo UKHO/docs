@@ -41,8 +41,8 @@ If a technology is on this list it means that time can be spent investigating it
 | Angular | Framework | Frontend Guild | Yes | Data Platform, Design System | Enterprise frontend framework |
 | Jest | Tool | Frontend Guild |  | Data Platform | Unit test runner for frontend |
 | Cypress | Tool | Frontend Guild |  | Data Platform | E2E test runner for frontend |
-| Java | Language |  | Yes | Data Platform |  |
-| Spring | Framework |  | Yes | Data Platform |  |
+| Java | Language |  | Yes | Data Platform | Backend programming language |
+| Spring | Framework |  | Yes | Data Platform | Application programming framework for Java |
 | Postgres | Software |  | Yes | Data Platform | Open source relational SQL database |
 | Hasura | Software | Antony Derham | Yes | Data Platform | Backend-as-a-service providing GraphQL endpoint on top of Postgres |
 | Flux | Tool | Cloud Native Guild | Yes | Data Platform | GitOps operator for Kubernetes |
