@@ -39,8 +39,8 @@ If a technology is on this list it means that time can be spent investigating it
 | GraphQL | Language | Antony Derham | Yes | Data Platform with Hasura | Open source query language; alternative choice to REST |
 | TypeScript | Language | Frontend Guild | Yes | Data Platform, Design System | Superset of Javascript with type system |
 | Angular | Framework | Frontend Guild | Yes | Data Platform, Design System | Enterprise frontend framework |
-| Jest | Tool | Frontend Guild | None | Data Platform | Unit test runner for frontend |
-| Cypress | Tool | Frontend Guild | None | Data Platform | E2E test runner for frontend |
+| Jest | Tool | Frontend Guild |  | Data Platform | Unit test runner for frontend |
+| Cypress | Tool | Frontend Guild |  | Data Platform | E2E test runner for frontend |
 | Java | Language |  | Yes | Data Platform |  |
 | Spring | Framework |  | Yes | Data Platform |  |
 | Postgres | Software |  | Yes | Data Platform | Open source relational SQL database |
@@ -52,17 +52,17 @@ If a technology is on this list it means that time can be spent investigating it
 | Fluentd | Software |  |  | Data Platform | Log aggregator |
 | ElasticSearch | Software |  | Yes | Data Platform | Log storage and indexing |
 | Kibana | Software |  | Yes | Data Platform | Log view interface |
-| Grafana | Software |  | None | Data Platform | Monitoring dashboard |
-| Prometheus | Software |  | None | Data Platform | Metrics collector |
+| Grafana | Software |  |  | Data Platform | Monitoring dashboard |
+| Prometheus | Software |  |  | Data Platform | Metrics collector |
 | Terraform | Tool |  | Yes | Data Platform | Cloud provisioning tool |
 | Azure Data Lake Storage | Software |  | Yes | Data Platform | File-based storage service with Hadoop-like interfaces |
 | Yarn | Tool | Frontend Guild | Yes | Data Platform, Design System | Package manager for the Node ecosystem |
-| Storybook | Tool | Frontend Guild | No | Design System | Story-based component testing, documentation and sandbox tool |
+| Storybook | Tool | Frontend Guild |  | Design System | Story-based component testing, documentation and sandbox tool |
 | GitHub | Software |  | Yes | Data Platform, Design System | Git-based code repository service |
-| Axe | Software |  | No | Design System | Automated web accessbility checker |
-| OAuth2 | Pattern |  | No | Data Platform | Used as part of Azure B2C/MS Auth Library for authorization |
-| OpenID Connect | Pattern |  | No | Data Platform | Used as part of Azure B2C/MS Auth Library for authentication |
-| JWT | Pattern |  | No | Data Platform | Used as part of Azure B2C/MS Auth Library for token structure |
+| Axe | Software |  |  | Design System | Automated web accessbility checker |
+| OAuth2 | Pattern |  |  | Data Platform | Used as part of Azure B2C/MS Auth Library for authorization |
+| OpenID Connect | Pattern |  |  | Data Platform | Used as part of Azure B2C/MS Auth Library for authentication |
+| JWT | Pattern |  |  | Data Platform | Used as part of Azure B2C/MS Auth Library for token structure |
 | CentOS | Environment | Dev Workstation Team | Yes | Dev Workstations | Linux-based operating system |
 | Docker | Environment | Cloud Native Guild | Yes | Data Platform | Containerisation |
 | Ansible | Tool | Dev Workstation Team | Yes | Dev Workstations | Used to construct the Dev Workstation image |
