@@ -70,10 +70,12 @@ If a technology is on this list it means that time can be spent investigating it
 | Azure File Store | Software |  | Yes | Data Platform | File-based storage service |
 | Nginx | Software |  | Yes | Data Platform | Web server; reverse proxy; Kubernetes ingress controller |
 | RedHat Kickstart | Tool | Dev Workstation Team | Yes | Dev Workstations | Used to provision the CentOS environment |
-| Helm | Tool | Cloud Native Guild | Yes | Data Platform | Package Manager for Kubernetes |
-| Azure Dev Spaces | Tool |  | Yes | Data Platform | Development workflow and staging service for AKS |
-| Sass | Tool | Frontend Guild | Yes | Data Platform, Design System | CSS pre-processor and language superset |
-| ESLint | Tool | Frontend Guild | Yes | Data Platform, Design System | Linter for TypeScript/Javascript |
+| Helm | Tool | Cloud Native Guild |  | Data Platform | Package Manager for Kubernetes |
+| Azure Dev Spaces | Tool |  |  | Data Platform | Development workflow and staging service for AKS |
+| Sass | Tool | Frontend Guild |  | Data Platform, Design System | CSS pre-processor and language superset |
+| ESLint | Tool | Frontend Guild |  | Data Platform, Design System | Linter for TypeScript/Javascript |
+| FindSecBugs | Tool |  |  | Data Platform | SAST tool for Java |
+| OWASP Zap | Tool |  | Yes | Data Platform | Web application security scanner |
 
 ## End of life
 
