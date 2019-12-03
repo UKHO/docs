@@ -76,6 +76,7 @@ If a technology is on this list it means that time can be spent investigating it
 | ESLint | Tool | Frontend Guild |  | Data Platform, Design System | Linter for TypeScript/Javascript |
 | FindSecBugs | Tool |  |  | Data Platform | SAST tool for Java |
 | OWASP Zap | Tool |  | Yes | Data Platform | Web application security scanner |
+| Snyk | Software |  |  | Data Platform | Dependency checker and container scanning |
 
 ## End of life
 
