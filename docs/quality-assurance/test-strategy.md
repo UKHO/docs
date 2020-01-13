@@ -46,6 +46,13 @@ Teams should adhere to this strategy when determining their team approach to tes
 * Testing to ensure security should take place throughout development
 * The OWASP ZAP scanner should be used for development of APIs and UIs - see [UKHO OWASP Zap Scanner project](https://github.com/UKHO/owasp-zap-scan) for more information.
 
+### Cross Browser Testing
+
+* Testing should be carried out on the latest version of Chrome as this is the predominant browser for UKHO applications (this applies to manual and automated testing.)
+* Exceptions to this should come via requirements from the Product Owner; this can then be worked into the Test Approach for that item of work.
+	* This requirement should ideally be considered as early as possible by the team
+	* If multiple browsers need to be tested then work closely with the Test Leads & Product Owner to ensure the correct approach is taken e.g. which tests to run across browsers and the auto test framework to be used.
+
 ### User Testing
 
 * Testing must recognise the importance of ensuring we are delivering value to users
@@ -69,4 +76,4 @@ The results of testing must be visible to a team delivering confidence when deve
 
 ## This document
 
-Issues and Pull Requests to this document are welcomes as we develop a working strategy.
+Issues and Pull Requests to this document are welcomed as we develop a working strategy.
