@@ -48,9 +48,9 @@ Teams should adhere to this strategy when determining their team approach to tes
 
 ### Cross Browser Testing
 
-* Testing on the latest version of Chrome as this the predominant browser used for UKHO applications (this applies to manual or automated)
+* Testing should be carried out on the latest version of Chrome as this the predominant browser for UKHO applications (this applies to manual and automated)
 * Exceptions to this should come via requirements from the PO, this can then be worked into the Test Approach
-	* If multiple browsers need to be tested then work closely with the Test Leads & PO to ensure the correct approach is taken e.g. what tests to run across browsers and auto test framework to handle multiple browsers.
+	* If multiple browsers need to be tested then work closely with the Test Leads & PO to ensure the correct approach is taken e.g. what tests to run across browsers and auto test framework setup to handle multiple browsers.
 
 ### User Testing
 
