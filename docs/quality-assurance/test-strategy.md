@@ -75,4 +75,4 @@ The results of testing must be visible to a team delivering confidence when deve
 
 ## This document
 
-Issues and Pull Requests to this document are welcomes as we develop a working strategy.
+Issues and Pull Requests to this document are welcomed as we develop a working strategy.
