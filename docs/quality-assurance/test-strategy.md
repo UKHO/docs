@@ -50,6 +50,7 @@ Teams should adhere to this strategy when determining their team approach to tes
 
 * Testing should be carried out on the latest version of Chrome as this is the predominant browser for UKHO applications (this applies to manual and automated testing.)
 * Exceptions to this should come via requirements from the Product Owner; this can then be worked into the Test Approach for that item of work.
+	* This requirement should ideally be considered as early as possible by the team
 	* If multiple browsers need to be tested then work closely with the Test Leads & Product Owner to ensure the correct approach is taken e.g. which tests to run across browsers and the auto test framework to be used.
 
 ### User Testing
