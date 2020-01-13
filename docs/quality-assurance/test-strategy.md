@@ -48,10 +48,10 @@ Teams should adhere to this strategy when determining their team approach to tes
 
 ### Cross Browser Testing
 
-* Browser testing should be carried out on the latest version of Chrome; this applies to manual and automated testing.
-* If the application is for external customers the team should define the browser requirements; this can then be worked into the Test Approach for that item of work.
-  * This requirement should be considered as early as possible by the team
+* The team should define the browser (and device if mobile testing is required) requirements. These should be documented in the Test Approach for that item of work.
+  * This requirement should be considered as early as possible by the team.
   * If multiple browsers need to be tested then work closely with the Test Leads and Product Owner to ensure the correct approach is taken, e.g. which tests to run across browsers and the auto test framework to use.
+* Browser testing should be carried out on the latest version of Chrome as a minimum.
 
 ### User Testing
 
