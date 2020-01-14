@@ -96,7 +96,7 @@ Select the "Restart Guest" option (or press Ctrl+R) on the VM power settings.
 
 For username: <code>root</code>
 
-For password: <See password in PMP under "Mint VMWare Dev Workstation Root">
+For password: <code>See password in PMP under "Mint VMWare Dev Workstation Root"</code>
 
 
 <u>You will be asked for the username of the new user you wish to create on the VM.</u>
