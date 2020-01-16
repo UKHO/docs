@@ -12,10 +12,10 @@ If your laptop doesn't have VMware player installed, in the first instance open 
 <u>The first step of the process is to access the image which is held on:</u>
 
 ``` bash 
-    \\\\business.ukho.gov.uk\dfs\Prod_Prod\Mint\OVF Image
+    \\\\business.ukho.gov.uk\dfs\Prod_Prod\Linux Workstation\OVF Image
 ```
 ``` bash 
-    U:\Prod_Prod\Mint\OVF Image
+    U:\Prod_Prod\Linux Workstation\OVF Image
 ```
 
 and copy this directory to your laptop.
