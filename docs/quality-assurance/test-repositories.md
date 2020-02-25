@@ -1,4 +1,4 @@
-# Test GitHub Repositories
+# Test Engineering GitHub Repositories
 
 This page lists the UKHO test-related repositories on GitHub.
 
@@ -13,3 +13,10 @@ Example Java project for API testing, using REST-assured and obtaining secrets f
 Provides the ability to execute a Full Scan against a web application using the OWASP ZAP Docker image within an Azure DevOps pipeline.
 
 <https://github.com/UKHO/owasp-zap-scan>
+
+## Pickles
+
+Example project to demonstrate production of HTML-based Gherkin using Pickles tool with an Azure DevOps pipeline.
+
+<https://github.com/UKHO/pickles-demo-project>
+
