@@ -16,7 +16,7 @@ Provides the ability to execute a Full Scan against a web application using the 
 
 ## Pickles
 
-Example project to demonstrate production of HTML-based Gerkin using Pickles tool with an Azure DevOps pipeline.
+Example project to demonstrate production of HTML-based Gherkin using Pickles tool with an Azure DevOps pipeline.
 
 <https://github.com/UKHO/pickles-demo-project>
 
