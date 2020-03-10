@@ -13,13 +13,13 @@ To ensure that all the members of the team are on the same page and establish a 
 The list below outlines what should be involved when writing good Acceptance Criteria
 
  1. The WHOLE team is involved in the creation and refinement
- 2. Generated through Example Mapping
+ 2. Generated through Example Mapping  -( We should have a link to what example mapping is)
  3. Recorded in a Scenario-orientated format - “Given…When…Then…” - The expected observable result
  4. Agreed and written before implementation
  5. Every deliverable PBI should have at least 1 AC
  6. PBIs should have between 1 and 5? ACs - Too many ACs? Split the PBI into smaller deliverables 
  8. All criterion are independently testable with a clear Pass / Fail outcome
- 9. Non-functional criteria included where applicable and relevant
+ 9. Non-functional criteria included where applicable and relevant (Link out to another page detailing some help/guidance as some NFRS may not be possible to test with code, see https://cucumber.io/blog/hiptest/how-to-address-non-functional-requirements/)
  
 Make sure all items are [SMART](https://en.wikipedia.org/wiki/SMART_criteria)
 	* Specific – target a specific area for improvement.
