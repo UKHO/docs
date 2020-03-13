@@ -61,6 +61,10 @@ sudo ./ctx_rehash
 
 Et voilà
 
+### Other distros
+
+Try linking the ```$CITRIX_HOME/keystore/cacerts``` directory to the main CA certificates directory on your distro.  If this doesn't work, the instructions for Fedora almost certainly will.
+
 ## TODO 
 
 It is unlikely that all of the certificates from the Ubuntu distro are required to make Citrix Receiver work.  It would be useful to identify the one(s) that are necessary and revise the instructions to address that certificate alone.
