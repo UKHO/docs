@@ -7,14 +7,14 @@ In order to access the UKHO Citrix desktop, your computer needs to have Citrix R
 
 ## Download and install Citrix Receiver
 
-- Open a browser and navigate to the [Receiver for Linux download page](https://www.citrix.com/en-gb/downloads/citrix-receiver/linux/receiver-for-linux-latest.html)
+- Open a browser and navigate to the [Citrix Receiver for Linux download page](https://www.citrix.com/en-gb/downloads/citrix-receiver/linux/receiver-for-linux-latest.html)
 - Navigate to the bottom of the page and download the relevant option from Debian Packages or RedHat packages. Both Web client and Full client seem to work
-- Use your package manager (apyt/yum/dnf) to install the downloaded package
-- In the instructions below, the install location is referred to as $CITRIX_HOME.  Normally this will be ```/opt/Citrix/ICAClient but YMMV```
+- Use your package manager (apt/yum/dnf) to install the downloaded package
+- In the instructions below, the install location is referred to as $CITRIX_HOME.  Normally this will be ```/opt/Citrix/ICAClient``` but YMMV
 
 ## Configure certificates
 
-For some reason, Citrix Receiver for Linux does not work out of the box on Linux.  This appears to be down to not shipping with the correct certificates.  The steps below describe how to correct this for Ubuntu and other distros. Be warned, however, that the instructions for all distros require access to a working Ubuntu install.
+For some reason, Citrix Receiver for Linux does not work out of the box on Linux.  This appears to be down to not shipping with the correct certificates.  The steps below describe how to correct this for Ubuntu and other distros. Be warned, however, that the instructions for all distros may require access to a working Ubuntu install.
 
 ### Ubuntu
 
@@ -32,7 +32,7 @@ sudo ./ctx_rehash
 
 ### Fedora 
 
-Unfortunately the default certificates that ship with Fedora are not sufficient. These are stored in /etc/pki/ca-trust/extracted/pem and the instructions above do not work for the certificates in this directory. So, it is necessary to grab the certificates from a working Ubuntu install and manually paste them into your Fedora installation.  If you don't have access to a Ubuntu install, find someone that does and ask them nicely to follow the first set of instructions below.
+Unfortunately the default certificates that ship with Fedora are not sufficient. These are stored in ```/etc/pki/ca-trust/extracted/pem``` and the instructions above do not work for the certificates in this directory. So, it is necessary to grab the certificates from a working Ubuntu install and manually paste them into your Fedora installation.  If you don't have access to a Ubuntu install, find someone that does and ask them nicely to follow the first set of instructions below.
 
 #### Get the certificates from an Ubuntu install
 
