@@ -159,6 +159,10 @@ Initially, this looks a little spartan!
 
 This should then install the basic utilities needed.
 
+# Installing Citrix Receiver on Linux
+
+See the instructions [here](citrix.md)
+
 # Known Issues 
 
 !!! bug
