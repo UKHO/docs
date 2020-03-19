@@ -1,23 +1,22 @@
 # Head of Test
 
-A head of test takes ownership for establishing policy for the test team and setting the testing strategy.
+The Head of Test takes ownership for establishing policy for the test team and setting the testing strategy.
 
-At this level, you will:
+At this level you will:
 
 * Own continuous improvement
 * Research new technology and new techniques to implement change
-* Make important decisions
-* Build the QAT community
+* Build the test community
 * Provide organisational leadership
-* May advocate test capabilities both internally and outside of government
-* Make sure that teams have the right capabilities
+* Advocate test capabilities both internally and outside of government
+* Ensure teams have the right test capabilities
 
 |  Areas | Tasks | Stories |
 | --- | --- | --- |
-| Testing policy, strategy and standards | Responsible for ensuring that the relevant policy, strategy and standards comply with relevant government regulations. That the relevant policy's are applied correctly across all teams and are updated when needed.|  |
-| Recruitment of test engineers | Planning when new engineers are needed and recruiting people with relevant skills. | Working with the one program and delivery teams to determine what skills are required both from a UKHO and team view. Creating relevant job descriptions and interview packs. Running the recuritment campaign with HR through cv sift, interview and offer, including the offer amount made to candidate. |
-| Skills planning | Ensuring that engineers have the skills that they need now and planning for skills that will be needed in the future. | Maintaining a high level view of all engineers and key skills. The work is divided into three sections, skills needed now, skills needed in the medium term and skills that will be needed in the longer term. Ensuring that the relevant training is covered by personal development plans and that engineers are supported in their ongoing development |
-| Line Management | Line managing test engineers , defining objectives and performance measurements for engineers. Helping them build relevant development plans, managing and performance issues. This also includes working with relevant teams to understand their requirements, rotation of test engineers around teams. | Making sure that the engineers who report to the head of test follow the relevant HR policies, supporting engineers when si |
-| Long term strategic planning | Responsible for ensuring that UKHO has a up to date long term testing vision, both from a people and technology side. |  |
+| Testing policy, strategy and standards | Responsible for ensuring that the relevant policy, strategy and standards comply with relevant government regulations. That the relevant policies are applied correctly across all teams and are updated when needed.|  |
+| Recruitment of test engineers | Planning when new engineers are needed and recruiting people with relevant skills. | Working with the One Program and delivery teams to determine the skills required. Creating relevant job descriptions and interview packs. Running the recuritment campaign with HR (from CV sift, interview and offer,and agreeing renumeration). |
+| Skills planning | Ensuring that engineers have the skills that they need now and planning for skills that will be needed in the future. | Maintaining a high level view of all engineers and key skills. The work is divided into three sections, skills needed now, in the medium term and in the longer term. Ensuring that the relevant training is covered by personal development plans and that engineers are supported in their ongoing development |
+| Line Management | Line managing test engineers, defining objectives and performance measurements for engineers. Helping them build relevant development plans and managing performance issues. This also includes working with relevant teams to understand their requirements, rotation of test engineers around teams. | Making sure that the engineers who report to the Head of Test follow the relevant HR policies |
+| Long term strategic planning | Responsible for ensuring that UKHO has an up-to-date long term testing vision, covering people and technology. |  |
 | Part of senior technology management team | Working with other senior technology managers on a range of tactical/strategic issues affecting UKHO. |  |
-| Product Owner | There are a number of lead test engineers that the head of test acts as the product owner for, both helping frame the requirements but also signing off the final solution. |  |
+| Product Owner | There are a number of lead test engineers that the Head of Test acts as the Product Owner for, covering requirements through to sign-ff. |  |
