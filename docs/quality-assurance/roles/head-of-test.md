@@ -15,7 +15,7 @@ At this level, you will:
 |  Areas | Tasks | Stories |
 | --- | --- | --- |
 | Testing policy, strategy and standards | Responsible for ensuring that the relevant policy, strategy and standards comply with relevant government regulations. That the relevant policy's are applied correctly across all teams and are updated when needed.|  |
-| Recruitment of test engineers | Planning when new engineers are needed and recruiting people with relevant skills. |  |
+| Recruitment of test engineers | Planning when new engineers are needed and recruiting people with relevant skills. | Working with the one program and delivery teams to determine what skills are required both from a UKHO and team view. Creating relevant job descriptions and interview packs. Running the recuritment campaign with HR through cv sift, interview and offer, including the offer amount made to candidate. |
 | Skills planning | Ensuring that engineers have the skills that they need now and planning for skills that will be needed in the future. |  |
 | Line Management | Line managing test engineers , defining objectives and performance measurements for engineers. Helping them build relevant development plans, managing and performance issues. This also includes working with relevant teams to understand their requirements, rotation of test engineers around teams. |  |
 | Long term strategic planning | Responsible for ensuring that UKHO has a up to date long term testing vision, both from a people and technology side. |  |
