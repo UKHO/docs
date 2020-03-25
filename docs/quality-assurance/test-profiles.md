@@ -24,3 +24,4 @@ We have detailed the responsibilities of each role:
 * [Senior Test Engineer](roles/senior-test-engineer.md)
 * [Lead Test Engineer (Team)](roles/lead-team-test-engineer.md)
 * [Lead Test Engineer (Program)](roles/lead-program-test-engineer.md)
+* [Head of Test](roles/head-of-test.md)
