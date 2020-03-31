@@ -4,11 +4,14 @@ This is the UKHO **Team Quality Charter** that **all** Development teams are exp
 ## The Team
 
  - All members of a team are equal – there should be no difference in:   
-	 - List item
 	 - Permissions
 	 - Available hardware or software
 	 - Weight of opinion
 	 - Access to team ways of working 
+	 
+ - The role of the tester in the team is to **champion** quality assurance and testing at **all** stages of the development cycle. 
+
+ - Performing tests (including manual testing) is the responsibility of **everyone** in the development team
 
 ## Acceptance Criteria
 
@@ -23,7 +26,9 @@ For more details see our '[Acceptance Criteria](acceptance-criteria.md)' page.
  - Unit testing is mandatory for all functional development
  - All API development will have accompanying middle-layer API tests
  - There must be a compelling reason to use SpecFlow and its use must not be a default position
- - The team must have confidence in the automated tests 
+ - Test code must be treated with the same care and attention as production code
+ - Test code should be paired upon wherever possible
+ - The team **must** have confidence in the automated tests 
 
 ## Manual Testing
 
