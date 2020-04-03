@@ -25,7 +25,7 @@ For more details see our '[Acceptance Criteria](acceptance-criteria.md)' page.
 
  - Unit testing is mandatory for all functional development
  - All API development will have accompanying middle-layer API tests
- - Add tests at the correct level of the test pyramid – lower is better
+ - Add tests at the correct level of the test pyramid – **lower** is **better**
  - There must be a compelling reason to use SpecFlow and its use must not be a default position
  - Test code must be treated with the same care and attention as production code
  - Test code should be paired upon wherever possible
