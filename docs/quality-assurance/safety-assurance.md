@@ -4,12 +4,16 @@ They are guidlines to consider when looking at how we approach what/how/when we 
 
 So we actually consider safety all the time, we just probably don't really think about it in that way. This provides some guidelines to think about when planning what type of tests you may wish to design for a chamge.
 
-# Things to consider
+# Prior to sprints
 
-## At the start of a project
+* A high level review of the product and any known safety case areas
+* The test approach document to include how safety issues will be asseed (Much like security issues are)
 
-* A high level safety review is
 
+## Each Sprint
+
+* A Safety Modelling Workshop (This could be simply an exercise on a PBI by PBI basis of considering any safety case implications)
+* Tag any PBI's that have a safety implication with a tag
 * All requirements have acceptance criteria
 * All acceptance criteria have a test(s) linked to them
 * All requirements (PBI’s) have acceptance criteria
