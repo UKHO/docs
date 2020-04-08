@@ -1,13 +1,14 @@
 # What are safety assurance guidelines
 
-They are guidlines to consider when looking at what to test , while we test functionality , do we consider the safery of the product, what happens
-if something fails.
-A example could be funtionality some data is not displayed, or the wrong data is displayed. Both have an impact but which one would impact safety
-the most.
+They are guidlines to consider when looking at how we approach what/how/when we test software changes. We need to consider not just the functionality but also the safety implications of if something fails/does not work as expected could it imopact teh safety of teh product. A example of this is could be that a system could be updated twice an hour, but only actually works once an hour. While that clearly is a failure, if the system crashes and takes 4 hours to recover , is that a potential larger safty implication ?.
 
 So we actually consider safety all the time, we just probably don't really think about it in that way. This provides some guidelines to think about when planning what type of tests you may wish to design for a chamge.
 
-## Things to consider
+# Things to consider
+
+## At the start of a project
+
+* A high level safety review is
 
 * All requirements have acceptance criteria
 * All acceptance criteria have a test(s) linked to them
@@ -17,3 +18,7 @@ So we actually consider safety all the time, we just probably don't really think
 * We have run a risk review so that the functionality with the largest safety impact is considered and potential priority (This is 
   something that the product owner would sign off on)
 
+
+Deployments into live - traceability back to code that was tested
+
+Use threat modellng model
