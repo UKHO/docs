@@ -6,6 +6,33 @@ So we actually consider safety all the time, we just probably don't really think
 
 Safety assurance will be modelled on the threat modelling process that we already follow for security risks, in this case it is safety risks.
 
+What is Safety Testing?
+
+Safety testing in software systems aims at optimizing system safety in the design, development, use, and maintenance of software systems and their integration with safety-critical hardware systems in a production environment.
+
+Aspects of Software Safety:
+
+Functioning software should not generate hazards - Eg: Guiding the state of the art aircraft should NOT steer into the ocean
+
+
+Monitoring systems must perform flawlessly - Eg: Back-up computer Should start automatically when primary fails
+
+
+Goals in Safety Testing:
+
+In complex systems where there are many interactions involved, the safety-critical functionality should be identified and thoroughly analyzed.
+
+
+Contributing factors and resultant hazards associated with the system are identified and eliminated.
+
+
+The number of safety critical interfaces are kept low to avoid injury or death.
+
+
+Safety attributes are to be addressed as part of all the levels of software testing.
+
+
+
 # Prior to sprints
 
 * A high level review of the product and any known safety case areas
