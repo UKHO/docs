@@ -25,13 +25,12 @@ For more details see our '[Acceptance Criteria](acceptance-criteria.md)' page.
 
 ## Test Automation
 
- - Unit testing is mandatory for all functional development
- - All API development will have accompanying middle-layer API tests
- - Minimal happy path testing is done at the UI level
  - Add tests at the correct level of the test pyramid – **lower** is **better**
+ 	- Unit testing is mandatory for all functional development
+ 	- All API development will have accompanying middle-layer API tests
+ 	- Minimal happy path testing is done at the UI level
  - There must be a compelling reason to use SpecFlow and its use must not be a default position
  - Test code must be treated with the same care and attention as production code (including pairing)
- - The team **must** have confidence in the automated tests 
  
  For more details see our '[Test Automation Strategy](test-automation-strategy.md)' page.
 
