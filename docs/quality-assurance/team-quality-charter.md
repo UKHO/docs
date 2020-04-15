@@ -36,8 +36,6 @@ For more details see our '[Test Automation Strategy](test-automation-strategy.md
 
 ## Manual Testing
  
- - Manual testing will only be used on agreement within the team when
-	 - The cost of automation is too high
-	 - No suitable automation framework exists and there is not the time to create
+ - Manual testing will only be used when the cost of automation is deemed too high
  - Evidence of manual testing (e.g. screenshots) is not required
  - Exploratory testing is a valid form of manual testing and should be part of the test approach
