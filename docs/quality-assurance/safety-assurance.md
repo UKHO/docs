@@ -1,5 +1,31 @@
 # What are safety assurance guidelines
 
+Error in products and a delay to the marrinor, .Safery hazards
+ 
+Funtional safey  case
+ 
+AVCS/SNC have a fubnctional safety casse
+ 
+Sepetaing an error from a safery error
+ 
+Safery incorrect depth
+ 
+Error internal processes
+ 
+Chart would not print - safery error, safety critcal
+ 
+Without mififgations -
+ 
+Functional safety case- for the product
+ 
+aDMIRALTY SALING DIRECTIONS IS on the list
+ 
+Link to where the safety case - send me to link
+ 
+controls to mitigate the error or delay
+
+
+
 They are guidlines to consider when looking at how we approach what/how/when we test software changes. We need to consider not just the functionality but also the safety implications of if something fails/does not work as expected could it imopact teh safety of teh product. A example of this is could be that a system could be updated twice an hour, but only actually works once an hour. While that clearly is a failure, if the system crashes and takes 4 hours to recover , is that a potential larger safty implication ?.
 
 So we actually consider safety all the time, we just probably don't really think about it in that way. This provides some guidelines to think about when planning what type of tests you may wish to design for a chamge.
