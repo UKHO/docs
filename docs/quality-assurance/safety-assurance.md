@@ -29,26 +29,44 @@ But just becaause a safety risk exists does not mean it automatically needs to b
 * The number of safety critical interfaces are kept low to avoid injury or death.
 * Safety attributes are to be addressed as part of all the levels of software testing.
 
+# Some general principles
+
+* Reliance on manual processes is minimised
+* Best pratices in software and test engineering are applied
+* Sound human engineering principles are applied to the design of the software use interface to minmise the probability of human error
+* Software with safety critical functionality must have clear evidance that all safety requirements have been met or relevant 
+  mitigations have ben agreed.
+* Failure modes, including hardware, software, human and system are addressed in the design of the software.
 
 # What does this mean for delivery teans
 
-We need to cionsider the safey and the potential safety implications of errors and/or delays to the products that we are working on. 
+We need to cionsider the safey and the potential safety implications of errors and/or delays to the products that we are working on, as well as how they will be maintained going forward. 
 So we actually consider safety all the time, we just probably don't really think about it in that way. This provides some guidelines to think about when planning what type of tests you may wish to design for a chamge.
 
 Safety assurance will be modelled on the threat modelling process that we already follow for security risks, in this case it is safety risks.
 
 
+
 # Prior to sprints
 
-* A high level review of the product and any known safety case areas
+* A high level review of the product, the aim to identify the key areas that could cause errors and delay
 * The test approach document to include how safety issues will be asseed (Much like security issues are)
+* What is the expected SLA for the product
+* What recovery time is expected
+* How will the product be maintained/updated going forward minimising any safety impacts
+
+The aim of considering these at a high level initially will help potentially the technology to be used, the building of the code as well as the types of tests that my be required.
 
 
 ## Each Sprint
 
 * A Safety Modelling Workshop (This could be simply an exercise on a PBI by PBI basis of considering any safety case implications). Any
-  PBI that is considered to have a safety case implication to be tagged with safety.
+  PBI that is considered to have a safety case implication to be tagged with safety. This should help drive :
+* What if PBI's, beside the happy path acceptance criteria , testing for instance that if the system fails it can be recovered within
+* This may and should create new PBI's that are effectiveky negative requirements i.e what if this fails,can it be recovered in time that does not imoact safety (error or delay)
+  a time period that does not impact the mariner should also form part of testing phase. 
 * Tag any PBI's that have a safety implication with a tag
+* Against PBI's with a tag of safety , the decesions around the consideration and decesions are documented and agreed.
 * All requirements have acceptance criteria
 * All acceptance criteria have a test(s) linked to them
 * All requirements (PBI’s) have acceptance criteria
@@ -58,6 +76,10 @@ Safety assurance will be modelled on the threat modelling process that we alread
   something that the product owner would sign off on)
 
 
+## Prior to go live
 
+* Is the system compliant and certified
+* Can we deploy using automated deployment scripts to minimise risk
+* There is a clear audit of deployed changes back to tests and requirements
 
 
