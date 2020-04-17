@@ -60,11 +60,11 @@ The aim of considering these at a high level initially will help potentially the
 
 ## Each Sprint
 
-* A Safety Modelling Workshop (This could be simply an exercise on a PBI by PBI basis of considering any safety case implications). Any
-  PBI that is considered to have a safety case implication to be tagged with safety. This should help drive :
+* A Safety Modelling Workshop (This can be combined with the current threat modelling workshop) This could be simply an exercise on a 
+  PBI by PBI basis of considering any safety case implications). Any PBI that is considered to have a safety case implication to be
+  tagged with safety. This should help drive :
 * What if PBI's, beside the happy path acceptance criteria , testing for instance that if the system fails it can be recovered within
-* This may and should create new PBI's that are effectiveky negative requirements i.e what if this fails,can it be recovered in time that does not imoact safety (error or delay)
-  a time period that does not impact the mariner should also form part of testing phase. 
+* This may and should create new PBI's that are effectiveky negative requirements i.e what if this fails,can it be recovered in time that does not imoact safety (error or delay)  a time period that does not impact the mariner should also form part of testing phase. 
 * Tag any PBI's that have a safety implication with a tag
 * Against PBI's with a tag of safety , the decesions around the consideration and decesions are documented and agreed.
 * All requirements have acceptance criteria
@@ -83,3 +83,4 @@ The aim of considering these at a high level initially will help potentially the
 * There is a clear audit of deployed changes back to tests and requirements
 
 
+## What is a Safety Modelling Workshop and what do you need to consider
