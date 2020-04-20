@@ -98,5 +98,5 @@ Two examples of what if :
  delay cause. Are there any mitigations that could be put in place, if so then the two days may be acceptable,if not and the delay could
  potentially impact the safety of the mariner then another soloution to the recovery would need to be found.
  
- * What if an ENC was corrupted, what would the safety impavct be. Can the system determine a corrupted cell and if so what alert 
+ * What if an ENC was corrupted, what would the safety impact be. Can the system determine a corrupted cell and if so what alert 
    mechanism would need to be in place.
