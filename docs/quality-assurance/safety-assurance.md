@@ -69,6 +69,7 @@ The aim of considering these at a high level initially will help potentially the
 * Against PBI's with a tag of safety , the decesions around the consideration and decesions are documented and agreed.
 * All requirements have acceptance criteria
 * All acceptance criteria have a test(s) linked to them
+* All deployed code is linked back to relevant tests
 * All requirements (PBI’s) have acceptance criteria
 * There is a regression pack (If applicable)
 * An auditable history of test runs (Automated and manual) is kept
