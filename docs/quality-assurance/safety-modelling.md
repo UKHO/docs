@@ -16,4 +16,21 @@ Two examples of what if :
  * What if an ENC was corrupted, what would the safety impact be. Can the system determine a corrupted cell and if so what alert 
    mechanism would need to be in place.
    
-   Need to put in here details of the modelling workshop and the bowtie process
+   A common mechanism for determining risk and in his case safety is the bowtie method.
+   
+ [Bowtie in four easy steps](https://www.youtube.com/watch?v=PHbLQWqojC8)
+ 
+ So we would need two bowtie diagrams, one for Error and one for Delay. 
+ 
+ So in the case of error, what are all the possible errors that could occur and what is the potential risk to the safety of the mariner
+ of that risk. Likewise what are all the possible delays that could occur and what risk to the mariner do this potentially create. As 
+ the short film above describes, this is not a static event, you would run the same exercise a number of times over the course of a 
+ project as risks and impacts do change.
+ 
+ ## Outcome of a bowtie risk session
+ 
+ * A list of risks and their potential impact to the mariner
+ * A list of mitigations or design changes that may need to be included
+ * The bowtie documents should be stored along with the other artifacts such as test approach etc.
+ * Relevant PBI's tagged with a safety tag along with relevant details of what will be done to mitigate the safety imoact
+  
