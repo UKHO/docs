@@ -35,5 +35,5 @@ Two examples of what if :
  * A list of risks and their potential impact to the mariner
  * A list of mitigations or design changes that may need to be included
  * The bowtie documents should be stored along with the other artifacts such as test approach etc.
- * Relevant PBI's tagged with a safety tag along with relevant details of what will be done to mitigate the safety imoact
+ * Relevant PBI's tagged with a safety tag along with relevant details of what will be done to mitigate the safety impact.
   
