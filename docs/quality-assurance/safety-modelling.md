@@ -27,6 +27,9 @@ Two examples of what if :
  the short film above describes, this is not a static event, you would run the same exercise a number of times over the course of a 
  project as risks and impacts do change.
  
+ [Bowtie in more depth](https://www.youtube.com/watch?v=VsKgSDbHP3A)
+ 
+ 
  ## Outcome of a bowtie risk session
  
  * A list of risks and their potential impact to the mariner
