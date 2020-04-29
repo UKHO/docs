@@ -4,6 +4,7 @@
 1. Unit Testing
 1. API Testing
 1. UI Testing
+1. SpecFlow and Cucumber
 1. Gherkin
 1. Test and Defect Management
 
@@ -31,11 +32,15 @@
 * Only use for e2e tests or explicit UI features at this level
 * Interactions with UIs should be abstracted into a separate service/facade, not in the test Steps (e.g., Page Object Model)
 
+## SpecFlow and Cucumber
+
+* Consider whether using these are required - will it add value, will a stakeholder be reading the tests, or can the extra technical layer be avoided?
+* If using, publish the tests to a website for easy access using Pickles (see our [Pickles Example Project](test-repositories.md))
+
 ## Gherkin
 
-* Consider whether using Gherkin is required - will it add value or can the extra technical layer be avoided
-* Feature name should reflect the area being tested
-* Scenario name should reflect the purpose of the test, e.g. “Ensure two numbers are added correctly” rather than “add two numbers” or “add”
+* The feature name should reflect the area being tested
+* The scenario name should reflect the purpose of the test, e.g. “Ensure two numbers are added correctly” rather than “add two numbers” or “add”
 * Similar scenarios should be in one feature file – a feature file should only contain similar scenarios
 * Ensure only one result is tested per scenario, try to avoid having too many assertions, better to split into different scenarios
 * Move repeated steps into a Background
@@ -44,4 +49,4 @@
 ## Test and Defect Management
 
 * For C# projects, unit and SpecFlow tests should exist in separate projects
-* Open defects should be managed, a regular team/project review session is recommended 
+* Open defects should be managed; a regular team/project review session is recommended 
