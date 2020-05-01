@@ -6,8 +6,8 @@ These documents detail how we work as a Test Community at UKHO. We aim to provid
 
 * [Our Vision](test-vision.md)
   * The principles that guide everything we do as a Test Community
-* [Our Team Quality Charter](team-quality-charter.md)
-  * The Team Quality Charter that delivery teams are expected to adhere to
+* [Our UKHO Quality Charter](ukho-quality-charter.md)
+  * The UKHO Quality Charter that delivery teams are expected to adhere to
 * [Our Testing Principles](testing-principles.md)
   * The principles that guide our testing
 * [Our Test Strategy](test-strategy.md)
