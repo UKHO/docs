@@ -39,10 +39,13 @@ This all links into a wider piece of work across all of UKHO as we look to impro
 * Software with safety critical functionality must have clear evidance that all safety requirements have been met or relevant 
   mitigations have ben agreed.
 * Failure modes, including hardware, software, human and system are addressed in the design of the software.
+* Speak up, if you feel that safety is being compmised in some way, raise it!!!!!.
+* Exercise judgement, not the same as going out on a limb but exercising common sense
+* ALARP – As low as reasonably practicable
 
 # What does this mean for delivery teans
 
-We need to cionsider the safey and the potential safety implications of errors and/or delays to the products that we are working on, as well as how they will be maintained going forward. 
+We need to consider  the safey and the potential safety implications of errors and/or delays to the products that we are working on, as well as how they will be maintained going forward. 
 So we actually consider safety all the time, we just probably don't really think about it in that way. This provides some guidelines to think about when planning what type of tests you may wish to design for a chamge.
 
 Safety assurance will be modelled on the threat modelling process that we already follow for security risks, in this case it is safety risks.
