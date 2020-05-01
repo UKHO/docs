@@ -16,6 +16,12 @@ Two examples of what if :
  * What if an ENC was corrupted, what would the safety impact be. Can the system determine a corrupted cell and if so what alert 
    mechanism would need to be in place.
    
+ * You may need to test to understand what systemtc failures could occure to understand the risk and impact. So if you increase volumes 
+   by 50% does that crash the system, if it does then how quickly can it be recovered. This type of testing is to understand and see 
+   what happens, it provides answers to some of the 'What if'. Unless you test you will not necessarily know , you may have an idea but 
+   you need to test tovalidate or not that idea.
+ 
+    
    A common mechanism for determining risk and in this case safety is the bowtie method.
    
  [Bowtie in four easy steps](https://www.youtube.com/watch?v=PHbLQWqojC8)
