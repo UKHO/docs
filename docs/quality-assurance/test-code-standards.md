@@ -36,15 +36,13 @@
 
 * Consider whether using these are required - will it add value, will a stakeholder be reading the tests, or can the extra technical layer be avoided?
 * If using, publish the tests to a website for easy access using Pickles (see our [Pickles Example Project](test-repositories.md))
-
-## Gherkin
-
-* The feature name should reflect the area being tested
-* The scenario name should reflect the purpose of the test, e.g. “Ensure two numbers are added correctly” rather than “add two numbers” or “add”
-* Similar scenarios should be in one feature file – a feature file should only contain similar scenarios
-* Ensure only one result is tested per scenario, try to avoid having too many assertions, better to split into different scenarios
-* Move repeated steps into a Background
-* Perform technical setup and teardown in the Steps classes, not in the Gherkin.
+* If considered necessary then:
+    * The feature name should reflect the area being tested
+    * The scenario name should reflect the purpose of the test, e.g. “Ensure two numbers are added correctly” rather than “add two numbers” or “add”
+    * Similar scenarios should be in one feature file – a feature file should only contain similar scenarios
+    * Ensure only one result is tested per scenario, try to avoid having too many assertions, better to split into different scenarios
+    * Move repeated steps into a Background
+    * Perform technical setup and teardown in the Steps classes, not in the Gherkin.
 
 ## Test and Defect Management
 
