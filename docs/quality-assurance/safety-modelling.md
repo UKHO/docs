@@ -29,8 +29,15 @@ Two examples of what if :
    
    Focus on the intergration and relationships between software/hardware needs therefor to be considered as well as individual elements.
  
-    
-   A common mechanism for determining risk and in this case safety is the bowtie method.
+   # Consider the how the system will be used
+   
+   Besides how the system will operate, consideration needs also to be given to how the end use will operate/intreact 
+   with the system.
+   
+   * Can the user select options in such a way as to be provided with incorrect information
+   * Is the information presented to the user that does not cause confusion/misunderstanding (UX Design)
+  
+  ## A common mechanism for determining risk and in this case safety is the bowtie method.
    
  [Bowtie in four easy steps](https://www.youtube.com/watch?v=PHbLQWqojC8)
  
