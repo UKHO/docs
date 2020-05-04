@@ -21,7 +21,9 @@ This all links into a wider piece of work across all of UKHO as we look to impro
 ## Aspects  of Software Safety:
 
 * Functioning software should not generate hazards - Eg: Guiding the state of the art aircraft should NOT steer into the ocean
-* Monitoring systems must perform flawlessly - Eg: Back-up computer Should start automatically when primary fails
+* Monitoring systems must perform flawlessly - Eg: Back-up computer Should start automatically when primary fails.
+
+It should be noted that in the past individual components were often the cause of safety issues, but more issues are now being identfied as  'Component Interaction Accident'. That is on their own individual elements work as designed but when combined and under the right conditions can become or tigger an unsafe condition.
 
 ## Goals in Safety Testing:
 
@@ -33,7 +35,7 @@ This all links into a wider piece of work across all of UKHO as we look to impro
 
 # Some general principles
 
-* Reliance on manual processes is minimised
+* * Reliance on manual processes is minimised
 * Best pratices in software and test engineering are applied
 * Sound human engineering principles are applied to the design of the software use interface to minmise the probability of human error
 * Software with safety critical functionality must have clear evidance that all safety requirements have been met or relevant 
