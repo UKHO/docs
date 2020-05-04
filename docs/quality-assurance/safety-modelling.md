@@ -20,6 +20,14 @@ Two examples of what if :
    by 50% does that crash the system, if it does then how quickly can it be recovered. This type of testing is to understand and see 
    what happens, it provides answers to some of the 'What if'. Unless you test you will not necessarily know , you may have an idea but 
    you need to test tovalidate or not that idea.
+   
+   # Consider the whole system
+   
+   It is not enough just to consider individual PBI's but also how the whole system will interact with each other, individual elements 
+   may be fine when run in isolation but when combined and under certain conditions they may trigger abnomral events , which could 
+   impact the safety of the system.
+   
+   Focus on the intergration and relationships between software/hardware needs therefor to be considered as well as individual elements.
  
     
    A common mechanism for determining risk and in this case safety is the bowtie method.
@@ -42,4 +50,7 @@ Two examples of what if :
  * A list of mitigations/ design changes/tests that may need to be included
  * The bowtie documents should be stored along with the other artifacts such as test approach etc.
  * Relevant PBI's tagged with a safety tag along with relevant details of what will be done to mitigate the safety impact.
+ * Consideration of the whole system interaction and possible risks(This will develop as the system develops)
   
+ 
+ 
