@@ -5,7 +5,6 @@
 1. API Testing
 1. UI Testing
 1. SpecFlow and Cucumber
-1. Gherkin
 1. Test and Defect Management
 
 ## C# and Java
