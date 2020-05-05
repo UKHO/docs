@@ -11,6 +11,8 @@ It is important to note that safety exists within the boundry of our control, so
 
 But just becaause a safety risk exists does not mean it automatically needs to be addressed, it depends on the risk and any mitigations that may be in place. An example of this could be that a distributor cannot order/print a chart , while this is an error, is it a safety issue if the mitigation is that a ship would not sail until they could produce a chart. 
 
+Reliable software does not equal safe software!
+
 This all links into a wider piece of work across all of UKHO as we look to improve the maturity of our safety culture.
 
 # What is safety testing
