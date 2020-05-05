@@ -36,6 +36,7 @@ Two examples of what if :
    
    * Can the user select options in such a way as to be provided with incorrect information
    * Is the information presented to the user that does not cause confusion/misunderstanding (UX Design)
+   * What other ways that the user could use the system regardless of if they should that could imopact safety
   
   ## A common mechanism for determining risk and in this case safety is the bowtie method.
    
@@ -55,9 +56,12 @@ Two examples of what if :
  
  * A list of risks and their potential impact to the mariner
  * A list of mitigations/ design changes/tests that may need to be included
- * The bowtie documents should be stored along with the other artifacts such as test approach etc.
+  * The bowtie documents should be stored along with the other artifacts such as test approach etc.
  * Relevant PBI's tagged with a safety tag along with relevant details of what will be done to mitigate the safety impact.
  * Consideration of the whole system interaction and possible risks(This will develop as the system develops)
+ * There will be some risks that cannot be mitigated against (These should be identfied and documented that the risk cannot be
+   mitigated. These could include such as the system deliverying information correctly, the use then takes that information and misinterprets the
+   data.
   
  
  
