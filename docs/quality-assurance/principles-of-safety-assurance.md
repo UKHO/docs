@@ -17,6 +17,7 @@ So the first question is what is safety in relation to UKHO products:
 * Exercise judgement, not the same as going out on a limb but exercising common sense
 * ALARP – As low as reasonably practicable
 * Safety Modelling using the Bowtie method is carried out
+* Reliable software does not equal safe software
 
 
 
