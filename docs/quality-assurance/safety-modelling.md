@@ -42,8 +42,7 @@ Two examples of what if :
    
  [Bowtie in four easy steps](https://www.youtube.com/watch?v=PHbLQWqojC8)
  
- So we would need two bowtie diagrams, one for Error and one for Delay. 
- 
+  
  So in the case of error, what are all the possible errors that could occur and what is the potential risk to the safety of the mariner
  of that risk. Likewise what are all the possible delays that could occur and what risk to the mariner do this potentially create. As 
  the short film above describes, this is not a static event, you would run the same exercise a number of times over the course of a 
