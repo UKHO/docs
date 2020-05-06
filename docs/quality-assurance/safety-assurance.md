@@ -1,9 +1,5 @@
-# What is safety ?
+# Safety Assurance?
 
-So the first question is what is safety in relation to UKHO products:
-
-* An error in a product that could potentially impact the safety of the mariner
-* A delay to the mariner that could potentially impact the safety of the mariner
 
 A example, an error in a product that it does not display wreck information correctly, a delay to the mariner could be a new wreck takes longer than the SLA to be advised to the mariner.
 
