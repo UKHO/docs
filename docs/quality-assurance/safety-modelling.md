@@ -7,6 +7,42 @@ It should be focused around the two key areas of
 
 This is very much focused around 'What if' questions and then of those 'What if' questions, what would the safety impact of that occuring.
 
+## Safety Modelling
+   
+ [Bowtie in four easy steps](https://www.youtube.com/watch?v=PHbLQWqojC8)
+ 
+  
+ So in the case of error, what are all the possible errors that could occur and what is the potential risk to the safety of the mariner
+ of that risk. Likewise what are all the possible delays that could occur and what risk to the mariner do this potentially create. As 
+ the short film above describes, this is not a static event, you would run the same exercise a number of times over the course of a 
+ project as risks and impacts do change.
+ 
+ [Bowtie in more depth](https://www.youtube.com/watch?v=VsKgSDbHP3A)
+ 
+ 
+ ## Outcome of a bowtie risk session
+ 
+ * A list of risks and their potential impact to the mariner
+ * A list of mitigations/ design changes/tests that may need to be included
+ * The bowtie documents should be stored along with the other artifacts such as test approach etc.
+ * Relevant PBI's tagged with a safety tag along with relevant details of what will be done to mitigate the safety impact.
+ * Consideration of the whole system interaction and possible risks(This will develop as the system develops)
+ * There will be some risks that cannot be mitigated against (These should be identfied and documented that the risk cannot be
+   mitigated. These could include such as the system deliverying information correctly, the use then takes that information and 
+   misinterprets the data.
+   
+ ** How often
+ 
+ If possible add onto your current threat modelling meeting. Depending on the application you may well be able to bring forward
+ previous bowties for that application as a starting point. 
+ 
+ 
+ ** What tools to use
+ 
+ Word, visio etc. Anything that lets you represent the bowtie diagram.
+ 
+## In-Depth Reading
+
 Two examples of what if :
 
 * What if the system fails, how quickly could it be recovered. It that recovery would take 2 days what risk to the mariner would that 
@@ -36,31 +72,8 @@ Two examples of what if :
    
    * Can the user select options in such a way as to be provided with incorrect information
    * Is the information presented to the user that does not cause confusion/misunderstanding (UX Design)
-   * What other ways that the user could use the system regardless of if they should that could imopact safety
+   * What other ways that the user could use the system regardless of if they should that could impact safety
   
-  ## A common mechanism for determining risk and in this case safety is the bowtie method.
-   
- [Bowtie in four easy steps](https://www.youtube.com/watch?v=PHbLQWqojC8)
- 
-  
- So in the case of error, what are all the possible errors that could occur and what is the potential risk to the safety of the mariner
- of that risk. Likewise what are all the possible delays that could occur and what risk to the mariner do this potentially create. As 
- the short film above describes, this is not a static event, you would run the same exercise a number of times over the course of a 
- project as risks and impacts do change.
- 
- [Bowtie in more depth](https://www.youtube.com/watch?v=VsKgSDbHP3A)
- 
- 
- ## Outcome of a bowtie risk session
- 
- * A list of risks and their potential impact to the mariner
- * A list of mitigations/ design changes/tests that may need to be included
-  * The bowtie documents should be stored along with the other artifacts such as test approach etc.
- * Relevant PBI's tagged with a safety tag along with relevant details of what will be done to mitigate the safety impact.
- * Consideration of the whole system interaction and possible risks(This will develop as the system develops)
- * There will be some risks that cannot be mitigated against (These should be identfied and documented that the risk cannot be
-   mitigated. These could include such as the system deliverying information correctly, the use then takes that information and misinterprets the
-   data.
   
  
  
