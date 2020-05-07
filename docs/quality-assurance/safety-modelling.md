@@ -8,7 +8,9 @@ It should be focused around the two key areas of
 This is very much focused around 'What if' questions and then of those 'What if' questions, what would the safety impact of that occuring.
 
 ## Safety Modelling
-   
+
+ [Bowtie Diagram}(https://www.acrosssafety.com/bowtie-resources/bowtie-articles/bowtie-method-tip-hazards-and-top-events/)
+ 
  [Bowtie in four easy steps](https://www.youtube.com/watch?v=PHbLQWqojC8)
  
   
