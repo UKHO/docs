@@ -10,13 +10,13 @@ So the first question is what is safety in relation to UKHO products:
 * Reliance on manual processes is minimised
 * Best practices in software and test engineering are applied
 * Sound human engineering principles are applied to the design of the software use interface to minmise the probability of human error
-* Software with safety critical functionality must have clear evidance that all safety requirements have been met or relevant 
+* Software with safety related functionality must have clear evidance that all safety requirements have been met or relevant 
   mitigations have ben agreed.
 * Failure modes, including hardware, software, human and system are addressed in the design of the software.
 * Speak up, if you feel that safety is being compromised in some way, raise it!!!!!.
 * Exercise judgement, not the same as going out on a limb but exercising common sense
 * ALARP – As low as reasonably practicable
-* Safety Modelling using the Bowtie method is carried out
+* Safety Modelling using the Bowtie method is carried out  
 * Reliable software does not equal safe software
 
 
