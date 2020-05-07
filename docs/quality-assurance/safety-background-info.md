@@ -5,6 +5,8 @@
  
  [Bowtie in more depth](https://www.youtube.com/watch?v=VsKgSDbHP3A)
  
+ [Bowtie the process](https://www.youtube.com/watch?v=dpGKHncw-d8)
+ 
 ## Other things to consider
 
 Two examples of what if :
