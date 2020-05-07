@@ -9,11 +9,9 @@ This is very much focused around 'What if' questions and then of those 'What if'
 
 ## Safety Modelling
 
- [Bowtie Diagram}(https://www.acrosssafety.com/bowtie-resources/bowtie-articles/bowtie-method-tip-hazards-and-top-events/)
- 
  [Bowtie in four easy steps](https://www.youtube.com/watch?v=PHbLQWqojC8)
  
-  
+   
  So in the case of error, what are all the possible errors that could occur and what is the potential risk to the safety of the mariner
  of that risk. Likewise what are all the possible delays that could occur and what risk to the mariner do this potentially create. As 
  the short film above describes, this is not a static event, you would run the same exercise a number of times over the course of a 
@@ -21,6 +19,10 @@ This is very much focused around 'What if' questions and then of those 'What if'
  
  [Bowtie in more depth](https://www.youtube.com/watch?v=VsKgSDbHP3A)
  
+ ## Guidelines for running a bowtie session
+ 
+ * Keep it simple, don't over complicate the diagram
+ * Stick to three colours, red, amber,green (So red is a risk that will  impact safety, amber it could , green it will not)
  
  ## Outcome of a bowtie risk session
  
