@@ -1,4 +1,11 @@
-## In-Depth Reading
+# In-Depth Reading
+
+## Bowtie in detail
+ 
+ 
+ [Bowtie in more depth](https://www.youtube.com/watch?v=VsKgSDbHP3A)
+ 
+## Other things to consider
 
 Two examples of what if :
 
