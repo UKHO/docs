@@ -17,8 +17,7 @@ This is very much focused around 'What if' questions and then of those 'What if'
  the short film above describes, this is not a static event, you would run the same exercise a number of times over the course of a 
  project as risks and impacts do change.
  
- [Bowtie in more depth](https://www.youtube.com/watch?v=VsKgSDbHP3A)
- 
+
  ## Keep it simple
  
  To start with have two bowtie diagrams, one for error and one for delay. 
