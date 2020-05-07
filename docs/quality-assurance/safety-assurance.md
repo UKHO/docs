@@ -39,8 +39,7 @@ It should be noted that in the past individual components were often the cause o
 * Software with safety critical functionality must have clear evidance that all safety requirements have been met or relevant 
   mitigations have ben agreed.
 * Failure modes, including hardware, software, human and system are addressed in the design of the software.
-* Speak up, if you feel that safety is being compmised in some way, raise it!!!!!.
-* Exercise judgement, not the same as going out on a limb but exercising common sense
+* Speak up, if you feel that safety is being compmised in some way, raise it with the PO.
 * ALARP – As low as reasonably practicable
 
 # What does this mean for delivery teans
