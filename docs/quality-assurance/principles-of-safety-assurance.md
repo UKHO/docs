@@ -15,7 +15,7 @@ So the first question is what is safety in relation to UKHO products:
 * Failure modes, including hardware, software, human and system are addressed in the design of the software.
 * Speak up, if you feel that safety is being compromised in some way, raise it!!!!!.
 * Exercise judgement, not the same as going out on a limb but exercising common sense
-* ALARP – As low as reasonably practicable
+* ALARP – As low as reasonably practicable (This is ultimately decided by the product owner) 
 * Safety Modelling using the Bowtie method is carried out  - [Bowtie in four easy steps](https://www.youtube.com/watch?v=PHbLQWqojC8)
 * Reliable software does not equal safe software
 
