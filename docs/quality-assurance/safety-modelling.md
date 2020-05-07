@@ -17,6 +17,8 @@ This is very much focused around 'What if' questions and then of those 'What if'
  the short film above describes, this is not a static event, you would run the same exercise a number of times over the course of a 
  project as risks and impacts do change.
  
+ Don't forget that as well as considering what the software should do, you need to consider what it should not do.
+ 
 
  ## Keep it simple
  
