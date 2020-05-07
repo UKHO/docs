@@ -27,7 +27,7 @@ Two examples of what if :
    may be fine when run in isolation but when combined and under certain conditions they may trigger abnomral events , which could 
    impact the safety of the system.
    
-   Focus on the intergration and relationships between software/hardware needs therefor to be considered as well as individual elements.
+   The intergration and relationships between software/hardware needs therefor to be considered as well as individual elements.
  
    # Consider the how the system will be used
    
