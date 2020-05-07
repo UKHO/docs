@@ -16,8 +16,16 @@ So the first question is what is safety in relation to UKHO products:
 * Speak up, if you feel that safety is being compromised in some way, raise it!!!!!.
 * Exercise judgement, not the same as going out on a limb but exercising common sense
 * ALARP – As low as reasonably practicable
-* Safety Modelling using the Bowtie method is carried out  
+* Safety Modelling using the Bowtie method is carried out  - [Bowtie in four easy steps](https://www.youtube.com/watch?v=PHbLQWqojC8)
 * Reliable software does not equal safe software
 
+
+
+## Sources
+
+* Engineering a safer world - systems thinking applied to safety - Nancy G Leveson
+* https://en.wikipedia.org/wiki/Software_system_safety
+* Functional Safety in Practice - Harvey T Dearden
+* RINA Consulting Defence Ltd.
 
 
