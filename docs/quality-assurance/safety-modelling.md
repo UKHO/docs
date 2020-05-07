@@ -13,14 +13,16 @@ This is very much focused around 'What if' questions and then of those 'What if'
  
   
  So in the case of error, what are all the possible errors that could occur and what is the potential risk to the safety of the mariner
- of that risk. Likewise what are all the possible delays that could occur and what risk to the mariner do this potentially create. As 
+ of that risk. Likewise what are all the possible delays that could occur and what risk to the mariner does this potentially create. As 
  the short film above describes, this is not a static event, you would run the same exercise a number of times over the course of a 
  project as risks and impacts do change.
  
 
  ## Keep it simple
  
- To start with have two bowtie diagrams, one for error and one for delay. 
+ * To start with have two bowtie diagrams, one for error and one for delay. 
+ * Use three colours, red, amber and green
+ 
  
  ## Outcome of a bowtie risk session
  
@@ -41,5 +43,7 @@ This is very much focused around 'What if' questions and then of those 'What if'
  
  ** What tools to use
  
- Word, visio etc. Anything that lets you represent the bowtie diagram.
+ Word, visio etc. Anything that lets you represent the bowtie diagram. The bowtie is a good visual way to show potential threats and impacts , but the most important thing is that you have carried out the analysis.
+ 
+ 
  
