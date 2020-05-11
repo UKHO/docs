@@ -40,13 +40,13 @@ This is very much focused around 'What if' questions and then of those 'What if'
    mitigated. These could include such as the system deliverying information correctly, the use then takes that information and 
    misinterprets the data.
    
- ** How often
+ ## How often
  
  If possible add onto your current threat modelling meeting. Depending on the application you may well be able to bring forward
  previous bowties for that application as a starting point. 
  
  
- ** What tools to use
+ ## What tools to use
  
  Word, visio etc. Anything that lets you represent the bowtie diagram. The bowtie is a good visual way to show potential threats and impacts , but the most important thing is that you have carried out the analysis.
  
