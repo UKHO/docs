@@ -43,7 +43,7 @@ Activities are “detailed tasks that need to be executed in order for a barrier
 Activities can be a powerful part of the Bowtie management approach as they recognise the reality that a barrier is often not owned by one individual, rather it is made up of a number of activities delivered by different individuals or organisations
 Coffee Time
  
-## Other things to consider
+# Other things to consider
 
 Two examples of what if :
 
@@ -59,7 +59,7 @@ Two examples of what if :
    what happens, it provides answers to some of the 'What if'. Unless you test you will not necessarily know , you may have an idea but 
    you need to test tovalidate or not that idea.
    
-   # Consider the whole system (Safety guided design)
+   ## Consider the whole system (Safety guided design)
    
    It is not enough just to consider individual PBI's but also how the whole system will interact with each other, individual elements 
    may be fine when run in isolation but when combined and under certain conditions they may trigger abnomral events , which could 
@@ -68,7 +68,7 @@ Two examples of what if :
    The intergration and relationships between software/hardwareas well as how the user will interact with it ,  needs therefor to be 
    considered as well as individual elements.
  
-   # Consider the how the system will be used
+   ## Consider the how the system will be used
    
    Besides how the system will operate, consideration needs also to be given to how the end use will operate/intreact 
    with the system.
