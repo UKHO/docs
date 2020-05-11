@@ -23,7 +23,10 @@ This is very much focused around 'What if' questions and then of those 'What if'
  ## Keep it simple
  
  * To start with have two bowtie diagrams, one for error and one for delay. 
- * Use three colours, red, amber and green
+ * Use three colours, red, amber and green (Red for critical threats, amber for serious and green for threats that have no safety
+  impact.
+ * Dont worry about what you use for the diagram - the process is the most important thing.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+ 
  
  
  
