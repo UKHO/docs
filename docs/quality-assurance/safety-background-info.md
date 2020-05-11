@@ -23,13 +23,14 @@ Two examples of what if :
    what happens, it provides answers to some of the 'What if'. Unless you test you will not necessarily know , you may have an idea but 
    you need to test tovalidate or not that idea.
    
-   # Consider the whole system
+   # Consider the whole system (Safety guided design)
    
    It is not enough just to consider individual PBI's but also how the whole system will interact with each other, individual elements 
    may be fine when run in isolation but when combined and under certain conditions they may trigger abnomral events , which could 
    impact the safety of the system.
    
-   The intergration and relationships between software/hardware needs therefor to be considered as well as individual elements.
+   The intergration and relationships between software/hardwareas well as how the user will interact with it ,  needs therefor to be 
+   considered as well as individual elements.
  
    # Consider the how the system will be used
    
