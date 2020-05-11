@@ -5,7 +5,7 @@ It should be focused around the two key areas of
 1. Error
 2. Delay
 
-This is very much focused around 'What if' questions and then of those 'What if' questions, what would the safety impact of that occuring.
+This is very much focused around 'What if' questions and then of those 'What if' questions, what would the safety impact of that occuring, or indeed not occuring.
 
 ## Safety Modelling
    
