@@ -7,6 +7,8 @@ So the first question is what is safety in relation to UKHO products:
 
 # Some general principles
 
+* The tester(s) within the team should have accounabiity for making sure safety is considered as part of their overall remit but the
+  whole team have responsbility for inputting into the process, provding subject matter experience and guidance to the whole team.
 * Reliance on manual processes is minimised
 * Best practices in software and test engineering are applied
 * Sound human engineering principles are applied to the design of the software use interface to minmise the probability of human error
