@@ -2,7 +2,7 @@
 
 It should be focused around the two key areas of
 
-1. Error
+1. Error (Data Intergrity)
 2. Delay
 
 This is very much focused around 'What if' questions and then of those 'What if' questions, what would the safety impact of that occuring, or indeed not occuring.
@@ -12,8 +12,8 @@ This is very much focused around 'What if' questions and then of those 'What if'
  [Bowtie in four easy steps](https://www.youtube.com/watch?v=PHbLQWqojC8)
  
   
- So in the case of error, what are all the possible errors that could occur and what is the potential risk to the safety of the mariner
- of that risk. Likewise what are all the possible delays that could occur and what risk to the mariner does this potentially create. As 
+ So in the case of error (data intergrity) , what are all the possible errors that could occur and what is the potential risk to the end
+ user. Likewise what are all the possible delays that could occur and what risk to the end user does  this potentially create. As 
  the short film above describes, this is not a static event, you would run the same exercise a number of times over the course of a 
  project as risks and impacts do change.
  
@@ -22,10 +22,10 @@ This is very much focused around 'What if' questions and then of those 'What if'
 
  ## Keep it simple
  
- * To start with have two bowtie diagrams, one for error and one for delay. 
+ * Don't over complicate the diagrams. 
  * Use three colours, red, amber and green (Red for critical threats, amber for serious and green for threats that have no safety
   impact.
- * Dont worry about what you use for the diagram - the process is the most important thing. 
+ * Dont worry about what you use for the diagram - the process and output is the most important thing. 
  
  
  
@@ -42,8 +42,8 @@ This is very much focused around 'What if' questions and then of those 'What if'
    
  ## How often
  
- If possible add onto your current threat modelling meeting. Depending on the application you may well be able to bring forward
- previous bowties for that application as a starting point. 
+ As often as you run threat modelling ,if possible add onto your current threat modelling meeting. Depending on the application you may
+ well be able to bring forward previous bowties for that application as a starting point. 
  
  
  ## What tools to use
