@@ -25,10 +25,14 @@ This is very much focused around 'What if' questions and then of those 'What if'
  
  ## Outcome of a bowtie risk session
  
- * Two bowtie diagrams , one for error and one for delay.
- * A list of mitigations/ design changes/tests that may need to be included
- * The bowtie documents should be stored along with the other artifacts such as test approach etc.
  * Relevant PBI's tagged with a safety tag along with relevant details of what will be done to mitigate the safety impact.
+ * Some initial test design thoughts on how the risk could be tested for. Given that these are negative tests there will be a
+   balance between effort required to test against likelihood/impact
+  
+  A final decesion as to the safety impact/consequencve would like with the PO (The PO will enagage with other SME's to determine if
+  the safety risk is acceptable). This may mean that although there is a potential safety risk that risk is deemed manageable, or may 
+  require remedial action.
+
   
   
    
