@@ -1,4 +1,4 @@
-## What is a Safety Modelling Workshop and what do you need to consider
+## What is a Safety Modelling  and what do you need to consider
 
 It should be focused around the two key areas of
 
