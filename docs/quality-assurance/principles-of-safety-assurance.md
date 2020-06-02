@@ -3,7 +3,7 @@
 So the first question is what is safety in relation to UKHO products:
 
 * An error in a product that could potentially impact the safety of the mariner
-* A delay to the mariner that could potentially impact the safety of the mariner
+* A delay that could potentially impact the safety of the mariner
 
 # Some general principles
 
