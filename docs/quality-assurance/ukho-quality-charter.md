@@ -38,6 +38,6 @@ For more details see our '[Test Automation Strategy](test-automation-strategy.md
 
 ## Manual Testing
 
-* Manual testing should never be a teams default test method, except when the cost of automation is deemed too high
+* Manual testing should never be a teams default test method, except when the cost of automation is deemed too high or the product under test cannot be automated (e.g. SAP)
 * When used, evidence of manual testing (e.g. screenshots) is not required
 * Exploratory testing is a valid form of manual testing and should be part of the test approach
