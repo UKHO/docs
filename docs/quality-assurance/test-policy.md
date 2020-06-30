@@ -1,8 +1,8 @@
-# Purpose and Scope
+# Test Policy
 
 The purpose of this document is to communicate the policy for UKHO for testing of new software, updates, hardware and other related changes.
 
-## Why do we Test?
+## Why we Test
 
 * To build confidence in our systems
 * Detect defects
@@ -10,11 +10,11 @@ The purpose of this document is to communicate the policy for UKHO for testing o
 * Manage quality risks
 * To deliver value to our customers
 
-## How do we measure the effectiveness of testing?
+## How we measure the effectiveness of Testing
 
 Delivery to customers of software and hardware that provides business value.
 
-## UKHO Long Term Testing Goals
+## UKHO long-term Testing goals
 
 * To move to a DevOps Model
 * Test Automation provides the bulk of testing functionality
@@ -27,17 +27,17 @@ Test Engineering line manages a group of test engineers, ranging from junior to 
 
 Outside of the Scrum teams other people do test, for instance within Operations testing of hardware is carried out by the relevant SME, like network engineers carry out network testing. In some non-Agile teams, Business Analysts also carry out testing.
 
-## Who Manages Testing?
+## Who manages Testing?
 
 The Head of Test line manages all test engineers, but test engineers are task-managed by the overall technology program in conjunction with the Head of Test.
 
 Other areas of the business carry out various testing activities, but these people will not necessarily be professional software testers, they are line managed by their relevant program.
 
-## Roles and Responsibilities of Test Engineering
+## Roles and responsibilities of Test Engineering
 
 This will only deal with the roles within Test Engineering.
 
-## In Scope
+### In scope
 
 * All software applications
 * Any changes to database structures
@@ -54,10 +54,10 @@ There are sub-policies that cover the Agile and Non-Agile methods as well as sec
 
 The test guidance within the ADGF provides guidance/support for all teams that will carry out testing across UKHO.
 
-## International Standards
+## International standards
 
 Our baseline for standards is [ISO/IEC 29119](http://www.softwaretestingstandard.org/).
 
-## Testing Process Followed
+## Testing process followed
 
 UKHO follows the fundamental test process as defined by ISTQB.
