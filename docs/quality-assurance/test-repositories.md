@@ -20,3 +20,8 @@ Example project to demonstrate production of HTML-based Gherkin using Pickles to
 
 <https://github.com/UKHO/pickles-demo-project>
 
+## WinAppDriver
+
+Example C# project to demonstrate how to use WinAppDriver to drive a WPF application and run UI tests in a Azure Devops pipeline.
+
+<https://github.com/UKHO/winappdriver-demo>
