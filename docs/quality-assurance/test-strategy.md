@@ -1,4 +1,4 @@
-# UKHO Test Strategy
+# Test Strategy
 
 ## Overview
 
@@ -34,7 +34,7 @@ Teams should adhere to this strategy when determining their team approach to tes
 
 ### Manual
 
-* Manual testing should be used when automation is not deemed the best approach (e.g. too costly, not feasible, not applicable) 
+* Manual testing should be used when automation is not deemed the best approach (e.g. too costly, not feasible, not applicable)
 
 ### Exploratory
 

@@ -1,4 +1,4 @@
-# UKHO Test Automation Strategy
+# Test Automation Strategy
 
 ## Introduction
 
@@ -6,15 +6,7 @@ This strategy document details the UKHO approach to test automation. As an organ
 
 This strategy acts as a baseline for UKHO development teams, with teams empowered to determine how their teams will adhere to this strategy.
 
-This document includes:
-
-* The UHO Test Automation Model
-* Ways of Working
-* Principles of Automation at UKHO
-* Standards
-* How we measure our progress
-
-## The UHO Test Automation Model
+## The UKHO Test Automation Model
 
 To summarise our approach to test automation we created our take on the standard Test Pyramid Model. This promotes:
 
@@ -37,7 +29,7 @@ We aim to deliver quality improvement to UKHO development using test automation.
 
 ## Ways of Working
 
-Test automation has provided the opportunity to move away from the traditional developer – tester divide and move towards an integrated way of working. The following principles are promoted: 
+Test automation has provided the opportunity to move away from the traditional developer – tester divide and move towards an integrated way of working. The following principles are promoted:
 
 * Use Test Driven Design when developing functionality
 * Pairing developer-tester can improve the development of testing at all levels
@@ -57,4 +49,3 @@ We will maintain metrics to determine our current state of automation at the UKH
 ## The Future
 
 The UKHO Test Community will review and evolve this strategy over time to ensure our approach and ways or working continue to support our development and release processes.
-

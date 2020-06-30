@@ -1,7 +1,8 @@
 
 # Test Tooling
 
-## Standalone 
+## Standalone
+
 |Tool|Notes|Links|Version info (if applicable)|
 |--|--|--|--|
 |ChromeDriver|Chrome driver for Selenium|https://chromedriver.chromium.org/ ||
@@ -12,6 +13,7 @@
 |SOAP UI|REST and SOAP client|https://www.soapui.org||
 
 ## .NET
+
 |Tool|Notes|Links|Version info (if applicable)|
 |--|--|--|--|
 |Fluent Assertions|Readable assertions compatible with all unit test frameworks|https://fluentassertions.com/|
@@ -21,10 +23,10 @@
 |Win App Driver|Windows Application Driver|https://github.com/microsoft/WinAppDriver 
 
 ## Java
+
 |Tool|Notes|Links|Version info (if applicable)|
 |--|--|--|--|
 |Cucumber|Binding Business Requirements to Java code|https://cucumber.io/docs||
 |Jmeter|Load test functional behaviour and measure performance|https://jmeter.apache.org/||
 |REST-assured|Testing and validating REST services|http://rest-assured.io/||
 |swagger-request-validator|A Java library for validating request/responses against a OpenAPI / Swagger specification|https://bitbucket.org/atlassian/swagger-request-validator||
-

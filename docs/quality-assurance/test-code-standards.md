@@ -1,12 +1,5 @@
 # Test Automation Standards
 
-1. C# and Java
-1. Unit Testing
-1. API Testing
-1. UI Testing
-1. SpecFlow and Cucumber
-1. Test and Defect Management
-
 ## C# and Java
 
 * Test Automation code should adhere to the same standard as production code
@@ -17,9 +10,9 @@
 
 * Aim for naming consistency. Common standard is to use a When-Then name, for example, WhenTwoItemsExistsThenBothItemsAreReturned
 * Follow best practice:
-  * Tests for results not functionality
-  * One assertion per test
-  * Tests should be isolated, i.e. have no dependencies on other tests nor on order of execution
+    * Tests for results not functionality
+    * One assertion per test
+    * Tests should be isolated, i.e. have no dependencies on other tests nor on order of execution
 
 ## API Testing
 
