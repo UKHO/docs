@@ -23,6 +23,32 @@ Exploratory testing empowers test engineers to test organically and enhance func
 2.  Strategy
 3.  Testing freestyle
 
+#### Test Charters
+
+A test charter is a way of focusing on what you will test but without being too prescriptive. It allows you to:
+
+Your charter can outline:
+•What parts of the system you'll be looking at (also known as your mission scope)
+•Your testing goals, e.g. make sure a system is secure enough for people to use
+•Details of the team doing the exploratory testing
+•The date and times of the testing
+•The test environment, e.g. the software you'll use to do the test
+•Mock data you'll need for testing, e.g. a mock username or password
+•The details should be no more than the size of a tweet.
+
+You can use a test charter on anything from a very small part of the system up to a whole system. So an example of a very small charter might be:
+•Examine one screen, its inputs and responses
+•Running a process end to end across all of the various screens
+
+[How to write a test charter)](https://www.qualitestgroup.com/resources/knowledge-center/how-to-guide/write-exploratory-test-charter)
+
+##### Other things to consider
+
+* Use personas
+* Use test tours (You tour around an area of the application)
+
+
+
 
 
 
