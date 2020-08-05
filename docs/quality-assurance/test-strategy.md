@@ -20,17 +20,7 @@ Teams should adhere to this strategy when determining their team approach to tes
 
 ### Automation
 
-* Automation should be used where possible. See the [UKHO Test Automation Strategy](test-automation-strategy.md) for information on this.
-
-### Test Generation
-
-* Test scenarios should be generated from a BDD approach
-* A risk-based approach should be used to determine the priority of test cases
-
-### Non-Functional
-
-* Non-functional requirements and testing should be considered alongside other forms of testing
-* Determining requirements and expected results will involve the architecture and product manager communities
+* Automation should be used where possible. See the [UKHO Test Automation Strategy](test-automation-strategy.md) for more information.
 
 ### Manual
 
@@ -41,6 +31,16 @@ Teams should adhere to this strategy when determining their team approach to tes
 * Exploratory testing should be used to verify quality in addition to regular manual and automated testing
 * Sessions should be planned with a charter (including time-box, area to review, personas)
 
+### Non-Functional
+
+* Non-functional requirements and testing should be considered alongside other forms of testing
+* Determining requirements and expected results will involve the architecture and product manager communities
+
+### Test Generation
+
+* Test scenarios should be generated from a BDD approach
+* A risk-based approach should be used to determine the priority of test cases
+
 ### Security
 
 * Testing to ensure security should take place throughout development
@@ -49,9 +49,9 @@ Teams should adhere to this strategy when determining their team approach to tes
 ### Cross Browser Testing
 
 * The team should define the browser (and device if mobile testing is required) requirements. These should be documented in the Test Approach for that item of work.
-  * This requirement should be considered as early as possible by the team.
-  * If multiple browsers need to be tested then work closely with the Test Leads and Product Owner to ensure the correct approach is taken, e.g. which tests to run across browsers and the auto test framework to use.
+* This requirement should be considered as early as possible by the team.
 * Browser testing should be carried out on the latest version of Chrome as a minimum.
+* If multiple browsers need to be tested then work closely with the Test Leads and Product Owner to ensure the correct approach is taken, e.g. which tests to run across browsers and the test framework to use.
 
 ### User Testing
 
@@ -74,6 +74,3 @@ Teams need to ensure their tests are managed over time in order to maintain thei
 
 The results of testing must be visible to a team delivering confidence when developing. Tests written using Gherkin (i.e. business readable) should be easily available to members outside the development team.
 
-## This document
-
-Issues and Pull Requests to this document are welcomed as we develop a working strategy.

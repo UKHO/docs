@@ -17,12 +17,12 @@
 ## API Testing
 
 * Perform full happy/unhappy path tests at this level
-* Interactions with APIs should be abstracted into a separate service/facade, not in the test Steps
+* Interactions with APIs should be abstracted into a separate service/facade, not alongside the test code
 
 ## UI Testing
 
 * Only use for e2e tests or explicit UI features at this level
-* Interactions with UIs should be abstracted into a separate service/facade, not in the test Steps (e.g., Page Object Model)
+* Interactions with UIs should be abstracted into a separate service/facade, not alongside the test code (e.g., Page Object Model)
 
 ## SpecFlow and Cucumber
 
