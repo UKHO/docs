@@ -58,6 +58,12 @@ Teams should adhere to this strategy when determining their team approach to tes
 * Testing must recognise the importance of ensuring we are delivering value to users
 * The team should involve users during the development process
 
+### Contract Testing for internal APIs
+
+* Contract testing must be used when developing an API that will communicate with another UKHO API (e.g. when interacting with the Data Platform)
+* [PACT](https://docs.pact.io/) is the technology to use
+* Use the [UKHO PACT documentation](https://docs.data.ukho.gov.uk/testing/pact/FAQ/) to learn how to do this
+
 ## Test Standards
 
 See the [UKHO Test Standards](test-code-standards.md) for information on the standards that should be adhered to.
