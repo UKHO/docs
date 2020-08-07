@@ -12,7 +12,7 @@ Exploratory testing empowers test engineers to test organically and enhance func
 
 ### UKHO Guidelines for exploratory testing
 1. An element of exploratory testing should be included in every project, the amount should be down to the team to determine
-2. Ome of the diffrent types should included
+2. One of the diffrent types should included
 3. While not formally documented , a task should be created for the testing and the area(s) of functionality explored noted along with any observations.
 4. Timebox the activity - 1 hour per session is the norm
 5. UI Interfaces,Databases and general data manipulation are good areas to explore.
