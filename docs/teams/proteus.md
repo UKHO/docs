@@ -4,14 +4,12 @@ Team Proteus is a delivery team currently working on the Data Platform. The team
 ## Members
 - Brian Stenson - Delivery Manager
 - Chris Hall-Palmer - Solution Architect
-- Carl Molyneux - DS&T Representative
-- Antony Derham - Expert Software Engineer/Product Owner
+- Antony Derham - Lead/Expert Software Engineer
 - Sean Siford - Senior Software Engineer
 - Alex Bush - Senior Software Engineer
 - Benjamin Morgan - Software Engineer
 - Kevin Harragan - Software Engineer
-- Andy Cleveland - Test Engineer
-- Chris Sutcliffe - DevOps Engineer
+- Andy Cleveland - Senior Test Engineer
 
 ## Principles
 Delivery efforts made by Team Proteus follow these principles.
