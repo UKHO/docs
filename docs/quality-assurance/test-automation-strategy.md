@@ -26,7 +26,7 @@ We suggest that all teams using automation should adhere to these principles:
 
 ## Test Automation Standards
 
-The following standards acts as a guide for the creation of automated tests:
+The following standards act as a guide for the creation of automated tests:
 
 [Test Standards](test-code-standards.md)
 
