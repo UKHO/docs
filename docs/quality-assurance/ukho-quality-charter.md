@@ -33,7 +33,7 @@ For more details see our '[Acceptance Criteria](acceptance-criteria.md)' page.
     * Testing at the UI level is limited to a small number of happy-path tests
 * There must be a compelling reason to use SpecFlow (its use must not be a default position)
 * Test code must be treated with the same care and attention as production code (including pairing on writing)
-* A process will exist for reviewing current automated tests
+* The team will maintain their automated test suite (test content, relevance and code quality) to ensure it adds maximum value
 
 For more details see our '[Test Automation Strategy](test-automation-strategy.md)' page.
 
