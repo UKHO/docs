@@ -11,6 +11,8 @@
 |Postman|Rest API client|https://www.getpostman.com/||
 |Selenium|Browser automation|https://www.seleniumhq.org/||i
 |SOAP UI|REST and SOAP client|https://www.soapui.org||
+|Cypress|Browser automation|https://docs.cypress.io/guides/overview/why-cypress.html#In-a-nutshell||
+|Playwright|Browser automation|https://playwright.dev/||
 
 ## .NET
 
@@ -30,3 +32,15 @@
 |Jmeter|Load test functional behaviour and measure performance|https://jmeter.apache.org/||
 |REST-assured|Testing and validating REST services|http://rest-assured.io/||
 |swagger-request-validator|A Java library for validating request/responses against a OpenAPI / Swagger specification|https://bitbucket.org/atlassian/swagger-request-validator||
+
+# Browser Automation - what tools to use?
+This section will cover the browser automation tools we use at the UKHO and the recommended uses for each one. 
+
+## Selenium
+Selenium details to go here...
+
+## Cypress
+Cypress details to go here...
+
+## Playwright
+Playwright details to go here...
