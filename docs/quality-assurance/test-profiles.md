@@ -25,7 +25,7 @@ Also the Test Manager role:
 
 ## Responsibilities
 
-The expected responsibilities for each role at UKHO have been outlined here:
+The UKHO-specific responsibilities for each role have been outlined here:
 
 * [Test Engineer](roles/test-engineer.md)
 * [Senior Test Engineer](roles/senior-test-engineer.md)
