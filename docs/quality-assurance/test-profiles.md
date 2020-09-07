@@ -17,7 +17,7 @@ Also the Test Manager role:
 ## Skill Levels
 
 | Essential Skills         | Test Engineer | Senior Test Engineer | Lead Test Engineer |
-| ------------------------ | ------------- | -------------------- | ------------------ |
+| :----------------------- | :------------ | :------------------- | :----------------- |
 | *Functional Testing*     | Working       |Practitioner          |Expert              |
 | *Non-Functional Testing* | Working       |Practitioner          |Expert              |
 | *Technical Breadth*      | Working       |Practitioner          |Expert              |
