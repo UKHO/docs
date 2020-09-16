@@ -1,18 +1,23 @@
 # Test Engineer Profiles
 
-Our job roles adhere to the [DDAT](https://www.gov.uk/government/collections/digital-data-and-technology-profession-capability-framework#qat:-test-engineer-) QAT Test Engineer roles.
+## DDAT Job Roles
+
+Our job roles adhere to the [DDAT Test Engineer](https://www.gov.uk/guidance/test-engineer) roles.
 
 The different levels of Test Engineer are:
 
-* [Test Engineer](https://www.gov.uk/government/publications/test-engineer-skills-they-need)
-* [Senior Test Engineer](https://www.gov.uk/government/publications/senior-test-engineer-skills-they-need)
-* [Lead Test Engineer](https://www.gov.uk/government/publications/lead-test-engineer-skills-they-need)
-* [Head of Test](https://www.gov.uk/government/publications/head-of-test-skills-they-need)
+* [Test Engineer](https://www.gov.uk/guidance/test-engineer#test-engineer)
+* [Senior Test Engineer](https://www.gov.uk/guidance/test-engineer#senior-test-engineer)
+* [Lead Test Engineer](https://www.gov.uk/guidance/test-engineer#lead-test-engineer)
+
+Also the Head of Test role: 
+
+* [Head of Test](https://www.gov.uk/guidance/test-manager#head-of-test)
 
 ## Skill Levels
 
 | Essential Skills         | Test Engineer | Senior Test Engineer | Lead Test Engineer |
-| ------------------------ | ------------- | -------------------- | ------------------ |
+| :----------------------- | :------------ | :------------------- | :----------------- |
 | *Functional Testing*     | Working       |Practitioner          |Expert              |
 | *Non-Functional Testing* | Working       |Practitioner          |Expert              |
 | *Technical Breadth*      | Working       |Practitioner          |Expert              |
@@ -20,7 +25,7 @@ The different levels of Test Engineer are:
 
 ## Responsibilities
 
-We have detailed the responsibilities of each role:
+The UKHO-specific responsibilities for each role have been outlined here:
 
 * [Test Engineer](roles/test-engineer.md)
 * [Senior Test Engineer](roles/senior-test-engineer.md)
