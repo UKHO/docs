@@ -10,7 +10,7 @@ The different levels of Test Engineer are:
 * [Senior Test Engineer](https://www.gov.uk/guidance/test-engineer#senior-test-engineer)
 * [Lead Test Engineer](https://www.gov.uk/guidance/test-engineer#lead-test-engineer)
 
-Also the Test Manager role: 
+Also the Head of Test role: 
 
 * [Head of Test](https://www.gov.uk/guidance/test-manager#head-of-test)
 
