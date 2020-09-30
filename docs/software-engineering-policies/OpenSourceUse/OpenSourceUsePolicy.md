@@ -71,7 +71,4 @@ For other (smaller) decisions, the responsible person is the relevant Lead Engin
 
 > Note that this table contains only open-source-specific concerns.  Generic criteria, such as technical fit, security, performance etc. are not included. 
 
-## Points of Contact
 
-- Policy owner - ​Neville Brown
-- ​Policy editor - ​Neville Brown

@@ -12,7 +12,5 @@ The Defect Management workflow *should* include the following:
 
 It is the team's responsibility to ensure that the Defect Management workflow is adhered to.
 
-## Points of Contact
 
-- Policy owner - Tom Guppy
 

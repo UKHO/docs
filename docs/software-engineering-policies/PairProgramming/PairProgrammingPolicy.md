@@ -10,7 +10,3 @@ Some types of work are suitable for pairing, others are not. Each team **must** 
 
 Each team's pair programming guidelines must be available for inspection.
 
-## Points of Contact
-
-- Policy owner  - ​Neville Brown
-- ​Policy editor - ​Neville Brown

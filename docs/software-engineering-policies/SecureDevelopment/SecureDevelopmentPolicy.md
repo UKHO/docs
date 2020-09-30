@@ -1,158 +1,153 @@
-# Secure Development Policy
+# Objective
 
-## Objectives
+Vulnerabilities exist because engineers create them.
 
-The objectives of this policy are:
+This can be due to several reasons including lack of training, accidental, lack of guidance, poor-quality controls or resource constraints. UKHO software needs to be secure as feasible and this policy is to aid teams in catching vulnerabilities during development.
 
-- To support the UKHO accreditation process, through:
-  - the proper handling of security requirements;
-  - the application of some core principles;
-  - ensuring that engineering teams have appropriate skills;
-  - assignment of accountability to appropriate roles.
-- To be consistent with the way we do Agile software development at the UKHO
-- Ensure that controls are appopriate to each delivery team, i.e. each of many different security and technology contexts.  Delivery should not be slowed down by process where it is not required.
+The purpose of this document is to ensure that:
 
-## Introduction and Principles
+>* It is clear what controls are expected.
+>* It is clear what roles are required.
+>* Teams are using the correct processes.
+>* Teams are using authorised tooling in the correct way.
+>* Teams are shown to be continuous improving with security.
+>* The teams are creating evidence of security as part of the SDLC.
+>* To provide useful references for further learning.
 
-This guidance presupposes the existence of a security accreditation process and standard UKHO security risk-management practices (risk assessment, production of RMADS / Security Case etc.).  One of the outputs of this process is a Security Requirements Statement (SRS), broad security-related requirements for a piece of work.  An example of an SRS requirement is:
+# Roles
 
->"Use secure authentication protocols (such as SSH, HTTPS, TACACS+, RADIUS or KERBEROS) to protect access to network services, servers and routers."
+**Risk Owner**
 
-This guidance also presupposes the existence of threat-modelling activities.  During threat modelling, security principles are mapped to the actual design of the system in order to produce concrete requirements for the implementation.  The relative priority of addressing issues output from a threat assessment is modified by the risks produced during security risk assessment.  For example the system design might contain a component which can be accessed over the network and a subsequent risk assessment has determined that the risk of attack of this component is high.   Applying the above general SRS requirement about authentication protocols, together with the general decision to use Kerberos for authentication, results in a concrete requirement to protect this component using Kerberos on the basis that the risk of attack is high. 
+The risk owner is the person who is responsible for the product. This may be person responsible for the system or service delivery the solution is part of. It is important to clarify the risk owner as they will be the decider on what the risk tolerance is.
 
-## Roles
+>* Provide the PO/Team with a description of the Risk Tolerance.
+>* To authorise exceptions when risks diverge from security requirements or tolerance.
 
-### Security Advisor (SAd)
+**Security Champion(s)**
 
-This person is tasked with ensuring that security aspects of development are built in to the flow of development and that it is not left as an afterthought.  They are also responsible for making available any security-based policies and bringing them to the team's attention.  Anyone in the development team can be appointed d, but it a role well suited to a senior or lead software engineer.
+A Security Champion is any skill level engineer who is enthusiastic about building secure applications. They are responsible for:
 
-### Security Assurance Coordinator (SAC)
+>* Collaboration with other security functions at UKHO.
+>* Encouraging and facilitating threat modelling.
+>* Championing secure development practises.
 
-This person acts as a liaison between the team and the Security Accreditor.  They are required to:
+**Security Advisor**
 
-1. Produces/select the threat source profile (with stakeholder involvement if necessary)
-2. Perform risk assessments
-3. Create and controls the SRS document
-4. Organise any Security Working Group meetings
-5. Production and maintenance of an overall 'Security Risk Register' for the project which presents risks in terms of impact to the business (scored according to UKHO POL 111) 
-6. Maintains the 'SRS Compliance Matrix' which shows how the requirements in the SRS are met as the project progresses
-7. Defines the scope for penetration testing and coordinates the testing itself including any remediation activities
-8. Produces any accreditation documentation that is required to be presented to the accreditor.  This generally will include RMADS / Security Case, s and the SRS Compliance Matrix.
+The Security Advisor is a lead or senior engineer who has additional responsibilities towards security. They are responsible for:
 
-SACs are subject to their own best practices and processes which are not covered by this guide.
+>* Ensuring security is considered throughout development.
+>* Guiding the team to comply with security policies at UKHO.
+>* Ensuring Security Requirement Specifications are available (if they exist).
+>* Ensuring unfulfilled security requirements are documented.
+>* Ensure a skills matrix is defined per project and developers complete this.
+>* Assisting SAC where necessary.
 
-### Security Accreditors
+**Security Working Groups**
 
-The accreditor (there will only usually be one per project) provides the ultimate decision on whether risks within systems are managed to an acceptable level.
+The SWG is a security focused meeting between stakeholders and security functions at UKHO. Security concerns are raised at this forum where owners must decide on whether to accept the risk or seek mitigations. Any unfulfilled security requirements will likely come to this forum. Anyone, including developers, can raise an item to be discussed at the SWG.
 
-## Practices
+**Accreditor**
 
-Each Scrum team **must** appoint a Security Advisor (d).
+Accreditation is simply the process of auditing a risk management process which is performed by the MOD. Accreditors (MOD staff) ‘sign-off’ the project by reviewing the evidence of risk management and ensuring risks are within the tolerance. Maintaining the evidence requires specialist skills which we usually contract in the form of Security Assurance Coordinators. However, as of the time of writing, only MINT and Dolphin required accrediting, most of the software teams are not involved in this.
 
-These security guidelines **must** be available to the development team.
+**Security Assurance Coordinator (SAC)**
 
-The SAd ensures that the SRS is accessible to the development team.
+For a project that requires accreditation it is likely a SAC will be involved. A SAC is a MOD role that is used as liaison between project and the MOD accreditor. Their role is to ensure that risk management practises are being followed in accordance with the guidance set by MOD. Your SAC should know what they are doing but may require assistance from software engineers in fulfilling their role.
 
-The SAd is responsible for documenting all deviations from these guidelines.  The SAd and the SAC **must** agree a mechanism for agreeing such deviations when they occur.  Additionally, all deviations are reviewed before software is put into production.
+# Controls
 
-The SAd is responsible for creating a means of storing and reporting on unfulfilled security requirements.
+**Roles**
 
-### Definition of done
+>_Teams must appoint the necessary security roles within the project._
 
-If there are any security activities that must have happened for a PBI to be considered complete, then these **must** be expressed in a Security Definition of Done (DoD) document.
+- [ ] A Security Advisor must be appointed.
 
-The contents of the security DoD **must** be agreed with the SAC if one is appointed.  It will usually be incorporated in the team's general DoD.  The SAd is responsible for storing the security DoD where it is accessible to the development team.  The security DoD may change at any point during a project, by agreement with the SAC.
+**SCRUM**
 
-### Code reviews
+>_Security must be included within the software development lifecycle and SCRUM._
 
-Code reviews are a standard and compulsory practice at UKHO, and will normally be included as a specific security requirement in the SRS.  Reviewers should consider the security impact of each check-in.  Under the guidance of the d, the development team **must** create a security code review checklist for use in code reviews.  This may be a stand-alone document, but could be incorporated in any standard code review checklist.
+- [ ] Security considerations must be included within the Definition of Done.
 
-The contents of the checklist will vary based on the nature of the work, but it should be based on:
+- [ ] Security related stories (vulnerabilities, upgrades) must be raised in TFS with the ‘Security’ tag.
 
-- The SRS;
-- e Fundamental Practices for Secure Software Development (www.safecode.org/wp-content/uploads/2014/09/SAFECode_Dev_Practices0211.pdf)
+- [ ] The process for prioritising security PBI’s must be methodical and transparent.
 
-### Handling security requirements
+**Skills Matrix**
 
-Security requirements for the development team can come from several sources:
+>_Each project will have different security nuances, so it is appropriate to have skills matrixes for the project. This is to ensure all developer have a common baseline understanding of application security._
 
-#### Directly from the SRS
+- [ ] Each team must keep a list of training materials that need to be viewed per project.
 
-The SRS might specify some stand-alone deliverable relating to security.  In this case, the Product Owner is responsible for working with the c to create a Security PBI (SPBI) to express the requirement and to prioritise it.  The SPBI **must** contain written acceptance criteria, which **must** be evidenced by testing.
+- [ ] A skills matrix is required to track the progress of the team along the security training.
 
-#### From another stakeholder
+- [ ] There must be evidence that all engineers are progressing along the skills matrix.
 
-Any other stakeholder (including a member of the development team) can raise a security requirement.  The Product Owner is responsible for creating the SPBI, and working with the SAC to prioritise it. 
+**On Boarding**
 
-#### PBIs from the Threat Modelling process
+>_New team members need to be on-boarded into the project. This include adding them to the skills matrix, discussing the common scenarios and mitigations, security tooling and encouraging further reading._
 
-Threat modelling might generate stand-alone security requirements.  The development team works with the Product Owner to create the SPBI, who then works with the SAc to prioritise it.
+- [ ] Each team must have an on-boarding checklist
 
-#### Acceptance criteria from the Threat Modelling process
+- [ ] A confirmation email should be sent to the security advisor once on-boarding is complete.
 
-Threat modelling in relation to a functional PBI might generate constraints about the implementation of that PBI.  E.g. encryption might by mandated for a piece of data storage, or a design constraint introduced.  These should be added as documented acceptance criteria to the PBI, which **must** in turn be evidenced by testing.
+**Source Control**
 
-#### Acceptance criteria from the SRS
+>_Source control is a key requirement for projects as it provides role-based access control to code, change management and a change log._
 
-The SRS might contain security requirements that affect the implementation of one or more functional PBIs.  For example, the SRS might contain a requirement that all user input must be validated.  This needs to be applied to all functional PBIs that relate to user input screens. The project **must** maintain some way of creating this mapping and evidencing that the PBIs have been developed in accordance with the security requirements.
+- [ ] All project code intended for delivery should be stored as per the UKHO source control policy.
 
-#### Unfulfilled security requirements
+- [ ] Only ALM and Lead Engineers can provide commit access to a project.
 
-Security requirements can sometimes be generated but not satisfied, leaving unmitigated security risks.  Agreement needs to be reached between the accreditor and the project (via the SAC) that they can remain unmitigated and the accreditor ultimately will need to know what residual risk he is being asked to accept.  It will be up to the SAC and project to justify how any controls in place mitigate risk to an acceptable level.  Some of this work may be necessary through a Security Working Group (SWG). 
+- [ ] All projects should have read access for all engineers on the domains they have access to.
 
-### Design and coding
+- [ ] All users with access to source code should have at least BPSS clearance.
 
-In addition to any specific requirements derived from the SRS, good practices in design and coding must be followed by the development team.  As each team has a different security context and technology stack, each team must maintain its own set of good practices.  The d **must** document its teams standards and make these available to the team.  
+- [ ] Code reviews must occur before code is released into production.
 
-It is suggested that the following guidelines are incorporated into a team's best practices, where appropriate.
+- [ ] Configuration should also be stored in source control and be subject to the code review process.
 
-[GDS design principles](https://www.ncsc.gov.uk/guidance/security-design-principles-digital-services-main)
+**3rd Party Dependency/Package Management**
 
-[Safecode coding practices](http://www.safecode.org/publication/SAFECode_Dev_Practices0211.pdf)
+>_We are responsible for ensuring that 3rd party packages within our solutions are from authorised repositories, have appropriate licensing and are checked for known vulnerabilities._
 
-[CESG safe coding practices](https://www.cesg.gov.uk/content/files/guidance_files/DN%206%20-%20Coding%20Requirements%20%26%20Guidance%20-%20issue%201.1%20OCt%202015%20-%20for%20website%20-%20historic.pdf)
+- [ ] Packages must be downloaded from Proget, Nexus, Gerrit (or any ALM authorised tool).
 
-### Configuration management
+- [ ] The team must use a dependency checking tool such as Dependency Checker (or another ALM authorised tool).
 
-All development **must** use UKHO's standard development configuration management tooling (TFS or GIT).  Dependencies **must** be managed through standard package management software (t or Maven).  External packages **must** be cross-referenced against known vulnerabilities at or before build time.
+- [ ] The tool must be configured to run as part of either/both a build or release pipeline. Code for production must have passed through this tool before release.
 
-Dependency definitions **must** be stored in source and control and be subject to code review.
+- [ ] The team should decide what the acceptable threshold is to fail a release.
 
-The ability to change source code or other system assets (e.g. configuration) is limited to software engineers.  All software engineers must have BPSS clearance before being given this access.  The only people able to give commit access to source code repositories are 1) members of the ALM team 2) Lead software engineers.
+- [ ] The team must provide proof that the release fails when this threshold is breached. Decisions to release even in the presence of a known vulnerability should be recorded and approved by the risk owner.
 
-## Skills
+- [ ] The team should agree the schedule for updating the dependency checker.
 
-The SAd must work out the skills required for the project and defines a list of minimum training requirements for each team, depending on the nature of the work.  Coverage of skills are agreed with the SAC and must be tracked by the SAd.
+**SAST Tooling**
 
-| Topic | Resource | Resource type |
-| ----- | -------- | ------------- |
-| OWASP top 10 | https://www.owasp.org/index.php/Top_10_2013-Top_10 | Online documentation |
-| OWASP proactive controls | https://www.owasp.org/images/5/57/OWASP_Proactive_Controls_2.pdf | Online documentation |
-| OWASP introduction | https://app.pluralsight.com/library/courses/web-security-owasp-top10-big-picture/table-of-contents | Online course |
-| OWASP for ASP |  https://www.pluralsight.com/courses/owasp-top10-aspdotnet-application-security-risks | Online course |
-| Website security review |https://app.pluralsight.com/library/courses/play-by-play-website-security-review-troy-hunt-lars-klint/description | Online course |
-| Security design principles | https://www.ncsc.gov.uk/guidance/security-design-principles-digital-services-main  | Document to review |
-| CESG Coding requirements and guidance |https://www.ncsc.gov.uk/content/files/guidance_files/DN%206%20-%20Coding%20Requirements%20%26%20Guidance%20-%20issue%201.1%20OCt%202015%20-%20NCSC%20Web.pdf | Document to incorporate in coding standards |
+>_Static analysis tooling is required to add an extra layer of verification to developer’s code and to catch vulnerabilities._
 
-## Work where no SAC is appointed
+- [ ] The team must use a static analysis tool which ALM has approved.
 
-Where no SAC is appointed to a project, and consequently no security requirements are generated in the form of an SRS, the following practices still apply:
+- [ ] Each team member must have a basic understanding of interpreting the results.
 
-- A SAd **must** be appointed;
-- A register of unfulfilled security requirements **must** be kept;
-- A security DoD and security code review checklist may be created;
-- Training requirements for the team **must** be written down, and skills tracked;
-- Guidelines on configuration management and checking against known vulnerabilities.
+- [ ] The tool must be configured to run as part of either/both a build or release pipeline. Code for production must have passed through this tool before release.
 
-### Development work by third parties
+- [ ] The team should decide what the acceptable threshold is to fail a release.
 
-Where development work is carried out by third parties on behalf of UKHO, this same policy **must** be applied.
+- [ ] The team must provide proof that the release fails when this threshold is breached.
 
-The SAd may be a person in the third party team, or may be a member of the UKHO team.
+**Threat Library & Mitigations**
 
-Alternatively, if the security policy of the third party is considered adequate by the SAC, the third party's processes and standards may be used instead.
+>_Each project will have recurring pieces of functionality. These generic PBI’s should be captured, threat modelled, and code mitigations agreed. OWASP vulnerabilities should be discussed such as XSS, SQL Injections, broken authentication/authorisation, direct object referencing etc. It is easier to review and catch vulnerabilities during code reviews if everyone tackles vulnerabilities with the same techniques._
 
-## Points of Contact
+- [ ] Each team must document a set of generic scenarios for their project.
 
-- Policy owner - ​Neville Brown
-- ​Policy editor - ​Neville Brown
+- [ ] The team must threat model these scenarios are drive out common vulnerabilities.
+
+- [ ] Each team must agree standard code approaches to mitigate these vulnerabilities.
+
+- [ ] A code review checklist must be generated from the results of the threat modelling
+
+- [ ] Testing criteria must be agreed and recorded as Gherkin within the solution.
+
+

@@ -24,7 +24,3 @@ The following artefacts are subject to verification:
 - Unit test coverage reports
 - Change sets checked into source control, including unit tests
 
-## Points of Contact
-
-- Policy owner  - ​Neville Brown
-- ​Policy editor - Andrew Poole

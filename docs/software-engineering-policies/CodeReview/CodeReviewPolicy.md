@@ -45,7 +45,3 @@ There are two means of verification:
 
 When responding to code comments, it is best to discuss face to face with the reviewer (where possible) to ensure a common understanding of the requested change.
 
-## Points of Contact
-
-- Policy Owner - Neville Brown
-- Policy Editor - Rossal Sandford

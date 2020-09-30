@@ -25,8 +25,3 @@ DS&T does not mandate any code commenting standards. Teams may specify their own
 
 * The guidance is that code should be comprehensible without comments, and that code comments are a maintenance overhead and can indicate poor code.
 * Teams should consider additional user-focused documentation (e.g. Javadoc or ///) if a package is to be consumed without the source code.
-
-## Points of Contact
-
-* Policy owner  - ​Neville Brown
-* Policy editor - ​Greg Zealley

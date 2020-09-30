@@ -34,9 +34,5 @@ If a third party component is proposed for use that has not been released under 
 
 ## Verify
 
-Verification will be automated, at build or dependency download time.  Tooling is TBC, ALM team are evaluating options.
+Verification will be automated.  Contact the DDC team to find out how this works.
 
-## Points of Contact
-
-- Policy owner  - ​Neville Brown
-- ​Policy editor - ​Andrew Poole

@@ -120,9 +120,9 @@ Open source contributor license agreements (CLAs) define the terms that intellec
 
 - A CLA **must** exist;
 - Contribution under that CLA must have been approved by the UKHO Legal Advisor;
-- The CLA must be recorded and kept by TPE.
+- The CLA must be recorded and kept by DS&T.
 
-Exceptions must be approved by the Head of TPE.
+Exceptions must be approved by the Head of DS&T.
 
 #### Evaluating investment
 
@@ -157,8 +157,3 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
-
-## Points of Contact
-
-- Policy owner - ​Neville Brown
-- ​Policy editor - ​Neville Brown
