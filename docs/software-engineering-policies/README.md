@@ -7,10 +7,10 @@ The policies (and associated guidance) that should be followed during software d
 | Defect Management | [Policy](/DefectManagement/DefectManagementPolicy.md) | |
 | Code Copyright | [Policy](/CodeCopyright/CodeCopyrightPolicy.md) | |
 | Code Reuse | [Policy](/CodeReuse/CodeReusePolicy.md) | |
-| Code Review | [Policy](/CodeReview/CodeReviewPolicy.md) | [Guidance](/CodeReview/CodeReviewGuidance.md) |
+| Code Review | [Policy](/CodeReview/CodeReviewPolicy.md) | |
 | Open Source Contribution | [Policy](/OpenSourceContribution/OpenSourceContributionPolicy.md) | |
 | Open Source Use | [Policy](/OpenSourceUse/OpenSourceUsePolicy.md) | |
-| Pair Programming | [Policy](/PairProgramming/PairProgrammingPolicy.md) | [Guidance](/PairProgramming/PairProgrammingGuidance.md) |
+| Pair Programming | [Policy](/PairProgramming/PairProgrammingPolicy.md) | |
 | Secure Development | [Policy](/SecureDevelopment/SecureDevelopmentPolicy.md) | |
 | Source Control | [Policy](SourceControl/SourceControlPolicy.md) | |
 | System Documentation | [Policy](/SystemDocumentation/SystemDocumentationPolicy.md) | |

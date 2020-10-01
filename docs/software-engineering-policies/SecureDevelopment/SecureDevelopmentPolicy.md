@@ -149,5 +149,3 @@ For a project that requires accreditation it is likely a SAC will be involved. A
 - [ ] A code review checklist must be generated from the results of the threat modelling
 
 - [ ] Testing criteria must be agreed and recorded as Gherkin within the solution.
-
-
