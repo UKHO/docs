@@ -33,14 +33,23 @@
 |REST-assured|Testing and validating REST services|http://rest-assured.io/||
 |swagger-request-validator|A Java library for validating request/responses against a OpenAPI / Swagger specification|https://bitbucket.org/atlassian/swagger-request-validator||
 
-# Browser Automation - what tools to use?
+## Browser Automation - what tools to use?
 This section will cover the browser automation tools we use at the UKHO and the recommended uses for each one. 
 
-## Selenium
+### Cypress
+Cypress is a front end testing tool built for testing web apps. Cypress test code is executed directly within the browser as JavaScript, meaning there are no language or driver bindings and the tests can execute much faster and with more reliability.
+
+Cypress, however, does have its limitations. It has fundamently been created to test your application and your application only, and truely works best if it is Single Page Application.
+
+### Playwright
+Playwright details to go here...
+
+### Selenium
 Selenium details to go here...
 
-## Cypress
-Cypress details to go here...
+### Selecting the right tool
+This section will outline the capabilities of each tool to assist in the selection of the correct tool.
 
-## Playwright
-Playwright details to go here...
+|Capablity|Cypress|Playwright|Selenium|
+|--|--|--|--|
+| |||
