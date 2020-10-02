@@ -54,7 +54,7 @@ Selenium is a tool for web browser automation that uses WebDrivers to remotely c
 Selenium is a very good tool to automate true E2E and user interactions, but it takes time and effort to get the framework right, and the overhaed of maintaing this along with the WebDrivers and browser versions. It is also not as fast or intuitive as Cypress or Playwright.
 
 ### Which tool should I use?
-Here is a list of sample questions to work through with a Test Lead to decide which tool is right for the job.
+Here is a list of sample questions to work through, alongside the Tool Capabilities, with a Test Lead to decide which tool is right for the job.
 
 1. Is the application a true Single Page Application? That doesn't use MSAL Azure B2C Auth.
 
@@ -70,7 +70,7 @@ Here is a list of sample questions to work through with a Test Lead to decide wh
 
       *If yes, consider if this needs to be automated. If it does then Selenium, if not refer back to the previous questions.*
 
-### Tool Capabilities
+#### Tool Capabilities
 This section will outline the capabilities of each tool to assist in the selection of the correct tool.
 
 |Capablity|Cypress|Playwright|Selenium|
