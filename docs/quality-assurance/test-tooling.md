@@ -39,19 +39,25 @@ This section will cover the browser automation tools we use at the UKHO and the 
 The 3 recommended tools for Browser Automation (UI, e2e and Integration) at the UKHO are:
 
 ### Cypress
-Cypress is a front end testing tool built for testing web apps. Cypress test code is executed directly within the browser as JavaScript, meaning there are no language or driver bindings and the tests can execute much faster and with more reliability.
+Cypress is a front end testing tool built for testing web apps. Cypress test code is executed directly within the browser as JavaScript, meaning there are no language or driver bindings and the tests can execute much faster and with more reliability. It also has full dom and network traffic recording to aid debugging within the CYpress Test Runner. 
 
-Cypress, however, does have its limitations. It has fundamently been created to test your application and your application only, and works best if the Application-Under-Test is a true Single Page Application.
+Cypress, however, does have its limitations. It has fundamently been created to test your application and your application only, and works best if the Application-Under-Test is a Single Page Application or a Multi Page Application in the same domain that does not utilise pop-ups or new tabs / windows.
+
+Some authentication scenarios can be worked out, primarly SSO and NTLM Windows Auth, but not MSAL Azure B2C Auth.
 
 ### Playwright
 Playwright enables fast, reliable and capable automation across all modern browsers. It is a Node.js library to automate Chromium, Firefox and WebKit with a single API.
 
+One of the big disadvantages over Cypress is that it does not have a Test Runner therefore screenshots, videos, dom and network traffic are not recorded out the box, so debugging tests is not as intuitive.
+
 The core advantage of using Playwright over Cypress is it is an out-of-process automation driver that is not limited by the scope of in-page JavaScript execution and can automate scenarios with multiple pages.
+
+Playwrights documentation and community is also not as comprehensive as Cypress or Selenium, yet, it is constantly being added to as the tool is developed and the community is growing.
 
 ### Selenium
 Selenium is a tool for web browser automation that uses WebDrivers to remotely control browser instances and emulate a user’s interaction with the browser. 
 
-Selenium is a very good tool to automate true E2E and user interactions, but it takes time and effort to get the framework right, and the overhaed of maintaing this along with the WebDrivers and browser versions. It is also not as fast or intuitive as Cypress or Playwright.
+Selenium is a very good tool to automate true E2E and user interactions, but it takes time and effort to get the framework right, and the overheadd of maintaining this along with the WebDrivers and browser versions. It is also not as fast or intuitive as Cypress or Playwright.
 
 ### Which tool should I use?
 Here is a list of sample questions to work through, alongside the Tool Capabilities, with a Test Lead to decide which tool is right for the job.
@@ -79,6 +85,7 @@ This section will outline the capabilities of each tool to assist in the selecti
 |Open-source|Yes|Yes|Yes|
 |Supported Browsers|Chrome, Electron, Firefox, Edge|Chrome and Edge (with Chromium), Safari (with WebKit) and Firefox|Chrome, Safari, Firefox, Edge, IE|
 |Supported Languages|JavaScript|JavaScript|Java, C#, JavaScript, Python, Ruby|
+|Cross Domain Support|No|Yes|Yes|
 |Managing Tabs|No|Yes|Yes|
 |Managing Pages |No|Yes|Yes|
 |Using iframes|No|Yes|Yes|
