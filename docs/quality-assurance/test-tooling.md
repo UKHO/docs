@@ -39,7 +39,7 @@ This section will cover the browser automation tools we use at the UKHO and the 
 The 3 recommended tools for Browser Automation (UI, e2e and Integration) at the UKHO are:
 
 ### Cypress
-Cypress is a front end testing tool built for testing web apps. Cypress test code is executed directly within the browser as JavaScript, meaning there are no language or driver bindings and the tests can execute much faster and with more reliability. It also has full dom and network traffic recording to aid debugging within the CYpress Test Runner. 
+Cypress is a front end testing tool built for testing web apps. Cypress test code is executed directly within the browser as JavaScript, meaning there are no language or driver bindings and the tests can execute much faster and with more reliability. It also has full dom and network traffic recording to aid debugging within the Cypress Test Runner. 
 
 Cypress, however, does have its limitations. It has fundamently been created to test your application and your application only, and works best if the Application-Under-Test is a Single Page Application or a Multi Page Application in the same domain that does not utilise pop-ups or new tabs / windows.
 
@@ -55,9 +55,9 @@ The core advantage of using Playwright over Cypress is it is an out-of-process a
 Playwrights documentation and community is also not as comprehensive as Cypress or Selenium, yet, it is constantly being added to as the tool is developed and the community is growing.
 
 ### Selenium
-Selenium is a tool for web browser automation that uses WebDrivers to remotely control browser instances and emulate a user’s interaction with the browser. One of the reasons that Selenium is popular is because of its availble language bindings, these include Java, C#, JavaScript and Python - whereas Cypress and PLaywright are JavaScript based.
+Selenium is a tool for web browser automation that uses WebDrivers to remotely control browser instances and emulate a user’s interaction with the browser. One of the reasons that Selenium is popular is because of its available language bindings, these include Java, C#, JavaScript and Python - whereas Cypress and Playwright are JavaScript based.
 
-Selenium is a very good tool to automate true E2E and user interactions, but it takes time and effort to get the framework right, and the overheadd of maintaining this along with the WebDrivers and browser versions. It is also not as fast or intuitive as Cypress or Playwright.
+Selenium is a very good tool to automate true E2E and user interactions, but it takes time and effort to get the framework right, and the overhead of maintaining this along with the WebDrivers and browser versions. It is also not as fast or intuitive as Cypress or Playwright.
 
 ### Which tool should I use?
 Here is a list of sample questions to work through, alongside the Tool Capabilities, with a Test Lead to decide which tool is right for the job.
