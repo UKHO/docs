@@ -36,20 +36,54 @@
 ## Browser Automation - what tools to use?
 This section will cover the browser automation tools we use at the UKHO and the recommended uses for each one. 
 
+The 3 recommended tools for Browser Automation (UI, e2e and Integration) at the UKHO are:
+
 ### Cypress
 Cypress is a front end testing tool built for testing web apps. Cypress test code is executed directly within the browser as JavaScript, meaning there are no language or driver bindings and the tests can execute much faster and with more reliability.
 
-Cypress, however, does have its limitations. It has fundamently been created to test your application and your application only, and truely works best if it is Single Page Application.
+Cypress, however, does have its limitations. It has fundamently been created to test your application and your application only, and works best if the Application-Under-Test is a true Single Page Application.
 
 ### Playwright
-Playwright details to go here...
+Playwright enables fast, reliable and capable automation across all modern browsers. It is a Node.js library to automate Chromium, Firefox and WebKit with a single API.
+
+The core advantage of using Playwright over Cypress is it is an out-of-process automation driver that is not limited by the scope of in-page JavaScript execution and can automate scenarios with multiple pages.
 
 ### Selenium
-Selenium details to go here...
+Selenium is a tool for web browser automation that uses WebDrivers to remotely control browser instances and emulate a user’s interaction with the browser. 
 
-### Selecting the right tool
+Selenium is a very good tool to automate true E2E and user interactions, but it takes time and effort to get the framework right, and the overhaed of maintaing this along with the WebDrivers and browser versions. It is also not as fast or intuitive as Cypress or Playwright.
+
+### Which tool should I use?
+Here is a list of sample questions to work through with a Test Lead to decide which tool is right for the job.
+
+1. Is the application a true Single Page Application? That doesn't use MSAL Azure B2C Auth.
+
+      *Use Cypress. There is a package to deal with ntlm (Windows) authentication.*
+
+
+2. Will the application have multiple tabs / pages?
+
+      *Use Playwright.*
+
+
+3. Do I need to test against non-chromium based browser versions (e.g. Edge and IE)?
+
+      *If yes, consider if this needs to be automated. If it does then Selenium, if not refer back to the previous questions.*
+
+### Tool Capabilities
 This section will outline the capabilities of each tool to assist in the selection of the correct tool.
 
 |Capablity|Cypress|Playwright|Selenium|
 |--|--|--|--|
-| |||
+|Documentation| Yes ([link](https://docs.cypress.io/guides/overview/why-cypress.html#In-a-nutshell))| Yes ([link](https://playwright.dev/))| Yes ([link](https://www.selenium.dev/documentation/en/))|
+|Open-source|Yes|Yes|Yes|
+|Supported Browsers|Chrome, Electron, Firefox, Edge|Chrome and Edge (with Chromium), Safari (with WebKit) and Firefox|Chrome, Safari, Firefox, Edge, IE|
+|Supported Languages|JavaScript|JavaScript|Java, C#, JavaScript, Python, Ruby|
+|Managing Tabs|No|Yes|Yes|
+|Managing Pages |No|Yes|Yes|
+|Using iframes|No|Yes|Yes|
+|Auto-wait| Yes| Yes| No|
+|Intercept Network Traffic|Yes|Yes|No (currently)|
+|Screenshots on failure|Yes (Built in)| Yes (Not built in)|Yes (Not built in)|
+|Record Test|Yes (Built in)|Yes (Not built in)|Yes (Not built in / not easy to implement)|
+
