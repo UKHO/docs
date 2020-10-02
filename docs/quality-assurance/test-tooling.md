@@ -55,7 +55,7 @@ The core advantage of using Playwright over Cypress is it is an out-of-process a
 Playwrights documentation and community is also not as comprehensive as Cypress or Selenium, yet, it is constantly being added to as the tool is developed and the community is growing.
 
 ### Selenium
-Selenium is a tool for web browser automation that uses WebDrivers to remotely control browser instances and emulate a user’s interaction with the browser. 
+Selenium is a tool for web browser automation that uses WebDrivers to remotely control browser instances and emulate a user’s interaction with the browser. One of the reasons that Selenium is popular is because of its availble language bindings, these include Java, C#, JavaScript and Python - whereas Cypress and PLaywright are JavaScript based.
 
 Selenium is a very good tool to automate true E2E and user interactions, but it takes time and effort to get the framework right, and the overheadd of maintaining this along with the WebDrivers and browser versions. It is also not as fast or intuitive as Cypress or Playwright.
 
