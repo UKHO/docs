@@ -62,12 +62,12 @@ Selenium is a very good tool to automate true E2E and user interactions, but it 
 ### Which tool should I use?
 Here is a list of sample questions to work through, alongside the Tool Capabilities, with a Test Lead to decide which tool is right for the job.
 
-1. Is the application a true Single Page Application? That doesn't use MSAL Azure B2C Auth.
+1. Is the application a Single Page Application or a Multi Page Application in the same domain? That doesn't use MSAL Azure B2C Auth.
 
-      *Use Cypress. There is a package to deal with ntlm (Windows) authentication.*
+      *Use Cypress. There is a package to deal with ntlm (Windows) authentication and recipes for general SSO.*
 
 
-2. Will the application have multiple tabs / pages?
+2. Will the application have multiple tabs / windows / domains?
 
       *Use Playwright.*
 
