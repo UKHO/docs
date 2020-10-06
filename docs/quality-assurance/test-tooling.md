@@ -85,12 +85,12 @@ This section will outline the capabilities of each tool to assist in the selecti
 |--|--|--|--|
 |Documentation| Yes ([link](https://docs.cypress.io/guides/overview/why-cypress.html#In-a-nutshell))| Yes ([link](https://playwright.dev/))| Yes ([link](https://www.selenium.dev/documentation/en/))|
 |Open-source|Yes|Yes|Yes|
-|Supported Browsers|Chrome, Electron, Firefox, Edge|Chrome and Edge (with Chromium), Safari (with WebKit) and Firefox|Chrome, Safari, Firefox, Edge, IE|
+|Supported Browsers|Chrome, Electron, Firefox, Edge (Chromium)|Chrome and Edge (Chromium), Safari (WebKit) and Firefox|Chrome, Safari, Firefox, Edge (Legacy and Chromium), Internet Explorer|
 |Supported Languages|JavaScript|JavaScript|Java, C#, JavaScript, Python, Ruby|
 |Cross Domain Support|No|Yes|Yes|
-|Managing Tabs|No|Yes|Yes|
-|Managing Pages |No|Yes|Yes|
-|Using iframes|No|Yes|Yes|
+|Supporting Multiple Tabs|No|Yes|Yes|
+|Supporting Multiple Pages |No|Yes|Yes|
+|Accessing iFrames|No|Yes|Yes|
 |Auto-wait| Yes| Yes| No|
 |Intercept Network Traffic|Yes|Yes|No (currently)|
 |Screenshots on failure|Yes (Built in)| Yes (Not built in)|Yes (Not built in)|
