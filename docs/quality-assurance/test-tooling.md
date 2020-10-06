@@ -90,7 +90,7 @@ This section will outline the capabilities of each tool to assist in the selecti
 |Cross Domain Support|No|Yes|Yes|
 |Supporting Multiple Tabs|No|Yes|Yes|
 |Supporting Multiple Pages |No|Yes|Yes|
-|Accessing iFrames|No|Yes|Yes|
+|Accessing iFrames|Not fully supported|Yes|Yes|
 |Auto-wait| Yes| Yes| No|
 |Intercept Network Traffic|Yes|Yes|No (currently)|
 |Screenshots on failure|Yes (Built in)| Yes (Not built in)|Yes (Not built in)|
