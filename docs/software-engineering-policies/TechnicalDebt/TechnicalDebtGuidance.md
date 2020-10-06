@@ -77,9 +77,7 @@ There **MUST BE** a centralised shared query in each project area that can be ru
 
 Customer:
 
-* The Azure Dev Ops Server (TFS) queries can be found here: <https://tfs.ukho.gov.uk/tfs/UKHO/Commercial/_queries/folder/48276d67-e1f1-4560-9b4d-8174770a50e9/>
-
-* The Azure Dev Ops (VSTS) query can be found here: <https://dev.azure.com/ukhocustomer/Customer/_queries/query-edit/1feaced8-bfc7-4cf1-bf46-b515bd533f5e/>
+[Link to internal queries - UKHO access only](https://github.com/UKHO/docs-internal/blob/main/links.md)
 
 Data Portal:
 
