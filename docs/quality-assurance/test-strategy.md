@@ -62,7 +62,7 @@ Teams should adhere to this strategy when determining their team approach to tes
 
 * Contract testing must be used when developing an API that will communicate with another UKHO API (e.g. when interacting with the Data Platform)
 * [PACT](https://docs.pact.io/) is the technology to use
-* Use the [UKHO PACT documentation](https://docs.data.ukho.gov.uk/testing/pact/FAQ/) to learn how to do this
+* Use the [UKHO PACT documentation](https://docs.data.ukho.gov.uk/testing/pact/introduction/) to learn how to do this
 
 ## Test Standards
 
