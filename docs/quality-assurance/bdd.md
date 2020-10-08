@@ -72,12 +72,11 @@ Example Mapping sessions can involve the whole team, or just the "Three Amigos" 
 * BDD in Action: Behaviour-driven development for the whole software lifecycle - John Ferguson Smart
   [Amazon link](https://www.amazon.co.uk/BDD-Action-Behavior-driven-development-lifecycle/dp/161729165X/ref=sr_1_1?keywords=bdd&qid=1572530667&s=books&sr=1-1)
 
-### On-line resources
+### Online resources
 
 * [Example Mapping by Gaspar Nagy](http://gasparnagy.com/2019/05/divide-conquer-a-la-bdd-story-rule-scenario/)
 * [Another description of Example Mapping by Matt Wynne](https://cucumber.io/blog/example-mapping-introduction/)
 * [Writing better Gherkin scenarios](http://gasparnagy.com/2019/05/clean-up-bad-bdd-scenarios/?utm_source=BDD+Addicts+Newsletter&utm_campaign=d1bc786403-BDD_Addict_Newsletter_August_2019&utm_medium=email&utm_term=0_becf448392-d1bc786403-180800965)
-* [Who should formulate the Gherkin](https://cucumber.ghost.io/blog/who-should-formulate-the-scenarios/?goal=0_02cca1920b-383aa96ce0-289488633&mc_cid=383aa96ce0&mc_eid=a98df43caa)
 * [Gherkin - keeping your scenarios BRIEF](https://cucumber.io/blog/keep-your-scenarios-brief/)
 * [How writing good Gherkin enables better automation](http://angiejones.tech/writing-good-gherkin-enables-good-test-automation/?goal=0_02cca1920b-4b08e68d18-289488633&mc_cid=4b08e68d18&mc_eid=a98df43caa)
 * [How to facilitate an Example Mapping session](http://gasparnagy.com/2019/04/example-mapping-the-good-enough-facilitator/?utm_source=BDD+Addicts+Newsletter&utm_campaign=1c0d110c08-BDD_Addict_Newsletter_August_2019_COPY_01&utm_medium=email&utm_term=0_becf448392-1c0d110c08-180800965)
