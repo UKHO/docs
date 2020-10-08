@@ -7,7 +7,7 @@
 BDD:
 
 * Is a **process** to enable the entire team to better understand stories before they are played
-* Enables structured **Collaboration** between Product Owners (proxy for the customer), developers and testers to gain an agreed understanding
+* Enables structured **collaboration** between Product Owners (proxy for the customer), developers and testers to gain an agreed understanding
 * Uses **rules and examples** to illustrate this understanding
 
 BDD is NOT:
@@ -34,12 +34,12 @@ BDD is NOT:
 ### Discovery
 
 * The customer representative brings requirements to the team as user stories (PBIs)
-* The [Example Mapping technique](#Example-Mapping) is applied to these stories by either the whole team or a "Three Amigos" subset
-* This will create rules and examples that illustrate understanding of the story
+* The [Example Mapping technique](#Example-Mapping) is applied to these stories either by the whole team or a "Three Amigos" subset
+* This will create rules and examples that illustrate an understanding of the story
 
 ### Formulation
 
-* Examples can be formulated into Gherkin and documented in the acceptance criteria
+* Examples can be formulated into Gherkin and documented in the [acceptance criteria](acceptance-criteria.md)
   
 ### Automation
 
@@ -68,9 +68,9 @@ Example Mapping sessions can involve the whole team, or just the "Three Amigos" 
 ### Books
 
 * Discovery: Explore behaviour using examples - Gaspar Nagy
-  [Amazon link](https://www.amazon.co.uk/Discovery-Explore-behaviour-using-examples/dp/1983591254/ref=sr_1_2?keywords=bdd+discovery&qid=1572530563&s=books&sr=1-2)
+  ([Amazon link](https://www.amazon.co.uk/Discovery-Explore-behaviour-using-examples/dp/1983591254/ref=sr_1_2?keywords=bdd+discovery&qid=1572530563&s=books&sr=1-2))
 * BDD in Action: Behaviour-driven development for the whole software lifecycle - John Ferguson Smart
-  [Amazon link](https://www.amazon.co.uk/BDD-Action-Behavior-driven-development-lifecycle/dp/161729165X/ref=sr_1_1?keywords=bdd&qid=1572530667&s=books&sr=1-1)
+  ([Amazon link](https://www.amazon.co.uk/BDD-Action-Behavior-driven-development-lifecycle/dp/161729165X/ref=sr_1_1?keywords=bdd&qid=1572530667&s=books&sr=1-1))
 
 ### Online resources
 
