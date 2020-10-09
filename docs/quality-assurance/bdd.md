@@ -34,7 +34,7 @@ BDD is NOT:
 ### Discovery
 
 * The customer representative brings requirements to the team as user stories (PBIs)
-* The [Example Mapping technique](#Example-Mapping) is applied to these stories either by the whole team or a "Three Amigos" subset
+* The [Example Mapping technique](#example-mapping) is applied to these stories either by the whole team or a "Three Amigos" subset
 * This will create rules and examples that illustrate an understanding of the story
 
 ### Formulation
