@@ -1,59 +1,68 @@
+# Browser Automation
 
-
-## Browser Automation
-This section will cover the browser automation tools we use at the UKHO and the recommended uses for each one. 
+This section will cover the browser automation tools we use at the UKHO and the recommended uses for each one.
 
 The 3 recommended tools for Browser Automation (UI, e2e and Integration) at the UKHO are:
 
-### Cypress
-Cypress is a front end testing tool built for testing web apps. Cypress runs within available and supported browsers installed on the machine (the Electron browser is baked into Cypress and does not need to be installed separately). Cypress test code is executed directly within the browser as JavaScript, meaning there are no language or driver bindings and the tests can execute much faster and with more reliability. It also has full DOM and network traffic recording to aid debugging within the Cypress Test Runner. 
+## Cypress
+
+Cypress is a front end testing tool built for testing web apps. Cypress runs within available and supported browsers installed on the machine (the Electron browser is baked into Cypress and does not need to be installed separately). Cypress test code is executed directly within the browser as JavaScript, meaning there are no language or driver bindings and the tests can execute much faster and with more reliability. It also has full DOM and network traffic recording to aid debugging within the Cypress Test Runner.
 
 Cypress, however, does have its limitations. It has fundamentally been created to test your application and your application only, and works best if the Application-Under-Test is a Single Page Application or a Multi Page Application in the same domain that does not utilise pop-ups or new tabs / windows.
 
 Some authentication scenarios can be worked out, primarily SSO and NTLM Windows Auth, but not MSAL Azure B2C Auth.
 
-### Playwright
-Playwright enables fast, reliable and capable automation across all modern browsers. It is a Node.js library to automate Chromium, Firefox and WebKit with a single API. On install Playwright downloads a version of Chromium/Chrome and uses the Chrome DevTools Protocol to orchestrate the browser instance. For Firefox and WebKit engines, Playwright downloads the actual browser but extends their debugging protocol capabilities to provide a unified API and features. There is no modification of the actual browsers, so that it is expected to work exactly the same in the testing and the real user's browser. Go [here](https://github.com/microsoft/playwright/blob/master/docs/installation.md) more information on the browser binaries.
+## Playwright
 
-One of the big disadvantages over Cypress is that it does not have a Test Runner therefore screenshots, videos, DOM and network traffic are not recorded out the box, so debugging tests is not as intuitive.
+Playwright enables fast, reliable and capable automation across all modern browsers. It is a Node.js library to automate Chromium, Firefox and WebKit with a single API. Upon install, Playwright downloads a version of Chromium/Chrome and uses the Chrome DevTools Protocol to orchestrate the browser instance. For Firefox and WebKit engines, Playwright downloads the actual browser but extends their debugging protocol capabilities to provide a unified API and features. There is no modification of the actual browsers, so that it is expected to work exactly the same in the testing and the real user's browser. Go [here](https://github.com/microsoft/playwright/blob/master/docs/installation.md) for more information on the browser binaries.
 
-The core advantage of using Playwright over Cypress is it is an out-of-process automation driver that is not limited by the scope of in-page JavaScript execution and can automate scenarios with multiple pages.
+One of the big disadvantages over Cypress is that it does not have a Test Runner therefore screenshots, videos, DOM and network traffic are not recorded out of the box which makes debugging tests less intuitive.
 
-Playwrights documentation and community is also not as comprehensive as Cypress or Selenium, yet, it is constantly being added to as the tool is developed and the community is growing.
+The core advantage of using Playwright over Cypress is that it is an out-of-process automation driver that is not limited by the scope of in-page JavaScript execution and can automate scenarios with multiple pages and popups.
 
-### Selenium
-Selenium is a tool for web browser automation that uses WebDrivers to remotely control browser instances and emulate a user’s interaction with the browser. This allows tests to be run across many browsers and versions using the associated WebDriver. 
+Playwright's documentation and community is also not as comprehensive as Cypress or Selenium, yet, it is constantly being added to as the tool is developed and the community is growing.
+
+## Selenium
+
+Selenium is a tool for web browser automation that uses WebDrivers to remotely control browser instances and emulate a user’s interaction with the browser. This allows tests to be run across many browsers and versions using the associated WebDriver.
 
 One of the reasons that Selenium is popular is because of its available language bindings, these include Java, C#, JavaScript and Python.
 
-Selenium is a very good tool to automate true E2E and user interactions, but it takes time and effort to get the framework right, and the overhead of maintaining this along with the WebDrivers and browser versions. It is also not as fast or intuitive as Cypress or Playwright.
+Selenium is a very good tool to automate true E2E and user interactions, but it takes time and effort to get the framework right, and there is overhead of maintaining this along with the WebDrivers and browser versions. It is also not as fast or intuitive as Cypress or Playwright.
 
-### Which tool should I use?
+## Which tool should I use?
+
 Here is a list of **sample** questions / statements and responses to work through, alongside the Tool Capabilities, with a **Test Lead to decide which tool is right for the job**.
 
-I just want to do pure UI testing.
+### I just want to do pure UI testing
+
 > Use Cypress and stub or mock external dependencies as required.
 
-I want to do E2E / Integration testing but our application uses MSAL Azure B2C authentication.
-> Use Playwright. As this authentication requires interactive login,
-> Cypress cannot deal with this use case.
+### I want to do E2E / Integration testing but our application uses MSAL Azure B2C authentication
 
-Is the application a Single Page Application or a Multi Page Application in the same domain? 
+> Use Playwright. As this authentication requires interactive login, Cypress cannot deal with this use case.
+
+### The application is a Single Page Application or a Multi Page Application in the same domain
+
 > Use Cypress. There is a package to deal with NTLM(Windows) authentication and recipes for general SSO.
 
-Will the application have multiple tabs / windows / domains?
+### The application has multiple tabs / windows / domains
+
 > Use Playwright.
 
-Do I need to test against non-chromium based browser versions (e.g. Edge and IE)?   
+### I need to test against non-chromium based browser versions (e.g. Edge and IE)
+
 > If yes, consider if this needs to be automated. If it does then
 > Selenium, if not refer back to the previous questions.
 
-#### Tool Capabilities
+## Tool Capabilities
+
 This section will outline the capabilities of each tool to assist in the selection of the correct tool.
 
 |Capablity|Cypress|Playwright|Selenium|
 |--|--|--|--|
 |Documentation| Yes ([link](https://docs.cypress.io/guides/overview/why-cypress.html#In-a-nutshell))| Yes ([link](https://playwright.dev/))| Yes ([link](https://www.selenium.dev/documentation/en/))|
+|Relative speed of execution|Fastest|Fast|Slowest|
 |Open-source|Yes|Yes|Yes|
 |Supported Browsers|Chrome, Electron, Firefox, Edge (Chromium)|Chrome and Edge (Chromium), Safari (WebKit) and Firefox|Chrome, Safari, Firefox, Edge (Legacy and Chromium), Internet Explorer|
 |Supported Languages|JavaScript|JavaScript|Java, C#, JavaScript, Python, Ruby|
@@ -65,4 +74,4 @@ This section will outline the capabilities of each tool to assist in the selecti
 |Intercept Network Traffic|Yes|Yes|No (currently)|
 |Screenshots on failure|Yes (Built in)| Yes (Not built in)|Yes (Not built in)|
 |Record Test|Yes (Built in)|Yes (Not built in)|Yes (Not built in / not easy to implement)|
-
+|Full DOM recording|Yes|No|No|
