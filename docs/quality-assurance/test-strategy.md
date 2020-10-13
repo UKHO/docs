@@ -39,7 +39,7 @@ Teams should adhere to this strategy when determining their team approach to tes
 ### Safety
 
 * Safety assurance is part of our core test and software engineering processes (Is the product safe for the end user)
-* We have adopted BS EN 61508-3:2010 as our safety standard
+* We have adopted BS EN 61508-3:2010 as our safety standard  <https://fdocuments.in/document/iec-61508-6.html>
 * The test engineer champions safety but it is the responsbility of the whole team.
 
 
