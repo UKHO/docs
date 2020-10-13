@@ -28,7 +28,8 @@ Selenium is a tool for web browser automation that uses WebDrivers to remotely c
 
 One of the reasons that Selenium is popular is because of its available language bindings, these include Java, C#, JavaScript and Python.
 
-Selenium is a very good tool to automate true E2E and user interactions, but it takes time and effort to get the framework right, and and then the overhead of maintaining it along with the WebDrivers and browser versions. It is also not as fast or intuitive as Cypress or Playwright.
+Selenium is a very good tool to automate true E2E and user interactions, but it takes time and effort to get the framework right, and then there is the overhead of maintaining it along with the WebDrivers and browser versions. This overhead can be reduced through the use of tools such as <https://github.com/UKHO/ChromeDriverBinarySync-PSModule>.
+It is also not as fast or intuitive as Cypress or Playwright.
 
 ## Which tool should I use?
 
