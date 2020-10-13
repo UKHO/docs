@@ -2,21 +2,14 @@
 
 ## Repositories
 
-All code **must** be stored in a source code repository.
-
-Git is the prefered method of source control
-
-If hosted at the UKHO, these must be used on the central Azure DevOps Server system.
-
-It is also acceptable to use our official Azure DevOps instance on Azure to provide version control.
-
-It is also aceptable to use GitHub under our official UKHO organisation.
-
-No other source control systems are permitted.
-
-Any source code found in any other source control method, must first be migrated and proven to build via a CI pipeline
-
-All new source will host a primay branch called main over master, every effort of existing source code should be made to migrate over. 
+- All code **must** be stored in a source code repository.
+- Git is the prefered method of source control
+- If hosted at the UKHO, these must be used on the central Azure DevOps Server system.
+- It is acceptable to use our official Azure DevOps instance on Azure to provide version control.
+- It is aceptable (and preferred) to use GitHub under our official UKHO organisation.
+- **No other source control systems are permitted.**
+- Any source code found in any other source control method, must first be migrated and proven to build via a CI pipeline
+- All new source will host a primary branch called trunk or main over master, every effort of existing source code should be made to migrate over. 
 
 ## Branch Protection
 
