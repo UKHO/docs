@@ -9,7 +9,7 @@
 - It is aceptable (and preferred) to use GitHub under our official UKHO organisation.
 - **No other source control systems are permitted.**
 - Any source code found in any other source control method, must first be migrated and proven to build via a CI pipeline
-- All new source will host a primary branch called trunk or main over master, every effort of existing source code should be made to move to this setup. 
+- All new source will host a primary branch called _trunk_ or _main_ over _master_, every effort of existing source code should be made to move to this setup. 
 
 ## Branch Protection
 
