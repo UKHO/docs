@@ -45,4 +45,4 @@ A team's branching policy and naming conventions must be available for verificat
 
 Build and release pipelines should be under source control using yaml builds.
 
-Secrets should be provided by variable groups and possibly backed by a keyvault to allow for easy of maintenance. 
+Secrets should be provided by variable groups and possibly backed by a keyvault to allow for ease of maintenance. 
