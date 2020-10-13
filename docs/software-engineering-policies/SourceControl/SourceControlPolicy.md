@@ -37,7 +37,7 @@ The commits should be small and concise and the commit message should answer "Ap
 
 ## Verification
 
- A team's source control system must be open to inspection, including history of check-in comments.
+A team's source control system must be open to inspection, including history of check-in comments.
 
 A team's branching policy and naming conventions must be available for verification.
 
