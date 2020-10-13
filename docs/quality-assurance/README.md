@@ -23,5 +23,5 @@ If you read nothing else, then read these three things:
 * [Test Principles](testing-principles.md)
 * [Test Standards](test-code-standards.md)
 * [Test Strategy](test-strategy.md)
-* [Test Tools](test-tooling.md)
+* [Browser Automation](browser-automation.md)
 * [UKHO Delivery Quality Charter](ukho-quality-charter.md)
