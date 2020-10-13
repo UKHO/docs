@@ -19,7 +19,7 @@ Some suggestions are:
 
 - using the code owner file
 - ensuring a team is associated as an admin on the repository
-  - assigning the team as the only members who can merge.
+- assigning the team as the only members who can merge.
 - apply to administrators.
   - A team member who is an admin on the repository could bypass the protection
 
