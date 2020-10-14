@@ -15,6 +15,7 @@ If you read nothing else, then read these three things:
 * [Vision](test-vision.md)
 * [Acceptance Criteria](acceptance-criteria.md)
 * [BDD](bdd.md)
+* [Browser Automation](browser-automation.md)
 * [Code Standards](test-code-standards.md)
 * [Open Source Repositories](test-repositories.md)
 * [Tester Roles](test-profiles.md)
@@ -23,5 +24,4 @@ If you read nothing else, then read these three things:
 * [Test Principles](testing-principles.md)
 * [Test Standards](test-code-standards.md)
 * [Test Strategy](test-strategy.md)
-* [Test Tools](test-tooling.md)
 * [UKHO Delivery Quality Charter](ukho-quality-charter.md)
