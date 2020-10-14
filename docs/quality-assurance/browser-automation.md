@@ -16,7 +16,7 @@ Some authentication scenarios can be worked out, primarily SSO and NTLM Windows 
 
 Playwright enables fast, reliable and capable automation across all modern browsers. It is a Node.js library to automate Chromium, Firefox and WebKit with a single API. Upon install, Playwright downloads a version of Chromium/Chrome and uses the Chrome DevTools Protocol to orchestrate the browser instance. For Firefox and WebKit engines, Playwright downloads the actual browser but extends their debugging protocol capabilities to provide a unified API and features. There is no modification of the actual browsers, so that it is expected to work exactly the same in the testing and the real user's browser. Go [here](https://github.com/microsoft/playwright/blob/master/docs/installation.md) for more information on the browser binaries.
 
-One of the big disadvantages over Cypress is that it does not have a Test Runner, therefore screenshots, videos, DOM and network traffic are not recorded out of the box, that makes debugging tests less intuitive.
+One of the big disadvantages over Cypress is that it does not have a Test Runner, therefore screenshots, videos, DOM and network traffic are not recorded out of the box, making debugging tests less intuitive.
 
 The core advantage of using Playwright over Cypress is that it is an out-of-process automation driver that is not limited by the scope of in-page JavaScript execution and can automate scenarios with multiple pages and popups.
 
@@ -28,7 +28,9 @@ Selenium is a tool for web browser automation that uses WebDrivers to remotely c
 
 One of the reasons that Selenium is popular is because of its available language bindings, these include Java, C#, JavaScript and Python.
 
-Selenium is a very good tool to automate true E2E and user interactions, but it takes time and effort to get the framework right, and then there is the overhead of maintaining it along with the WebDrivers and browser versions (though this overhead can be reduced through the use of tools such as [automated driver synchronisation](https://github.com/UKHO/ChromeDriverBinarySync-PSModule). It is also not as fast or intuitive as Cypress or Playwright.
+Selenium is a very good tool to automate true E2E and user interactions, but it takes time and effort to get the framework right, and then there is the overhead of maintaining it along with the WebDrivers and browser versions (though this overhead can be reduced through the use of tools such as [automated driver synchronisation](https://github.com/UKHO/ChromeDriverBinarySync-PSModule).
+
+It is also not as fast or intuitive as Cypress or Playwright.
 
 ## Which tool should I use?
 
