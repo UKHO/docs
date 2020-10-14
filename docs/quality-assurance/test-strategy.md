@@ -36,6 +36,12 @@ Teams should adhere to this strategy when determining their team approach to tes
 * Non-functional requirements and testing should be considered alongside other forms of testing
 * Determining requirements and expected results will involve the architecture and product manager communities
 
+### Safety
+
+* Safety assurance is part of our core software engineering processes (ensuring our products are safe for the end user)
+* We have adopted [BS EN 61508-3:2010](https://fdocuments.in/document/iec-61508-6.html) as our safety standard
+* Safety is the responsibility of the whole team and is championed by the Test Engineer
+
 ### Test Generation
 
 * Test scenarios should be generated from a BDD approach
