@@ -35,5 +35,5 @@ We favour designs that are easy to understand and communicate.
 ### We seek opposing views
 We strive for teams that understand and create psychologically safe environments, openly seeking views that challenge our ideas and assumptions.
 
-###We look externally when deciding about technology
+### We look externally when deciding about technology
 We look externally – we look for best practice and innovative solutions elsewhere in government and industry, and reuse them in the UKHO.
