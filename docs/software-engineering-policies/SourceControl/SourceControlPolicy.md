@@ -43,6 +43,6 @@ A team's branching policy and naming conventions must be available for verificat
 
 ## Build / Release Configuration
 
-Build and release pipelines should be under source control using yaml builds.
+Build and release pipelines should be under source control using YAML builds.
 
 Secrets should be provided by variable groups and possibly backed by a keyvault to allow for ease of maintenance. 
