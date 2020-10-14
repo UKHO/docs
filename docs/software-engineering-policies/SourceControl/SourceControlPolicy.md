@@ -3,7 +3,7 @@
 ## Repositories
 
 - All code **must** be stored in a source code repository.
-- Git is the prefered method of source control
+- Git is the preferred method of source control.
 - If hosted at the UKHO, these must be used on the central Azure DevOps Server system.
 - It is acceptable to use our official Azure DevOps instance on Azure to provide version control.
 - It is acceptable (and preferred) to use GitHub under our official UKHO organisation.
