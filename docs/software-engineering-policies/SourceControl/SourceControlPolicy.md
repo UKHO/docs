@@ -8,7 +8,7 @@
 - It is acceptable to use our official Azure DevOps instance on Azure to provide version control.
 - It is acceptable (and preferred) to use GitHub under our official UKHO organisation.
 - **No other source control systems are permitted.**
-- Any source code found in any other source control method, must first be migrated and proven to build via a CI pipeline
+- Any source code found in any other source control method must first be migrated and proven to build via a CI pipeline
 - All new source will host a primary branch called _trunk_ or _main_ over _master_.
 
 ## Branch Protection
