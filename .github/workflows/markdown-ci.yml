@@ -1,0 +1,37 @@
+name: Markdown CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '12'  
+      - run: npm install alex
+      
+      - name: Alex.js 
+        run: npm run test-alex
+
+      - name: Markdown lint
+        if: success() || failure()
+        uses: nosborn/github-action-markdown-cli@v1.1.1
+        with:
+          # config_file: # optional
+          files: .
+          ignore_files: node_modules
+          # rules: # optional
+
+      - name: Check for 404 links      
+        if: success() || failure() 
+        uses: restqa/404-links@1.0.0
+        with:
+          path: .
+          # ignore: # optional, default is          
