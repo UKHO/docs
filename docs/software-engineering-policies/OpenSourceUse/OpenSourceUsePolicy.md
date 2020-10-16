@@ -28,13 +28,13 @@ For the purposes of this policy, free open source software (FOSS) is [as defined
 
 Lead Engineers are accountable for checking the license terms of all open source assets incorporated in our solutions.
 
-The license **must** be on the UKHO whitelist of permitted licenses.
+The license **must** be on the UKHO allowlist of permitted licenses.
 
 ### Exceptions and changes
 
 Any exceptions must be agreed by the Software Engineering Team Manager.
 
-Changes to the whitelist must be agreed by the Software Engineering Team Manager and the UKHO Legal Advisor.
+Changes to the allowlist must be agreed by the Software Engineering Team Manager and the UKHO Legal Advisor.
 
 ### Reporting and automation
 
