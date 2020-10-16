@@ -12,7 +12,7 @@ All changes to third-party components **must** be reviewed by the team's Lead En
 
 If a third party component is proposed for use that has not been released under an approved licence and the licence appears to be reasonable, then the team's Lead engineer should propose that the licence be added to the list at the Lead engineer's meeting. If further clarity is needed then TPE management​ and the Legal department will be consulted.
 
-## Whitelist of approved licenses​
+## Allowlist of approved licenses​
 
 - MIT License (Expat)
 - Apache License 2.0 (Apache-2.0)
