@@ -110,7 +110,7 @@ An exception would be a simple bug fix, correcting logic in existing code, which
 
 #### Licenses
 
-The FOSS that the UKHO contributes to **must** be governed by a license. This license **must** be an [OSI-approved license](https://opensource.org/licenses). Since we will be contributing in order to use the enhancement in our own systems, the license is very likely to be on our whitelist of licenses that are approved for use.
+The FOSS that the UKHO contributes to **must** be governed by a license. This license **must** be an [OSI-approved license](https://opensource.org/licenses). Since we will be contributing in order to use the enhancement in our own systems, the license is very likely to be on our allowlist of licenses that are approved for use.
 
 Exceptions must be approved by the UKHO Legal Advisor.
 
