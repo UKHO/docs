@@ -24,8 +24,9 @@ Each team must maintain a tech radar on our standard tool.  The Lead Developer i
 
 When a change is made to a radar, the Lead Developer must do the following:
 
-- If a technology enters "Assess" they must inform the Leads' meeting
-- If they wish to move a technology into "Trial" they must ask permission from the Leads' meeting.  The decision is made by Lead Developers, by a simple majority.
+- If a technology enters "Assess" they must update their team's tech radar
+- If they wish to move a technology into "Trial" they must inform the Leads' meeting in order to get feedback.
+- If they wish to move a technology into "Adopt" the must ask permission of the Leads' meeting.  The decision is made by Lead Developers, by a simple majority.
 - If they need to start using a technology urgently they may continue at risk until the next Leads' meeting.
 
 ## Solution Architecture and Architects
