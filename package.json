@@ -1,0 +1,8 @@
+{
+  "scripts": {
+      "test-alex": "alex"
+    },
+    "dependencies": {
+      "alex": "^9.0.1"
+    }
+}
