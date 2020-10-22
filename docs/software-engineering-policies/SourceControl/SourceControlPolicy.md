@@ -8,7 +8,7 @@
 - It is acceptable to use our official Azure DevOps instance on Azure to provide version control.
 - It is acceptable (and preferred) to use GitHub under our official UKHO organisation.
 - **No other source control systems are permitted.**
-- Any source code found in any other source control method must first be migrated and proven to build via a CI pipeline
+- Any source code found in any other source control method must first be migrated and proven to build via a CI pipeline.
 - All new source will host a primary branch called _trunk_ or _main_ over _master_.
 
 ## Branch Protection
@@ -19,8 +19,8 @@ Some suggestions are:
 
 - using the code owner file
 - ensuring a team is associated as an admin on the repository
-- assigning the team as the only members who can merge.
-- apply to administrators.
+- assigning the team as the only members who can merge
+- apply to administrators
   - A team member who is an admin on the repository could bypass the protection
 
 ## Branching
@@ -33,7 +33,7 @@ Branching policy and naming conventions are the responsibility of the lead engin
 
 All check-ins must be accompanied by a comment.  This should be enforced by the tooling.  The check-in comments should be subject to review as part of code review.
 
-The commits should be small and concise and the commit message should answer "Applying this change will..."
+The commits should be small and concise and the commit message should answer "Applying this change will...".
 
 ## Verification
 
