@@ -8,6 +8,7 @@ The policies (and associated guidance) that should be followed during software d
 | Code Copyright | [Policy](CodeCopyright/CodeCopyrightPolicy.md) | |
 | Code Reuse | [Policy](CodeReuse/CodeReusePolicy.md) | |
 | Code Review | [Policy](CodeReview/CodeReviewPolicy.md) | |
+| Inclusive Language | [Policy](InclusiveLanguage/InclusiveLanguagePolicy.md) | |
 | Open Source Contribution | [Policy](OpenSourceContribution/OpenSourceContributionPolicy.md) | |
 | Open Source Use | [Policy](OpenSourceUse/OpenSourceUsePolicy.md) | |
 | Pair Programming | [Policy](PairProgramming/PairProgrammingPolicy.md) | |
