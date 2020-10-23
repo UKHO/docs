@@ -27,10 +27,12 @@ We should avoid use of language that is discriminatory, condescending or where i
 
 Some terminology might be normalized on the technical level but loaded at societal level. As such, we should avoid referring to people using divisive wording and avoid using loaded terminology where unnecessary to describe technical concepts. This includes, but is not limited to:
 
+<!--alex disable blacklist sanity-check whitelist dummy-->
 - master/slave
 - blacklist/whitelist
 - sanity check
 - dummy
+<!--alex enable blacklist sanity-check whitelist dummy-->
 
 ## Application in new projects
 
@@ -44,7 +46,7 @@ From 1 October 2020, newly created repositories automatically set main as the de
 
 ### Default branch naming on Azure DevOps (new projects)
 
-An organistion-level setting will be shipping in S176 during October 2020. When we upgrade, this will be enabled and main will be set as the new default for new repositories created in Azure DevOps on premise.
+An organisation-level setting will be shipping in S176 during October 2020. When we upgrade, this will be enabled and main will be set as the new default for new repositories created in Azure DevOps on premise.
 
 ## Application in existing projects
 
