@@ -88,7 +88,9 @@ Contact @benbhall with any queries about the Alex.js trial.
 
 Currently, the best way to check you are using inclusive language is your code is to search for known offending terminology. 
 
+<!--alex disable blacklist whitelist-->
 For example, you might search code locally for use of the words master, slave, blacklist or whitelist using a regular expression:
+<!--alex enable blacklist whitelist-->
 
 `((black|white)[_-]?(list)+)|master|slave`
 
