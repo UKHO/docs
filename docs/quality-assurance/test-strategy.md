@@ -2,11 +2,7 @@
 
 This strategy details how we add value through testing at the UKHO. Our teams adhere to this strategy when deciding their approach to testing, creating a Test Approach document for their current project.
 
-## Principles
-
-* Automation first! 
-* Use test design patterns
-
+> Always use automation first where possible
 
 ## Functional Testing
 
