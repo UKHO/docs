@@ -21,7 +21,7 @@ All open repos must contain the following:
 Above is the minimum for an what open repo must contain, other useful things a repo may contain:
 
 - Code of Conduct
-  - [Code of Conduct](https://www.contributor-covenant.org/version/1/4/code-of-conduct.md) from [contributor covenant](https://www.contributor-covenant.org/).
+  - [Code of Conduct from contributor covenant](https://www.contributor-covenant.org/).
 
 - Changelog
   - [Keep a changelog](http://keepachangelog.com/en/0.3.0/).
