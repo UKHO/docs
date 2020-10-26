@@ -4,29 +4,66 @@ This strategy details how we add value through testing at the UKHO. Our teams ad
 
 > Always use automation first where possible
 
-## Functional Testing
+## Methods Of Testing
 
-![Test Pyramid](images/test-pyramid.png)
+Some details about testing methods...
 
-Tests should be added at the correct level of the test pyramid – lower is better.
+### Automated
 
-## Automation
-
-* Automation should be used where possible.
+stuff...
 
 ### Manual
 
-* Manual testing should be used when automation is not deemed the best approach (e.g. too costly, not feasible, not applicable)
+stuff...
 
 ### Exploratory
 
 * Exploratory testing should be used to verify quality in addition to regular manual and automated testing
 * Sessions should be planned with a charter (including time-box, area to review, personas)
 
-### Non-Functional
+## Test Types
 
-* Non-functional requirements and testing should be considered alongside other forms of testing
-* Determining requirements and expected results will involve the architecture and product manager communities
+Some details about test types...
+
+### Accessibility
+
+Stuff...
+
+### API Contract
+
+* Contract testing should be considered when developing an API that will communicate with another UKHO API
+* When interacting with the Data Platform this is mandatory
+* [PACT](https://docs.pact.io/) is the technology to use
+* Use the [UKHO PACT documentation](https://docs.data.ukho.gov.uk/testing/pact/introduction/) to learn how to do this
+
+### Cross Browser
+
+* The team should define the browser (and device if mobile testing is required) requirements. These should be documented in the Test Approach for that item of work.
+* This requirement should be considered as early as possible by the team.
+* Browser testing should be carried out on the latest version of Chrome as a minimum.
+* If multiple browsers need to be tested then work closely with the Test Leads and Product Owner to ensure the correct approach is taken, e.g. which tests to run across browsers and the test framework to use.
+
+### Deployment
+
+Stuff...
+
+### End To End
+
+Stuff...
+
+### Functional
+
+![Test Pyramid](images/test-pyramid.png)
+
+Tests should be added at the correct level of the test pyramid – lower is better.
+
+### Performance
+
+Stuff...
+
+### Production
+
+Stuff...
 
 ### Safety
 
@@ -34,47 +71,12 @@ Tests should be added at the correct level of the test pyramid – lower is bett
 * We have adopted [BS EN 61508-3:2010](https://fdocuments.in/document/iec-61508-6.html) as our safety standard
 * Safety is the responsibility of the whole team and is championed by the Test Engineer
 
-### Test Generation
-
-* Test scenarios should be generated from a BDD approach
-* A risk-based approach should be used to determine the priority of test cases
-
 ### Security
 
 * Testing to ensure security should take place throughout development
 * The OWASP ZAP scanner should be used for development of APIs and UIs - see [UKHO OWASP Zap Scanner project](https://github.com/UKHO/owasp-zap-scan) for more information.
 
-### Cross Browser Testing
-
-* The team should define the browser (and device if mobile testing is required) requirements. These should be documented in the Test Approach for that item of work.
-* This requirement should be considered as early as possible by the team.
-* Browser testing should be carried out on the latest version of Chrome as a minimum.
-* If multiple browsers need to be tested then work closely with the Test Leads and Product Owner to ensure the correct approach is taken, e.g. which tests to run across browsers and the test framework to use.
-
-### User Testing
+### User Acceptance
 
 * Testing must recognise the importance of ensuring we are delivering value to users
 * The team should involve users during the development process
-
-### Contract Testing for internal APIs
-
-* Contract testing must be used when developing an API that will communicate with another UKHO API (e.g. when interacting with the Data Platform)
-* [PACT](https://docs.pact.io/) is the technology to use
-* Use the [UKHO PACT documentation](https://docs.data.ukho.gov.uk/testing/pact/introduction/) to learn how to do this
-
-## Test Standards
-
-See the [UKHO Test Standards](test-code-standards.md) for information on the standards that should be adhered to.
-
-## Test Management
-
-Teams need to ensure their tests are managed over time in order to maintain their value, considering:
-
-* Run time
-* Test coverage
-* Test code quality
-
-## Test Reporting
-
-The results of testing must be visible to a team delivering confidence when developing. Tests written using Gherkin (i.e. business readable) should be easily available to members outside the development team.
-
