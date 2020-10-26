@@ -15,14 +15,7 @@ To summarise our approach to test automation we created our take on the standard
 
 ![Test Automation Vision Diagram](test-automation-vision.png)
 
-## Principles of Test Automation
 
-We suggest that all teams using automation should adhere to these principles:
-
-* New functionality must be covered by passing automated tests (unless there is a legitimate reason not to)
-* Make use of test design patterns and principles
-* Add tests at the correct level of the test pyramid – lower is better
-* All tests should be independent of each other
 
 ## Test Automation Standards
 

@@ -1,26 +1,22 @@
 # Test Strategy
 
-## Overview
+This strategy details how we add value through testing at the UKHO. Our teams adhere to this strategy when deciding their approach to testing, creating a Test Approach document for their current project.
 
-This strategy details how we add value through testing at the UKHO. The strategy is lightweight and provides a basis for all delivery teams.
+## Principles
 
-## How this document should be used
+* Automation first! 
+* Use test design patterns
 
-Teams should adhere to this strategy when determining their team approach to testing, creating a Test Approach document for the current work-stream that adds detail to this strategy.
 
-## Roles and Responsibilities
+## Functional Testing
 
-| Role | Responsibility |
-| - | - |
-| Testers | Champion quality within the team, ensuring quality is present during all stages of software development and inclusive of all team members and users. |
-| Developers | Integrate quality into all stages of development, treating testing as an equal to development |
-| Delivery Managers | Create an environment that fosters quality and integration of all members of a delivery team |
+![Test Pyramid](images/test-pyramid.png)
 
-## Approach to Testing
+Tests should be added at the correct level of the test pyramid – lower is better.
 
-### Automation
+## Automation
 
-* Automation should be used where possible. See the [UKHO Test Automation Strategy](test-automation-strategy.md) for more information.
+* Automation should be used where possible.
 
 ### Manual
 
