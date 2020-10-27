@@ -2,7 +2,11 @@
 
 This strategy details how we add value through testing at the UKHO. Our teams adhere to this strategy when deciding their approach to testing, creating a Test Approach document for their current project.
 
-> Always use automation first where possible
+Our core principle is:
+
+> Always use an automation first where possible
+
+---
 
 ## Methods Of Testing
 
@@ -21,13 +25,16 @@ stuff...
 * Exploratory testing should be used to verify quality in addition to regular manual and automated testing
 * Sessions should be planned with a charter (including time-box, area to review, personas)
 
+---
+
 ## Test Types
 
-Some details about test types...
+This section outlines the test types that need to be considered when preparing a Test Approach for the current project a team is going to undertake.
 
 ### Accessibility
 
-Stuff...
+* Testing to ensure the product(s) are accessible to those with disabilities, such as vision impairment, hearing disabilities, and other physical or cognitive conditions.
+* The team should include accessibility into their Test Approach so it is considered early and throughout the development process
 
 ### API Contract
 
