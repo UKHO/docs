@@ -30,6 +30,6 @@ jobs:
 
       - name: Check for 404 links      
         if: success() || failure() 
-        uses: restqa/404-links@1.0.0
+        uses: restqa/404-links@1.0.1
         with:
           path: .
