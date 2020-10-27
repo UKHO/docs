@@ -41,11 +41,14 @@ Stuff...
 * The team should define the browser (and device if mobile testing is required) requirements. These should be documented in the Test Approach for that item of work.
 * This requirement should be considered as early as possible by the team.
 * Browser testing should be carried out on the latest version of Chrome as a minimum.
-* If multiple browsers need to be tested then work closely with the Test Leads and Product Owner to ensure the correct approach is taken, e.g. which tests to run across browsers and the test framework to use.
+* If multiple browsers need to be tested then work closely with the Test Leads and Product Owner to ensure the correct approach is taken, more details can be found on the [Browser Automation](./browser-automation.md) page.
 
 ### Deployment
 
-Stuff...
+* The coverage for deployment verification will be defined in the Test Approach for that item of the work and is used as a quality gate to ensure the deployment has been successful
+* This could include:
+  * Pester tests to validate the environment is as expected
+  * Smoke and Regression tests to ensure the product(s) are working as expected
 
 ### End To End
 
