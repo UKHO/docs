@@ -4,7 +4,7 @@ This strategy details how we add value through testing at the UKHO. Our teams ad
 
 Our core principle is:
 
-> Always use an automation first where possible
+> Always use automation where possible
 
 ---
 
@@ -23,7 +23,7 @@ We suggest that all teams using automation should adhere to these principles:
 * Add tests at the correct level of the test pyramid – lower is better
 * All tests should be independent of each other
 
-### Manual
+### Manual Scripted
 
 * Manual testing should be used when automation is not deemed the best approach (e.g. too costly, not feasible, not applicable)
 * Tests will be created using appropriate test design techniques, e.g. risk based, decision tables, boundary values analysis
@@ -95,6 +95,7 @@ Tests should be added at the correct level of the test pyramid – lower is bett
 ### Security
 
 * Testing to ensure security should take place throughout development
+* A key output of the Threat Modelling process is Test Scenarios to confirm the identified vulnerability has not been exposed
 * The OWASP ZAP scanner should be used for development of APIs and UIs - see [UKHO OWASP Zap Scanner project](https://github.com/UKHO/owasp-zap-scan) for more information.
 
 ### User Acceptance
