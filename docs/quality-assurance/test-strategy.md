@@ -10,15 +10,24 @@ Our core principle is:
 
 ## Methods Of Testing
 
-Some details about testing methods...
+This section will cover the 3 core methods of testing utilised at the UKHO and key points for each.
 
 ### Automated
 
-stuff...
+Automation should be used where possible.
+
+We suggest that all teams using automation should adhere to these principles:
+
+* New functionality must be covered by passing automated tests (unless there is a legitimate reason not to)
+* Make use of test design patterns and principles
+* Add tests at the correct level of the test pyramid – lower is better
+* All tests should be independent of each other
 
 ### Manual
 
-stuff...
+* Manual testing should be used when automation is not deemed the best approach (e.g. too costly, not feasible, not applicable)
+* Tests will be created using appropriate test design techniques, e.g. risk based, decision tables, boundary values analysis
+* The team will decide on where these manual tests will be stored and maintained, Azure DevOps or feature files are two examples.
 
 ### Exploratory
 
@@ -59,7 +68,8 @@ This section outlines the test types that need to be considered when preparing a
 
 ### End To End
 
-Stuff...
+* Testing to ensure the application is performing as designed and expected from start to finish to simulate a user
+* This should be used minimally and should predominantly cover happy path scenarios
 
 ### Functional
 
@@ -69,11 +79,12 @@ Tests should be added at the correct level of the test pyramid – lower is bett
 
 ### Performance
 
-Stuff...
+* The purpose of performance testing is to determine how the product performs in regards to stability and responsiveness under specified conditions
+* The requirements for performance testing should be considered from the outset of the project and recorded as part of the Non-Functional Requirements
 
 ### Production
 
-Stuff...
+* Ensuring products delivered are up and behaving as expected is a key aspect of ongoing support and maintenance, this can be achieved via continuous testing and monitoring
 
 ### Safety
 
