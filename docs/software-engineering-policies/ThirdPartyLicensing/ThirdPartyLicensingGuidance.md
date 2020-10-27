@@ -8,13 +8,13 @@ For a licence to be suitable for use at the UKHO, on the td;lrLegal page for the
 
 Can column must contain:
 
-- Private use
-- Commercial use
+* Private use
+* Commercial use
 
 Cannot column must not contain:
 
-- Sublicence
+* Sublicence
 
 Must column must not contain:
 
-- Disclose Source​
+* Disclose Source​

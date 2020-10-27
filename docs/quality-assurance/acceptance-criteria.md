@@ -1,13 +1,16 @@
 # Acceptance Criteria Guidance
+
 This page provides tips on writing effective acceptance criteria (AC).
 
-## What is Acceptance Criteria?
+## What is Acceptance Criteria
+
 > Conditions that a software product must satisfy to be accepted by a user, customer or other stakeholder.
 
-## Why write good Acceptance Criteria?
+## Why write good Acceptance Criteria
+
 To ensure all members of a team have a shared understanding of the requirements of the stories they are developing.
 
-## How do I know I am doing it right?
+## How do I know I am doing it right
 
 1. The whole team is involved in the creation and refinement of AC
 1. AC is recorded and agreed before a user story is played

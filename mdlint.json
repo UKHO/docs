@@ -9,5 +9,6 @@
     "no-inline-html": false,
     "no-bare-urls": false,
     "fenced-code-language": false,
-    "first-line-h1": false
+    "first-line-h1": false,
+    "no-duplicate-heading": false
   }
