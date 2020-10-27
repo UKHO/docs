@@ -32,7 +32,7 @@ Selenium is a very good tool to automate true E2E and user interactions, but it 
 
 It is also not as fast or intuitive as Cypress or Playwright.
 
-## Which tool should I use?
+## Which tool should I use
 
 Here is a list of **sample** questions / statements and responses to work through (alongside the tool capabilities) with a **Test Lead to decide which tool is right for the job**.
 

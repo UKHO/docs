@@ -1,10 +1,10 @@
 # Code Review Policy
 
-## What are code reviews?
+## What are code reviews
 
 Peer code reviews are a valuable and **mandatory** part of the software development process. These reviews can take various forms, for example a desk based review with another developer or a walkthrough of some significant changes with the entire team.
 
-## What should be reviewed?
+## What should be reviewed
 
 **All** changes which are to be committed to source control **must** be subject to a review.
 
@@ -12,13 +12,13 @@ Code reviews must be conducted on code directly from source control. You **must 
 
 Each team **must** maintain a means of checking that all code is reviewed.  This might consist of a report that is generated showing un-reviewed changes, or the preferred approach of a workflow within version control tooling which enforces it, e.g. via pull requests.
 
-## What else should be checked?
+## What else should be checked
 
 The review should ensure that the change set(s) **must** have a link to an associated work item.
 
 All change set(s) **must** have an appropriate comment explaining the change, i.e. a good commit message.
 
-## When must the review be completed?
+## When must the review be completed
 
 It is strongly advised that reviews should be completed within 1-2 days of the coding task being completed.  
 
@@ -44,4 +44,3 @@ There are two means of verification:
 ## Code Comments
 
 When responding to code comments, it is best to discuss face to face with the reviewer (where possible) to ensure a common understanding of the requested change.
-

@@ -1,14 +1,14 @@
 # Open Source Governance Checklist
 
-### Identifer
+## Identifer
 
 > (e.g. repo name)
 
-### Technical owner
+## Technical owner
 
 > The lead responsible for the repo
 
-### Description of functionality
+## Description of functionality
 
 > Must contain enough detail to allow assessment of whether it contains intellectual property that we need to protect.
 

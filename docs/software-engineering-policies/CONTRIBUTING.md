@@ -24,7 +24,3 @@ Please make the change on a separate branch and submit a merge request.
 - Once the review is complete and all requested changes have been made, merge in the accepted branch
 
 > If your proposal is rejected, please close the issue and feel free to resubmit in a new issue making the necessary changes.
-
-## Owner
-
-Marc Denman - marc.denman@ukho.gov.uk

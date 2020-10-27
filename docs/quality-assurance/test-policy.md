@@ -21,13 +21,13 @@ Delivery to customers of software and hardware that provides business value.
 * High Value manual testing is used
 * Testing across UKHO is done within an Agile framework
 
-## Who Tests?
+## Who Tests
 
 Test Engineering line manages a group of test engineers, ranging from junior to lead people; they provide testing capability across most of UKHO where testing is carried out within Scrum teams.
 
 Outside of the Scrum teams other people do test, for instance within Operations testing of hardware is carried out by the relevant SME, like network engineers carry out network testing. In some non-Agile teams, Business Analysts also carry out testing.
 
-## Who manages Testing?
+## Who manages Testing
 
 The Head of Test line manages all test engineers, but test engineers are task-managed by the overall technology program in conjunction with the Head of Test.
 

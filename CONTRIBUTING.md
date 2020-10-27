@@ -18,5 +18,4 @@ If you would like to make changes (disagreements about the current guidance, sub
 
 ## Contact
 
-Marc Denman @marcdenman
 Nev Brown @nevillejrbrown
