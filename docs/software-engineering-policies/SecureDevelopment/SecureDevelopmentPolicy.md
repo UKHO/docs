@@ -2,7 +2,7 @@
 
 Vulnerabilities exist because engineers create them.
 
-is can be due to several reasons including lack of training, accidental, lack of guidance, poor-quality controls or resource constraints. UKHO software needs to be secure as feasible and this policy is to aid teams in catching vulnerabilities during development.
+This can be due to several reasons including lack of training, accidental, lack of guidance, poor-quality controls or resource constraints. UKHO software needs to be secure as feasible and this policy is to aid teams in catching vulnerabilities during development.
 
 The purpose of this document is to ensure that:
 
