@@ -1,25 +1,25 @@
 # Source Control
 
-- All code **must** be stored in a source code repository.
-- Git is the preferred method of source control.
-- If hosted at the UKHO, these must be used on the central Azure DevOps Server system.
-- It is acceptable to use our official Azure DevOps instance on Azure to provide version control.
-- It is acceptable (and preferred) to use GitHub under our official UKHO organisation.
-- **No other source control systems are permitted.**
-- Any source code found in any other source control method must first be migrated and proven to build via a CI pipeline.
-- All new source will host a primary branch called _trunk_ or _main_ over _master_.
+* All code **must** be stored in a source code repository.
+* Git is the preferred method of source control.
+* If hosted at the UKHO, these must be used on the central Azure DevOps Server system.
+* It is acceptable to use our official Azure DevOps instance on Azure to provide version control.
+* It is acceptable (and preferred) to use GitHub under our official UKHO organisation.
+* **No other source control systems are permitted.**
+* Any source code found in any other source control method must first be migrated and proven to build via a CI pipeline.
+* All new source will host a primary branch called _trunk_ or _main_ over _master_.
 
 ## Branch Protection
 
 Suitable branch protection should be setup, depending on factors agreed by the team, to avoid merging to main.
 
-Some suggestions are: 
+Some suggestions are:
 
-- using the code owner file
-- ensuring a team is associated as an admin on the repository
-- assigning the team as the only members who can merge
-- apply to administrators
-  - A team member who is an admin on the repository could bypass the protection
+* using the code owner file
+* ensuring a team is associated as an admin on the repository
+* assigning the team as the only members who can merge
+* apply to administrators
+  * A team member who is an admin on the repository could bypass the protection
 
 ## Branching
 
@@ -43,4 +43,4 @@ A team's branching policy and naming conventions must be available for verificat
 
 Build and release pipelines should be under source control using YAML builds.
 
-Secrets should be provided by variable groups and possibly backed by a keyvault to allow for ease of maintenance. 
+Secrets should be provided by variable groups and possibly backed by a keyvault to allow for ease of maintenance.
