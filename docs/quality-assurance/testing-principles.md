@@ -1,4 +1,4 @@
-# Testing principles
+# Testing Principles
 
 ## 1. We utilise a shift left mindset (quality is baked in)
 
@@ -28,10 +28,14 @@ We look to view the product as a whole, ensuring that testing encompasses non-fu
 
 We are always learning, our people are key to our delivery and by always seeking to learn we allow ourselves to introduce new ideas, ways of working, to try new things.
 
-## 8. We collaborate across Government to learn and to teach
+## 8. We support each other within our Test Community
+
+We have a community that supports each other to champion quality and to promote the value of software testing across the UKHO (including to Development and Citizen Tester communities).
+
+## 9. We collaborate across Government to learn and to teach
 
 We are reaching out across wider government to learn from other organisations and to pass on our knowledge that could help other organisations.
 
-## 9. We look to our partners to work to the same principles
+## 10. We look to our partners to work to the same principles
 
 With our teams working to the principles, working with partners who work to similar ones can make the working relationships between us and the partner more productive.
