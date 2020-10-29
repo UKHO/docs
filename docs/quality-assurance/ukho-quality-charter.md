@@ -35,7 +35,7 @@ For more details see our '[Acceptance Criteria](acceptance-criteria.md)' page.
 * Test code must be treated with the same care and attention as production code (including pairing on writing)
 * The team will maintain their automated test suite (test content, relevance and code quality) to ensure it adds maximum value
 
-For more details see our '[Test Automation Strategy](test-automation-strategy.md)' page.
+For more details see our '[Test Strategy](test-strategy.md)' page.
 
 ## Manual Testing
 
