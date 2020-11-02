@@ -12,7 +12,6 @@ If you read nothing else, then read these three things:
 
 ## Contents
 
-* [Vision](test-vision.md)
 * [Acceptance Criteria](acceptance-criteria.md)
 * [BDD](bdd.md)
 * [Browser Automation](browser-automation.md)
