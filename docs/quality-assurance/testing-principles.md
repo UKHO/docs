@@ -8,10 +8,6 @@
 
 > Automation is key to delivering in a DevOps world, we seek to automate everything that can be, allowing us to move faster and with greater certainty.
 
-## We use Agile principles at every stage of our work
-
-> We must be flexible and adaptable, delivering value quickly to our customers, using Agile principles to help us do that.
-
 ## We use Behaviour Driven Development (BDD) to help us deliver value to our customers
 
 > BDD helps teams focus on the most valuable work to deliver, it helps clarify and ensure misunderstanding is reduced so that the right product is built.
@@ -34,4 +30,4 @@
 
 ## We look to our partners to work to the same principles
 
-> With our teams working to the principles, working with partners who work to similar ones can make the working relationships between us and the partner more productive.
+> With our teams working to these principles, working with partners who work to similar ones can make the working relationships between us and the partner more productive.
