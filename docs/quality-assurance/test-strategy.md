@@ -2,9 +2,12 @@
 
 This strategy details how we add value through testing at the UKHO. Our teams adhere to this strategy when deciding their approach to testing, creating a Test Approach document for their current project.
 
-Our core principle is:
+Our core principles are:
 
-> Always use automation where possible
+* [Test at every stage of the development process](./testing-principles.md#we-test-at-every-stage-of-the-development-process)
+* [Use automation whenever possible](./testing-principles.md#we-use-automation-whenever-possible)
+
+The rest of our testing principles can be found [here](./testing-principles.md).
 
 ---
 
