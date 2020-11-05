@@ -28,3 +28,17 @@ See [Bowtie in four easy steps](https://www.youtube.com/watch?v=PHbLQWqojC8)
 * Let the PO make final decisions on the safety impact/consequence. The PO will engage with other SME's to determine if the safety risk is acceptable. This may  
   mean that although there is a potential safety risk that risk is deemed manageable or may require remedial action. This detail should be captured in a lightweight 
   manner within the relevant PBI.
+ 
+## General Principles 
+
+* The safety of a system can only be determined in the context of the whole (all of the component parts).
+* Reliable software does not equal safe software.
+* Safety Modelling using the Bowtie method is carried out at the right level (project level normally gives the best return).
+* Software with safety related functionality must have clear evidence that all safety requirements have been met or relevant mitigations have been agreed.
+* Failure modes, including hardware, software, human and system are addressed in the design of the software.
+* The test engineers in the team have accountability for making sure safety is considered as part of their overall remit but the whole team have responsibility for inputting into the process.
+* Reliance on manual processes is minimised.
+* Best practices in software and test engineering are applied.
+* Sound human engineering principles are applied to the design of the software user interface to minimise the probability of human error.
+* Speak up, if you feel that safety is being compromised in some way, raise it!
+* Exercise judgement, not the same as going out on a limb but exercising common sense.
