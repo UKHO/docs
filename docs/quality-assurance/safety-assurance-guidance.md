@@ -9,12 +9,17 @@ Safety Modelling is focused around two key areas:
 
 This is centered around asking *What if* questions to determine safety risks and the likelihood and safety impact of those risks occurring.
 
+## Bowtie Method
+
+> The bowtie method is a risk assessment method that can be used to analyse and communicate risk scenarios. The method takes its name from the shape of the diagram that you create, which looks like a man’s bowtie. A bowtie diagram mainly does two things. First of all, a bowtie gives a visual summary of all plausible incident scenarios that could exist around a certain hazard. Second, the bowtie represents what an organisation does to control those scenarios by identifying safety barriers.
+
+See [Bowtie in four easy steps](https://www.youtube.com/watch?v=PHbLQWqojC8)
+
 ## How should we use it
 
 ### At the start of a project
 
 * Carry out a bowtie analysis of the project to identify potential areas of safety that need to be considered (there are a number of safety assurance experts who can help in carrying out bowtie analysis).
-* See [Bowtie in four easy steps](https://www.youtube.com/watch?v=PHbLQWqojC8)
 
 ### During Sprints
 
