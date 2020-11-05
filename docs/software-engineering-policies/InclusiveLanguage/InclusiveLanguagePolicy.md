@@ -25,7 +25,7 @@ We should avoid use of language that is discriminatory, condescending or where i
 - Racial bias
 - Sexual orientation bias
 
-Some terminology might be normalized on the technical level but loaded at societal level. As such, we should avoid referring to people using divisive wording and avoid using loaded terminology where unnecessary to describe technical concepts. This includes, but is not limited to:
+Some terminology might be normalized on the technical level but loaded at societal level. As such, we should avoid referring to people using divisive wording and avoid using loaded terminology where unnecessary to describe technical concepts. Examples include:
 
 <!--alex disable blacklist sanity-check whitelist dummy-->
 - master/slave
