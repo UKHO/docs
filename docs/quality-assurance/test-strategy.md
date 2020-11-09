@@ -61,7 +61,7 @@ This section outlines the test types that need to be considered when preparing a
 * This requirement should be considered as early as possible by the team.
 * As a minimum, browser testing should be carried out on the latest version of Chrome.
 * If multiple browsers need to be tested then work closely with the Test Leads and Product Owner to ensure the correct approach is taken.
-* More details can be found on the [browser automation](./browser-automation.md) page.
+* More details can be found on the [browser automation](browser-automation.md) page.
 
 ### Deployment
 
