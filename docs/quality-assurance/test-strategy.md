@@ -60,7 +60,8 @@ This section outlines the test types that need to be considered when preparing a
 * The team should define and document the browser (and device if mobile testing is required) requirements.
 * This requirement should be considered as early as possible by the team.
 * As a minimum, browser testing should be carried out on the latest version of Chrome.
-* If multiple browsers need to be tested then work closely with the Test Leads and Product Owner to ensure the correct approach is taken. More details can be found on the [Browser Automation](./browser-automation.md) page.
+* If multiple browsers need to be tested then work closely with the Test Leads and Product Owner to ensure the correct approach is taken.
+* More details can be found on the [browser automation](browser-automation.md) page.
 
 ### Deployment
 
@@ -93,6 +94,8 @@ Tests should be added at the correct level of the test pyramid – lower is bett
 * Safety assurance is part of our core software engineering processes (ensuring our products are safe for the end user).
 * We have adopted [BS EN 61508-3:2010](https://fdocuments.in/document/iec-61508-6.html) as our safety standard.
 * Safety is the responsibility of the whole team and is championed by the Test Engineer.
+* More details can be found on on the [safety assurance](safety-assurance-guidance.md) page.
+
 
 ### Security
 
