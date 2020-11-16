@@ -6,7 +6,7 @@ Accessibility Testing is not confirmation-based. Instead of testing the function
 
 Automated tools include:
 
-- core installed in delivery pipeline - https://www.deque.com/axe/
+- aXe.core installed in delivery pipeline - https://www.deque.com/axe/
 - Lighthouse - https://developers.google.com/web/tools/lighthouse
 
 Accessibility Testing is 'hands on'. While automated tests will catch things like missing alt text, contrast problems, and missing form labels; they are no substitute for manual hands on testing. Pre-written manual testing scripts cannot be relied upon because they provide no more insight than automated testing. The tester must explore different ways of using the application in order to tease out problems with accessibility.
