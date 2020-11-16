@@ -11,7 +11,7 @@ All open repos must contain the following:
 * **A CONTRIBUTING.md within the root folder.** The file is a marker to people that this repo will accept changes from outside of the team. It must contain the processes that the owner of the repository needs people to follow when contributing to the project. [Guidance on how to write a CONTRIBUTING.md](creating-a-contributing-file.md).
 
 * **A LICENSE within the root folder.** This will be MIT in most cases. Having a license is critical as it states what others are allowed to do with the code.
-* **A README.md within the root folder.** This must contain some basic useful information for the user allowing them to quickly understand the project and get started using it. It isn't the place for extensive documentation. [Guidance on what should be in a README.md can be found](ReadmeDetails.md).
+* **A README.md within the root folder.** This must contain some basic useful information for the user allowing them to quickly understand the project and get started using it. It isn't the place for extensive documentation. [Guidance on how to write a README.md](creating-a-readme-file.md).
 
 * **A continuous integration build process.** Each time a pull request is submitted a build is triggered which will run all the tests to ensure the change does not break any features. This will also give the contributor feedback and confidence that there code will work!
 
@@ -34,7 +34,7 @@ Above is the minimum for an what open repo must contain, other useful things a r
 
 ## Code Contribution Process
 
-All open repos must be using git and code contributions should be made using the standard Fork and Pull Request approach(or equivalent). [Rough guidance on how to make a pull request](PullRequestDetails.md).
+All open repos must be using git and code contributions should be made using the standard Fork and Pull Request approach(or equivalent). [Guidance on how to make a pull request](pull-request-details.md).
 
 ## Terminology
 
