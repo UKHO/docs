@@ -76,7 +76,7 @@ Alex has integrations available for numerous editors, including VS Code. This is
 
 For CI builds, particularly on existing projects, the focus is on a subset of the rules, to identify the loaded terminology identified above.
 
-Alex.js sits on top of retext-equality, amongst other things. It's very easy to contribute new rules. I added _dummy_: https://github.com/retextjs/retext-equality/pull/103
+Alex.js sits on top of retext-equality, amongst other things. It's very easy to contribute new rules, see an example [here](https://github.com/retextjs/retext-equality/pull/103).
 
 Alex is currently being trialed on [UKHO docs](https://github.com/ukho/docs) in GitHub Actions. The Action available from the marketplace comments on Pull Requests, which requires additional setup with a token, so instead, the trial is executing Alex directly via Node. If Alex is adopted, this document will be updated to include instructions for adding it to CI builds at the UKHO.
 
