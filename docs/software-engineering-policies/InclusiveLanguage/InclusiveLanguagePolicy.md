@@ -102,14 +102,14 @@ Checking for bias in job adverts with https://joblint.org/.
 
 ## Further reading
 
-The IETF (Internet Engineering Task Force) are maintaining a list of terms with suggested alternatives.
+The IETF (Internet Engineering Task Force) have collated a list of terms with suggested alternatives.
 https://github.com/ietf/terminology
 
 Article by NCSC (National Cyber Security Centre UK) on their changes.
 https://www.ncsc.gov.uk/blog-post/terminology-its-not-black-and-white
 
-Some background context from the IETF on Terminology, Power and Oppressive Language
-https://tools.ietf.org/id/draft-knodel-terminology-04.html (Version 4 of best practice document)
+Some background context on Terminology, Power and Oppressive Language, in a draft submitted to the IETF.
+https://tools.ietf.org/id/draft-knodel-terminology-04.html
 
-Specific guidance on documenting accessibility
+Specific guidance on documenting accessibility.
 https://developers.google.com/style/inclusive-documentation#about-disability-and-accessibility
