@@ -34,4 +34,4 @@ We also have many other communities of interest covering such things as Accessib
 We offer a great work / life balance.  Peoples’ start and end times are built around their own preferences and around a 10am – 2pm team time, where the team is focussed on building things (no meetings!).  We’re all set up for working from home and encourage people to make use of this if they prefer.  We are committed to providing part time options and reasonable accommodations to help people meet their needs. 
 
 
-Users can find the documentation at https://docs.ukho.dev
+You can find all our documentation at https://docs.ukho.dev
