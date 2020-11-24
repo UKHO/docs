@@ -25,7 +25,7 @@ Within this practice, we encourage the formation of other communities to support
 
 The community of Lead Developers provides technical leadership for the department, recommending tools, technologies and techniques for adoption.  This group contains people with various specialisms and levels of experience who all support each other in their roles.
 
-Our [Security Champion](./docs/software-engineering-policies/SecureDevelopment/Champion-role-poster.pdf) community is made up of people interested in [application security](./docs/software-engineering-policies/SecureDevelopment/SecureDevelopmentPolicy.md), and coaches teams to create safer software, as well as increasing their own skills and qualifications.
+Our [Security Champion](./docs/software-engineering-policies/SecureDevelopment/SecurityChampion.md) community is made up of people interested in [application security](./docs/software-engineering-policies/SecureDevelopment/SecureDevelopmentPolicy.md), and coaches teams to create safer software, as well as increasing their own skills and qualifications.
 
 We also have many other communities of interest covering such things as Accessibility, Testing, UX, Azure, AWS and .Net.
 
