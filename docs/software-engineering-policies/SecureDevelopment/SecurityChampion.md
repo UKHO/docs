@@ -17,13 +17,14 @@ I help the team run threat modelling sessions.
 I help the team identify security requirements for our software.
 
 I work with the other Security Champions to:
+
 * Share best practice across teams
 * Create shared standards and resources
 * Run activities, events
 
 ## What I don’t do
 
-*I am concerned only with helping engineers to write create secure systems. There are therefore lots of security-related activities I don’t do:*
+*I am concerned only with helping engineers to write create secure systems. There are therefore lots of security-related activities I don’t do.*
 
 I’m not an IT Security Officer
 
