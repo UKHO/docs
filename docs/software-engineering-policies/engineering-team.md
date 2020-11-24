@@ -20,7 +20,7 @@ The community of Lead Developers provides technical leadership for the departmen
 
 Our Security Champion community is made up of people interested in application security, and coaches teams to create safer software, as well as increasing their own skills and qualifications.
 
-We also have a communities of centred around UX, Azure, AWS and .Net.
+We also have a communities of interest centred around UX, Azure, AWS and .Net.
 
 ## Balance
 
