@@ -1,6 +1,6 @@
 # UKHO Docs
 
-This repo contains documentation about digital deliver teams, behaviors and processes at the UKHO.
+This repo contains documentation about digital delivery teams, behaviors and processes at the UKHO.
 
 # Software Engineering at the UKHO
 
