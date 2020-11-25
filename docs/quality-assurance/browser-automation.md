@@ -16,6 +16,8 @@ Some authentication scenarios can be worked out, primarily SSO and NTLM Windows 
 
 Playwright enables fast, reliable and capable automation across all modern browsers. It is a Node.js library to automate Chromium, Firefox and WebKit with a single API. Upon install, Playwright downloads a version of Chromium/Chrome and uses the Chrome DevTools Protocol to orchestrate the browser instance. For Firefox and WebKit engines, Playwright downloads the actual browser but extends their debugging protocol capabilities to provide a unified API and features. There is no modification of the actual browsers, so that it is expected to work exactly the same in the testing and the real user's browser. Go [here](https://github.com/microsoft/playwright/blob/master/docs/installation.md) for more information on the browser binaries.
 
+Playwright also provides [playwright-cli](https://github.com/microsoft/playwright-cli) that is easy to use, and allows for code generation, emulation plus screenshots and videos. 
+
 One of the big disadvantages over Cypress is that it does not have a fully supported Test Runner ([playwright-test](https://github.com/microsoft/playwright-test) is currently in its first preview release), therefore screenshots, videos, DOM and network traffic are not recorded out of the box, making debugging tests less intuitive.
 
 The core advantage of using Playwright over Cypress is that it is an out-of-process automation driver that is not limited by the scope of in-page JavaScript execution and can automate scenarios with multiple pages and popups.
