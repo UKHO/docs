@@ -19,6 +19,7 @@ We should avoid use of language that is discriminatory, condescending or where i
 
 - Age bias
 - Culture bias
+- Disability bias
 - Ethnic slurs
 - Gender bias
 - Gender-specific language
