@@ -36,7 +36,7 @@ I don’t run Information Assurance processes, risk assessments or audits
 
 I don’t run security investigations, security incidents or forensic investigations.
 
-I am not the only person who cares about security. An important part of my job is to make all engineers make security a priority
+I'm not the only person who cares about security. An important part of my job is to ensure all engineers make security a priority.
 
 I’m not the only person to run security activities – I coach others to run then effectively.
 
