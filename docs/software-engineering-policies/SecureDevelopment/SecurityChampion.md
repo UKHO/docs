@@ -20,7 +20,7 @@ I work with the other Security Champions to:
 
 * Share best practice across teams
 * Create shared standards and resources
-* Run activities, events
+* Run activities and events
 
 ## What I don’t do
 
