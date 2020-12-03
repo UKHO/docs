@@ -1,6 +1,6 @@
 # Software Engineering at the UKHO
 
-This repo contains documentation about digital delivery teams, behaviors and processes at the UKHO.
+This repository contains documentation about digital delivery teams, their behaviours and processes and our engineers at the UKHO.
 
 We have eight software engineering teams that develop and support software using the .Net and Java stacks.  
 
