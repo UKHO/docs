@@ -64,7 +64,7 @@ I use every opportunity to share my security knowledge with my team and the prac
 
 I seek sources of security expertise outside the UKHO, bringing in ideas and innovation. In particular, I connect with people in other parts of government.
 
-I am an active member of the UKHO security champions group.
+I'm an active member of the UKHO security champions group.
 
 I connect with the UKHO’s Security Team, to better understand their processes and requirements
 
