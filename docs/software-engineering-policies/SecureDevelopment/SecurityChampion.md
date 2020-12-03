@@ -26,7 +26,7 @@ I work with the other Security Champions to:
 
 *I am concerned only with helping engineers to write create secure systems. There are therefore lots of security-related activities I don’t do.*
 
-I’m not an IT Security Officer
+I’m not an IT Security Officer.
 
 I’m not a penetration tester
 
