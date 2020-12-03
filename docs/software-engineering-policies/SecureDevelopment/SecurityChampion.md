@@ -38,7 +38,7 @@ I don’t run security investigations, security incidents or forensic investigat
 
 I'm not the only person who cares about security. An important part of my job is to ensure all engineers make security a priority.
 
-I’m not the only person to run security activities – I coach others to run then effectively.
+I’m not the only person to run security activities – I coach others to run them effectively.
 
 ## My skills
 
