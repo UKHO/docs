@@ -50,7 +50,7 @@ I am an expert in how my team’s technologies must be used to keep them secure.
 
 I'm well trained and hold security-related qualifications.
 
-I am an expert in my team’s security tooling (e.g. static analysis tools, third-party checkers).
+I'm an expert in my team’s security tooling (e.g. static analysis tools, third-party checkers).
 
 I understand the security aspects of solution architecture.
 
