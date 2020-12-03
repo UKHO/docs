@@ -30,7 +30,7 @@ I’m not an IT Security Officer.
 
 I’m not a penetration tester.
 
-I am not responsible for keeping platforms (e.g. operating systems) patched
+I'm not responsible for keeping platforms (e.g. operating systems) patched.
 
 I don’t run Information Assurance processes, risk assessments or audits
 
