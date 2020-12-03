@@ -15,7 +15,7 @@ Quality is paramount.  Our [engineering](./docs/software-engineering-policies/RE
 
 We strive to automate as much as possible: [testing](./docs/quality-assurance/test-strategy.md), builds, deployments use the latest automation tools available.
 
-We actively try and pay down [technical debt](./docs/software-engineering-policies/TechnicalDebt/TechnicalDebtGuidance.md).
+We actively look to pay down [technical debt](./docs/software-engineering-policies/TechnicalDebt/TechnicalDebtGuidance.md).
 
 ## Our community
 
