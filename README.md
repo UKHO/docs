@@ -9,7 +9,7 @@ We’re proud that we’ve created this group by recruiting people who share a c
 
 ## How we work
 
-Everything we do is team based.  We take Agile seriously; your delivery team will be small but will have the people it needs to get things done - developers, testers, product owner and a delivery manager - as well as access to infrastructure specialists, UX experts and analysts. 
+Everything we do is team based.  We take Agile seriously; your delivery team will be small but will have the people it needs to get things done - developers, testers, a product owner and a delivery manager - as well as access to infrastructure specialists, UX experts and analysts. 
 
 Quality is paramount.  Our [engineering](./docs/software-engineering-policies/README.md) and [quality assurance](./docs/quality-assurance/README.md) policies support our teams to do good work.  Most code is done [in pairs](./docs/software-engineering-policies/PairProgramming/PairProgrammingPolicy.md) or larger groups to ensure quality and spread knowledge.  Everyone [reviews code](./docs/software-engineering-policies/CodeReview/CodeReviewPolicy.md) and everyone welcomes feedback. 
 
