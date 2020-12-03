@@ -10,7 +10,7 @@ I ensure the team create an effective set of standards for securely developing t
 
 I help the team define a set of security training materials, and I make sure they are all consumed.
 
-I am not responsible for pen testing finished systems. However, I have expertise in pen testing tools and use them during development to harden our software.
+I have expertise in pen testing tools and use them during development to harden our software.
 
 I help the team run threat modelling sessions.
 
