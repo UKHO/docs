@@ -2,7 +2,7 @@
 
 This repository contains documentation about digital delivery teams, their behaviours and processes and our engineers at the UKHO.
 
-We have eight software engineering teams that develop and support software using the .Net, Java, Python and other languages.  
+We have eight software engineering teams that develop and support software using .Net, Java, Python and other languages.  
 
 We’re proud that we’ve created this group by recruiting people who share a commitment to professional development and watched them grow with us.   Right now, we have people pursuing certification in Azure, AWS, Kubernetes and Security; we have others on management training courses; we even have people on Masters Degree programmes. 
 
