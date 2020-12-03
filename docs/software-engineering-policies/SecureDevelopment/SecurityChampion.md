@@ -32,7 +32,7 @@ I’m not a penetration tester.
 
 I'm not responsible for keeping platforms (e.g. operating systems) patched.
 
-I don’t run Information Assurance processes, risk assessments or audits
+I don’t run Information Assurance processes, risk assessments or audits.
 
 I don’t run security investigations, security incidents or forensic investigations.
 
