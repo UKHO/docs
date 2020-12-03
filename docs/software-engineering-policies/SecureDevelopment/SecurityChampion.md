@@ -46,7 +46,7 @@ I’m not the only person to run security activities – I coach others to run t
 
 I have a broad knowledge of security risks and how to counter them.
 
-I am an expert in how my team’s technologies must be used to keep them secure.
+I'm an expert in how my team’s technologies must be used to keep them secure.
 
 I'm well trained and hold security-related qualifications.
 
