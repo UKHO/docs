@@ -4,7 +4,7 @@
 
 *I am a software engineer whose main job is to write code. I additionally have a responsibility to help the team write secure software, as a source of expertise and a coach.*
 
-I coach the team into creating security processes that make our systems secure without slowing down development too much. I ensure that these processes run effectively, but I don’t make myself a bottleneck or a single point of failure in the process.
+I coach the team into creating security processes that make our systems secure while minimising the effect on development velocity. I ensure that these processes run effectively, but I don’t make myself a bottleneck or a single point of failure in the process.
 
 I ensure the team create an effective set of standards for securely developing their software.
 
