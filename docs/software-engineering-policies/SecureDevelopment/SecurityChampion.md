@@ -58,7 +58,7 @@ I have coaching and influencing skills.
 
 ## My connections
 
-*I make connections across the organisation and the wider security community*
+*I make connections across the organisation and the wider security community.*
 
 I use every opportunity to share my security knowledge with my team and the practice, using a variety of formats such as coaching, presentations and blogging.
 
