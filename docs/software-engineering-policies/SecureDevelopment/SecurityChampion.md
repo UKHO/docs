@@ -28,7 +28,7 @@ I work with the other Security Champions to:
 
 I’m not an IT Security Officer.
 
-I’m not a penetration tester
+I’m not a penetration tester.
 
 I am not responsible for keeping platforms (e.g. operating systems) patched
 
