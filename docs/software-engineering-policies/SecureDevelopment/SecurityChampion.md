@@ -66,6 +66,6 @@ I seek sources of security expertise outside the UKHO, bringing in ideas and inn
 
 I'm an active member of the UKHO security champions group.
 
-I connect with the UKHO’s Security Team, to better understand their processes and requirements
+I connect with the UKHO’s Security Team, to better understand their processes and requirements.
 
 I work closely with solution architects to understand their security goals and concerns.
