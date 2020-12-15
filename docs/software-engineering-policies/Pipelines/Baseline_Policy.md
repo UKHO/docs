@@ -6,7 +6,7 @@ A deployment/release pipeline for a UKHO digital product must, as a minimum, mee
 
 ## Tooling
 
-UKHO pipelines should be written as code, using YAML and syntax compatible with Azure Pipelines (most Cloud or Hosted solutions) or GitHub workflows (e.g. packages, tools).
+UKHO pipelines should be written as code, using YAML and syntax compatible with Azure Pipelines (Most Cloud or Hosted solutions) or GitHub workflows (packages, tools, etc.).
 
 ## Environments
 
@@ -14,7 +14,7 @@ The UKHO expects a release pipeline to include the following environments:
 
 ![Baseline Implementation Diagram](../Resources/baseline-diagram.png)
 
-The UKHO considers a minimum of three identical environments standard practice:
+The UKHO considers a minimum of three identical environments standard practice;
 
 - Development/engineering work
 - Formal testing (whether that be automated, manual, exploratory or end-user)
@@ -26,25 +26,25 @@ This is not the specific requirement for every project but should be considered 
 
 The UKHO expects each product to have the appropriate level of quality control in place for all of it's products. This will be dependant on the product requirements, but as a bare minimum there MUST be controls around what is committed to the `main` branch. Code deployed to production should only come from the `main` branch. Pull requests are expected to be reviewed (not by the creator of the PR) and completed before any code is merged to `main`. Further release approvals/controls are optional and open for discussion between team and product owner/manager.
 
-Branch protection for `main` should be considered to avoid accidental or malicious commits.
+Branch protection for main should be considered to avoid accidental or malicious commits to `main`. Consult [Branch Protection](BranchProtection.md) for further examples and detail.
 
 ## Testing
 
-The expectation is that code should be covered in full by suites of AUTOMATED tests (including unit, component, integration, ui and e2e). There should be no manual intervention needed within the pipeline to setup, run or clean up a test run. Manual testing should only be used when there is no alternative. See the [UKHO Test Strategy](https://github.com/UKHO/docs/blob/master/docs/quality-assurance/test-strategy.md) for more details.
+The expectation is that code should be covered in full by suites of AUTOMATED tests (including unit, component, integration, ui and e2e). There should be no manual intervention needed within the pipeline to setup, run or clean up a test run. Manual testing should only be used when there is no alternative. See the [UKHO Test Strategy](https://docs.ukho.dev/quality-assurance/test-strategy/) for more details.
 
 Legacy applications may well be exempt from this statement due to existing design/implementation technical debt but all new projects or products are expected to meet this requirement. Existing technical debt should be addressed promptly where possible to bring legacy applciations inline with this statement.
 
 ## Security Focus
 
-Pipeline Threat Modelling should be carried out in all design, innovation and development work relating to pipelines, considering where threats may develop or emerge over time. Security is a vital aspect of how our pipelines should be designed and developed; the following approaches are detailed and should be considered per product pipeline:
+Pipeline Threat Modelling should be carried out in all design, innovation and development work relating to pipelines, considering where threats may develop or emerge over time. Security is a vital aspect of how our pipelines should be designed and developed, the following approaches are detailed and should be considered per product pipeline:
 
 ### Must
 
 - Dependency Checking - we recommend the OWASP dependency checker, other options are valid but consider impact on support and required knowledge for future changes.
+- Static Code Analysis (SCA) - Coverity contains the functionality to do this, future implementation examples to follow. Alternatives are available but should be justified (consider support and knowledge impact/requirement when using alternatives).
 
 ### Should - Added by UKHO
 
-- Static Code Analysis (SCA) - Coverity contains the functionality to do this, future implementation examples to follow. Alternatives are available but should be justified (consider support and knowledge impact/requirement when using alternatives).
 - Container Security Screening - Currently trialing Snyk and ECR (currently used by Data Science/Engineering) depending on technology stack.
 
 ### Could - Added by UKHO
