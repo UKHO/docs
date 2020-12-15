@@ -41,15 +41,15 @@ Pipeline Threat Modelling should be carried out in all design, innovation and de
 ### Must
 
 - Dependency Checking - we recommend the OWASP dependency checker, other options are valid but consider impact on support and required knowledge for future changes.
-- Static Code Analysis (SCA) - Coverity contains the functionality to do this, future implementation examples to follow. Alternatives are available but should be justified (consider support and knowledge impact/requirement when using alternatives).
+- Static Application Security Testing (SAST) - Coverity is the current SAST offering, alternate options must be equivalent in provision.
 
 ### Should - Added by UKHO
 
+- Static Code Analysis (SCA) - Coverity contains the functionality to do this, future implementation examples to follow. Alternatives are available but should be justified (consider support and knowledge impact/requirement when using alternatives).
 - Container Security Screening - Currently trialing Snyk and ECR (currently used by Data Science/Engineering) depending on technology stack.
 
 ### Could - Added by UKHO
 
-- Static Application Security Testing (SAST) - Coverity is the current SAST offering, alternate options must be equivalent in provision.
 - Software Composition Analysis - Coverity also has the ability to provide this.
 - Dynamic Application Security Testing (DAST) - No set or experimental implementations currently, future research to follow.
 
