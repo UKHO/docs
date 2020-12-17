@@ -6,7 +6,7 @@ The three recommended tools for Browser Automation (for UI, e2e and integration 
 
 ## Cypress
 
-Cypress is a front end testing tool built for testing web apps. Cypress runs within available and supported browsers installed on the machine (the Electron browser is baked into Cypress and does not need to be installed separately). Cypress test code is executed directly within the browser as JavaScript, meaning there are no language or driver bindings and the tests can execute much faster and with more reliability. It also has full DOM and network traffic recording to aid debugging within the Cypress Test Runner.
+Cypress is a front end testing tool built for testing web apps. Cypress runs within available and supported browsers installed on the machine (the Electron browser is baked into Cypress and does not need to be installed separately). Cypress test code is executed directly within the browser as JavaScript, meaning there are no language or driver bindings and the tests can execute much faster and with more reliability. It also has full DOM and network traffic recording to aid debugging within the Cypress Test Runner. Cypress also provide a [Real World App](https://cypress.io/blog/2020/06/11/introducing-the-cypress-real-world-app/?utm_content=149165601&utm_medium=social&utm_source=linkedin&hss_channel=lcp-9293724) project to help learn Cypress best practices. 
 
 Cypress, however, does have its limitations. It has been created to test your application and your application only, and works best if the application is a Single Page Application; or a Multi Page Application in the same domain that does not utilise pop-ups or new tabs / windows.
 
