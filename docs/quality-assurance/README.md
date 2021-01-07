@@ -6,20 +6,18 @@ These documents detail how we work as a Test Community at UKHO. We aim to provid
 
 If you read nothing else, then read these three things:
 
-* Our [Test Automation Strategy](test-automation-strategy.md) contains details of the UKHO approach to testing, including the Test Pyramid and Principles of Test Automation
 * The [UKHO Delivery Quality Charter](ukho-quality-charter.md) assists delivery teams in adopting practices proven to improve quality of delivery
+* Our [Test Strategy](test-strategy.md) contains details of the UKHO approach to testing
 * The [BDD Reference Page](bdd.md) contains information on BDD to aid our use at UKHO
 
 ## Contents
 
-* [Vision](test-vision.md)
 * [Acceptance Criteria](acceptance-criteria.md)
 * [BDD](bdd.md)
 * [Browser Automation](browser-automation.md)
 * [Code Standards](test-code-standards.md)
 * [Open Source Repositories](test-repositories.md)
 * [Tester Roles](test-profiles.md)
-* [Test Automation Strategy](test-automation-strategy.md)
 * [Test Policy](test-policy.md)
 * [Test Principles](testing-principles.md)
 * [Test Standards](test-code-standards.md)

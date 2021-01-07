@@ -24,14 +24,13 @@ jobs:
         if: success() || failure()
         uses: nosborn/github-action-markdown-cli@v1.1.1
         with:
-          # config_file: # optional
           files: .
           ignore_files: node_modules
-          # rules: # optional
+          config_file: "mdlint.json"
 
-      - name: Check for 404 links      
-        if: success() || failure() 
-        uses: restqa/404-links@1.0.0
-        with:
-          path: .
-          # ignore: # optional, default is          
+      # - name: Check for 404 links      
+      #   if: success() || failure() 
+      #   uses: restqa/404-links@1.0.1
+      #   with:
+      #     path: .
+      #     ignore: 'https://cucumber.io,https://docs.data.ukho.gov.uk,https://github.com,https://en.wikipedia.org,https://www.nationalarchives.gov.uk'

@@ -40,7 +40,7 @@ Changes to the allowlist must be agreed by the Software Engineering Team Manager
 
 It must be possible to report on the licenses of included packages at build time for UKHO systems.  
 
-An automated process must restrict builds to only use packages with white-listed licenses.
+An automated process must restrict builds to only use packages with approved licenses.
 
 ### Security vulnerabilities
 

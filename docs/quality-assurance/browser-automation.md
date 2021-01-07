@@ -6,7 +6,7 @@ The three recommended tools for Browser Automation (for UI, e2e and integration 
 
 ## Cypress
 
-Cypress is a front end testing tool built for testing web apps. Cypress runs within available and supported browsers installed on the machine (the Electron browser is baked into Cypress and does not need to be installed separately). Cypress test code is executed directly within the browser as JavaScript, meaning there are no language or driver bindings and the tests can execute much faster and with more reliability. It also has full DOM and network traffic recording to aid debugging within the Cypress Test Runner.
+Cypress is a front end testing tool built for testing web apps. Cypress runs within available and supported browsers installed on the machine (the Electron browser is baked into Cypress and does not need to be installed separately). Cypress test code is executed directly within the browser as JavaScript, meaning there are no language or driver bindings and the tests can execute much faster and with more reliability. It also has full DOM and network traffic recording to aid debugging within the Cypress Test Runner. Cypress also provide a [Real World App](https://cypress.io/blog/2020/06/11/introducing-the-cypress-real-world-app/?utm_content=149165601&utm_medium=social&utm_source=linkedin&hss_channel=lcp-9293724) project to help learn Cypress best practices. 
 
 Cypress, however, does have its limitations. It has been created to test your application and your application only, and works best if the application is a Single Page Application; or a Multi Page Application in the same domain that does not utilise pop-ups or new tabs / windows.
 
@@ -15,6 +15,8 @@ Some authentication scenarios can be worked out, primarily SSO and NTLM Windows 
 ## Playwright
 
 Playwright enables fast, reliable and capable automation across all modern browsers. It is a Node.js library to automate Chromium, Firefox and WebKit with a single API. Upon install, Playwright downloads a version of Chromium/Chrome and uses the Chrome DevTools Protocol to orchestrate the browser instance. For Firefox and WebKit engines, Playwright downloads the actual browser but extends their debugging protocol capabilities to provide a unified API and features. There is no modification of the actual browsers, so that it is expected to work exactly the same in the testing and the real user's browser. Go [here](https://github.com/microsoft/playwright/blob/master/docs/installation.md) for more information on the browser binaries.
+
+Playwright also provides [playwright-cli](https://github.com/microsoft/playwright-cli) that is easy to use, and allows for code generation, emulation plus screenshots and videos. 
 
 One of the big disadvantages over Cypress is that it does not have a fully supported Test Runner ([playwright-test](https://github.com/microsoft/playwright-test) is currently in its first preview release), therefore screenshots, videos, DOM and network traffic are not recorded out of the box, making debugging tests less intuitive.
 
@@ -32,7 +34,7 @@ Selenium is a very good tool to automate true E2E and user interactions, but it 
 
 It is also not as fast or intuitive as Cypress or Playwright.
 
-## Which tool should I use?
+## Which tool should I use
 
 Here is a list of **sample** questions / statements and responses to work through (alongside the tool capabilities) with a **Test Lead to decide which tool is right for the job**.
 

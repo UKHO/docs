@@ -1,8 +1,23 @@
 {
   "scripts": {
-      "test-alex": "alex"
-    },
-    "dependencies": {
-      "alex": "^9.0.1"
-    }
+    "test-alex": "alex"
+  },
+  "dependencies": {
+    "alex": "^9.0.1"
+  },
+  "alex": {
+    "noBinary": false,
+    "profanitySureness": 2,
+    "deny": [
+      "blacklist", 
+      "blacklisted", 
+      "blacklisting", 
+      "whitelist",
+      "whitelisting",
+      "whitelisted",
+      "whitespace",
+      "sanity-check",
+      "dummy"
+    ]
+  }
 }

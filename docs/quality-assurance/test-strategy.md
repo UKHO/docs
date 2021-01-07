@@ -1,88 +1,107 @@
 # Test Strategy
 
-## Overview
+This strategy details how we add value through testing at the UKHO. Our teams adhere to this strategy when deciding their approach to testing, creating a Test Approach document for their current project.
 
-This strategy details how we add value through testing at the UKHO. The strategy is lightweight and provides a basis for all delivery teams.
+Our core principles are:
 
-## How this document should be used
+* [Test at every stage of the development process](./testing-principles.md#we-test-at-every-stage-of-the-development-process)
+* [Use automation whenever possible](./testing-principles.md#we-use-automation-whenever-possible)
 
-Teams should adhere to this strategy when determining their team approach to testing, creating a Test Approach document for the current work-stream that adds detail to this strategy.
+The rest of our testing principles can be found [here](./testing-principles.md).
 
-## Roles and Responsibilities
+---
 
-| Role | Responsibility |
-| - | - |
-| Testers | Champion quality within the team, ensuring quality is present during all stages of software development and inclusive of all team members and users. |
-| Developers | Integrate quality into all stages of development, treating testing as an equal to development |
-| Delivery Managers | Create an environment that fosters quality and integration of all members of a delivery team |
+## Methods Of Testing
 
-## Approach to Testing
+This section will cover the three core methods of testing utilised at the UKHO with key points for each.
 
-### Automation
+### Automated
 
-* Automation should be used where possible. See the [UKHO Test Automation Strategy](test-automation-strategy.md) for more information.
+Automation must be used when possible.
 
-### Manual
+We suggest that all teams using automation should adhere to these principles:
 
-* Manual testing should be used when automation is not deemed the best approach (e.g. too costly, not feasible, not applicable)
+* New functionality must be covered by passing automated tests (unless there is a legitimate reason not to).
+* Make use of test design patterns and principles.
+* Add tests at the correct level of the test pyramid – lower is better.
+* All tests should be independent of each other.
+
+### Manual Scripted
+
+* Manual scripted testing should only be used when automation is not deemed the best approach (e.g. too costly, not feasible, not applicable).
+* Tests will be created using appropriate test design techniques, e.g. risk based, decision tables, boundary values analysis.
+* The team will decide on where these manual tests will be stored and maintained; Azure DevOps or feature files are two examples.
 
 ### Exploratory
 
-* Exploratory testing should be used to verify quality in addition to regular manual and automated testing
-* Sessions should be planned with a charter (including time-box, area to review, personas)
+* Exploratory testing should be used to verify quality in addition to regular automated and manual scripted testing.
+* Sessions should be planned with a charter (including time-box, area to review, personas).
 
-### Non-Functional
+---
 
-* Non-functional requirements and testing should be considered alongside other forms of testing
-* Determining requirements and expected results will involve the architecture and product manager communities
+## Test Types
+
+This section outlines the test types that need to be considered when preparing a Test Approach for a team's current project.
+
+### Accessibility
+
+* Testing to ensure the product(s) are accessible to those with disabilities, such as vision impairment, hearing disabilities, and other physical or cognitive conditions.
+* Accessibility needs to be considered early and throughout the development process.
+
+### API Contract
+
+* Contract testing should be considered when developing an API that will communicate with another UKHO API.
+* When interacting with the Data Platform this is mandatory.
+* [PACT](https://docs.pact.io/) is the technology to use.
+* Use the [UKHO PACT documentation](https://docs.data.ukho.gov.uk/testing/pact/introduction/) to learn how to do this.
+
+### Cross Browser
+
+* The team should define and document the browser (and device if mobile testing is required) requirements.
+* This requirement should be considered as early as possible by the team.
+* As a minimum, browser testing should be carried out on the latest version of Chrome.
+* If multiple browsers need to be tested then work closely with the Test Leads and Product Owner to ensure the correct approach is taken.
+* More details can be found on the [browser automation](browser-automation.md) page.
+
+### Deployment
+
+* This could include:
+  * Pester tests to validate the environment is as expected.
+  * Smoke and/or regression tests to ensure the product(s) are working in the environment as expected.
+
+### End-To-End
+
+* Testing to ensure the application is performing as designed and expected from start to finish, simulating end user journeys.
+* This should be used minimally and should predominantly cover happy path scenarios.
+
+### Functional
+
+![Test Pyramid](images/test-pyramid.png)
+
+Tests should be added at the correct level of the test pyramid – lower is better.
+
+### Performance
+
+* The purpose of performance testing is to determine how the product performs (stability and responsiveness) under specified conditions.
+* The requirements for performance testing should be considered from the outset of the project and recorded as part of the Non-Functional Requirements.
+
+### Production
+
+* Ensuring products delivered are up and behaving as expected is a key aspect of ongoing support and maintenance; this can be achieved via continuous testing and monitoring.
 
 ### Safety
 
-* Safety assurance is part of our core software engineering processes (ensuring our products are safe for the end user)
-* We have adopted [BS EN 61508-3:2010](https://fdocuments.in/document/iec-61508-6.html) as our safety standard
-* Safety is the responsibility of the whole team and is championed by the Test Engineer
+* Safety assurance is part of our core software engineering processes (ensuring our products are safe for the end user).
+* We are working to adopt [BS EN 61508-3:2010](https://fdocuments.in/document/iec-61508-6.html) as our safety standard.
+* Safety is the responsibility of the whole team and is championed by the Test Engineer.
+* More details can be found on on the [safety assurance](safety-assurance-guidance.md) page.
 
-### Test Generation
-
-* Test scenarios should be generated from a BDD approach
-* A risk-based approach should be used to determine the priority of test cases
 
 ### Security
 
-* Testing to ensure security should take place throughout development
-* The OWASP ZAP scanner should be used for development of APIs and UIs - see [UKHO OWASP Zap Scanner project](https://github.com/UKHO/owasp-zap-scan) for more information.
+* Testing to ensure security should take place throughout development.
+* A key output of the Threat Modelling process is Test Scenarios to confirm the identified vulnerability has not been exposed.
 
-### Cross Browser Testing
+### User Acceptance
 
-* The team should define the browser (and device if mobile testing is required) requirements. These should be documented in the Test Approach for that item of work.
-* This requirement should be considered as early as possible by the team.
-* Browser testing should be carried out on the latest version of Chrome as a minimum.
-* If multiple browsers need to be tested then work closely with the Test Leads and Product Owner to ensure the correct approach is taken, e.g. which tests to run across browsers and the test framework to use.
-
-### User Testing
-
-* Testing must recognise the importance of ensuring we are delivering value to users
-* The team should involve users during the development process
-
-### Contract Testing for internal APIs
-
-* Contract testing must be used when developing an API that will communicate with another UKHO API (e.g. when interacting with the Data Platform)
-* [PACT](https://docs.pact.io/) is the technology to use
-* Use the [UKHO PACT documentation](https://docs.data.ukho.gov.uk/testing/pact/introduction/) to learn how to do this
-
-## Test Standards
-
-See the [UKHO Test Standards](test-code-standards.md) for information on the standards that should be adhered to.
-
-## Test Management
-
-Teams need to ensure their tests are managed over time in order to maintain their value, considering:
-
-* Run time
-* Test coverage
-* Test code quality
-
-## Test Reporting
-
-The results of testing must be visible to a team delivering confidence when developing. Tests written using Gherkin (i.e. business readable) should be easily available to members outside the development team.
-
+* The team should involve users throughout the development process to ensure the developed product satisfies their requirements.
