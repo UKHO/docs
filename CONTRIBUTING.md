@@ -14,8 +14,9 @@ If you have any improvements (things being poorly worded, misspelt, unclear, twe
 
 ## Change
 
-If you would like to make changes (disagreements about the current guidance, substantial adding of new guidance) the best approach is to open an issue with the details/ideas so we can discuss the changes before a pull request is made. If no issue is made before a pull request we will still consider it, however there is chance the your effort is wasted if we don't accept your pull request in :(
+If you would like to make changes (disagreements about the current guidance, substantial adding of new guidance) the best approach is to open an issue with the details/ideas so we can discuss the changes before a pull request is made. If no issue is made before a pull request we will still consider it, however there is chance the your effort is wasted if we don't accept your pull request :(
 
 ## Contact
 
 Nev Brown @nevillejrbrown
+Greg Zealley @gregzealley
