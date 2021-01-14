@@ -110,8 +110,8 @@ The risk owner is the person who is responsible for the product. This may be the
 
 >_We are responsible for ensuring that 3rd party packages within our solutions are from authorised repositories, have appropriate licensing and are checked for known vulnerabilities._
 
-- [ ] Packages must be downloaded from a package management tool e.g. Proget or Nexus (or any ALM authorised tool).
-- [ ] The team must use a dependency checking tool such as Dependency Checker (or another ALM authorised tool).
+- [ ] Packages must be downloaded from a package management tool e.g. Proget or Nexus (or any DDC authorised tool).
+- [ ] The team must use a dependency checking tool such as Dependency Checker (or another DDC authorised tool).
 - [ ] The tool must be configured to run before code is released to production e.g. via a build/release pipeline.
 - [ ] The team should decide what the acceptable threshold is to prevent code from being released to production e.g. via a build/release pipeline.
 - [ ] The team must provide proof that the code is not released to production when this threshold is breached. Decisions to release even in the presence of a known vulnerability should be recorded and approved by the risk owner.
@@ -122,7 +122,7 @@ The risk owner is the person who is responsible for the product. This may be the
 >_Static analysis tooling is required to add an extra layer of verification to the developer’s code around catching vulnerabilities before they are released to production._
 
 - [ ] The team must have a SAST process, either automated or manual via code reviews.
-- [ ] It is strongly recommended that the team use a static analysis tool which ALM has approved.
+- [ ] It is strongly recommended that the team use a static analysis tool which DDC has approved.
 - [ ] Each team member must have a basic understanding of interpreting the results of static analysis (manual or automated).
 - [ ] If using an automated tool, it must be configured to run as part of either/both a build or release pipeline.  
 - [ ] The team should decide what the acceptable threshold is to prevent code from being released to production e.g. a build or release fails.  
