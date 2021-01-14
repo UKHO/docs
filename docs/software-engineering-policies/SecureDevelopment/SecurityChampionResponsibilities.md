@@ -1,4 +1,4 @@
-# Security Champion
+# Security Champion Responsibilities
 
 ## What I do
 
