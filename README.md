@@ -6,7 +6,6 @@ We have eight software engineering teams that develop and support software using
 
 We’re proud that we’ve created this group by recruiting people who share a commitment to professional development and watched them grow with us.   Right now, we have people pursuing certification in Azure, AWS, Kubernetes and Security; we have others on management training courses; we even have people on Masters Degree programmes.
 
-
 ## How we work
 
 Everything we do is team based.  We take Agile seriously; your delivery team will be small but will have the people it needs to get things done - developers, testers, a product owner and a delivery manager - as well as access to infrastructure specialists, UX experts and analysts. 
