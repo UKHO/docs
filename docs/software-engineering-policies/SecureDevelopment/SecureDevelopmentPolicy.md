@@ -123,8 +123,7 @@ The risk owner is the person who is responsible for the product. This may be the
 
 >_Static analysis tooling is required to add an extra layer of verification to the developer’s code around catching vulnerabilities before they are released to production._
 
-- [ ] The team must have a SAST process, either automated or manual via code reviews.
-- [ ] It is strongly recommended that the team use a static analysis tool which DDC has approved.
+- [ ] The team must have a SAST process, either automated or manual via code reviews. (It is strongly recommended that the team use a static analysis tool which DDC has approved).
 - [ ] Each team member must have a basic understanding of interpreting the results of static analysis (manual or automated).
 - [ ] If using an automated tool, it must be configured to run as part of either/both a build or release pipeline.  
 - [ ] The team should decide what the acceptable threshold is to prevent code from being released to production e.g. a build or release fails.  
