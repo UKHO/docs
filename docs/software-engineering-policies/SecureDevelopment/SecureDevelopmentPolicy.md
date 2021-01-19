@@ -107,7 +107,6 @@ The risk owner is the person who is responsible for the product. This may be the
 >_Source control is a key requirement for projects as it provides role-based access control to code, change management and a changelog._
 
 - [ ] All project code intended for delivery should be stored as per the UKHO source control policy.
-- [ } Read access to source code may be granted to developers who hold UKHO BPSS clearance.  BPSS-cleared developers may temporarily be granted write access to a repository, provided suitable controls exist to prevent any change they make progressing to a live environment without review by a Security Cleared (SC) colleague.  
 
 ### 3rd Party Dependency/Package Management
 
