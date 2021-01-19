@@ -9,6 +9,10 @@
 * Any source code found in any other source control method must first be migrated and proven to build via a CI pipeline.
 * All new source will host a primary branch called _trunk_ or _main_ over _master_.
 
+## Access control
+
+Ensure that developers with BPSS clearance are only granted read access.  BPSS-cleared developers may temporarily be granted write access to a repository, provided suitable controls exist to prevent any change they make progressing to a live environment without review by a Security Cleared (SC) colleague.
+
 ## Branch Protection
 
 Suitable branch protection should be setup, depending on factors agreed by the team, to avoid merging to main.
