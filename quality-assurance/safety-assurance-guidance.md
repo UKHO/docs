@@ -1,44 +1,42 @@
-# Safety Assurance Guidelines
+This policy describes the Software Engineering Team’s policy and process for ensuring our SOLAS products are created and changed with appropriate consideration given to safety.
 
-## What is Safety Modelling
+# Goals
+-	Minimise the causes of product delay and inaccuracy introduced through the software we create.
+-	Provide traceability for the delivery of safety requirements
+-	Create full delivery team awareness of the safety impact of the software they create
+-	Prompt high-value team conversations about safety
+-	Not burden teams with low-value bureaucracy
+-	Provide safety-related analysis on a just-in-time basis, rather than through wasteful up-front effort
 
-Safety Modelling is focused around two key areas:
+# Overview of approach
+Our approach is closely related to our successful Developer Threat Modelling process which is used as part of our security lifecycle.
 
-* Error (Data Integrity)
-* Delay
+The test engineer in each delivery team is responsible for enforcing our safety practices.  They run a lightweight process of tagging work items as safety-related and then creating barriers and mitigations to safety hazards.
 
-This is centered around asking *What if* questions to determine safety risks and the likelihood and safety impact of those risks occurring.
+If teams need more information about the safety context of their work, they will request that it is provided by product owners.  
 
-## Bowtie Method
+# Identifying safety-related projects
 
-> The bowtie method is a risk assessment method that can be used to analyse and communicate risk scenarios. The method takes its name from the shape of the diagram that you create, which looks like a man’s bowtie. A bowtie diagram mainly does two things. First of all, a bowtie gives a visual summary of all plausible incident scenarios that could exist around a certain hazard. Second, the bowtie represents what an organisation does to control those scenarios by identifying safety barriers.
+A team’s product owner is accountable for establishing whether their current delivery is safety-related.
 
-See [Bowtie in four easy steps](https://www.youtube.com/watch?v=PHbLQWqojC8)
+If the delivery is safety-related, then the team’s “definition of done” must contain a statement to the effect that safety modelling must have been carried out for every PBI (work item)
 
-## How should we use it
+# Process – Safety Modelling
+When developing safety-related software, the following process must be followed.
+1. If a PBI is considered as potentially relevant to safety, it must be marked in the work tracking system with the standard tag ‘Safety Pending’.
+2. The development team must then discuss safety requirements for that PBI.  This discussion may be at any team event (e.g. refinement, threat-modelling, or a specific safety meeting).
+3. Under the direction of the test engineer, the team must discuss whether a failure condition relating to the PBI can cause an error or delay in the product.  If it is decided that this is the case, the PBI must be marked with the standard tag ‘Safety’.  If it is not the case, then all safety tags may be removed.
+4. The team treats the potential hazard as a mini bowtie analysis, considering 
+- Barriers to the failure condition happening
+-	Mitigations to prevent the failure condition creating error or delay
+5. These barriers and mitigations are expressed as acceptance criteria on the PBI.  As a result, their implementation, testing  and move to production will be traceable in the work tracking tool.
 
-### At the start of a project
 
-* Carry out a bowtie analysis of the project to identify potential areas of safety that need to be considered (there are a number of safety assurance experts who can help in carrying out bowtie analysis).
+# Accountability for security modelling
+The team’s Test Engineer is accountable for this process being followed.
 
-### During Sprints
+# Skills
+All participants must have a basic understanding of bow-tie risk analysis.  Training material will be provided by the Test Practice.
 
-* Tag relevant PBI's with a `safety` tag along with details of how the safety risk can be mitigated. If it is not clear whether there is a safety impact use a `safety pending` tag until this ambiguity is resolved.
-* Consider testing the risk mitigation. There will be a balance between effort required to test against the likelihood and impact.
-* Let the PO make final decisions on the safety impact/consequence. The PO will engage with other SME's to determine if the safety risk is acceptable. This may  
-  mean that although there is a potential safety risk that risk is deemed manageable or may require remedial action. This detail should be captured in a lightweight 
-  manner within the relevant PBI.
- 
-## General Principles 
-
-* The safety of a system can only be determined in the context of the whole (all of the component parts).
-* Reliable software does not equal safe software.
-* Safety Modelling using the Bowtie method is carried out at the right level (project level normally gives the best return).
-* Software with safety related functionality must have clear evidence that all safety requirements have been met or relevant mitigations have been agreed.
-* Failure modes, including hardware, software, human and system are addressed in the design of the software.
-* The test engineers in the team have accountability for making sure safety is considered as part of their overall remit but the whole team have responsibility for inputting into the process.
-* Reliance on manual processes is minimised.
-* Best practices in software and test engineering are applied.
-* Sound human engineering principles are applied to the design of the software user interface to minimise the probability of human error.
-* Speak up, if you feel that safety is being compromised in some way, raise it!
-* Exercise judgement, not the same as going out on a limb but exercising common sense.
+# Obtaining more information for the process
+At any point during a delivery, the development team can ask for more information about the safety context of their work, in order to effectively carry out safety modelling. Typically, this will consist of further information about wider IT or business processes, how these contribute to safety, and what mitigations already exist.  The recommended format for this information is the Bowtie diagram, but this is not mandated. The Product Owner is responsible for obtaining any such information that the team requires.
