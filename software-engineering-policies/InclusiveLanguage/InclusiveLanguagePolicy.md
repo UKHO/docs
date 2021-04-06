@@ -55,7 +55,7 @@ When working in an existing codebase, teams should be alert to opportunities to 
 
 ### Default branch naming on GitHub (existing projects)
 
-GitHub has made it straightforward to change existing repositories without any disruption to work. Teams should ensure the process default branch renaming had been completed.
+GitHub has made it straightforward to change existing repositories without any disruption to work. Teams should ensure that the process of renaming the default branch to *main* has been completed.
 
 ### Default branch naming on Azure DevOps (existing projects)
 
