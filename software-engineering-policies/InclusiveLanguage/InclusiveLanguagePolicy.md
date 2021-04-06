@@ -47,7 +47,7 @@ From 1 October 2020, newly created repositories automatically set main as the de
 
 ### Default branch naming on Azure DevOps (new projects)
 
-This will automatically be set to *main* in the Azure DevOps cloud service but will need to be changed manually on after creating a new repository.
+This will automatically be set to *main* in the Azure DevOps cloud service but will need to be changed manually after creating a new repository.
 
 ## Application in existing projects
 
@@ -74,7 +74,7 @@ It may be helpful in some cases to automate checks on technical documentation wr
 
 Alex has integrations available for numerous editors, including VS Code. This is a good place to enable the full set of rules for equality and profanity.
 
-For CI builds, particularly on existing projects, the focus might be on a subset of the rules, to identify the loaded terminology identified above. Alex.js has been applied to [UKHO docs](https://github.com/ukho/docs) via GitHub Actions with a small subset of rules. An Action is available from the marketplace comments on Pull Requests, which requires additional setup with a token, so instead, we execute Alex directly via Node.
+For CI builds, particularly on existing projects, the focus might be on a subset of the rules, to identify the loaded terminology identified above. Alex.js has been applied to [UKHO docs](https://github.com/ukho/docs) via GitHub Actions with a small subset of rules. An Action is available from the marketplace that comments on Pull Requests, which requires additional setup with a token, so instead, we execute Alex directly via Node.
 
 Contact @benbhall with any queries about the Alex.js.
 
