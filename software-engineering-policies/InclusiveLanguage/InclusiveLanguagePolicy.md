@@ -47,7 +47,7 @@ From 1 October 2020, newly created repositories automatically set main as the de
 
 ### Default branch naming on Azure DevOps (new projects)
 
-An organisation-level setting will be shipping in S176 during October 2020. When we upgrade, this will be enabled and main will be set as the new default for new repositories created in Azure DevOps on premise.
+This will automatically be set to *main* in the Azure DevOps cloud service but will need to be changed manually on after creating a new repository.
 
 ## Application in existing projects
 
@@ -55,19 +55,18 @@ When working in an existing codebase, teams should be alert to opportunities to 
 
 ### Default branch naming on GitHub (existing projects)
 
-By the end of 2020, GitHub will make it straightforward to change existing repositories, avoiding the challenges of renaming them now. Teams should make plans to rename the default branch to main for all repositories after those changes are in place in 2021.
+GitHub has made it straightforward to change existing repositories without any disruption to work. Teams should ensure the process default branch renaming had been completed.
 
 ### Default branch naming on Azure DevOps (existing projects)
 
-There are currently no plans to ease the renaming process so it is up to teams to manage if and when it is practical to do so, taking into consideration any future plans to migrate to GitHub.
+Microsoft have no plans to ease the renaming process so it is up to teams to manage if and when it is practical to do so, taking into consideration any future plans to migrate to GitHub.
 
 ## Automating checks on documentation
 
-It may be helpful in some cases to automate checks on technical documentation written in markdown or plaintext.
+It may be helpful in some cases to automate checks on technical documentation written in markdown or plaintext. While we wait for support on tooling to come from the [Inclusive Naming Initiative](https://inclusivenaming.org/), we have found Alex.js to be fairly helpful in some simple use cases.
 
 ### Alex.js
 
-- Tech Radar status: Trial.
 - Source: https://github.com/get-alex/alex
 - Usage: Automated checks in CI Build and integration with editors / IDEs.
 
@@ -75,19 +74,13 @@ It may be helpful in some cases to automate checks on technical documentation wr
 
 Alex has integrations available for numerous editors, including VS Code. This is a good place to enable the full set of rules for equality and profanity.
 
-For CI builds, particularly on existing projects, the focus is on a subset of the rules, to identify the loaded terminology identified above.
+For CI builds, particularly on existing projects, the focus might be on a subset of the rules, to identify the loaded terminology identified above. Alex.js has been applied to [UKHO docs](https://github.com/ukho/docs) via GitHub Actions with a small subset of rules. An Action is available from the marketplace comments on Pull Requests, which requires additional setup with a token, so instead, we execute Alex directly via Node.
 
-Alex.js sits on top of retext-equality, amongst other things. It's very easy to contribute new rules, see an example [here](https://github.com/retextjs/retext-equality/pull/103).
-
-Alex is currently being trialed on [UKHO docs](https://github.com/ukho/docs) in GitHub Actions. The Action available from the marketplace comments on Pull Requests, which requires additional setup with a token, so instead, the trial is executing Alex directly via Node. If Alex is adopted, this document will be updated to include instructions for adding it to CI builds at the UKHO.
-
-As of 23.10.20 the latest changes are still waiting in a [PR](https://github.com/UKHO/docs/pull/119).
-
-Contact @benbhall with any queries about the Alex.js trial.
+Contact @benbhall with any queries about the Alex.js.
 
 ## Checking code
 
-Currently, the best way to check you are using inclusive language is your code is to search for known offending terminology. 
+Currently, the best way to check you are using inclusive language in your code is to search for known offending terminology.
 
 <!--alex disable blacklist whitelist-->
 For example, you might search code locally for use of the words master, slave, blacklist or whitelist using a regular expression:
@@ -103,14 +96,8 @@ Checking for bias in job adverts with https://joblint.org/.
 
 ## Further reading
 
-The IETF (Internet Engineering Task Force) have collated a list of terms with suggested alternatives.
-https://github.com/ietf/terminology
-
-Article by NCSC (National Cyber Security Centre UK) on their changes.
-https://www.ncsc.gov.uk/blog-post/terminology-its-not-black-and-white
-
-Some background context on Terminology, Power and Oppressive Language, in a draft submitted to the IETF.
-https://tools.ietf.org/id/draft-knodel-terminology-04.html
-
-Specific guidance on documenting accessibility.
-https://developers.google.com/style/inclusive-documentation#about-disability-and-accessibility
+- [Inclusive Naming Initiative](https://inclusivenaming.org/)
+- The IETF (Internet Engineering Task Force) have collated a list of terms with [suggested alternatives](https://github.com/ietf/terminology).
+- Article by NCSC (National Cyber Security Centre UK) on [their changes](https://www.ncsc.gov.uk/blog-post/terminology-its-not-black-and-white).
+- Some background context on Terminology, Power and Oppressive Language, in a [draft submitted to the IETF](https://tools.ietf.org/id/draft-knodel-terminology-04.html).
+- Specific guidance on documenting accessibility [by Google](https://developers.google.com/style/inclusive-documentation#about-disability-and-accessibility).
