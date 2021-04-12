@@ -20,3 +20,4 @@
 | 3rd Party Technical Contact | Supplier Management | Working with the ADDS Project Managers to define work packages for 3rd party delivery |
 |   || Working closely with the 3rd party delivery team to ensure that the delivery remains on track and provides the technical functionality to fit into the UKHO Systems |
 |   | Helping suppliers integrate into UKHO Systems | |
+| Recruitment | Consulted on recruitment within software engineering | Although not responsible for recruitment, principals can be consulted to help where necessary, for example by helping to define a role |
