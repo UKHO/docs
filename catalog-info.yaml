@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: docs
+  description: UKHO digital documentation
+  annotations:
+    github.com/project-slug: ukho/docs
+    backstage.io/techdocs-ref: url:https://github.com/ukho/docs
+spec:
+  type: documentation
+  owner: team-leads
+  lifecycle: beta
