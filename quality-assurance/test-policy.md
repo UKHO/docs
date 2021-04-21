@@ -50,7 +50,7 @@ UKHO follows the Disciplined Agile Delivery (DAD) and testing forms part of that
 
 Testing will be carried out at all stages of development of software and products.
 
-There are sub-policies that cover the Agile and Non-Agile methods as well as security, penetration, load and performance testing.
+There are sub-policies that cover the Agile and Non-Agile methods as well as security, penetration, and [performance testing](./performance-test-checklist.md).
 
 The test guidance within the ADGF provides guidance/support for all teams that will carry out testing across UKHO.
 
