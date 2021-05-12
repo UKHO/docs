@@ -47,7 +47,7 @@ This section outlines the test types that need to be considered when preparing a
 
 * Testing to ensure the product(s) are accessible to those with disabilities, such as vision impairment, hearing disabilities, and other physical or cognitive conditions.
 * Accessibility needs to be considered early and throughout the development process.
-* More details can be found on our [web accessibility testing](Web-Accessibility.md) page.
+* More details can be found on our [web accessibility testing](web-accessibility.md) page.
 
 ### API Contract
 
