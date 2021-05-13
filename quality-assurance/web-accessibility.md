@@ -28,7 +28,7 @@ When doing automated accessibility testing, you can either run browser plugins a
 
 Automated accessibility testing is good to find obvious errors, but it won’t find everything so you need to make sure you manually check each page before it is signed off as done.  These manual checks need to cover all 50 of the WCAG 2.1 AA criteria.  You can find more information regarding WCAG 2.1 in W3.org's [Quick Reference Guide](https://www.w3.org/WAI/WCAG21/quickref/).  You can filter this guide to show the components of AA compliance.
 
-There is also a browser plugin called [Accessibility Insights](https://accessibilityinsights.io/) by Microsoft that does a relatively painless accessibility assessment. It will guide you through the process and generate a HTML report at the end.
+There is also a browser plugin called Accessibility Insights(see link below) by Microsoft that does a relatively painless accessibility assessment. It will guide you through the process and generate a HTML report at the end.
 
 ## Incorporating Accessibility Testing into the Definition of Done
 
@@ -43,8 +43,13 @@ An example of accessibility considerations in a definition of done:
 * Manually checked usability using a screen magnifier
 * Manually checked usability using speech recognition
 
-You can find information on free test tools [here](https://accessibility.blog.gov.uk/2018/09/27/assistive-technology-tools-you-can-use-at-no-cost/).
-
 ## Recording testing evidence
 
 It is important to keep evidence of all the accessibility testing. This means at any point you have an understanding of how accessible your service is. It also means you know when you are ready for a full audit, it is unlikely you will find any major issues when doing so.
+
+## Further useful links
+
+* [A11Y Statement Generator](https://www.w3.org/WAI/planning/statements/generator/#create)
+* [WCAG 2.1 filterable guidelines](https://www.w3.org/WAI/WCAG21/quickref/?currentsidebar=%23col_overview)
+* [Microsoft Accessibility Insights](https://accessibilityinsights.io/)
+* [List of free test tools](https://accessibility.blog.gov.uk/2018/09/27/assistive-technology-tools-you-can-use-at-no-cost/)
