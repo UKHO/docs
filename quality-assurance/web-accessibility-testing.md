@@ -1,11 +1,11 @@
 
-## Automated Accessibility Testing
+# Automated Accessibility Testing
 
 Automated accessibility tests will very quickly help you identify common fails. They will not find everything, we know they find less than 50% of all known issues, but they will give you a good foundation to start your manual testing from. Read more about the [limitations of automated accessibility testing tools](https://alphagov.github.io/accessibility-tool-audit/).
 
 When doing automated accessibility testing you can use tools that run as part of your build pipeline (such as axe-core) and/or browser plugins (such as Wave) that are triggered manually but will then scan through web pages.
 
-### Links to automated tools
+## Links to automated tools
 
 [axe-core](https://github.com/dequelabs/axe-core)
 [axe-core pipeline examples](https://www.deque.com/axe/core-documentation/integrations/)

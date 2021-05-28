@@ -2,7 +2,7 @@
 
 ## Quick link - how to test for accessibility
 
-To learn how to test accessibility in your project read the [UKHO web accessibility testing](web-accesibility-testing.md) page.
+To learn how to test accessibility in your project read the [UKHO web accessibility testing](web-accessibility-testing.md) page.
 
 ## What is accessibility
 
