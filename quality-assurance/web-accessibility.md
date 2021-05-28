@@ -1,5 +1,11 @@
 # Web Accessibility Testing
 
+## Quick link - how to test for accessibility
+
+To learn how to test accessibility in your project read the [UKHO web accessibility testing](web-accesibility-testing.md) page.
+
+## What is accessibility
+
 Web accessibility means that websites, tools, and technologies are designed and developed so that people with disabilities can use them. More specifically, people can perceive, understand, navigate, and interact with the Web.  It encompasses all disabilities that affect access to the Web, including
 
 * auditory
@@ -16,48 +22,67 @@ Web accessibility also benefits people without disabilities, like older people w
 * people using a slow Internet connection
 * people who have limited or expensive bandwidth
 
-As a test engineer, you are responsible for checking the finished product is accessible. This means running automated tests, manually checking the pages against the WCAG (Web Content Accessibility Guidelines) criteria, and testing usability with assistive technology.
+## Legal requirements
 
-## Automated Accessibility Testing
+The accessibility regulations came into force for public sector bodies on 23 September 2018. They say you must make your website or mobile app more accessible by making it ‘perceivable, operable, understandable and robust’. You need to include and update an accessibility statement on your website.
 
-Automated accessibility tests will very quickly help you identify common fails. They will not find everything, we know they find less than 50% of all known issues, but they will give you a good foundation to start your manual testing from. Read more about the [limitations of automated accessibility testing tools](https://alphagov.github.io/accessibility-tool-audit/).
+The full name of the accessibility regulations is the Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018.
 
-When doing automated accessibility testing you can use tools that run as part of your build pipeline (such as axe-core) and/or browser plugins (such as Wave) that are triggered manually but will then scan through web pages.
+The accessibility regulations build on your existing obligations to people who have a disability under the Equality Act 2010 (or the Disability Discrimination Act 1995 in Northern Ireland). These say that all UK service providers must consider ‘reasonable adjustments’ for disabled people.
 
-### Links to automated tools
+* [Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018](https://www.legislation.gov.uk/uksi/2018/952/contents/made)
+* [Equality Act 2010](https://www.legislation.gov.uk/ukpga/2010/15/contents)
+* [Understanding accessibility requirements for public sector bodies](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps)
 
-[axe-core](https://github.com/dequelabs/axe-core)
-[axe-core pipeline examples](https://www.deque.com/axe/core-documentation/integrations/)
-[Wave browser plugin](https://wave.webaim.org/extension/)
+## WCAG (Web Content Accessibility Guidelines)
 
-## Manual Accessibility Testing
+The Web Content Accessibility Guidelines (known as WCAG 2.1) are an internationally recognised set of recommendations for improving web accessibility.
 
-Automated accessibility testing is good at finding obvious errors, but it won’t find everything so you need to make sure you manually check each page as well. These manual checks need to cover all 50 of the WCAG 2.1 AA criteria. You can find more information regarding WCAG 2.1 in W3.org's [Quick Reference Guide](https://www.w3.org/WAI/WCAG21/quickref/). You can filter this guide to show the components of AA compliance.
+WCAG 2.1 is based on 4 design principles:
 
-There is also a browser plugin called Accessibility Insights by Microsoft that does a relatively painless accessibility assessment. It will guide you through the process and generate a HTML report at the end.
+* perceivable
+* operable
+* understandable
+* robust
 
-### Links to manual tools
+It is the WCAG recommendations that are used to verify whether a website or mobile app is accessible.
 
-* [Microsoft Accessibility Insights](https://accessibilityinsights.io/)
+Read more about [understanding WCAG](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag).
 
-## Incorporating Accessibility Testing into the Definition of Done
+View the [list of WCAG requirements](https://www.w3.org/WAI/WCAG21/quickref/) (this can be filtered on A level).
 
-We can’t deploy code which is not accessible, otherwise we are [breaking the law](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps). So if it’s not accessible it’s not done.  As part of the definition of done, the service should be checked for accessibility using both automated and manual tests.
+## Developing your service for accessibility
 
-An example of accessibility considerations in a definition of done:
+Read [how to make your service accessible](https://www.gov.uk/service-manual/helping-people-to-use-your-service/making-your-service-accessible-an-introduction) throughout the development and maintainance of your service.
 
-* Automated accessibility tests (using axe-core as an example) are passing in the deployment pipeline
-* Manual accessibility tests passed using Accessibility Insights
-* Manually checked usability using only a keyboard
-* Manually checked usability using a screen reader
-* Manually checked usability using a screen magnifier
-* Manually checked usability using speech recognition
+To learn how to test accessibility in your project read the [UKHO web accessibility testing](web-accesibility-testing.md) page.
+
+## Incorporating accessibility testing into the Definition of Done
+
+We can’t deploy code which is not accessible so if it’s not accessible it’s not done. Including accessibility in your team's Definition of Done is a great way to ensure the requirements are met.
+
+Accessibility considerations to be included in a Definition of Done include
+
+* Code quality
+* Usability
+* Screen readers
+* Screen magnifiers
+* Voice control
+
+See [a detailed example definition of done](https://github.com/hmrc/accessibility/blob/master/docs/definition-of-done.md) that contains examples of these.
+
+## Accessibility Statement
+
+You must produce a bespoke accessibility statement for your service that details how accessible it is and any areas that aren't.
+
+Read more about [publishing your accessibility statement](https://www.gov.uk/guidance/make-your-website-or-app-accessible-and-publish-an-accessibility-statement#publish-your-accessibility-statement).
+
+See an example Government (Universal Credit) [accessibility statement](https://www.universal-credit.service.gov.uk/accessibility-statement).
+
+gov.uk also have a [template accessibility statement](https://www.gov.uk/government/publications/sample-accessibility-statement/sample-accessibility-statement-for-a-fictional-public-sector-website).
+
+There is also an [accessibility statement generator](https://www.w3.org/WAI/planning/statements/generator/#create).
 
 ## Recording testing evidence
 
 It is important to keep evidence of all the accessibility testing. This means at any point you have an understanding of how accessible your service is. It also means you know when you are ready for a full audit, it is unlikely you will find any major issues when doing so.
-
-## Further useful links
-
-* [A11Y Statement Generator](https://www.w3.org/WAI/planning/statements/generator/#create)
-* [List of free test tools](https://accessibility.blog.gov.uk/2018/09/27/assistive-technology-tools-you-can-use-at-no-cost/)
