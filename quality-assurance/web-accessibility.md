@@ -1,12 +1,12 @@
-# Web Accessibility Testing
+# Accessibility Testing
 
 ## Quick link - how to test for accessibility
 
-To learn how to test accessibility in your project read the [UKHO web accessibility testing](web-accessibility-testing.md) page.
+To learn how to test accessibility in your project read the [UKHO accessibility testing](web-accessibility-testing.md) page.
 
 ## What is accessibility
 
-Web accessibility means that websites, tools, and technologies are designed and developed so that people with disabilities can use them. More specifically, people can perceive, understand, navigate, and interact with the web.  It encompasses all disabilities that affect access to the web, including
+Accessibility means that websites, tools, and technologies are designed and developed so that people with disabilities can use them. More specifically, people can perceive, understand, navigate, and interact with the web. It encompasses all disabilities that affect access to the web, including
 
 * auditory
 * cognitive
@@ -15,7 +15,7 @@ Web accessibility means that websites, tools, and technologies are designed and 
 * speech
 * visual
 
-Web accessibility also benefits people without disabilities, like older people with changing abilities due to ageing and people with “temporary disabilities” such as
+Accessibility also benefits people without disabilities, like older people with changing abilities due to ageing and people with “temporary disabilities” such as
 
 * a broken arm
 * lost glasses
@@ -36,7 +36,7 @@ The accessibility regulations build on your existing obligations to people who h
 
 ## WCAG (Web Content Accessibility Guidelines)
 
-The Web Content Accessibility Guidelines (known as WCAG 2.1) are an internationally recognised set of recommendations for improving web accessibility.
+The Web Content Accessibility Guidelines (known as WCAG 2.1) are an internationally recognised set of recommendations for improving accessibility.
 
 WCAG 2.1 is based on 4 design principles:
 
@@ -55,7 +55,7 @@ View the [list of WCAG requirements](https://www.w3.org/WAI/WCAG21/quickref/) (t
 
 Read [how to make your service accessible](https://www.gov.uk/service-manual/helping-people-to-use-your-service/making-your-service-accessible-an-introduction) throughout the development and maintainance of your service.
 
-To learn how to test accessibility in your project read the [UKHO web accessibility testing](web-accesibility-testing.md) page.
+To learn how to test accessibility in your project read the [UKHO accessibility testing](web-accesibility-testing.md) page.
 
 ## Incorporating accessibility testing into the Definition of Done
 
