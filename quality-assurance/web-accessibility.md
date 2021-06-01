@@ -6,7 +6,7 @@ To learn how to test accessibility in your project read the [UKHO web accessibil
 
 ## What is accessibility
 
-Web accessibility means that websites, tools, and technologies are designed and developed so that people with disabilities can use them. More specifically, people can perceive, understand, navigate, and interact with the Web.  It encompasses all disabilities that affect access to the Web, including
+Web accessibility means that websites, tools, and technologies are designed and developed so that people with disabilities can use them. More specifically, people can perceive, understand, navigate, and interact with the web.  It encompasses all disabilities that affect access to the web, including
 
 * auditory
 * cognitive
@@ -61,7 +61,7 @@ To learn how to test accessibility in your project read the [UKHO web accessibil
 
 We can’t deploy code which is not accessible so if it’s not accessible it’s not done. Including accessibility in your team's Definition of Done is a great way to ensure the requirements are met.
 
-Accessibility considerations to be included in a Definition of Done include
+Accessibility considerations to be included in a Definition of Done include:
 
 * Code quality
 * Usability
@@ -73,15 +73,11 @@ See [a detailed example definition of done](https://github.com/hmrc/accessibilit
 
 ## Accessibility Statement
 
-You must produce a bespoke accessibility statement for your service that details how accessible it is and any areas that aren't.
+You must produce a bespoke accessibility statement for your service that details how accessible it is and any areas that aren't. See an example UK Government (Universal Credit) [accessibility statement](https://www.universal-credit.service.gov.uk/accessibility-statement).
 
 Read more about [publishing your accessibility statement](https://www.gov.uk/guidance/make-your-website-or-app-accessible-and-publish-an-accessibility-statement#publish-your-accessibility-statement).
 
-See an example Government (Universal Credit) [accessibility statement](https://www.universal-credit.service.gov.uk/accessibility-statement).
-
-gov.uk also have a [template accessibility statement](https://www.gov.uk/government/publications/sample-accessibility-statement/sample-accessibility-statement-for-a-fictional-public-sector-website).
-
-There is also an [accessibility statement generator](https://www.w3.org/WAI/planning/statements/generator/#create).
+The gov.uk resource also have a [template accessibility statement](https://www.gov.uk/government/publications/sample-accessibility-statement/sample-accessibility-statement-for-a-fictional-public-sector-website) and there is also an [accessibility statement generator](https://www.w3.org/WAI/planning/statements/generator/#create) that can be used.
 
 ## Recording testing evidence
 
