@@ -10,7 +10,7 @@ Please also see the UKHO NFR definition [here](https://ukho.sharepoint.com/sites
 
 ## Implementation
 
-Delivery teams should ensure NFRs are present when starting a new piece of work. If this is not the case, the solution architect aligned with the team should be tasked with discovering and providing the relevant NFRs. If the team does not know who their solution architect is, they should consult with Trevor Rookes.
+Delivery teams should ensure NFRs are present when starting a new piece of work. If this is not the case, the solution architect aligned with the team should be tasked with discovering and providing the relevant NFRs. If the team does not know who their solution architect is, they should consult with the architecture practice head.
 
 During development the NFRs may change as the solution progresses, but fulfilling the NFRs must **not** be de-prioritised or disregarded.
 
