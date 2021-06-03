@@ -9,6 +9,7 @@ The policies (and associated guidance) that should be followed during software d
 | Code Reuse | [Policy](CodeReuse/CodeReusePolicy.md) | |
 | Code Review | [Policy](CodeReview/CodeReviewPolicy.md) | |
 | Inclusive Language | [Policy](InclusiveLanguage/InclusiveLanguagePolicy.md) | |
+| Non Functional Requirements | [Policy](NFRs/NFRPolicy.md) | |
 | Open Source Contribution | [Policy](OpenSourceContribution/OpenSourceContributionPolicy.md) | |
 | Open Source Use | [Policy](OpenSourceUse/OpenSourceUsePolicy.md) | |
 | Pair Programming | [Policy](PairProgramming/PairProgrammingPolicy.md) | |
