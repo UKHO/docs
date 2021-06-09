@@ -14,9 +14,9 @@ You also need to consider cross-browser testing. Unless you are supporting a sin
 
 ## Test Approach
 
-1. Integrate an automated tool into your build pipeline to identify common problems.
-1. Run browser plugins manually against each page of your website. Note the different browsers supported by each.
-1. Incorporate manual testing for screen readers and magnifiers, and for voice control.
+1. Automated testing using a tool in your build pipeline to identify common problems.
+1. Manual testing using browser plugins against each page of your website. Note the different browsers supported by each.
+1. Manual testing using assistive technologies (i.e. screen readers, screen magnifiers and voice control).
 
 ## Automated Testing
 
