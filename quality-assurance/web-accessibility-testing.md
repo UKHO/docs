@@ -18,10 +18,12 @@ You also need to consider cross-browser testing. Unless you are supporting a sin
 1. Run browser plugins manually against each page of your website. Note the different browsers supported by each.
 1. Incorporate manual testing for screen readers and magnifiers, and for voice control. Read [how to test with assistive technologies](https://www.gov.uk/service-manual/technology/testing-with-assistive-technologies) to understand how to test using these.
 
+The BBC has a great guide on [how to test with assistive technolgies](https://bbc.github.io/accessibility-news-and-you/assistive-technology/testing.html).
+
 ## Automated Testing
 
 * [axe-core](https://github.com/dequelabs/axe-core)
-* [ject-core](https://www.npmjs.com/package/jest-axe) - axe-core called by the Jest test framework.
+* [jest-core](https://www.npmjs.com/package/jest-axe) - axe-core called by the Jest test framework.
 
 ## Manual Testing using browser plugins
 
