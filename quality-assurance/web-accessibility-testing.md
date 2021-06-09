@@ -16,9 +16,10 @@ You also need to consider cross-browser testing. Unless you are supporting a sin
 
 1. Integrate an automated tool into your build pipeline to identify common problems.
 1. Run browser plugins manually against each page of your website. Note the different browsers supported by each.
-1. Incorporate manual testing for screen readers and magnifiers, and for voice control. Read [how to test with assistive technologies](https://www.gov.uk/service-manual/technology/testing-with-assistive-technologies) to understand how to test using these.
+1. Incorporate manual testing for screen readers and magnifiers, and for voice control.
 
-The BBC has a great guide on [how to test with assistive technolgies](https://bbc.github.io/accessibility-news-and-you/assistive-technology/testing.html).
+* Read an overview from gov.uk on [testing with assistive technologies](https://www.gov.uk/service-manual/technology/testing-with-assistive-technologies).
+* Read this guide to [understand how to use the individual assistive technologies](https://bbc.github.io/accessibility-news-and-you/assistive-technology/testing.html).
 
 ## Automated Testing
 
