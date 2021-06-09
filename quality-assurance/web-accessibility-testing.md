@@ -18,21 +18,27 @@ You also need to consider cross-browser testing. Unless you are supporting a sin
 1. Run browser plugins manually against each page of your website. Note the different browsers supported by each.
 1. Incorporate manual testing for screen readers and magnifiers, and for voice control.
 
-* Read an overview from gov.uk on [testing with assistive technologies](https://www.gov.uk/service-manual/technology/testing-with-assistive-technologies).
-* Read this guide to [understand how to use the individual assistive technologies](https://bbc.github.io/accessibility-news-and-you/assistive-technology/testing.html).
-
 ## Automated Testing
 
 * [axe-core](https://github.com/dequelabs/axe-core)
 * [jest-core](https://www.npmjs.com/package/jest-axe) - axe-core called by the Jest test framework.
 
-## Manual Testing using browser plugins
+## Manual Testing
+
+### Browser plugins
 
 * [Microsoft Accessibility Insights](https://accessibilityinsights.io/) - for Edge and Chrome
 * [WAVE](https://wave.webaim.org/extension/) - for Chrome and Firefox
 * [a11yTools](https://apps.apple.com/us/app/a11ytools-web-accessibility/id1364813335?mt=12) - Safari on MacOS
 
-## Manual testing using screen readers
+### Assistive Technologies
+
+Read these guides to get an overview on how to test with assistive technologies:
+
+* [gov.uk - testing with assistive technologies](https://www.gov.uk/service-manual/technology/testing-with-assistive-technologies).
+* [BBC - how to use the individual assistive technologies](https://bbc.github.io/accessibility-news-and-you/assistive-technology/testing.html).
+
+#### Screen readers
 
 * [NVDA](https://www.nvaccess.org/download/) - Windows
 * [Windows Narrator](https://support.microsoft.com/en-us/windows/complete-guide-to-narrator-e4397a0d-ef4f-b386-d8ae-c172f109bdb1) - built into Windows 10 but not used by many people so only use if NVDA cannot be
@@ -40,14 +46,14 @@ You also need to consider cross-browser testing. Unless you are supporting a sin
 
 Note that JAWS is a common screen reader but it is not free. It also attempts to fix issues on-the-fly that does not help you find issues.
 
-## Manual testing using screen magnifiers
+#### Screen magnifiers
 
 * [Windows Magnifier](https://support.microsoft.com/en-us/windows/use-magnifier-to-make-things-on-the-screen-easier-to-see-414948ba-8b1c-d3bd-8615-0e5e32204198) - Windows 10
 * [Apple Zoom](https://support.apple.com/en-gb/HT210978) - MacOS
 
 Note that ZoomText is a recommended tool for screen magnifiers but is not free.
 
-## Manual testing using voice control
+#### Voice control
 
 * [Windows Speech Recognition](https://support.microsoft.com/en-us/windows/use-voice-recognition-in-windows-10-83ff75bd-63eb-0b6c-18d4-6fae94050571) - Windows 10
 * [Apple Dictation](https://support.apple.com/en-gb/HT210539) - MacOS
