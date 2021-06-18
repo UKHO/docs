@@ -24,9 +24,9 @@ I help the team identify security requirements for our software.
 
 I work with the other Security Champions to:
 
-* Share best practice across teams
-* Create shared standards and resources
-* Run activities and events
+- Share best practice across teams
+- Create shared standards and resources
+- Run activities and events
 
 ## What I don’t do
 
