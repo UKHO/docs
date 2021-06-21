@@ -78,7 +78,3 @@ You must produce a bespoke accessibility statement for your service that details
 Read more about [publishing your accessibility statement](https://www.gov.uk/guidance/make-your-website-or-app-accessible-and-publish-an-accessibility-statement#publish-your-accessibility-statement).
 
 The gov.uk resource also have a [template accessibility statement](https://www.gov.uk/government/publications/sample-accessibility-statement/sample-accessibility-statement-for-a-fictional-public-sector-website) and there is also an [accessibility statement generator](https://www.w3.org/WAI/planning/statements/generator/#create) that can be used.
-
-## Recording testing evidence
-
-It is important to keep evidence of all the accessibility testing. This means at any point you have an understanding of how accessible your service is. It also means you know when you are ready for a full audit, it is unlikely you will find any major issues when doing so.
