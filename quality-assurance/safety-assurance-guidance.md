@@ -28,6 +28,7 @@ If the delivery is safety-related, then the team’s “definition of done” mu
 ## Process – safety modelling
 
 When developing safety-related software, the following process must be followed:
+
 1. If a PBI is considered as potentially relevant to safety, it must be marked in the work tracking system with the standard tag ‘Safety Pending’.
 1. The development team must then discuss safety requirements for that PBI.  This discussion may be at any team event (e.g. refinement, threat-modelling, or a specific safety meeting).
 1. Under the direction of the test engineer, the team must discuss whether a failure condition relating to the PBI can cause an error or delay in the product.  If it is decided that this is the case, the PBI must be marked with the standard tag ‘Safety’.  If it is not the case, then all safety tags may be removed.
@@ -35,7 +36,6 @@ When developing safety-related software, the following process must be followed:
     - Barriers to the failure condition happening
     - Mitigations to prevent the failure condition creating error or delay
 1. These barriers and mitigations are expressed as acceptance criteria on the PBI.  As a result their implementation, testing and move to production will be traceable in the work tracking tool.
-
 
 ## Accountability for security modelling
 
