@@ -16,7 +16,6 @@ If you read nothing else, then read these three things:
 * [BDD reference page](bdd.md)
 * [Open source repositories](test-repositories.md)
 * [Tester roles](test-profiles.md)
-* [Test policy](test-policy.md)
 * [Test principles](testing-principles.md)
 * [Test automation standards](test-code-standards.md)
 * [Test strategy](test-strategy.md)
