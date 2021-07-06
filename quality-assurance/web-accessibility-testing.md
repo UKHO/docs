@@ -21,7 +21,8 @@ You also need to consider cross-browser testing. Unless you are supporting a sin
 ## Automated Testing
 
 * [axe-core](https://github.com/dequelabs/axe-core)
-* [jest-core](https://www.npmjs.com/package/jest-axe) - axe-core called by the Jest test framework.
+* [jest-axe](https://www.npmjs.com/package/jest-axe) - axe-core called by the Jest test framework.
+* [axe-playwright](https://www.npmjs.com/package/axe-playwright) - axe-core integrated with Playwright test framework.
 
 ## Manual Testing
 
