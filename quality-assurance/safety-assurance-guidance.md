@@ -3,6 +3,7 @@
 This policy describes the Software Engineering Team’s policy and process for ensuring our SOLAS products are created and changed with appropriate consideration given to safety.
 
 ## Goals
+
 -	Minimise the causes of product delay and inaccuracy introduced through the software we create.
 -	Provide traceability for the delivery of safety requirements
 -	Create full delivery team awareness of the safety impact of the software they create
@@ -11,6 +12,7 @@ This policy describes the Software Engineering Team’s policy and process for e
 -	Provide safety-related analysis on a just-in-time basis, rather than through wasteful up-front effort
 
 ## Overview of approach
+
 Our approach is closely related to our successful Developer Threat Modelling process which is used as part of our security lifecycle.
 
 The test engineer in each delivery team is responsible for enforcing our safety practices.  They run a lightweight process of tagging work items as safety-related and then creating barriers and mitigations to safety hazards.
@@ -24,6 +26,7 @@ A team’s product owner is accountable for establishing whether their current d
 If the delivery is safety-related, then the team’s “definition of done” must contain a statement to the effect that safety modelling must have been carried out for every PBI (work item).
 
 ## Process – safety modelling
+
 When developing safety-related software, the following process must be followed:
 1. If a PBI is considered as potentially relevant to safety, it must be marked in the work tracking system with the standard tag ‘Safety Pending’.
 1. The development team must then discuss safety requirements for that PBI.  This discussion may be at any team event (e.g. refinement, threat-modelling, or a specific safety meeting).
@@ -35,10 +38,14 @@ When developing safety-related software, the following process must be followed:
 
 
 ## Accountability for security modelling
+
 The team’s Test Engineer is accountable for this process being followed.
 
 ## Skills
+
 All participants must have a basic understanding of [bow tie](https://www.youtube.com/watch?v=P7Z6L7fjsi0) risk analysis.  Training material will be provided by the Test Practice.
 
 ## Obtaining more information for the process
+
 At any point during a delivery, the development team can ask for more information about the safety context of their work, in order to effectively carry out safety modelling. Typically, this will consist of further information about wider IT or business processes, how these contribute to safety, and what mitigations already exist.  The recommended format for this information is the [bow tie](https://www.youtube.com/watch?v=P7Z6L7fjsi0) diagram, but this is not mandated. The Product Owner is responsible for obtaining any such information that the team requires.
+
