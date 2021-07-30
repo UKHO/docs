@@ -24,12 +24,12 @@ When testing for accessibility you will need to include the following in your ap
 
 ### Keyboard only
 
-See section in [UKHO web accessibility testing](web-accesibility-testing.md#keyboard-only).
+See section in [UKHO web accessibility testing](web-accessibility-testing.md#keyboard-only).
 
 ### Screen Readers
 
-See section in [UKHO web accessibility testing](web-accesibility-testing.md#screen-readers).
+See section in [UKHO web accessibility testing](web-accessibility-testing.md#screen-readers).
 
 ### Screen Magnifiers
 
-See section in [UKHO web accessibility testing](web-accesibility-testing.md#screen-magnifiers).
+See section in [UKHO web accessibility testing](web-accessibility-testing.md#screen-magnifiers).
