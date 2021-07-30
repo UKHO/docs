@@ -55,7 +55,10 @@ View the [list of WCAG requirements](https://www.w3.org/WAI/WCAG21/quickref/) (t
 
 Read [how to make your service accessible](https://www.gov.uk/service-manual/helping-people-to-use-your-service/making-your-service-accessible-an-introduction) throughout the development and maintainance of your service.
 
-To learn how to test accessibility in your project read the [UKHO accessibility testing](web-accesibility-testing.md) page.
+To understand how to test accessibility read either:
+
+* [UKHO web accessibility testing](web-accesibility-testing.md)
+* [UKHO desktop accessibility testing](desktop-accessibility-testing.md)
 
 ## Incorporating accessibility testing into the Definition of Done
 
