@@ -13,6 +13,8 @@ When testing for accessibility you will need to include the following in your ap
 * Manual testing using screen readers
 * Manual testing using screen magnifiers
 
+Note that automated testing as part of a CI/CD pipeline will not be possible.
+
 ## Test Approach
 
 1. Manual testing using an accessibility tool
