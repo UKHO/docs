@@ -1,4 +1,4 @@
-# How to test for Accessibility
+# How to test a web app for Accessibility
 
 ## Overview
 
@@ -6,6 +6,7 @@ When testing for accessibility you will need to include the following in your ap
 
 * Automated testing to identify common problems
 * Manual testing using browser plugins that will automatically report problems
+* Manual testing using a keyboard only
 * Manual testing using screen readers
 * Manual testing using screen magnifiers
 * Manual testing using voice control
@@ -31,6 +32,10 @@ You also need to consider cross-browser testing. Unless you are supporting a sin
 * [Microsoft Accessibility Insights](https://accessibilityinsights.io/) - for Edge and Chrome
 * [WAVE](https://wave.webaim.org/extension/) - for Chrome and Firefox
 * [a11yTools](https://apps.apple.com/us/app/a11ytools-web-accessibility/id1364813335?mt=12) - Safari on MacOS
+
+### Keyboard only
+
+Use the app using the keyboard only. See [WebAim Keyboard Accessibility](https://webaim.org/techniques/keyboard/) to understand what to look for.
 
 ### Assistive Technologies
 
