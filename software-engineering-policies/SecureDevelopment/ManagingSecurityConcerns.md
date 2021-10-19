@@ -198,7 +198,7 @@ A penetration test of the Contoso website has identified a XSS vulnerability on 
 
 ## Prioritising and Fixing Security Concerns
 
-Discussions of prioritisation will usually happen during the teams planning session. In most cases, the team has the capability to address the security concern within their sprint. ITSO will drive very high priority security concerns, this is usually discussed during SWGs (Security Working Groups) or ad-hoc meetings. In order to escalate an issue use the following guidance:
+Discussions of prioritisation will usually happen during the team's planning session. In most cases, the team has the capability to address the security concern within their sprint. ITSO will drive very high priority security concerns, this is usually discussed during SWGs (Security Working Groups) or ad-hoc meetings. In order to escalate an issue use the following guidance:
 
 1. Raise the issue with the Security Advisor for the team (usually the Lead Developer)
 
