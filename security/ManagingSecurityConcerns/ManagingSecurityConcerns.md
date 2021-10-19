@@ -98,7 +98,7 @@ The CVSS v3.* score we are interested in are the Base Score Metrics (Exploitabil
 
 The base metric group captures the characteristics of a vulnerability that are constant with time and across user environments.
 
-A reference guide to the CVSS Scoring Metrics can be found [here](CvssScoringMetrics.md).
+A reference guide to the CVSS Scoring Metrics can be found [here](./CvssScoringMetrics.md).
 
 ## Recording the CVSS Risk Assessment
 
