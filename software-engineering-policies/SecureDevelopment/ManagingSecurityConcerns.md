@@ -186,7 +186,7 @@ Once a security concern has been identified, it should be raised in the team's b
 - Include a detailed description of the security concern e.g. Services affected.
 - Bug should contain steps to reproduce the issue (if possible).
 - Detail information on key stakeholders (such as the service owner).
-- Any conversations captures regarding the issue should be captured in the comments section.
+- Any conversations relevant to the issue should be recorded in the comments section.
 
 ### Example
 
