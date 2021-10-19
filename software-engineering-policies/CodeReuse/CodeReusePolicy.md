@@ -10,5 +10,3 @@ Lead Engineers are accountable for effective:
 ## Verification
 
 Teams should be seen to be actively using shared assets
-
-The assets that teams push to the UKHO InnerSource repository, with adequate test and documentation artefacts, are available for inspection.

@@ -47,13 +47,14 @@ This section outlines the test types that need to be considered when preparing a
 
 * Testing to ensure the product(s) are accessible to those with disabilities, such as vision impairment, hearing disabilities, and other physical or cognitive conditions.
 * Accessibility needs to be considered early and throughout the development process.
+* More details can be found on our [accessibility testing](accessibility-testing.md) page.
 
 ### API Contract
 
 * Contract testing should be considered when developing an API that will communicate with another UKHO API.
 * When interacting with the Data Platform this is mandatory.
 * [PACT](https://docs.pact.io/) is the technology to use.
-* Use the [UKHO PACT documentation](https://docs.data.ukho.gov.uk/testing/pact/introduction/) to learn how to do this.
+* Use the [UKHO Data Platform PACT documentation](https://docs.data.ukho.gov.uk/testing/pact/introduction/) to learn how to do this.
 
 ### Cross Browser
 
