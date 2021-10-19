@@ -176,7 +176,7 @@ Overall score: 5.2 (Medium) CVSS:3.1/AV:A/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:H
 
 ## Raising a Security Concern
 
-Once a security concern has been identified, it should be raised in the teams backlog. The bug should have the following characteristics:
+Once a security concern has been identified, it should be raised in the team's backlog. The bug should have the following characteristics:
 
 - Tagged with **Security Concern**.
 - Title starts with **Security Concern**.
