@@ -1,5 +1,11 @@
 # Security Champion Responsibilities
 
+- [Security Champion Responsibilities](#security-champion-responsibilities)
+  - [What I do](#what-i-do)
+  - [What I don’t do](#what-i-dont-do)
+  - [My skills](#my-skills)
+  - [My connections](#my-connections)
+
 ## What I do
 
 *I am a software engineer whose main job is to write code. I additionally have a responsibility to help the team write secure software, as a source of expertise and a coach.*
@@ -18,9 +24,9 @@ I help the team identify security requirements for our software.
 
 I work with the other Security Champions to:
 
-* Share best practice across teams
-* Create shared standards and resources
-* Run activities and events
+- Share best practice across teams
+- Create shared standards and resources
+- Run activities and events
 
 ## What I don’t do
 
