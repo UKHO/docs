@@ -15,7 +15,7 @@ Accessibility means that websites, tools, and technologies are designed and deve
 * speech
 * visual
 
-Accessibility also benefits people without disabilities, like older people with changing abilities due to ageing and people with “temporary disabilities” such as
+Accessibility also benefits people without disabilities, like people with changing abilities due to aging and people with “temporary disabilities” such as
 
 * a broken arm
 * lost glasses
