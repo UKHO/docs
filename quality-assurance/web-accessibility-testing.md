@@ -1,4 +1,4 @@
-# How to test a web app for Accessibility
+# How to test a web service for Accessibility
 
 ## Overview
 
@@ -29,7 +29,7 @@ You also need to consider cross-browser testing. Unless you are supporting a sin
 
 ### Browser plugins
 
-* [Microsoft Accessibility Insights](https://accessibilityinsights.io/) - for Edge and Chrome
+* [Microsoft Accessibility Insights](https://accessibilityinsights.io/docs/en/web/overview/) - for Edge and Chrome
 * [WAVE](https://wave.webaim.org/extension/) - for Chrome and Firefox
 * [a11yTools](https://apps.apple.com/us/app/a11ytools-web-accessibility/id1364813335?mt=12) - Safari on MacOS
 
@@ -50,14 +50,14 @@ Read these guides to get an overview on how to test with assistive technologies:
 * [Windows Narrator](https://support.microsoft.com/en-us/windows/complete-guide-to-narrator-e4397a0d-ef4f-b386-d8ae-c172f109bdb1) - built into Windows 10 but not used by many people so only use if NVDA cannot be
 * [Apple VoiceOver](https://www.apple.com/voiceover/info/guide/_1121.html) - MacOS
 
-Note that JAWS is a common screen reader but it is not free. It also attempts to fix issues on-the-fly that does not help you find issues.
+Note that [JAWS](https://www.freedomscientific.com/products/software/jaws/) is a common screen reader but it is not free. It also attempts to fix issues on-the-fly that does not help you find issues.
 
 #### Screen magnifiers
 
 * [Windows Magnifier](https://support.microsoft.com/en-us/windows/use-magnifier-to-make-things-on-the-screen-easier-to-see-414948ba-8b1c-d3bd-8615-0e5e32204198) - Windows 10
 * [Apple Zoom](https://support.apple.com/en-gb/HT210978) - MacOS
 
-Note that ZoomText is a recommended tool for screen magnifiers but is not free.
+Note that [ZoomText](https://www.zoomtext.com/) is a recommended tool for screen magnifiers but is not free.
 
 #### Voice control
 

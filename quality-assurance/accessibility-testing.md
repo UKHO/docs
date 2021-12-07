@@ -1,8 +1,8 @@
 # Accessibility Testing
 
-## Quick link - how to test for accessibility
+## Quick links - how to test for accessibility
 
-To learn how to test accessibility in your project read the [UKHO accessibility testing](web-accessibility-testing.md) page.
+To learn how to test accessibility in your web service project read the [UKHO web accessibility testing](web-accessibility-testing.md) page. For desktop application projects read the [UKHO desktop accessibility testing](desktop-accessibility-testing.md).
 
 ## What is accessibility
 
@@ -15,7 +15,7 @@ Accessibility means that websites, tools, and technologies are designed and deve
 * speech
 * visual
 
-Accessibility also benefits people without disabilities, like older people with changing abilities due to ageing and people with “temporary disabilities” such as
+Accessibility also benefits people without disabilities, like people with changing abilities due to ageing and people with “temporary disabilities” such as
 
 * a broken arm
 * lost glasses
@@ -57,7 +57,7 @@ Read [how to make your service accessible](https://www.gov.uk/service-manual/hel
 
 To understand how to test accessibility read either:
 
-* [UKHO web accessibility testing](web-accesibility-testing.md)
+* [UKHO web accessibility testing](web-accessibility-testing.md)
 * [UKHO desktop accessibility testing](desktop-accessibility-testing.md)
 
 ## Incorporating accessibility testing into the Definition of Done
