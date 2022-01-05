@@ -21,7 +21,11 @@ The following the should be considered within the project / application with reg
 
 	part of the white box testing this is best performed as suggested in OWASP as part of the code review. The following link 
 	covers the OWASP testing for this in more detail - https://owasp.org/www-community/controls/Static_Code_Analysis
-		Currently we are using Coverity to provide this coverage
+		Currently we are using Coverity to provide this coverage the link illustrates how you are able to setup and use this tool to 
+		improve the quality and security testing of the code and help with the PR process by streamlining the flow to only involve pior to
+		review on code that has passed the static checks - 
+		https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html a set of tutorials for how coverity works and 
+		setting it up can be followed through the link https://community.synopsys.com/s/coverity-tutorials
 	
 3. Server Access Control
 
@@ -125,7 +129,7 @@ https://github.com/UKHO/docs/blob/main/software-engineering-policies/CodeReview/
 
 The following are the automation tools currently in the top sector of the market the following link provides 
 the top 10 list of tools https://hackr.io/blog/top-10-open-source-security-testing-tools-for-web-applications
-i have just listed a sample that seem to provide a wide coverage pere possible.
+i have just listed a sample that seem to provide a wide coverage possible.
 
 1. Zap (Open Source)- used specifically for testing web applications and is geared to address some of the following
 	- SQL injection,
