@@ -32,12 +32,11 @@ The following the should be considered within the project / application with reg
 	The following link will help to explain this topic in more detail 
 	https://www.zaproxy.org/docs/desktop/addons/access-control-testing/ 
 	but to summarise some of the points then the tester should consider the areas below
-	* Make sure that all intra and inter access points to an applicatin are by expected via expected IPs
+	* Make sure that all intra and inter access points to an application are by expected via expected IPs
 	* Open access points are tested from Trusted and Untrusted Machines
 	* Test the upload of a file exceeding the maximum permitted file size, 
 			try to upload a restricted file type, or 
-			download data from a restricted site
-	
+			download data from a restricted site 
 	
 4. Ingress/ Egress points
 
@@ -47,20 +46,25 @@ The following the should be considered within the project / application with reg
 	https://cloud.google.com/vpc-service-controls/docs/ingress-egress-rules and
 	https://www.fortinet.com/resources/cyberglossary/data-egress
 	
+	Testing data-egress and tooling to aid this can be found in the next links
+	* https://www.christophertruncer.com/egress-assess-testing-egress-data-detection-capabilities/
+	* https://kalilinuxtutorials.com/egress-assess-data-detection/
+	
 	
 5. Session management
 
-	This is targeting testing of the web sessions that a user experiences through the sequence of network HTTP request and response transactions associated with the same user. In order to find out more information - 
-	https://kennel209.gitbooks.io/owasp-testing-guide-v4/content/en/web_application_security_testing/session_management_testing.html
-	https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html
+	This is targeting testing of the web sessions that a user experiences through the sequence of network HTTP request and response transactions associated with the same user. In order to find out more information the intention is that these links will help give you 
+	guidance on what you need to consider for assessing session management testing - 
+	* https://kennel209.gitbooks.io/owasp-testing-guide-v4/content/en/web_application_security_testing/session_management_testing.html
+	* https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html
 	
 	
 6. Password Management
 	
 	This can be split down into the following sub topics
-	Password Storage - https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html
-	Forgotten Password - https://cheatsheetseries.owasp.org/cheatsheets/Forgot_Password_Cheat_Sheet.html
-	Authentication - https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html
+	* Password Storage - https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html
+	* Forgotten Password - https://cheatsheetseries.owasp.org/cheatsheets/Forgot_Password_Cheat_Sheet.html
+	* Authentication - https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html
 	
 	Further information can be found from the link here - https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/04-Authentication_Testing/09-Testing_for_Weak_Password_Change_or_Reset_Functionalities
 	
@@ -68,6 +72,7 @@ The following the should be considered within the project / application with reg
 7. Brute-Force attacks
 	
 	Taking an extract from the link provided then "A brute force attack can manifest itself in many different ways, but primarily consists in an attacker configuring predetermined values, making requests to a server using those values, and then analyzing the response". The link provides more on the subject - https://owasp.org/www-community/attacks/Brute_force_attack
+	in addition i have included the OWASP ling to the security testing guide here https://owasp.org/www-project-web-security-testing-guide/
 	
 8. SQL injection
 	
@@ -118,6 +123,8 @@ in the detailed code review. Please see the OWASP link above for details
 	* Exploring potential threats
 	* Creating mitigation strategies 
 
+At the moment each team performs their own threat modelling as there is no central documented process and it's individual to the team. T
+The OWASP guidance in the link provided is for reference purposes and is intended to help the teams with their process.
 
 #### Code Reviews
 
@@ -129,7 +136,8 @@ https://github.com/UKHO/docs/blob/main/software-engineering-policies/CodeReview/
 
 The following are the automation tools currently in the top sector of the market the following link provides 
 the top 10 list of tools https://hackr.io/blog/top-10-open-source-security-testing-tools-for-web-applications
-i have just listed a sample that seem to provide a wide coverage possible.
+i have just listed a sample that seem to provide a wide coverage possible these will form the basic set of tools we need to adopt when 
+considering how to automate security testing. (**these have not been decided on at this point**)
 
 1. Zap (Open Source)- used specifically for testing web applications and is geared to address some of the following
 	- SQL injection,
