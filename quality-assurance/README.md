@@ -15,6 +15,7 @@ If you read nothing else, then read these three things:
 * [Acceptance criteria](acceptance-criteria.md)
 * [BDD reference page](bdd.md)
 * [Open source repositories](test-repositories.md)
+* [Performance testing checklist](performance-test-checklist.md)
 * [Tester roles](test-profiles.md)
 * [Test principles](testing-principles.md)
 * [Test automation standards](test-code-standards.md)

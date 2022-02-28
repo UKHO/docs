@@ -84,7 +84,8 @@ Tests should be added at the correct level of the test pyramid – lower is bett
 ### Performance
 
 * The purpose of performance testing is to determine how the product performs (stability and responsiveness) under specified conditions.
-* The requirements for performance testing should be considered from the outset of the project and recorded as part of the Non-Functional Requirements.
+* The requirements for performance testing should be considered from the outset of the project and recorded as part of the Non-Functional Requirements.  
+* [This checklist](performance-test-checklist.md) should be used to guide performance testing activities.
 
 ### Production
 
