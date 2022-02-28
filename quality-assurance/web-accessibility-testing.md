@@ -1,0 +1,65 @@
+# How to test a web service for Accessibility
+
+## Overview
+
+When testing for accessibility you will need to include the following in your approach:
+
+* Automated testing to identify common problems
+* Manual testing using browser plugins that will automatically report problems
+* Manual testing using a keyboard only
+* Manual testing using screen readers
+* Manual testing using screen magnifiers
+* Manual testing using voice control
+
+You also need to consider cross-browser testing. Unless you are supporting a single browser it's unlikely you will have enough time to complete all testing against all browsers. Therefore your test approach should be to carry out a selection of the above against all supported browsers.
+
+## Test Approach
+
+1. Automated testing using a tool in your build pipeline to identify common problems.
+1. Manual testing using browser plugins against each page of your website. Note the different browsers supported by each.
+1. Manual testing using assistive technologies (i.e. screen readers, screen magnifiers and voice control).
+
+## Automated Testing
+
+* [axe-core](https://github.com/dequelabs/axe-core)
+* [jest-axe](https://www.npmjs.com/package/jest-axe) - axe-core called by the Jest test framework.
+* [axe-playwright](https://www.npmjs.com/package/axe-playwright) - axe-core integrated with Playwright test framework.
+
+## Manual Testing
+
+### Browser plugins
+
+* [Microsoft Accessibility Insights](https://accessibilityinsights.io/docs/en/web/overview/) - for Edge and Chrome
+* [WAVE](https://wave.webaim.org/extension/) - for Chrome and Firefox
+* [a11yTools](https://apps.apple.com/us/app/a11ytools-web-accessibility/id1364813335?mt=12) - Safari on MacOS
+
+### Keyboard only
+
+Use the app using the keyboard only. See [WebAim Keyboard Accessibility](https://webaim.org/techniques/keyboard/) to understand what to look for.
+
+### Assistive Technologies
+
+Read these guides to get an overview on how to test with assistive technologies:
+
+* [gov.uk - testing with assistive technologies](https://www.gov.uk/service-manual/technology/testing-with-assistive-technologies).
+* [BBC - how to use the individual assistive technologies](https://bbc.github.io/accessibility-news-and-you/assistive-technology/testing.html).
+
+#### Screen readers
+
+* [NVDA](https://www.nvaccess.org/download/) - Windows
+* [Windows Narrator](https://support.microsoft.com/en-us/windows/complete-guide-to-narrator-e4397a0d-ef4f-b386-d8ae-c172f109bdb1) - built into Windows 10 but not used by many people so only use if NVDA cannot be
+* [Apple VoiceOver](https://www.apple.com/voiceover/info/guide/_1121.html) - MacOS
+
+Note that [JAWS](https://www.freedomscientific.com/products/software/jaws/) is a common screen reader but it is not free. It also attempts to fix issues on-the-fly that does not help you find issues.
+
+#### Screen magnifiers
+
+* [Windows Magnifier](https://support.microsoft.com/en-us/windows/use-magnifier-to-make-things-on-the-screen-easier-to-see-414948ba-8b1c-d3bd-8615-0e5e32204198) - Windows 10
+* [Apple Zoom](https://support.apple.com/en-gb/HT210978) - MacOS
+
+Note that [ZoomText](https://www.zoomtext.com/) is a recommended tool for screen magnifiers but is not free.
+
+#### Voice control
+
+* [Windows Speech Recognition](https://support.microsoft.com/en-us/windows/use-voice-recognition-in-windows-10-83ff75bd-63eb-0b6c-18d4-6fae94050571) - Windows 10
+* [Apple Dictation](https://support.apple.com/en-gb/HT210539) - MacOS

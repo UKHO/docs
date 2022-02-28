@@ -1,5 +1,24 @@
 # Secure Development Policy
 
+- [Secure Development Policy](#secure-development-policy)
+  - [Objective](#objective)
+  - [Roles](#roles)
+    - [Security Champion(s)](#security-champions)
+    - [Security Advisor](#security-advisor)
+    - [Security Working Groups](#security-working-groups)
+    - [Accreditor](#accreditor)
+    - [Security Assurance Coordinator (SAC)](#security-assurance-coordinator-sac)
+    - [Risk Owner](#risk-owner)
+  - [Controls](#controls)
+    - [Team Roles](#team-roles)
+    - [SCRUM](#scrum)
+    - [Skills Matrix](#skills-matrix)
+    - [On-Boarding](#on-boarding)
+    - [Source Control](#source-control)
+    - [3rd Party Dependency/Package Management](#3rd-party-dependencypackage-management)
+    - [SAST Tooling](#sast-tooling)
+    - [Threat Library & Mitigations](#threat-library--mitigations)
+
 ## Objective
 
 Vulnerabilities exist because engineers create them.
@@ -34,7 +53,6 @@ A Security Champion is any skill level engineer who is enthusiastic about buildi
 
 - Championing secure development practises.
 
-
 ### Security Advisor
 
 The Security Advisor is a lead or senior engineer who has additional responsibilities towards security. They are responsible for:
@@ -50,7 +68,6 @@ The Security Advisor is a lead or senior engineer who has additional responsibil
 - Ensure a skills matrix is defined per project and developers complete this.
 
 - Assisting SAC where necessary.
-
 
 ### Security Working Groups
 
@@ -112,8 +129,8 @@ The risk owner is the person who is responsible for the product. This may be the
 
 >_We are responsible for ensuring that 3rd party packages within our solutions are from authorised repositories, have appropriate licensing and are checked for known vulnerabilities._
 
-- [ ] Packages must be downloaded from a package management tool e.g. Proget or Nexus (or any DDC authorised tool).
-- [ ] The team must use a dependency checking tool such as Dependency Checker (or another DDC authorised tool).
+- [ ] Packages must be downloaded from a package management tool e.g. Proget or Nexus (or any Digital Delivery Team authorised tool).
+- [ ] The team must use a dependency checking tool such as Dependency Checker (or another Digital Delivery Team authorised tool).
 - [ ] The tool must be configured to run before code is released to production e.g. via a build/release pipeline.
 - [ ] The team should decide what the acceptable threshold is to prevent code from being released to production e.g. via a build/release pipeline.
 - [ ] The team must provide proof that the code is not released to production when this threshold is breached. Decisions to release even in the presence of a known vulnerability should be recorded and approved by the risk owner.
@@ -123,7 +140,7 @@ The risk owner is the person who is responsible for the product. This may be the
 
 >_Static analysis tooling is required to add an extra layer of verification to the developer’s code around catching vulnerabilities before they are released to production._
 
-- [ ] The team must have a SAST process, either automated or manual via code reviews. (It is strongly recommended that the team use a static analysis tool which DDC has approved).
+- [ ] The team must have a SAST process, either automated or manual via code reviews. (It is strongly recommended that the team use a static analysis tool which the Digital Delivery Team has approved).
 - [ ] Each team member must have a basic understanding of interpreting the results of static analysis (manual or automated).
 - [ ] If using an automated tool, it must be configured to run as part of either/both a build or release pipeline.  
 - [ ] The team should decide what the acceptable threshold is to prevent code from being released to production e.g. a build or release fails.  

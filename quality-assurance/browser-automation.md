@@ -14,7 +14,7 @@ Some authentication scenarios can be worked out, primarily SSO and NTLM Windows 
 
 ## Playwright
 
-Playwright enables fast, reliable and capable automation across all modern browsers. It is a Node.js library to automate Chromium, Firefox and WebKit with a single API. Upon install, Playwright downloads a version of Chromium/Chrome and uses the Chrome DevTools Protocol to orchestrate the browser instance. For Firefox and WebKit engines, Playwright downloads the actual browser but extends their debugging protocol capabilities to provide a unified API and features. There is no modification of the actual browsers, so that it is expected to work exactly the same in the testing and the real user's browser. Go [here](https://github.com/microsoft/playwright/blob/master/docs/installation.md) for more information on the browser binaries.
+Playwright enables fast, reliable and capable automation across all modern browsers. It is a Node.js library to automate Chromium, Firefox and WebKit with a single API. Upon install, Playwright downloads a version of Chromium/Chrome and uses the Chrome DevTools Protocol to orchestrate the browser instance. For Firefox and WebKit engines, Playwright downloads the actual browser but extends their debugging protocol capabilities to provide a unified API and features. There is no modification of the actual browsers, so that it is expected to work exactly the same in the testing and the real user's browser. Go [here](https://github.com/microsoft/playwright/blob/master/docs/src/installation.md) for more information on the browser binaries.
 
 Playwright also provides [playwright-cli](https://github.com/microsoft/playwright-cli) that is easy to use, and allows for code generation, emulation plus screenshots and videos. 
 
