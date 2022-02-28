@@ -37,7 +37,7 @@ Design the system that will be tested.  This should be as close to the live syst
 ### Select tools
 
 Consult team tech radars for currently in-use technologies.
-Depending on the types of testing planned, you will typically be using some sort of load testing tool.  For more complex scenarios you might use other technologies, e.g. for collecting, corelating and visualising results.
+Depending on the types of testing planned, you will typically be using some sort of load testing tool.  For more complex scenarios you might use other technologies, e.g. for collecting, correlating and visualising results.
 
 ### Design performance test tool infrastructure
 

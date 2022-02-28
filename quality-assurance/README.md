@@ -20,3 +20,4 @@ If you read nothing else, then read these three things:
 * [Test automation standards](test-code-standards.md)
 * [Test strategy](test-strategy.md)
 * [UKHO Delivery Quality Charter](ukho-quality-charter.md)
+* [Performance testing checklist](performance-test-checklist.md)
