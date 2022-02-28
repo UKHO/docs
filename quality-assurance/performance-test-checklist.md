@@ -16,6 +16,7 @@ This document lists activities that you should consider when planning performanc
 ### Agree types of performance testing to carry out, and data to gather
 
 e.g.
+
 - Load testing
 - Scalability testing
 - Soak testing
