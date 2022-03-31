@@ -1,5 +1,9 @@
 # Technical Debt Policy
 
+## Technical Debt Definition
+
+Deficiencies in internal quality or capability that make a product/service/application more costly than it would ideally be to modify, extend or maintain a system over time.
+
 ## Guide
 
 Each team **MUST** maintain a register of technical debt for their system.
