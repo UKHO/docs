@@ -2,7 +2,7 @@
 
 ## Raising Technical Debt
 
-Technical debt that will not be resolved in the sprint identified **SHOULD** be raised as a PBI in the relevant area of Azure DevOps or Azure DevOps Server. When raising Technical Debt, please add the following information to the Technical Debt PBI:
+Technical debt that will not be resolved in the sprint identified **MUST** be raised as a PBI in the relevant area of Azure DevOps or Azure DevOps Server. When raising Technical Debt, please add the following information to the Technical Debt PBI:
 
 ### Title
 
@@ -10,28 +10,36 @@ Technical debt that will not be resolved in the sprint identified **SHOULD** be 
 
 ### Description
 
-The description of the Technical Debt item should include the following as a minimum:
+The description of the Technical Debt item must include the following as a minimum:
 
 * The repository the Technical Debt lives within (a link to the repo would be good but the name would suffice)
 * Description of the issue in as much detail as you can provide, including class/file names if this can be included
 * A proposed solution or ideas for a fix **
 * Cost/Benefit and risk of the Technical Debt item, simply as a "why should this be fixed?/How long would it take?"
-* The Technical Debt PBI **MUST** be tagged with the `````Technical Debt````` tag and any further appropriate tags, such as the following:
+* The Technical Debt PBI **MUST** be tagged with the `````Technical Debt````` tag and should have any further appropriate tags, such as the following:
   * Product Name (could be multiple, see the product list in AppRegister; http://appregister/)
-  * Security
-  * Availability
-  * Portability
-  * Compatibility
-  * Performance
-  * Maintainability
-  * Knowledge
-  * Automation
-  * Testing
+  * Tech Debt Type:
+    * Security
+    * Knowledge
+    * Automation
+    * Testing
+    * Architecture
+    * Code
+    * Infrastructure
+  * Tech Debt Impact:
+    * Availability
+    * Portability
+    * Compatibility
+    * Performance
+    * Maintainability
+    * Extensibility  
   * Out-Of-Support
   * Date-of-Failure **
   * Investigate To Remove - This tag has been used to mark a Technical Debt item that may already have been completed or is going to be irrelevant due to other work.
 
 ** - Where appropriate/known
+
+**IMPORTANT** the tagging of the technical debt PBI is used for automated metric assessments vital for visibility of the UKHOs technical debt, tagging tech debt PBIs is vital for the accuracy of this process.
 
 An example of the above:
 
@@ -43,7 +51,7 @@ An example of the above:
 
 * Identify old Technical Debt PBIs and refine them to meet the newly agreed model specified above
 * Identify any details that can be added to the Technical Debt PBI
-* Assign a Technical Debt priority tag to the PBI:
+* **MUST** Assign a Technical Debt priority tag to the PBI:
   * TD1 - High business/technical value, high risk debt that needs to be paid off ASAP (a Security or Out-Of-Support tag should automatically be considered for a TD1 prioritisation).
   * TD2 - High business/technical value (cost reduction, blocker removing, maintainability improvement), lower risk, a change that should be worked on when time/opportunity permits and is not something that can be accepted or supported long term.
   * TD3 - Tech debt that has been accepted as a risk but through paying off would add value through improving usability, maintainability, reliability or performance.
