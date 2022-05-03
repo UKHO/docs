@@ -16,12 +16,12 @@ Services can produce logs that fall into three main categories: diagnostic, audi
 ### Audit/Metric logs
 
 - Expected minimum log levels for Production: Information, but may differ based on the individual type of audit or metric log
-- Should ingest into a dedicated ElasticSearch index named as e.g., SalesCatalogueService -Dev1-Audit
+- Should ingest into a dedicated ElasticSearch index named as e.g., SalesCatalogueService-Dev1-Audit
 
 ### Request/response logging
 
 - Expected minimum log levels for Production: Information
-- Should ingest into a dedicated ElasticSearch index named as e.g., SalesCatalogueService -Dev1-HTTP
+- Should ingest into a dedicated ElasticSearch index named as e.g., SalesCatalogueService-Dev1-HTTP
 
 ### Further related guidance
 
@@ -94,3 +94,9 @@ In later environments as log levels become more restrictive, teams should test t
 ### Load testing
 
 Load tests should be set to Production level logging, so the capacity generated from logs targeting Production is understood. The load testing environment should be as live-like as possible.
+
+***
+
+## Migrating services to Elastic Cloud
+
+Existing services that are currently using the legacy Azure Event Hub > LogStash > on premise ElasticSearch pattern will need to have no errors (and ideally no warnings) being reported in LogStash before they are migrated to Elastic Cloud. Furthermore, these services should be adhering to this logging policy before migration.
