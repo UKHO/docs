@@ -30,7 +30,6 @@ Services can produce logs that fall into three main categories: diagnostic, audi
 - Avoid logging binary data to ElasticSearch. We should instead log a reference to the object that is stored in blob storage.
 - Consideration needs to be given to what is included in logs. Teams should avoid logging many different properties in the hope that they will then have captured everything.
 - On premise services need to have known mitigations for failures that may occur upon trying to ingest logs to Elastic (e.g. log to EventViewer, send an email notification to supporting team).
-- UKHO.StructuredLogging.LogShipper is deprecated, so alternative patterns for ingesting logs from on premise services should be used, for example Serilog's ElasticSearch sink, or Filebeat.
 
 ***
 
@@ -94,6 +93,30 @@ In later environments as log levels become more restrictive, teams should test t
 ### Load testing
 
 Load tests should be set to Production level logging, so the capacity generated from logs targeting Production is understood. The load testing environment should be as live-like as possible.
+
+***
+
+## Available log ingestion patterns
+
+### Cloud services - Elastic Cloud
+
+Services held in Azure will log to an Azure Event Hub, with a separate storage account container used to track the processing of logs via a pointer. In Elastic Cloud, an Elastic Agent policy will have an integration defined that links to the Event Hub and storage account. Elastic Agent will process the logs so that they are more readable and searchable in Kibana, and will set up the necessary indexes and index lifecycle management (as per the Elastic Cloud retention details above). Your DDC resource can help with this set up.
+
+#### Cloud native logs
+
+Cloud resource specific logging, such as native activity or diagnostic, can be used by teams where beneficial. These logs aren't usually ingested in Elastic, and teams need to keep a close eye on the costs associated with using them.
+
+#### Legacy - LogStash and on premise ElasticSearch
+
+An on premise LogStash instance is responsible for ingesting and mutating logs from Azure Event Hub into on premise ElasticSearch. This pattern is considered legacy and should no longer be adopted.
+
+### On premise services
+
+On premise services should use a log aggregator and shipper such as Elastic Filebeat, or the Serilog ElasticSearch sink, to ingest logs into Elastic Cloud.
+
+#### Legacy - LogShipper and on premise ElasticSearch
+
+Using LogShipper to ingest logs from on premise services to on premise ElasticSearch is considered legacy and should no longer be adopted.
 
 ***
 
