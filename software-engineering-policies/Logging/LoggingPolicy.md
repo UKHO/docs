@@ -96,9 +96,18 @@ Load tests should be set to Production level logging, so the capacity generated 
 
 ***
 
+## Security
+
+When implementing logging into a solution, it is essential to consider the following secure design practices:
+
+- Encode and validate any dangerous inputs before storing the log to prevent [log injection](https://owasp.org/www-community/attacks/Log_Injection) or log forging attacks.
+- Ensure that no sensitive information gets stored in logs, for example, passwords, secret keys, and session IDs.
+- Forward any logs to a centralised, secure logging system that implements a proper failover system. A load-balanced logging system will ensure that no log data is lost if a node is compromised.
+- Protect log integrity by ensuring that log files cannot be tampered with, as a malicious attacker usually carries this out to cover up an attack. You can confirm this by implementing proper user permissions and logging into an immutable data store (such as Kibana).
+
 ## Available log ingestion patterns
 
-### Cloud services - Elastic Cloud
+### Cloud services - Elastic Cloud *(not yet available)*
 
 Services held in Azure will log to an Azure Event Hub, with a separate storage account container used to track the processing of logs via a pointer. In Elastic Cloud, an Elastic Agent policy will have an integration defined that links to the Event Hub and storage account. Elastic Agent will process the logs so that they are more readable and searchable in Kibana, and will set up the necessary indexes and index lifecycle management (as per the Elastic Cloud retention details above). Your DDC resource can help with this set up.
 
@@ -108,7 +117,7 @@ Cloud resource specific logging, such as native activity or diagnostic, can be u
 
 #### Legacy - LogStash and on premise ElasticSearch
 
-An on premise LogStash instance is responsible for ingesting and mutating logs from Azure Event Hub into on premise ElasticSearch. This pattern is considered legacy and should no longer be adopted.
+An on premise LogStash instance is responsible for ingesting and mutating logs from Azure Event Hub into on premise ElasticSearch. This pattern is considered legacy and should only continue to be adopted whilst Elastic Cloud is not yet available.
 
 ### On premise services
 
