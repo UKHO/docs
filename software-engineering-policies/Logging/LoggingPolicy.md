@@ -105,6 +105,8 @@ When implementing logging into a solution, it is essential to consider the follo
 - Forward any logs to a centralised, secure logging system that implements a proper failover system. A load-balanced logging system will ensure that no log data is lost if a node is compromised.
 - Protect log integrity by ensuring that log files cannot be tampered with, as a malicious attacker usually carries this out to cover up an attack. You can confirm this by implementing proper user permissions and logging into an immutable data store (such as Kibana).
 
+***
+
 ## Available log ingestion patterns
 
 ### Cloud services - Elastic Cloud *(not yet available)*
