@@ -29,7 +29,7 @@ Services can produce logs that fall into three main categories: diagnostic, audi
 - Consider the value of logs – e.g., we don’t need to log that an Azure Event Hub is in existence and healthy.
 - Avoid logging binary data to ElasticSearch. We should instead log a reference to the object that is stored in blob storage.
 - Consideration needs to be given to what is included in logs. Teams should avoid logging many different properties in the hope that they will then have captured everything.
-- On premise services need to have known mitigations for failures that may occur upon trying to ingest logs to Elastic (e.g. log to EventViewer, send an email notification to supporting team).
+- On-premise services need to have known mitigations for failures that may occur upon trying to ingest logs to Elastic (e.g. log to EventViewer, send an email notification to supporting team).
 
 ***
 
@@ -45,7 +45,7 @@ By default, services that are using the UKHO’s Elastic Cloud instance will com
 - After 90 days, logs will move to the "Frozen" tier for a longer term retention. This is the most cost-effective way to store data and still be able to search it.
 - After 365 days, logs will be deleted.
 
-### On premise ElasticSearch (legacy)
+### On-premise ElasticSearch (legacy)
 
 Currently the retention policy for logs differs by Elastic Search instance:
 
@@ -82,7 +82,7 @@ When receiving a service, support/CI teams will ensure that good logging practic
 
 Teams should ensure when creating logs in Elastic that they have ingested successfully to the correct index and are discoverable. This could be via an automated test or a manual check.
 
-If teams are using the legacy Azure Event Hub > LogStash > on premise ElasticSearch pattern for ingesting logs, they must check LogStash for errors at every stage of the development process, using the DDC Grafana monitor set up for this purpose.
+If teams are using the legacy Azure Event Hub > LogStash > on-premise ElasticSearch pattern for ingesting logs, they must check LogStash for errors at every stage of the development process, using the DDC Grafana monitor set up for this purpose.
 
 ### Unit tests
 
@@ -117,20 +117,20 @@ Services held in Azure will log to an Azure Event Hub, with a separate storage a
 
 Cloud resource specific logging, such as native activity or diagnostic, can be used by teams where beneficial. These logs aren't usually ingested in Elastic, and teams need to keep a close eye on the costs associated with using them.
 
-#### Legacy - LogStash and on premise ElasticSearch
+#### Legacy - LogStash and on-premise ElasticSearch
 
-An on premise LogStash instance is responsible for ingesting and mutating logs from Azure Event Hub into on premise ElasticSearch. This pattern is considered legacy and should only continue to be adopted whilst Elastic Cloud is not yet available.
+An on-premise LogStash instance is responsible for ingesting and mutating logs from Azure Event Hub into on-premise ElasticSearch. This pattern is considered legacy and should only continue to be adopted whilst Elastic Cloud is not yet available.
 
-### On premise services
+### On-premise services
 
-On premise services should use a log aggregator and shipper such as Elastic Filebeat, or the Serilog ElasticSearch sink, to ingest logs into Elastic Cloud.
+On-premise services should use a log aggregator and shipper such as Elastic Filebeat, or the Serilog ElasticSearch sink, to ingest logs into Elastic Cloud.
 
-#### Legacy - LogShipper and on premise ElasticSearch
+#### Legacy - LogShipper and on-premise ElasticSearch
 
-Using LogShipper to ingest logs from on premise services to on premise ElasticSearch is considered legacy and should no longer be adopted.
+Using LogShipper to ingest logs from on-premise services to on-premise ElasticSearch is considered legacy and should no longer be adopted.
 
 ***
 
 ## Migrating services to Elastic Cloud
 
-Existing services that are currently using the legacy Azure Event Hub > LogStash > on premise ElasticSearch pattern will need to have no errors (and ideally no warnings) being reported in LogStash before they are migrated to Elastic Cloud. Furthermore, these services should be adhering to this logging policy before migration.
+Existing services that are currently using the legacy Azure Event Hub > LogStash > on-premise ElasticSearch pattern should have no errors (and no warnings) in LogStash before they are migrated to Elastic Cloud. Furthermore, these services should adhere to the logging policy before migration.
