@@ -73,8 +73,9 @@ This section outlines the test types that need to be considered when preparing a
 ### Disaster Recovery
 
 The disaster recovery plan should be tested for a new or significantly changed system.  This will normally consist of a drill, whereby the disaster scenario(s) are simulated, and the written disaster recovery plan is followed.  This is to verify:
-- the plan is complete and accurate, and following it leads to a fully recovered and functional system.
-- the Recovery Time Objectives and Recovery Point Objectives are met by following the plan
+
+* the plan is complete and accurate, and following it leads to a fully recovered and functional system.
+* the Recovery Time Objectives and Recovery Point Objectives are met by following the plan
 
 ### End-To-End
 
