@@ -75,7 +75,7 @@ This section will outline the capabilities of each to assist in the selection of
 
 |Capability|Cypress|Playwright|Selenium|
 |--|--|--|--|
-|Documentation| Yes ([link](https://docs.cypress.io/guides/overview/why-cypress.html#In-a-nutshell))| Yes ([link](https://playwright.dev/))| Yes ([link](https://www.selenium.dev/documentation/en/))|
+|Documentation| Yes ([official docs](https://docs.cypress.io))| Yes ([official docs](https://playwright.dev/) and [UKHO Playwright template](https://github.com/UKHO/playwright-template))| Yes ([official docs](https://www.selenium.dev/documentation/en/))|
 |Open-source|Yes|Yes|Yes|
 |Relative speed of execution|Fastest|Fast|Slowest|
 |Similarity to real user|Least real|More real|Most real|
