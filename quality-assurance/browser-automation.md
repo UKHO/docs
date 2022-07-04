@@ -31,7 +31,7 @@ Upon install, Playwright downloads a version of Chromium/Chrome and uses the Chr
 
 The core advantage of using Playwright over Cypress is that it is an out-of-process automation driver that is not limited by the scope of in-page JavaScript execution and can automate scenarios with multiple pages and popups.
 
-Playwrights [documentation is excellent](https://playwright.dev/), tool is being continually developed and the community is growing.
+Playwrights [documentation is excellent](https://playwright.dev/), the tool is being continually developed and the community is growing. See our [Playwright Page Object Model Template](https://github.com/UKHO/playwright-template) for advice on how to use Playwright in a UKHO project.
 
 ### Selenium
 
@@ -39,7 +39,7 @@ Selenium is a tool for web browser automation that uses WebDrivers to remotely c
 
 Selenium is popular because of its long history, large community and available language bindings - these include Java, C#, JavaScript and Python.
 
-Selenium is a very good tool to automate true E2E and user interactions, but it takes time and effort to get the framework right. It suffers  and then there is the overhead of maintaining it along with the WebDrivers and browser versions (though this overhead can be reduced through the use of tools such as [automated driver synchronisation](https://github.com/UKHO/ChromeDriverBinarySync-PSModule).
+Selenium is a good tool to automate true E2E and user interactions, but it takes time, effort and experience to get the framework right. There is also significant overhead in maintaining WebDrivers and browser versions (though this overhead can be reduced through the use of tools such as [automated driver synchronisation](https://github.com/UKHO/ChromeDriverBinarySync-PSModule).
 
 It is not as fast, intuitive or maintainable as Cypress and Playwright and so we do not recommend using it for new test suites.
 
