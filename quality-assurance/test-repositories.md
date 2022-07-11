@@ -14,6 +14,13 @@ Provides the ability to execute a Full Scan against a web application using the 
 
 <https://github.com/UKHO/owasp-zap-scan>
 
+## Playwright Template
+
+Demonstrates the Page Object Model pattern using Playwright and TypeScript.
+
+<https://github.com/UKHO/playwright-template>
+
+
 ## Pickles
 
 Example project to demonstrate production of HTML-based Gherkin using Pickles tool with an Azure DevOps pipeline.
