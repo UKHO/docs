@@ -91,7 +91,7 @@ Teams **MUST** adopt the use of the TD metrics section in their PBI template. Th
 
 An example of the above:
 
-![Example Tech Debt PBI](Example_TD_V2.png)
+![Example Tech Debt PBI](./Example_TD_V2.PNG)
 
 ### How this meshes with RAID
 
