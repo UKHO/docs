@@ -95,62 +95,62 @@ The risk owner is the person who is responsible for the product. This may be the
 
 >_Teams must appoint the necessary security roles within the project._
 
-- [ ] A Security Advisor must be appointed.
+- A Security Advisor must be appointed.
 
 ### SCRUM
 
 >_Security must be included within the software development lifecycle and the agile methodology incorporated by the team._
 
-- [ ] Security considerations must be included within the Definition of Done.
-- [ ] Security-related stories (vulnerabilities, upgrades) must be raised in TFS with the ‘Security’ and ‘Security Concern’ tag.
+- Security considerations must be included within the Definition of Done.
+- Security-related stories (vulnerabilities, upgrades) must be raised in TFS with the ‘Security’ and ‘Security Concern’ tag.
 
 ### Skills Matrix
 
 >_Each project will have different security nuances, so it is appropriate to have skills matrixes for the project. This is to ensure all developer have a common baseline understanding of application security._
 
-- [ ] Each team must keep a list of training materials that need to be viewed per project.
-- [ ] A skills matrix is required to track the progress of the team along with the security training.
-- [ ] There must be evidence that all engineers are progressing along with the skills matrix.
+- Each team must keep a list of security resources that are relevant to the team's technology stack.
+- Team members should complete baseline training on an approved secure development training platform (Avatao).
+- There must be evidence that all engineers are progressing with their security training.
 
 ### On-Boarding
 
 >_New team members need to be onboarded into the project. This includes adding them to the skills matrix, discussing the common scenarios and mitigations, security tooling and encouraging further reading._
 
-- [ ] Each team must have an onboarding checklist.
-- [ ] Confirmation needs to be provided to the security advisor once on-boarding is completed.
+- Each team must have an onboarding checklist.
+- Confirmation needs to be provided to the security advisor once on-boarding is completed.
 
 ### Source Control
 
 >_Source control is a key requirement for projects as it provides role-based access control to code, change management and a changelog._
 
-- [ ] All project code intended for delivery should be stored as per the UKHO source control policy.
+- All project code intended for delivery should be stored as per the UKHO source control policy.
 
 ### 3rd Party Dependency/Package Management
 
 >_We are responsible for ensuring that 3rd party packages within our solutions are from authorised repositories, have appropriate licensing and are checked for known vulnerabilities._
 
-- [ ] Packages must be downloaded from a package management tool e.g. Proget or Nexus (or any Digital Delivery Team authorised tool).
-- [ ] The team must use a dependency checking tool such as Dependency Checker (or another Digital Delivery Team authorised tool).
-- [ ] The tool must be configured to run before code is released to production e.g. via a build/release pipeline.
-- [ ] The team should decide what the acceptable threshold is to prevent code from being released to production e.g. via a build/release pipeline.
-- [ ] The team must provide proof that the code is not released to production when this threshold is breached. Decisions to release even in the presence of a known vulnerability should be recorded and approved by the risk owner.
-- [ ] The team should agree on the schedule for updating the dependency checker.
+- Packages must be downloaded from a package management tool e.g. Proget or Nexus (or any Digital Delivery Team authorised tool).
+  The team must use a dependency checking tool such as Dependency Checker (or another Digital Delivery Team authorised tool).
+- The tool must be configured to run before code is released to production e.g. via a build/release pipeline.
+- The team should decide what the acceptable threshold is to prevent code from being released to production e.g. via a build/release pipeline.
+- The team must provide proof that the code is not released to production when this threshold is breached. Decisions to release even in the presence of a known vulnerability should be recorded and approved by the risk owner.
+- The team should agree on the schedule for updating the dependency checker.
 
 ### SAST Tooling
 
 >_Static analysis tooling is required to add an extra layer of verification to the developer’s code around catching vulnerabilities before they are released to production._
 
-- [ ] The team must have a SAST process, either automated or manual via code reviews. (It is strongly recommended that the team use a static analysis tool which the Digital Delivery Team has approved).
-- [ ] Each team member must have a basic understanding of interpreting the results of static analysis (manual or automated).
-- [ ] If using an automated tool, it must be configured to run as part of either/both a build or release pipeline.  
-- [ ] The team should decide what the acceptable threshold is to prevent code from being released to production e.g. a build or release fails.  
+- The team must have a SAST process, either automated or manual via code reviews. (It is strongly recommended that the team use a static analysis tool which the Digital Delivery Team has approved).
+- Each team member must have a basic understanding of interpreting the results of static analysis (manual or automated).
+- If using an automated tool, it must be configured to run as part of either/both a build or release pipeline.  
+- The team should decide what the acceptable threshold is to prevent code from being released to production e.g. a build or release fails.  
 
 ### Threat Library & Mitigations
 
 >_Each project will have recurring pieces of functionality. These generic PBI’s should be captured, threat modelled, and code mitigations agreed. OWASP vulnerabilities should be discussed such as XSS, SQL Injections, broken authentication/authorisation, direct object referencing etc. It is easier to review and catch vulnerabilities during code reviews if everyone tackles vulnerabilities with the same techniques._
 
-- [ ] Each team must document a set of generic scenarios for their project.
-- [ ] The team must follow a threat modelling process.
-- [ ] Each team must agree on standard code approaches to mitigate common vulnerabilities.
-- [ ] A code review checklist must be generated from the results of threat modelling.
-- [ ] Testing criteria must be agreed and recorded within the solution.
+- Each team must document a set of generic scenarios for their project.
+- The team must follow a threat modelling process.
+- Each team must agree on standard code approaches to mitigate common vulnerabilities.
+- A code review checklist must be generated from the results of threat modelling.
+- Testing criteria must be agreed and recorded within the solution.
