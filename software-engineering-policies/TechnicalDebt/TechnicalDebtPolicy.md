@@ -1,14 +1,18 @@
 # Technical Debt Policy
 
+All UKHO employees engaged with digital product development should develop a basic understanding of tehcnical debt, how it's generated, it's impacts on the business and how it can be paid off.
+
+All individuals who identify technical debt should record it as per the following strategy. Where the individual cannot, the information should be passed to the relevant team, product manager or service owner to be raised.
+
 ## Technical Debt Definition
 
-Deficiencies in internal quality or capability that make a product/service/application more costly than it would ideally be to modify, extend or maintain a system over time.
+Deficiencies in internal quality or capability that make a product/service/application more costly to modify, extend or maintain.
 
-## Guide
+## Technical Debt Types
 
-Each team **MUST** maintain a register of technical debt for their system.
+Each product **MUST** maintain a register of technical debt within it's Azure DevOps project.
 
-The team should consider all types of technical debt for inclusion, i.e.:
+This shoudl include all types of technical debt, i.e.:
 
 * Architectural – Tightly coupled systems (lots of criss-crossed dependencies), restrictive to extension or automation
 * Code – Low quality code or ineffective patterns
@@ -17,10 +21,26 @@ The team should consider all types of technical debt for inclusion, i.e.:
 * Testing – Unknown or unrecorded test scenarios, lack of test coverage
 * Maintenance – Out-of-support products, usually leading to security vulnerabilities
 * Security - Known and exploitable vulnerabilities
+* Process - enifficient or wasteful process steps, this could be related to practice or tooling
+
+## Technial Debt Impact
+
+Technical debt impacts various aspects of an application's life cycle, this is often dictated by the type of technical debt but common impacts you can expect from outstanding technical debt are:
+
+* Increased time to deliver
+* Unplanned work
+* Inaccurate planning
+* Disengaged Development teams
+* Longer times to recover
+* Instability
+
+---
 
 ## Raising Technical Debt
 
-Technical debt that will not be resolved in the sprint identified **MUST** be raised as a PBI in the relevant area of Azure DevOps or Azure DevOps Server. The relevant location is based on whether the technical debt is related to a product or a team.
+Technical debt identified in the current sprint but not being resolved as part of present work **MUST** be raised as a PBI in the relevant area of Azure DevOps. The relevant location is based on whether the technical debt is related to a product or a team.
+
+Ideally even if technical debt is going to be resolved immediatly raising it is good for understanding its impact on UKHO work and identifying that technical debt was discovered.
 
 When raising Technical Debt, please add the following information to the Technical Debt PBI:
 
@@ -56,14 +76,15 @@ The description of the Technical Debt item must include the following as a minim
     * Performance
     * Maintainability
     * Extensibility  
-  * Out-Of-Support
-  * Date-of-Failure **
-  * Investigate To Remove - This tag has been used to mark a Technical Debt item that may already have been completed or is going to be irrelevant due to other work.
+  * Out-Of-Support**
+  * Investigate To Remove** - This tag has been used to mark a Technical Debt item that may already have been completed or is going to be irrelevant due to other work.
   * UKHO TD priority tag:
     * TD1 - High business/technical value, high risk debt that needs to be paid off ASAP (a Security tag should automatically be considered for a TD1 prioritisation).
     * TD2 - High business/technical value (cost reduction, blocker removing, maintainability improvement), lower risk, a change that should be worked on when time/opportunity permits and is not something that can be accepted or supported long term.
     * TD3 - Tech debt that has been accepted as a risk but through paying off would add value through improving usability, maintainability, reliability or performance.
     * TD4 - Accepted risk from the business, safe to leave until service reaches end of life. Worth tracking in case developers are working in the area and can complete as quick wins.
+
+** - Denotes where the tag is appropriate
 
 ### Tech Debt Metric Strategy
 
@@ -87,15 +108,15 @@ Teams **MUST** adopt the use of the TD metrics section in their PBI template. Th
 
 **IMPORTANT** the tagging of the technical debt PBI is used for automated metric assessments vital for visibility of the UKHOs technical debt, tagging tech debt PBIs is vital for the accuracy of this process.
 
-** - Where appropriate/known
-
 An example of the above:
 
 ![Example Tech Debt PBI](./Example_TD_V2.PNG)
 
+---
+
 ### How this meshes with RAID
 
-A technical debt PBI should be created if the team is not planning on addressing the technical debt within the current sprint. We advise that teams carrying out RAID analysis create technical debt PBIs in addition to this analysis. Consider that some technical debt items have been long lived in the past this will help support or future development teams consider the technical debt for future resolution.
+A technical debt PBI should be created if the team is not planning on addressing the technical debt within the current sprint. We advise that teams carrying out RAID analysis and create technical debt PBIs in addition to this analysis. Consider that some technical debt items have been long lived in the past this will help support or future development teams consider the technical debt for future resolution and when planning.
 
 ## Refining Technical Debt
 
@@ -107,26 +128,14 @@ When the technical debt PBI has been refined (i.e. each item on this page has be
 
 ## Technical Debt Tracking/Monitoring
 
-There is automated near-realtime monitoring of technical debt available for all projects within the Ukhydro Azure DevOps tenant. This is made available by the DDC technical debt prometheus exporter and relys on accurately tracked technical debt PBIs. For information on this exporter and the technology used please contact DDC.
+There is automated near-realtime monitoring of technical debt available for all projects within the Ukhydro Azure DevOps tenant. This is made available by the DDC technical debt prometheus exporter and relys on accurately tracked technical debt PBIs. For information on this exporter and the technology used please refer to the [technical debt monitoring](../TechnicalDebt/TechnicalDebtMonitoring.md) document.
 
 ## FAQ
 
 **When is a defect (bug) technical debt?**  
 Defects (also known as bugs) are only considered technical debt if the decision has been made to accept or otherwise leave the defect unresolved. In this case the defect should be marked as technical debt following the provided guidance. If the defect is something intended to be fixed within current or next sprint, then do not mark it as technical debt.
 
-## Verification
-
-The team's register of technical debt **MUST** be available for inspection. Each project should have an accessible and clear list of technical debt which should be available in the relevant area of either Azure DevOps or Azure DevOps Server.
-
-See the [Technical Debt Guidance](TechnicalDebtGuidance.md) for details on building this capability.
-
-## Additional Reading
-
-​<https://martinfowler.com/bliki/TechnicalDebt.html>
-<https://martinfowler.com/bliki/EstimatedInterest.html>
-<https://martinfowler.com/bliki/TechnicalDebtQuadrant.html>
-
-## Balancing technical debt
+**How do I balance technical debt?**
 
 >‘Technical debt’ is any compromise you make on quality to develop something quickly in the short-term. The extra effort (or ‘interest’) required to improve what you’ve built is something you’ll have to make (or ‘pay back’) in future.
 >
@@ -135,6 +144,12 @@ See the [Technical Debt Guidance](TechnicalDebtGuidance.md) for details on build
 >If you decide it’s necessary to compromise on quality so you can deliver something quickly, your team needs to understand the implications of taking on technical debt. You **MUST** record technical debt even if you don't plan on resolving it. You **should** also agree a plan for keeping it under control.
 >
 >Learn one of the ways [GOV.UK managed technical debt](https://insidegovuk.blog.gov.uk/2013/12/10/paying-down-technical-debt-in-the-departments-and-policy-publishing-platform/).
+
+## Additional Reading
+
+​<https://martinfowler.com/bliki/TechnicalDebt.html>
+<https://martinfowler.com/bliki/EstimatedInterest.html>
+<https://martinfowler.com/bliki/TechnicalDebtQuadrant.html>
 
 ## Legacy Technical Debt Tracking
 
