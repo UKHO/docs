@@ -8,7 +8,7 @@ The dashboards can be found by selecting the "Search Dashboards" option (top lef
 
 ## Support and Improvements
 
-Current DDC supports the solution, for any ideas for improvements, innovations or extensions please contact the team via email.
+Currently DDC supports the solution, for any ideas for improvements, innovations or extensions please contact the team via email.
 
 ## SMEs
 

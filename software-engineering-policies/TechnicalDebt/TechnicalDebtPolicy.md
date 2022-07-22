@@ -4,6 +4,10 @@ All UKHO employees engaged with digital product development should develop a bas
 
 All individuals who identify technical debt should record it as per the following strategy. Where the individual cannot, the information should be passed to the relevant team, product manager or service owner to be raised.
 
+## Objective
+
+To provide the UKHO with a detailed and expansive data set about technical debt across the organisation, enabling greater business intelligence at all levels of the organisation for more informed and effective decision making.
+
 ## Technical Debt Definition
 
 Deficiencies in internal quality or capability that make a product/service/application more costly to modify, extend or maintain.
