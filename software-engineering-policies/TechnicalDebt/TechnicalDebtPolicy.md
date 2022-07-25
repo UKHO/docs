@@ -94,7 +94,7 @@ The description of the Technical Debt item must include the following as a minim
 
 Teams **MUST** adopt the use of the TD metrics section in their PBI template. This enables the business to gather much more useful and accurate information about technical debt and empowers the automations available for tracking and monitoring. For support in adding this section to your PBI template, either request DDC to implement the change to your templates or discuss with your delivery manager.
 
-#### TD Principle
+#### TD Principal
 
 (Integer) Technical Debt Principle is the estimated cost in work-hours to pay off the technical debt at the moment of identificaiton. The discovering team/individual is probably best placed to assess this though it could be put to a team decision and refined. If this is part of a legacy product and no known SME is available then this should be considered in the estimate. Don't be afraid of large values but attempt to be as accurate as possible.
 
