@@ -96,7 +96,7 @@ Teams **MUST** adopt the use of the TD metrics section in their PBI template. Th
 
 #### TD Principal
 
-(Integer) Technical Debt Principle is the estimated cost in work-hours to pay off the technical debt at the moment of identificaiton. The discovering team/individual is probably best placed to assess this though it could be put to a team decision and refined. If this is part of a legacy product and no known SME is available then this should be considered in the estimate. Don't be afraid of large values but attempt to be as accurate as possible.
+(Integer) Technical Debt Principal is the estimated cost in work-hours to pay off the technical debt at the moment of identification. The discovering team/individual is probably best placed to assess this though it could be put to a team decision and refined. If this is part of a legacy product and no known SME is available then this should be considered in the estimate. Don't be afraid of large values but attempt to be as accurate as possible.
 
 #### TD Interest
 
