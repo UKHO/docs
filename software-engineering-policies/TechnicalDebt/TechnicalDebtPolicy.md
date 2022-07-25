@@ -64,7 +64,7 @@ The description of the Technical Debt item must include the following as a minim
 ### Tagging Strategy
 
 * The Technical Debt PBI **MUST** be tagged with the `````Technical Debt````` tag and should have any further appropriate tags, such as the following:
-  * Product Name (could be multiple, see the product list in AppRegister; http://appregister/)
+  * Product Name (could be multiple, see the product list in AppRegister; [AppRegister](http://appregister/))
   * Tech Debt Type:
     * Security
     * Knowledge
@@ -114,7 +114,7 @@ Teams **MUST** adopt the use of the TD metrics section in their PBI template. Th
 
 An example of the above:
 
-![Example Tech Debt PBI](./Example_TD_V2.PNG)
+![Example Tech Debt PBI](./Example_TD_V3.PNG)
 
 ---
 
