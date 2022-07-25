@@ -44,7 +44,7 @@ Technical debt impacts various aspects of an application's life cycle, this is o
 
 Technical debt identified in the current sprint but not being resolved as part of present work **MUST** be raised as a PBI in the relevant area of Azure DevOps. The relevant location is based on whether the technical debt is related to a product or a team.
 
-Ideally even if technical debt is going to be resolved immediatly raising it is good for understanding its impact on UKHO work and identifying that technical debt was discovered.
+Ideally even if technical debt is going to be resolved immediately raising it is good for understanding its impact on UKHO work and identifying that technical debt was discovered.
 
 When raising Technical Debt, please add the following information to the Technical Debt PBI:
 
