@@ -132,7 +132,7 @@ When the technical debt PBI has been refined (i.e. each item on this page has be
 
 ## Technical Debt Tracking/Monitoring
 
-There is automated near-realtime monitoring of technical debt available for all projects within the Ukhydro Azure DevOps tenant. This is made available by the DDC technical debt prometheus exporter and relys on accurately tracked technical debt PBIs. For information on this exporter and the technology used please refer to the [technical debt monitoring](../TechnicalDebt/TechnicalDebtMonitoring.md) document.
+There is automated near-realtime monitoring of technical debt available for all projects within the UKHydro Azure DevOps tenant. This is made available by the DDC technical debt Prometheus exporter and relies on accurately tracked technical debt PBIs. For information on this exporter and the technology used please refer to the [technical debt monitoring](../TechnicalDebt/TechnicalDebtMonitoring.md) document.
 
 ## FAQ
 
