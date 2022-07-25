@@ -110,7 +110,7 @@ Teams **MUST** adopt the use of the TD metrics section in their PBI template. Th
 
 (Date) When packages or software versions are going out-of-support, if they are not addressed when found this should be recorded and if a date can be found for when the version goes out-of-support this should be reported here.
 
-**IMPORTANT** the tagging of the technical debt PBI is used for automated metric assessments vital for visibility of the UKHOs technical debt, tagging tech debt PBIs is vital for the accuracy of this process.
+**IMPORTANT** the tagging of the technical debt PBI is used for automated metric assessments vital for visibility of the UKHO's technical debt. Tagging tech debt PBIs is vital for the accuracy of this process.
 
 An example of the above:
 
