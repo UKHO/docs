@@ -1,6 +1,6 @@
 # Technical Debt Policy
 
-All UKHO employees engaged with digital product development should develop a basic understanding of tehcnical debt, how it's generated, it's impacts on the business and how it can be paid off.
+All UKHO employees engaged with digital product development should develop a basic understanding of technical debt, how it's generated, its impacts on the business and how it can be paid off.
 
 All individuals who identify technical debt should record it as per the following strategy. Where the individual cannot, the information should be passed to the relevant team, product manager or service owner to be raised.
 
