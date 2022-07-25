@@ -14,7 +14,7 @@ Deficiencies in internal quality or capability that make a product/service/appli
 
 ## Technical Debt Types
 
-Each product **MUST** maintain a register of technical debt within it's Azure DevOps project.
+Each product **MUST** maintain a register of technical debt within its Azure DevOps project.
 
 This should include all types of technical debt, i.e.:
 
