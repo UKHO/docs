@@ -1,6 +1,6 @@
 # Technical Debt Monitoring
 
-The UKHO utilises it's [Grafana instance](https://grafana.mgmt.local/?orgId=1) to provide a series of dashboards for technical debt monitroing. The solution focuses on the Ukhydro Azure DevOps instance and utilises the [azdo-techdebt-exporter](https://github.com/UKHO/azdo-techdebt-exporter) prometheus exporter to produce the data set and metrics.
+The UKHO uses its [Grafana instance](https://grafana.mgmt.local/?orgId=1) to provide a series of dashboards for technical debt monitoring. The solution focuses on the UKHydro Azure DevOps instance and uses the [azdo-techdebt-exporter](https://github.com/UKHO/azdo-techdebt-exporter) Prometheus exporter to produce the dataset and metrics.
 
 ## Dashboard Breakdown
 
