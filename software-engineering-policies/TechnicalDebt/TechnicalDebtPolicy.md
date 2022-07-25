@@ -16,7 +16,7 @@ Deficiencies in internal quality or capability that make a product/service/appli
 
 Each product **MUST** maintain a register of technical debt within it's Azure DevOps project.
 
-This shoudl include all types of technical debt, i.e.:
+This should include all types of technical debt, i.e.:
 
 * Architectural – Tightly coupled systems (lots of criss-crossed dependencies), restrictive to extension or automation
 * Code – Low quality code or ineffective patterns
