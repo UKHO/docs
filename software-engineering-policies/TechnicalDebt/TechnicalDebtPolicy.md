@@ -46,7 +46,7 @@ Technical debt identified in the current sprint but not being resolved as part o
 
 Ideally even if technical debt is going to be resolved immediately raising it is good for understanding its impact on UKHO work and identifying that technical debt was discovered.
 
-When raising Technical Debt, please add the following information to the Technical Debt PBI:
+When raising technical debt, please add the following information to the Technical Debt PBI:
 
 ### Title
 
