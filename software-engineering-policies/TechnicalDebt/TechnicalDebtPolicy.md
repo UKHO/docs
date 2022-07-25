@@ -25,7 +25,7 @@ This should include all types of technical debt, i.e.:
 * Testing – Unknown or unrecorded test scenarios, lack of test coverage
 * Maintenance – Out-of-support products, usually leading to security vulnerabilities
 * Security - Known and exploitable vulnerabilities
-* Process - enifficient or wasteful process steps, this could be related to practice or tooling
+* Process - inefficient or wasteful process steps, this could be related to practice or tooling
 
 ## Technial Debt Impact
 
