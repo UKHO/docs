@@ -4,10 +4,8 @@ This strategy details how we add value through testing at the UKHO. Our teams ad
 
 Our core principles are:
 
-* [Test at every stage of the development process](./testing-principles.md#we-test-at-every-stage-of-the-development-process)
+* In order to take advantage of Agile then a Shift Left test approach should be adopted.
 * [Use automation whenever possible](./testing-principles.md#we-use-automation-whenever-possible)
-
-The rest of our testing principles can be found [here](./testing-principles.md).
 
 ---
 
@@ -84,7 +82,7 @@ The disaster recovery plan should be tested for a new or significantly changed s
 
 ### Functional
 
-![Test Pyramid](images/test-pyramid.png)
+![Test Pyramid](images/the_test_pyramid.png)
 
 Tests should be added at the correct level of the test pyramid – lower is better.
 
