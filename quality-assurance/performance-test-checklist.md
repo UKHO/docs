@@ -17,10 +17,9 @@ This document lists activities that you should consider when planning performanc
 
 e.g.
 
-- Load testing
-- Scalability testing
-- Soak testing
-- Stress Testing
+- [Load testing](https://artoftesting.com/types-of-performance-testing#Load_testing)
+- [Soak / Endurance testing}(https://artoftesting.com/types-of-performance-testing#Endurance_testing)
+- [Stress Testing](https://artoftesting.com/types-of-performance-testing#Stress_testing)
 
 For each type of testing, work out what data must be collected to support quality judgements.  For example, for load testing you might collect data about response times and failure rates and also data regarding SUT health such as CPU and memory usage.  For soak testing, you will additionally want to track SUT health data in more detail, looking for upward trends in things such as memory usage, database connections, and threads.
 
@@ -37,7 +36,7 @@ Design the system that will be tested.  This should be as close to the live syst
 ### Select tools
 
 Consult team tech radars for currently in-use technologies.
-Depending on the types of testing planned, you will typically be using some sort of load testing tool.  For more complex scenarios you might use other technologies, e.g. for collecting, correlating and visualising results.
+Depending on the types of testing planned, you will typically be using some sort of load testing tool.  The approved load testing tool is [K6](https://k6.io/).  For more complex scenarios you might use other technologies, e.g. for collecting, correlating and visualising results.  It is suggested that you use InfluxDB & Grafana for visualising k6 output, as per [this example](https://github.com/UKHO/k6-reporting).
 
 ### Design performance test tool infrastructure
 
