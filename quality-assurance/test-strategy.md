@@ -62,6 +62,20 @@ This section outlines the test types that need to be considered when preparing a
 * If multiple browsers need to be tested then work closely with the Test Leads and Product Owner to ensure the correct approach is taken.
 * More details can be found on the [browser automation](browser-automation.md) page.
 
+### Infrastructure 
+
+* This should include the following
+  * Unit and script validation
+  * Integration 
+  * End-to-End
+  
+### Mobile/Device
+
+* This is to include
+  * Operating systems
+  * Manufacturer
+  * TBD
+  
 ### Deployment
 
 * This could include:
