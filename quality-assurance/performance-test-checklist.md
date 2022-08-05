@@ -18,7 +18,7 @@ This document lists activities that you should consider when planning performanc
 e.g.
 
 - [Load testing](https://artoftesting.com/types-of-performance-testing#Load_testing)
-- [Soak / Endurance testing}(https://artoftesting.com/types-of-performance-testing#Endurance_testing)
+- [Soak / Endurance testing](https://artoftesting.com/types-of-performance-testing#Endurance_testing)
 - [Stress Testing](https://artoftesting.com/types-of-performance-testing#Stress_testing)
 
 For each type of testing, work out what data must be collected to support quality judgements.  For example, for load testing you might collect data about response times and failure rates and also data regarding SUT health such as CPU and memory usage.  For soak testing, you will additionally want to track SUT health data in more detail, looking for upward trends in things such as memory usage, database connections, and threads.
