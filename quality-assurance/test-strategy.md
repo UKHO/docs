@@ -4,7 +4,7 @@ This strategy details how we add value through testing at the UKHO. Our teams ad
 
 Our core principles are:
 
-* In order to take advantage of Agile then a Shift Left test approach should be adopted.
+* A Shift Left test approach should be adopted.
 * [Use automation whenever possible](./testing-principles.md#we-use-automation-whenever-possible)
 
 ---
@@ -84,6 +84,7 @@ The disaster recovery plan should be tested for a new or significantly changed s
 
 ![Test Pyramid](images/the_test_pyramid.png)
 
+The test pyramid indicates where the test effort should be focused in order to provide the better return and a faster feedback loop for failures and defects.
 Tests should be added at the correct level of the test pyramid – lower is better.
 
 ### Performance
