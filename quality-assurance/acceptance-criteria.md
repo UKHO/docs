@@ -14,7 +14,7 @@ To ensure all members of a team have a shared understanding of the requirements 
 
 1. The whole team is involved in the creation and refinement of AC
 1. AC is recorded and agreed before a user story is played
-1. Every user story has at least 1 and a maximum of 5 ACs - too many ACs? Split the story
+1. Every user story has at least 1 AC - too many ACs? Split the story
 1. All criteria are independently testable with a clear pass / fail outcome
 1. Non-functional criteria is included where applicable
 
