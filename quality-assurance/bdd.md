@@ -67,14 +67,16 @@ Example Mapping sessions can involve the whole team, or just the "Three Amigos" 
 
 ### Books
 
-* Discovery: Explore behaviour using examples - Gaspar Nagy
+* Discovery: Explore behaviour using examples - Gáspár Nagy and Seb Rose
   ([Amazon link](https://www.amazon.co.uk/Discovery-Explore-behaviour-using-examples/dp/1983591254/ref=sr_1_2?keywords=bdd+discovery&qid=1572530563&s=books&sr=1-2))
+* Formulation: Document examples with Given/When/Then - Seb Rose and Gáspár Nagy
+  ([Amazon link](https://www.amazon.co.uk/gp/product/B093N4C2C2?ref_=dbs_m_mng_rwt_calw_tpbk_1&storeType=ebooks&qid=1572530563&sr=1-2))
 * BDD in Action: Behaviour-driven development for the whole software lifecycle - John Ferguson Smart
   ([Amazon link](https://www.amazon.co.uk/BDD-Action-Behavior-driven-development-lifecycle/dp/161729165X/ref=sr_1_1?keywords=bdd&qid=1572530667&s=books&sr=1-1))
 
 ### Online resources
 
-* [Example Mapping by Gaspar Nagy](http://gasparnagy.com/2019/05/divide-conquer-a-la-bdd-story-rule-scenario/)
+* [Example Mapping by Gáspár Nagy](http://gasparnagy.com/2019/05/divide-conquer-a-la-bdd-story-rule-scenario/)
 * [Another description of Example Mapping by Matt Wynne](https://cucumber.io/blog/example-mapping-introduction/)
 * [Writing better Gherkin scenarios](http://gasparnagy.com/2019/05/clean-up-bad-bdd-scenarios/?utm_source=BDD+Addicts+Newsletter&utm_campaign=d1bc786403-BDD_Addict_Newsletter_August_2019&utm_medium=email&utm_term=0_becf448392-d1bc786403-180800965)
 * [Gherkin - keeping your scenarios BRIEF](https://cucumber.io/blog/keep-your-scenarios-brief/)
