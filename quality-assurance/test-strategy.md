@@ -4,10 +4,8 @@ This strategy details how we add value through testing at the UKHO. Our teams ad
 
 Our core principles are:
 
-* [Test at every stage of the development process](./testing-principles.md#we-test-at-every-stage-of-the-development-process)
-* [Use automation whenever possible](./testing-principles.md#we-use-automation-whenever-possible)
-
-The rest of our testing principles can be found [here](./testing-principles.md).
+* Test at every stage of the development process
+* Use automation whenever possible
 
 ---
 
