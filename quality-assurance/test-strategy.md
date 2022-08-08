@@ -74,7 +74,6 @@ This section outlines the test types that need to be considered when preparing a
 * This is to include
   * Operating systems
   * Manufacturer
-  * TBD
   
 ### Deployment
 
@@ -98,8 +97,9 @@ The disaster recovery plan should be tested for a new or significantly changed s
 
 ![Test Pyramid](images/the_test_pyramid.png)
 
-The test pyramid indicates where the test effort should be focused in order to provide the better return and a faster feedback loop for failures and defects.
+The test pyramid indicates where the test effort should be focused in order to provide a better return and a faster feedback loop for failures and defects.
 Tests should be added at the correct level of the test pyramid – lower is better.
+The Functional Testing will be focused on the solutions functionality and business logic validation process. 
 
 ### Performance
 
