@@ -4,7 +4,7 @@ This strategy details how we add value through testing at the UKHO. Our teams ad
 
 Our core principles are:
 
-* A Shift Left test approach should be adopted.
+* [Test early and Often by adopting a Shift Left test methodology](https://smartbear.com/learn/automated-testing/shifting-left-in-testing/)
 * [Use automation whenever possible](./testing-principles.md#we-use-automation-whenever-possible)
 
 ---
@@ -64,7 +64,7 @@ This section outlines the test types that need to be considered when preparing a
 
 ### Infrastructure 
 
-* This should include the following
+* This could include the following, but is not limited to:
   * Unit and script validation
   * Integration 
   * End-to-End
@@ -97,9 +97,10 @@ The disaster recovery plan should be tested for a new or significantly changed s
 
 ![Test Pyramid](images/the_test_pyramid.png)
 
+The Functional Testing will be focused on the solution's functionality and business logic. The diagram is only to illustrate the type of tests 
+you could consider, and the users in terms of Dev/Test/Users are only for illustration purposes and are not fixed.
 The test pyramid indicates where the test effort should be focused in order to provide a better return and a faster feedback loop for failures and defects.
-Tests should be added at the correct level of the test pyramid – lower is better.
-The Functional Testing will be focused on the solutions functionality and business logic validation process. 
+Tests should be added at the correct level of the test pyramid which directly influences the ROI eg the higher up the pyramid then the return on large number of tests start to deminish caompared to the effort needed to create and maintain them – lower is better. 
 
 ### Performance
 
