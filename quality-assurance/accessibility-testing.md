@@ -24,6 +24,8 @@ Accessibility also benefits people without disabilities, like people with changi
 
 ## Legal requirements
 
+We have a legal obligation to make websites and mobile applications conform (as a minimum) to **WCAG 2.1 AA**
+
 The accessibility regulations came into force for public sector bodies on 23 September 2018. They say you must make your website or mobile app more accessible by making it ‘perceivable, operable, understandable and robust’. You need to include and update an accessibility statement on your website.
 
 The full name of the accessibility regulations is the Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018.
@@ -33,6 +35,7 @@ The accessibility regulations build on your existing obligations to people who h
 * [Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018](https://www.legislation.gov.uk/uksi/2018/952/contents/made)
 * [Equality Act 2010](https://www.legislation.gov.uk/ukpga/2010/15/contents)
 * [Understanding accessibility requirements for public sector bodies](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps)
+* [Meeting government accessibility requirements](https://www.gov.uk/service-manual/helping-people-to-use-your-service/making-your-service-accessible-an-introduction#meeting-government-accessibility-requirements)
 
 ## WCAG (Web Content Accessibility Guidelines)
 

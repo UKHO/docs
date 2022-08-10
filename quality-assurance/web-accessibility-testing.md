@@ -19,6 +19,8 @@ You also need to consider cross-browser testing. Unless you are supporting a sin
 1. Manual testing using browser plugins against each page of your website. Note the different browsers supported by each.
 1. Manual testing using assistive technologies (i.e. screen readers, screen magnifiers and voice control).
 
+Set testing tools to WCAG 2.1 AA standard
+
 ## Automated Testing
 
 * [axe-core](https://github.com/dequelabs/axe-core)
