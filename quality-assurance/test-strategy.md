@@ -7,7 +7,6 @@ Our core principles are:
 * [Test early and Often by adopting a Shift Left test methodology](https://smartbear.com/learn/automated-testing/shifting-left-in-testing/)
 * [Use automation whenever possible](./testing-principles.md#we-use-automation-whenever-possible)
 
----
 
 ## Methods Of Testing
 

@@ -21,11 +21,12 @@ Demonstrates the Page Object Model pattern using Playwright and TypeScript.
 <https://github.com/UKHO/playwright-template>
 
 
-## Pickles
+## K6 Reporting
 
-Example project to demonstrate production of HTML-based Gherkin using Pickles tool with an Azure DevOps pipeline.
+Documentation and scripts for how to set up K6 reporting infrastructure (using InfluxDB and Grafana)
 
-<https://github.com/UKHO/pickles-demo-project>
+<https://github.com/UKHO/k6-reporting>
+
 
 ## WinAppDriver
 
