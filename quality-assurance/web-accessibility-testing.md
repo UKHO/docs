@@ -24,7 +24,7 @@ Set testing tools to WCAG 2.1 AA standard
 ## Automated Testing
 
 * [axe-core](https://github.com/dequelabs/axe-core)
-* [jest-axe](https://www.npmjs.com/package/jest-axe) - axe-core called by the Jest test framework.
+* [cypress-axe](https://github.com/component-driven/cypress-axe)
 * [axe-playwright](https://www.npmjs.com/package/axe-playwright) - axe-core integrated with Playwright test framework.
 
 ## Manual Testing
