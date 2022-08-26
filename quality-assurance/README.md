@@ -1,21 +1,27 @@
 # Quality assurance at the UKHO
 
-These pages provide a framework for our testers, developers and community engineers to enable them to deliver testing that supports our desire to build and release good software quickly.
+Welcome to Quality Assurance at the UKHO. Here you will find both process and technical guidance for testers, developers and everyone else involved in creating software at the UKHO.
+
+This is a community site - if you want to add or change a thing then submit a PR and ask a Test Lead to approve.
 
 ## Where to start
 
-If you read nothing else, then read these three things:
+If you read nothing else, then read these things:
 
-* The [UKHO Delivery Quality Charter](ukho-quality-charter.md) assists delivery teams in adopting practices proven to improve quality of delivery.
 * Our [Test Strategy](test-strategy.md) contains details of the UKHO approach to testing.
-* The [BDD Reference Page](bdd.md) contains information on BDD to aid our use at UKHO.
+* The [UKHO Delivery Quality Charter](ukho-quality-charter.md) assists delivery teams in adopting practices proven to improve quality of delivery.
 
 ## Contents
 
-* [Acceptance criteria](acceptance-criteria.md)
-* [BDD reference page](bdd.md)
-* [Open source repositories](test-repositories.md)
-* [Performance testing checklist](performance-test-checklist.md)
-* [Test automation standards](test-code-standards.md)
-* [Test strategy](test-strategy.md)
-* [UKHO Delivery Quality Charter](ukho-quality-charter.md)
+* Process guidance
+  * [Acceptance criteria](acceptance-criteria.md)
+  * [BDD reference page](bdd.md)
+  * [Test strategy](test-strategy.md)
+  * [Test automation standards](test-code-standards.md)
+  * [UKHO Delivery Quality Charter](ukho-quality-charter.md)
+* Technical testing resources
+  * [Accessibility](accessibility-testing.md)
+  * [Exemplar repositories](test-repositories.md)
+  * [Performance testing checklist](performance-test-checklist.md)
+  * [Safety assurance](safety-assurance-guidance.md)
+  * [UI automation](browser-automation.md)
