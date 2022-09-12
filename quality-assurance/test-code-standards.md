@@ -44,7 +44,7 @@
 
 ## UI Testing
 ### Integration or End-to-End Tests using web browsers
-* Define you're aims for your UI tests. UI tests which test the UI in isolation (with faked back-end dependencies) can be considered UI integration tests (you're asserting the UI code's behavior with a web browser). UI tests which require multiple backed services to be stood up are considered UI End-to-End tests.
+* Define you're aims for your UI tests. UI tests which test the UI in isolation (with faked back-end dependencies) can be considered UI integration tests (you're asserting the UI code's behavior with a web browser). UI tests which require multiple back-end services to be stood up are considered UI End-to-End tests.
 * Aim for more UI Integration tests than UI End-to-End tests
 * The preferred UI test framework is Playwright for new projects, however other test frameworks such as Cypress are used in UKHO. If you are unsure please contact the test leads for guidance. 
 * Keep the UI tests in the same project as the UI source code.
