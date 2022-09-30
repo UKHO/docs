@@ -38,8 +38,8 @@ Where development has been carried out with pair programming there is no require
 
 There are two means of verification:
 
-- A report or similar must be open to inspection showing that all code reviews have been carried out.
-- Alternatively, a workflow can be created which enforces a code review before work can enter the main codebase.
+- A workflow should be created which enforces a code review before work can enter the main codebase.
+- Alternatively, where the tooling does not support an enforced workflow, a report or similar must be open to inspection showing that all code reviews have been carried out.
 
 ## Code Comments
 
