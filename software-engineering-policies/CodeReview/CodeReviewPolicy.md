@@ -30,10 +30,6 @@ A PBI is not completed until any code changes have been reviewed and any further
 
 There **must** be evidence that the code changes associated with a check-in have been reviewed.
 
-## Pair Programming
-
-Where development has been carried out with pair programming there is no requirement for a separate code review to be completed.
-
 ## Verification
 
 There are two means of verification:
