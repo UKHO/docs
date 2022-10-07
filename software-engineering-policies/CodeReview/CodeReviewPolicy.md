@@ -36,7 +36,3 @@ There are two means of verification:
 
 - A workflow should be created which enforces a code review before work can enter the main codebase.
 - Alternatively, where the tooling does not support an enforced workflow, a report or similar must be open to inspection showing that all code reviews have been carried out.
-
-## Code Comments
-
-When responding to code comments, it is best to discuss face to face with the reviewer (where possible) to ensure a common understanding of the requested change.
