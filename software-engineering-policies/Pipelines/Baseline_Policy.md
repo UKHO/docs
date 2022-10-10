@@ -28,6 +28,20 @@ The UKHO expects each product to have the appropriate level of quality control i
 
 Branch protection for main should be considered to avoid accidental or malicious commits to `main`. Consult [Branch Protection](BranchProtection.md) for further examples and detail.
 
+### Pipeline Environment Approvals
+
+When setting up checks and approvals on a Pipeline Environment the default is often set to 30 days on the expiry, this behaviour is queuing builds for days until they expire, in the scope of this policy a set of default values should be followed depending on the target environment.
+
+| Environment | Timeout |
+|-------------|---------|
+| DEV | < 30 minutes |
+| QA | < 3 hours |
+| LIVE | < 6 hours |
+
+To change these to something more suitable, you must expand on the *Control Options*.
+
+![Environment - Control Options](../Resources/control-options.png)
+
 ## Testing
 
 The expectation is that code should be covered in full by suites of AUTOMATED tests (including unit, component, integration, ui and e2e). There should be no manual intervention needed within the pipeline to setup, run or clean up a test run. Manual testing should only be used when there is no alternative. See the [UKHO Test Strategy](https://docs.ukho.dev/quality-assurance/test-strategy/) for more details.
