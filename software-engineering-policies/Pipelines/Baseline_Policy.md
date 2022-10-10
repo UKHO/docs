@@ -22,6 +22,10 @@ The UKHO considers a minimum of three identical environments standard practice;
 
 This is not the specific requirement for every project but should be considered as the MINIMUM provisioning for any given digital product that the UKHO will support/develop. Legacy applications may be exempt from this statement but all current and future products should consider this a requirement.
 
+## Variable Libraries
+
+Where variable values do not need to be secret, they can be placed in an Azure DevOps variable library local to the project. No values in this variable library should ever be "padlocked" or marked as secret. Where secrets are required, they should be backed by an Azure key vault and linked through to the project as a separate variable library. Appropriate security measures should be taken to ensure that only the pipeline service principal and those who need to maintain the values have access to the key vault.
+
 ## Code Quality and Approvals
 
 The UKHO expects each product to have the appropriate level of quality control in place for all of it's products. This will be dependant on the product requirements, but as a bare minimum there MUST be controls around what is committed to the `main` branch. Code deployed to production should only come from the `main` branch. Pull requests are expected to be reviewed (not by the creator of the PR) and completed before any code is merged to `main`. Further release approvals/controls are optional and open for discussion between team and product owner/manager.
@@ -57,6 +61,7 @@ Pipeline Threat Modelling should be carried out in all design, innovation and de
 
 - Dependency Checking - we recommend the OWASP dependency checker, other options are valid but consider impact on support and required knowledge for future changes.
 - Static Application Security Testing (SAST) - Coverity is the current SAST offering, alternate options must be equivalent in provision.
+- Secret values required by deployment must be backed by an Azure key vault
 
 ### Should - Added by UKHO
 
