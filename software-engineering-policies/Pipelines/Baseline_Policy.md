@@ -28,9 +28,9 @@ The UKHO expects each product to have the appropriate level of quality control i
 
 Branch protection for main should be considered to avoid accidental or malicious commits to `main`. Consult [Branch Protection](BranchProtection.md) for further examples and detail.
 
-### Pipeline Environment Approvals
+### Pipeline Environment Approvals in Azure DevOps
 
-When setting up checks and approvals on a Pipeline Environment the default is often set to 30 days on the expiry, this behaviour is queuing builds for days until they expire, in the scope of this policy a set of default values should be followed depending on the target environment.
+When setting up checks and approvals on a Pipeline Environment; the default expiry is 30 days, this behaviour is queuing builds for days when they arent needed, in the scope of this a set of default values should be followed depending on the target environment.
 
 | Environment | Timeout |
 |-------------|---------|
@@ -38,9 +38,10 @@ When setting up checks and approvals on a Pipeline Environment the default is of
 | QA | < 3 hours |
 | LIVE | < 6 hours |
 
-To change these to something more suitable, you must expand on the *Control Options*.
+To change these to something more suitable, you must expand on the **Control Options** when setting up the approval.
 
-![Environment - Control Options](../Resources/control-options.png)
+![Pipeline Environment - Approval and Checks - Control Options](../Resources/control-options.png)
+
 
 ## Testing
 
