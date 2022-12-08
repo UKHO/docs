@@ -21,7 +21,6 @@ The Lead Developer is accountable for the team following all the engineering tea
 ## Groups and contacts
 
 * Invite to the Lead's meeting
-* Invite to the Lead's Book Club
 * Introduce to the Testing practice (e.g. invite to Test Practice monthly meeting)
 * Make sure they are invited to the sprint reviews of other teams where appropriate
 
@@ -29,12 +28,13 @@ The Lead Developer is accountable for the team following all the engineering tea
 
 * Discuss with line manager the skills required to do the role.  Draw up a development plan.
 * Discuss use of time with line manager. Set expectations around amount of coding that is likely.
-* Meet with SA to establish areas of responsibility
+* Meet with SA to establish areas of responsibility between the SA and the lead
 
 ## Support network
 
 Conversation with line manager around the following:
 
 * Would they benefit from a mentor?
+* Sit down with another lead developer to undertsand role
 * How can they obtain feedback?
 * Discuss imposter syndrome, expectations of knowing everything
