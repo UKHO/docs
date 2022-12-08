@@ -2,6 +2,10 @@
 
 This policy aims to provide guidance to software engineering teams on how the services they develop or support should be logging. Given our logging repository of choice is ElasticSearch, some of the guidance will be influenced by that service.
 
+## Disclaimer
+
+Not all systems will be using or able to use Elastic logging due to environemntal issues. In these cases the policy is not relevant.
+
 ## Log types and levels
 
 This section will cover the different log types that services are expected to produce, what log levels they should be at, how they should be indexed in ElasticSearch, retention periods and any other related guidance.
