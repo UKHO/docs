@@ -65,6 +65,7 @@ Teams should look to leverage their definitions of Ready and Done to drive their
 - Agreeing a common field or value, for example a TraceId or CorrelationId, and how to test for this property across logs
 - A consideration of the different log types and how to develop towards that
 - What to log where
+- The 'standard' EventHubLogProvider (https://github.com/UKHO/EventHub-Logging-Provider/tree/main/UKHO.Logging.EventHubLogProvider) should be used by default (unless there is good reason not to). If a different variant of logging is required consider extending the EventHubLogProvider to keep logging as standard as possible across all applications.
 
 **Definition of Done** to include:
 
