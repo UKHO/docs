@@ -1,7 +1,7 @@
 # Package Adoption Guidance
 
 ```mermaid
-graph LR
+graph TD
     Start([Start]) --> I1[External stakeholder identifies a package to be adopted]
     Start --> I2[Team identifies a package to be adopted]
     I1 --> E1[/Package is evaluated for adoption\]
@@ -27,8 +27,8 @@ graph LR
     D1 -->|No| D2[Specify work to update documentation]
     end
     subgraph Code
-    C1{Is the code base in a language that the support teams are familiar with?}
-    C1 -->|Yes| C2{Is the code at a version supported by the language providers</br> e.g. for .NET this would be LTS?}
+    C1{Is the code base in</br> a language that the support</br> teams are familiar with?}
+    C1 -->|Yes| C2{Is the code at a version</br> supported by the language providers</br> e.g. for .NET this would be LTS?}
     C2 -->|Yes| C3{Does logging meet the</br> logging policy requirements?}
     C3 -->|Yes| C4{Is adequate</br> testing in place?}
     C1 -->|No| C5[Consider why this package is using</br> a non-standard language and</br> determine if we can support it]
