@@ -1,7 +1,7 @@
 # Package Adoption Guidance
 
 ```mermaid
-graph LR
+graph TD
     Start([Start]) --> I1[External stakeholder identifies a package to be adopted]
     Start --> I2[Team identifies a package to be adopted]
     I1 --> E1[/Package is evaluated for adoption\]
