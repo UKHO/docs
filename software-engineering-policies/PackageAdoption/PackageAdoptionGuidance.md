@@ -28,7 +28,7 @@ graph TD
     end
     subgraph Code
     C1{Is the code base in</br> a language that the support</br> teams are familiar with?}
-    C1 -->|Yes| C2{Is the code at a version</br> supported by the language providers</br> e.g. for .NET this would be LTS?}
+    C1 -->|Yes| C2{Is the code at a version</br> supported by the language</br> provider e.g. LTS for .NET?}
     C2 -->|Yes| C3{Does logging meet the</br> logging policy requirements?}
     C3 -->|Yes| C4{Is adequate</br> testing in place?}
     C1 -->|No| C5[Consider why this package is using</br> a non-standard language and</br> determine if we can support it]
@@ -41,7 +41,9 @@ graph TD
     B1 -->|Yes| B2{Is it managed</br> in Azure DevOps?}
     B2 -->|Yes| B5[Specify work to transfer</br> backlog to team]
     B1 -->|No| B3[Specify work to</br> create backlog]
-    B2 -->|No| B4[Specify work to transfer</br> backlog to Azure DevOps]
+    B2 -->|No| B4{Can it automatically</br> sync with Azure DevOps?}
+    B4 -->|Yes| B6[Specify work to set up sync]
+    B4 -->|No| B7[Consider why this package is using</br> a non-standard backlog and</br> determine if we can support it]
     end
     E2[\Package evaluation is documented in an Adoption Checklist/]
     P5 --> E2
@@ -53,8 +55,8 @@ graph TD
     C7 --> E2
     C8 --> E2
     B3 --> E2
-    B4 --> E2
     B5 --> E2
+    B6 --> E2
     E2 --> E3[Package is proposed through Support Committee for adoption]
     E3 --> E4[Team accepts package and adds adoption PBIs to their backlog]
     E4 --> End((End))
