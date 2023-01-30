@@ -1,5 +1,7 @@
 # Package Adoption Guidance
 
+## Process Flow
+
 ```mermaid
 graph TD
     Start([Start]) --> I1[External stakeholder identifies a package to be adopted]
