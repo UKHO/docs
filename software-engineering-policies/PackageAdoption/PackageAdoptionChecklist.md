@@ -38,7 +38,7 @@
 | *Example: Set up SAST in pipeline* |
 
 | Ongoing Maintenance |
-| ---------------- |
+| ------------------- |
 | *Example: Monitor the language provider versioning and upgrade the package appropriately* |
 | *Example: Be alerted to vulnerable dependencies* |
 | *Example: Maintain a changelog for consuming teams* |
