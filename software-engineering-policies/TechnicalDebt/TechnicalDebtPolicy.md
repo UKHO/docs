@@ -169,4 +169,4 @@ Each team should have its own query. This should be named ```Technical Debt - Ba
 
 ## Points of Contact
 
-* Policy owner  - Matthew Slade
+* Policy Owner - Principal Support Developer
