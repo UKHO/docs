@@ -24,8 +24,8 @@ This should include all types of technical debt, i.e.:
 * Automation – Lack of automated tasks forcing manual intervention (Testing, deployments, backup/restore)
 * Testing – Unknown or unrecorded test scenarios, lack of test coverage
 * Maintenance – Out-of-support products, usually leading to security vulnerabilities
-* Security - Known and exploitable vulnerabilities
 * Process - inefficient or wasteful process steps, this could be related to practice or tooling
+* Security - Known and exploitable vulnerabilities
 
 ## Technial Debt Impact
 
@@ -37,6 +37,7 @@ Technical debt impacts various aspects of an application's life cycle, this is o
 * Disengaged Development teams
 * Longer times to recover
 * Instability
+* Security Concerns
 
 ---
 
@@ -65,14 +66,13 @@ The description of the Technical Debt item must include the following as a minim
 
 * The Technical Debt PBI **MUST** be tagged with the `````Technical Debt````` tag and should have any further appropriate tags, such as the following:
   * Product Name (could be multiple, see the product list in AppRegister; [AppRegister](http://appregister/))
-  * Tech Debt Type:
+  * Tech Debt Types and Impact:
     * Knowledge
     * Automation
     * Testing
     * Architecture
     * Code
     * Infrastructure
-  * Tech Debt Impact:
     * Security
     * Availability
     * Portability
