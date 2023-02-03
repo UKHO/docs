@@ -65,7 +65,7 @@ The description of the Technical Debt item must include the following as a minim
 
 * The Technical Debt PBI **MUST** be tagged with the `````Technical Debt````` tag and should have any further appropriate tags, such as the following:
   * Product Name (could be multiple, see the product list in AppRegister; [AppRegister](http://appregister/))
-  * Tech Debt Type:
+  * Tech Debt Types and Impacts:
     * Security
     * Knowledge
     * Automation
@@ -73,7 +73,6 @@ The description of the Technical Debt item must include the following as a minim
     * Architecture
     * Code
     * Infrastructure
-  * Tech Debt Impact:
     * Availability
     * Portability
     * Compatibility
@@ -89,28 +88,6 @@ The description of the Technical Debt item must include the following as a minim
     * TD4 - Accepted risk from the business, safe to leave until service reaches end of life. Worth tracking in case developers are working in the area and can complete as quick wins.
 
 ** - Denotes where the tag is appropriate
-
-### Tech Debt Metric Strategy
-
-Teams **MUST** adopt the use of the TD metrics section in their PBI template. This enables the business to gather much more useful and accurate information about technical debt and empowers the automations available for tracking and monitoring. For support in adding this section to your PBI template, either request DDC to implement the change to your templates or discuss with your delivery manager.
-
-#### TD Principal
-
-(Integer) Technical Debt Principal is the estimated cost in work-hours to pay off the technical debt at the moment of identification. The discovering team/individual is probably best placed to assess this though it could be put to a team decision and refined. If this is part of a legacy product and no known SME is available then this should be considered in the estimate. Don't be afraid of large values but attempt to be as accurate as possible.
-
-#### TD Interest
-
-(Integer) Technical Debt Interest is the possible cost in work-hours impacted whenever the technical debt is encountered. For security technical debt this may be difficult to quantify.
-
-#### TD Risk
-
-(Float, value between 0 and 1) Technical Debt Risk is the chance that the technical debt will be encountered whenever the product is worked on. For security type technical debt this should be set as a 1, it is assumed that eventually a security flaw will be exploited so must be resolved.
-
-#### (Optional) Date of Failure
-
-(Date) When packages or software versions are going out-of-support, if they are not addressed when found this should be recorded and if a date can be found for when the version goes out-of-support this should be reported here.
-
-**IMPORTANT** the tagging of the technical debt PBI is used for automated metric assessments vital for visibility of the UKHO's technical debt. Tagging tech debt PBIs is vital for the accuracy of this process.
 
 An example of the above:
 
@@ -151,9 +128,9 @@ Defects (also known as bugs) are only considered technical debt if the decision 
 
 ## Additional Reading
 
-​<https://martinfowler.com/bliki/TechnicalDebt.html>
-<https://martinfowler.com/bliki/EstimatedInterest.html>
-<https://martinfowler.com/bliki/TechnicalDebtQuadrant.html>
+- https://martinfowler.com/bliki/TechnicalDebt.html
+- https://martinfowler.com/bliki/EstimatedInterest.html
+- https://martinfowler.com/bliki/TechnicalDebtQuadrant.html
 
 ## Legacy Technical Debt Tracking
 
