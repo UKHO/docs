@@ -17,6 +17,7 @@
 * Timely. A unit test should not take a disproportionately long time to write compared to the code being tested. If you find testing the code taking a large amount of time compared to writing the code, consider a design that is more testable.
 * Unit Test coverage should aim to cover around 80% of code.
 * Aim for one assertion per test.
+* Use a mutation testing tools such as [Stryker](https://stryker-mutator.io/docs/stryker-net/introduction/) to give an objective score regarding the quality of the unit tests
 
 [Microsoft unit testing best practices](https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices) provides further guidance on unit testing.
 
@@ -26,12 +27,14 @@
 * The majority of test coverage should come from Unit Tests not Component Tests.
 * Try to test no more than two components per test. Prefer multiple tests over one long component test.
 * Aim for one behavior per test.
+* Using a mutation testing tool as Stryker or a code analysis tool such as Coverity can help define complex areas which may require component tests. 
 
 ## Integration Testing 
 ### Multiple components integration with real dependencies (i.e. database integration)
 * Determine test data ahead of time and ensure this test data is reusable.
 * Ensure integration tests have as few external dependencies as possible outside of the test code.
 * Fakes, mocks and stubs are permitted, provided the test is asserting integration with a real dependency (e.g. database or message broker integration)
+* API testing should be performed at this level. Tests should confirm the API responses and content.
 * Reasonably fast. Seconds not minutes!
 * Aim to test one behavior per test.
 * Perform as many scenarios as possible at this level. Ensure scenarios not covered here are covered by unit/component tests.
