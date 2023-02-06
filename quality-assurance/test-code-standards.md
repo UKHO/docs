@@ -18,12 +18,14 @@
 * Unit Test coverage should aim to cover around 80% of code.
 * Aim for one assertion per test.
 
+[Microsoft unit testing best practices](https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices) provides further guidance on unit testing.
+
 ## Component Testing
 ### Multiple methods in a single test
-* Component tests should follow the same standard as unit tests
+* Component tests should follow the same standard as unit tests.
 * The majority of test coverage should come from Unit Tests not Component Tests.
 * Try to test no more than two components per test. Prefer multiple tests over one long component test.
-* Aim for one assertion per test.
+* Aim for one behavior per test.
 
 ## Integration Testing 
 ### Multiple components integration with real dependencies (i.e. database integration)
@@ -43,9 +45,8 @@
 * When writing End-to-End tests consider if these tests can be moved down to the integration level for improved speed and reliability.
 
 ## UI Testing
-### Integration or End-to-End Tests using web browsers
+### Integration/End-to-End Tests using web browsers
 * Define the aims for your UI tests. UI tests which test the UI in isolation (with faked back-end dependencies) can be considered UI integration tests (you're asserting the UI code's behavior with a web browser). UI tests which require multiple back-end services to be stood up are considered UI End-to-End tests.
-* Aim for more UI Integration tests than UI End-to-End tests
 * The preferred UI test framework is Playwright for new projects, however other test frameworks such as Cypress are used in UKHO. If you are unsure please contact the test leads for guidance. 
 * Keep the UI tests in the same project as the UI source code.
 * Use the same language as the UI source code. UKHO's preferred UI framework is Angular, therefore most UI tests should use TypeScript.
