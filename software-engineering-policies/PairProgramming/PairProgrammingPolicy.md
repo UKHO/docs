@@ -1,12 +1,8 @@
 # Pair Programming Policy
 
-## ​Guide
+## Guide
+Most development activities will benefit from the collaboration of two or more colleagues working together. This practise encourages creativity, enhances problem solving and promotes knowledge sharing between colleagues.
 
-All teams **must** carry out pair programming as a standard activity in their work.
+Paired working is the preferred approach for any organisational activity that suits this style of working. Teams should consider each activity that it undertakes and apply paired working if possible and practical to do so.
 
-Some types of work are suitable for pairing, others are not. Each team **must** create written guidelines about which types will be paired, and which not. The team's lead engineer is responsible for making sure these guidelines are suitable, and for enforcing them.
-
-## Verify
-
-Each team's pair programming guidelines must be available for inspection.
-
+Activities which may suit a paired working approach might include the creation of software, troubleshooting some issues and releasing new software to the live environment. Activities which are less likely to suit a paired approach might include reviewing code generated in a pull request or researching issues to solve a specific problem.
