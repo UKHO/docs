@@ -1,6 +1,7 @@
 # Pair Programming Policy
 
 ## Guide
+
 Most development activities will benefit from the collaboration of two or more colleagues working together. This practise encourages creativity, enhances problem solving and promotes knowledge sharing between colleagues.
 
 Paired working is the preferred approach for any organisational activity that suits this style of working. Teams should consider each activity that it undertakes and apply paired working if possible and practical to do so.
