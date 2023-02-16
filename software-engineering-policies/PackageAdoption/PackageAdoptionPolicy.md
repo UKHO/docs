@@ -12,7 +12,7 @@ This policy aims to set out how such packages can be "adopted" so that they are 
 
 The [guidance](PackageAdoptionGuidance.md) shows a flowchart of the adoption process. At a high level, the following steps should be undertaken when a package that requires adoption is identified:
 
-1. Analysis to quantify the amount of work involved in adoption using the flowchart process (by who?)
+1. Analysis to quantify the amount of work involved in adoption using the flowchart process
 2. Analysis outcomes recorded in an [adoption checklist](PackageAdoptionChecklist.md)
 3. Analysis outcomes presented to the Support Committee and package proposed for adoption
 4. A team accepts the package for adoption and creates stories based on the analysis outcomes
