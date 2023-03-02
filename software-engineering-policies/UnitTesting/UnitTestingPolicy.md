@@ -23,4 +23,3 @@ The following artefacts are subject to verification:
 - Team 'definition of done' documents
 - Unit test coverage reports
 - Change sets checked into source control, including unit tests
-
