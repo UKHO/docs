@@ -29,7 +29,7 @@ Outside of the Scrum teams other people do test, for instance within Operations 
 
 ## Who manages Testing
 
-The Head of Test line manages all test engineers, but test engineers are task-managed by the overall technology program in conjunction with the Head of Test.
+Software Engineering Team Managers line manage all test engineers, but test engineers are task-managed by the overall technology program in conjunction with the Head of Software Engineering.
 
 Other areas of the business carry out various testing activities, but these people will not necessarily be professional software testers, they are line managed by their relevant program.
 
