@@ -12,7 +12,51 @@ UKHO pipelines should be written as code, using YAML and syntax compatible with 
 
 The UKHO expects a release pipeline to include the following environments:
 
-![Baseline Implementation Diagram](../Resources/baseline-diagram.png)
+```mermaid
+flowchart LR
+    buildNode(Build)
+    eng1Node(Eng1)
+    engNNode(EngN)
+    approvalNode{Approval}
+    prdNode(PRD/Live)
+    infrastructureTestsNode["fa:fa-circle Infrastructure Tests"]
+    style infrastructureTestsNode align: left
+    buildChecks["fa:fa-circle Dependency Check\nfa:fa-circle SAST Verfication\nfa:fa-circle Container Scanning\nfa:fa-circle Unit Tests"]
+    style buildChecks text-align:left; 
+    subgraph sgBuild[Build]
+    direction LR
+        buildNode
+        buildChecks
+    end
+
+  subgraph sgRelease[Release]
+    direction LR
+    subgraph sgPreProd[Engineering Domain Environments]
+        subgraph sgDev[Engineering Environment 1]
+            direction LR
+            eng1Node
+            subgraph sgDevChecks["fa:fa-circle Automated Testing"]
+            end 
+        end
+    subgraph sgQa[Engineering Environment N]
+        direction LR
+        engNNode
+        subgraph sgQaChecks["fa:fa-circle Automated Testing"]
+        end 
+    end
+    end
+    subgraph sgPrd[Production / Live]
+        direction LR
+        approvalNode
+        prdNode
+    end
+    infrastructureTestsNode
+  end
+  buildNode --> eng1Node
+  eng1Node --> engNNode
+  engNNode --> approvalNode
+  approvalNode --> prdNode
+```
 
 The UKHO considers a minimum of three identical environments standard practice;
 
