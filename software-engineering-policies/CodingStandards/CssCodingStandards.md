@@ -203,7 +203,7 @@ html {
 
 1 Title
 Reference Google HTML/CSS Style Guide
-<http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml>
+<https://google.github.io/styleguide/htmlcssguide.html>
 
 2 Title
 Reference W3C CSS Validation Service
