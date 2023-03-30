@@ -15,13 +15,13 @@ The UKHO expects a release pipeline to include the following environments:
 ```mermaid
 flowchart LR
     buildNode(Build)
-    eng1Node(Eng1)
-    engNNode(EngN)
+    testEnv1Node(Dev)
+    testEnvnNode(QA)
     approvalNode{Approval}
     prdNode(PRD/Live)
-    infrastructureTestsNode["fa:fa-circle Infrastructure Tests"]
+    infrastructureTestsNode[" * Infrastructure Tests"]
     style infrastructureTestsNode align: left
-    buildChecks["fa:fa-circle Dependency Check\nfa:fa-circle SAST Verfication\nfa:fa-circle Container Scanning\nfa:fa-circle Unit Tests"]
+    buildChecks[" * Dependency Check\n * SAST Verfication\n * Container Scanning\n * Unit Tests"]
     style buildChecks text-align:left; 
     subgraph sgBuild[Build]
     direction LR
@@ -31,17 +31,17 @@ flowchart LR
 
   subgraph sgRelease[Release]
     direction LR
-    subgraph sgPreProd[Engineering Domain Environments]
-        subgraph sgDev[Engineering Environment 1]
+    subgraph sgPreProd[Test Environments\n\n]
+        subgraph sgDev[Test Environment 1]
             direction LR
-            eng1Node
-            subgraph sgDevChecks["fa:fa-circle Automated Testing"]
+            testEnv1Node
+            subgraph sgDevChecks[" * Automated Testing"]
             end 
         end
-    subgraph sgQa[Engineering Environment N]
+    subgraph sgQa[Test Environment 2]
         direction LR
-        engNNode
-        subgraph sgQaChecks["fa:fa-circle Automated Testing"]
+        testEnvnNode
+        subgraph sgQaChecks[" * Automated Testing"]
         end 
     end
     end
@@ -52,9 +52,9 @@ flowchart LR
     end
     infrastructureTestsNode
   end
-  buildNode --> eng1Node
-  eng1Node --> engNNode
-  engNNode --> approvalNode
+  buildNode --> testEnv1Node
+  testEnv1Node --> testEnvnNode
+  testEnvnNode --> approvalNode
   approvalNode --> prdNode
 ```
 
