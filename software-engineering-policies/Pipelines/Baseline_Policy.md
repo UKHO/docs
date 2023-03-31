@@ -21,7 +21,7 @@ flowchart LR
     prdNode(PRD/Live)
     infrastructureTestsNode[" #bull; Infrastructure Tests"]
     style infrastructureTestsNode align: left
-    buildChecks[" * Dependency Check\n * SAST Verfication\n * Container Scanning\n * Unit Tests"]
+    buildChecks[" #bull; Dependency Check\n #bull; SAST Verfication\n #bull; Container Scanning\n #bull; Unit Tests"]
     style buildChecks text-align:left; 
     subgraph sgBuild[Build]
     direction LR
