@@ -32,7 +32,7 @@ flowchart LR
   subgraph sgRelease[Release]
     direction LR
     subgraph sgPreProd[Non-live environments\n\n]
-        subgraph sgDev[Test Environment 1]
+        subgraph sgDev["Dev Environment(s)"]
             direction LR
             testEnv1Node
             subgraph sgDevChecks[" #bull; Automated Testing </br>(functional)"]
