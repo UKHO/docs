@@ -41,7 +41,7 @@ flowchart LR
     subgraph sgQa["Test Environment(s)"]
         direction LR
         testEnvnNode
-        subgraph sgQaChecks[" * Automated Testing"]
+        subgraph sgQaChecks[" #bull; Automated Testing </br>(integration, end-to-end)"]
         end 
     end
     end
