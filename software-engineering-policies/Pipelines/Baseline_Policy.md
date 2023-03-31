@@ -35,7 +35,7 @@ flowchart LR
         subgraph sgDev[Test Environment 1]
             direction LR
             testEnv1Node
-            subgraph sgDevChecks[" * Automated Testing"]
+            subgraph sgDevChecks[" #bull; Automated Testing </br>(functional)"]
             end 
         end
     subgraph sgQa[Test Environment 2]
