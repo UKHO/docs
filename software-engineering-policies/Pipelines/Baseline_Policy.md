@@ -19,7 +19,7 @@ flowchart LR
     testEnvnNode(QA)
     approvalNode{Approval}
     prdNode(PRD/Live)
-    infrastructureTestsNode[" * Infrastructure Tests"]
+    infrastructureTestsNode[" #bull; Infrastructure Tests"]
     style infrastructureTestsNode align: left
     buildChecks[" * Dependency Check\n * SAST Verfication\n * Container Scanning\n * Unit Tests"]
     style buildChecks text-align:left; 
