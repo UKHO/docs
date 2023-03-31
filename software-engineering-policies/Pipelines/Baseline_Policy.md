@@ -31,7 +31,7 @@ flowchart LR
 
   subgraph sgRelease[Release]
     direction LR
-    subgraph sgPreProd[Test Environments\n\n]
+    subgraph sgPreProd[Non-live environments\n\n]
         subgraph sgDev[Test Environment 1]
             direction LR
             testEnv1Node
