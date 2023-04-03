@@ -25,7 +25,7 @@ This approach is often taken when testers are familiar with the application/syst
 
 ## Phases of Exploratory testing
 
-### Classify defects classifications
+### Classify defects
 
 - Categorise the common deviations/defects that were present in previous projects.
 - Analyse the root cause of the deviations
