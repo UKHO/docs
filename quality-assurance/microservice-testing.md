@@ -3,6 +3,7 @@
 This document describes types of functional test that are appropriate for microservice systems, and when they should be used.
 
 ## Example used in this document
+
 The following example is used to illustrate each type of testing in this document.
 
 A system is used to process product orders.  It contains the following services.
@@ -18,6 +19,7 @@ Creates an invoice record for a customer in a database.
 ### Fulfilment service
 
 Creates a request to pack up an order and changes stock of the items.
+
 - Sends a picking slip to warehouse printer queue
 - Reduces the stock in the stock database
 - Makes an external call to a courier company API to schedule for pick-up
@@ -34,8 +36,6 @@ flowchart LR
     FulfilmentService --> CourierSystem([Courier system])
     FulfilmentService --- StockDB[(Stock DB)]
 ```
-
-# Types of testing
 
 ## Unit tests
 
@@ -56,6 +56,7 @@ It might not be possible to test the service in-process, in which case out-of-pr
 A mixture of in-process and out-of-process tests will often be needed.
 
 Service tests: 
+
 - should fully test the business requirements of a service, including side-effects (e.g. persistence of data).
 - should cover all of the published interface, including error scenarios
 - may be expressed using gherkin syntax
@@ -69,6 +70,7 @@ Always.
 ### Example
 
 Service tests should be used to test the Fulfilment service.  It must test all business rules such as:
+
 - if all items are in stock, it must send a picking list to the printer, reduce the stock in the database, schedule a courier pick-up for the end of the current day
 - if any items are out of stock, it will store the information for later fulfilment and return the expected fulfilment dates
 - if the fulfilment can be made it will return a 201 status code 
@@ -102,6 +104,7 @@ Contract tests must never test the functionality of the consumers or producer.  
 ### When to use
 
 Contract testing provides value when:
+
 - There are plans for multiple users of a provider API
 - The provider API is going to be under active development
 - The same verification is not covered by integration tests
@@ -109,6 +112,7 @@ Contract testing provides value when:
 ### Example
 
 The Order service accepts orders from a customer website and from a B2B service.  
+
 - The website expects to be able to submit products and their quantities and credit card details, and receive a response containing just expected delivery dates.  The contract test checks, for example, that the delivery dates are returned but not that they are accurate and reflect stock levels etc.
 - The B2B service expects to be able to submit an account identifier instead of credit card details.  It also expects details of its updated credit line in the response.  The contract test checks that the credit line information is there in the response, but not that it is correct.
 
