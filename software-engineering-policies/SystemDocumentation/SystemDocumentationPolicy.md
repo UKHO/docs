@@ -11,7 +11,7 @@ It should contain the following types of information:
 
 The audience for this documentation is the delivery team. The Agile principle of "Working software over comprehensive documentation" should be followed, meaning documentation is required but should be "just enough" to capture the elements above.
 
-The documentation **must** be stored as part of the codebase of the system it describes.
+The documentation **must** be stored in a place relevant to the audience.
 
 Documentation **must** be treated the same as code and be subject to peer review, as per the [code review policy](../CodeReview/CodeReviewPolicy.md).
 
