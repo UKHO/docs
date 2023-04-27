@@ -8,6 +8,7 @@ The policies (and associated guidance) that should be followed during software d
 | Code Copyright | [Policy](CodeCopyright/CodeCopyrightPolicy.md) | |
 | Code Reuse | [Policy](CodeReuse/CodeReusePolicy.md) | |
 | Code Review | [Policy](CodeReview/CodeReviewPolicy.md) | |
+| Containers | [Policy](Containers/ContainerPolicy.md) | |
 | Inclusive Language | [Policy](InclusiveLanguage/InclusiveLanguagePolicy.md) | |
 | Non Functional Requirements | [Policy](NFRs/NFRPolicy.md) | |
 | Open Source Contribution | [Policy](OpenSourceContribution/OpenSourceContributionPolicy.md) | |
