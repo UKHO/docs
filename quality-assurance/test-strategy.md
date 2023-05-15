@@ -4,10 +4,9 @@ This strategy details how we add value through testing at the UKHO. Our teams ad
 
 Our core principles are:
 
-* Test at every stage of the development process
-* Use automation whenever possible
+* [Test early and Often by adopting a Shift Left test methodology](https://smartbear.com/learn/automated-testing/shifting-left-in-testing/)
+* [Use automation whenever possible](./testing-principles.md#we-use-automation-whenever-possible)
 
----
 
 ## Methods Of Testing
 
@@ -62,6 +61,19 @@ This section outlines the test types that need to be considered when preparing a
 * If multiple browsers need to be tested then work closely with the Test Leads and Product Owner to ensure the correct approach is taken.
 * More details can be found on the [browser automation](browser-automation.md) page.
 
+### Infrastructure 
+
+* This could include the following, but is not limited to:
+  * Unit and script validation
+  * Integration 
+  * End-to-End
+  
+### Mobile/Device
+
+* This is to include
+  * Operating systems
+  * Manufacturer
+  
 ### Deployment
 
 * This could include:
@@ -82,9 +94,12 @@ The disaster recovery plan should be tested for a new or significantly changed s
 
 ### Functional
 
-![Test Pyramid](images/test-pyramid.png)
+![Test Pyramid](images/the_test_pyramid.png)
 
-Tests should be added at the correct level of the test pyramid – lower is better.
+The Functional Testing will be focused on the solution's functionality and business logic. The diagram is only to illustrate the type of tests 
+you could consider, and the users in terms of Dev/Test/Users are only for illustration purposes and are not fixed.
+The test pyramid indicates where the test effort should be focused in order to provide a better return and a faster feedback loop for failures and defects.
+Tests should be added at the correct level of the test pyramid which directly influences the ROI eg the higher up the pyramid then the return on large number of tests start to deminish caompared to the effort needed to create and maintain them – lower is better. 
 
 ### Performance
 

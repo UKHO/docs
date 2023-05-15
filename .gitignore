@@ -2,4 +2,5 @@ site/
 
 # IDEA config files
 .idea/
+/quality-assurance/.vs
 /.vs

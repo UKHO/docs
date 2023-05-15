@@ -37,13 +37,13 @@ When developing safety-related software, the following process must be followed:
     - Mitigations to prevent the failure condition creating error or delay
 1. These barriers and mitigations are expressed as acceptance criteria on the PBI.  As a result their implementation, testing and move to production will be traceable in the work tracking tool.
 
-## Accountability for security modelling
+## Accountability for safety modelling
 
-The team’s Test Engineer is accountable for this process being followed.
+The team’s Lead Developer is accountable for this process being followed.
 
 ## Skills
 
-All participants must have a basic understanding of [bow tie](https://www.youtube.com/watch?v=P7Z6L7fjsi0) risk analysis.  Training material will be provided by the Test Practice.
+All participants must have a basic understanding of [bow tie](https://www.youtube.com/watch?v=P7Z6L7fjsi0) risk analysis.  Training material is provided by the Test Practice (search for "safety processes for software engineering" on the corporate Learning Management System).
 
 ## Obtaining more information for the process
 

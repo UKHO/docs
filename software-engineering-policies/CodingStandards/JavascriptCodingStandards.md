@@ -4,7 +4,7 @@
 
 These JavaScript standards describe the default usage and configuration of the JavaScript language, and associated tools within the Software Engineering discipline at the UK Hydrographic Office.
 
-All Software Engineering projects shall use these standards by default, however they are not mandatory and alternatives and deviations are permitted, provided that any such alternatives or deviations are fully captured, along with justifications for use, in project documentation.
+All Software Engineering projects should use these standards by default, however they are not mandatory and alternatives and deviations are permitted, provided that any such alternatives or deviations are fully captured, along with justifications for use, in project documentation.
 
 Updates to these standards must be agreed and approved by the collective Lead Engineers meeting, and may be applied at any time.
 
@@ -27,6 +27,7 @@ TypeScript is a strongly-typed variant of JavaScript which benefits from compile
 ## Tooling
 
 IDE / Editor
+
 JavaScript (and TypeScript) can be written with any ASCII editor application. The standard IDE within the UKHO is Microsoft Visual Studio, and this has increased support for TypeScript. However, any editors may be used to write JS/TS.
 
 ## Linting
@@ -35,14 +36,12 @@ All JavaScript code shall have a linting tool applied in order to conform to goo
 
 Whilst most of the suggestions made by ESLint are good practice, there may be some which are not appropriate for a project. Wherever any of the linting rules are ignored or overridden, they must be documented along with justification.
 
-ESLint support is built into Visual Studio 2019, it can be enabled by ticking the checkbox in the `Tools -> Options` menu under `Text Editor -> JavaScript/TypeScript -> Linting`. It is also available for Java development as an Eclipse Tern plugin, and can be integrated with the IntelliJ IDE. Additionally, there is a Visual Studio Code extension.
+ESLint support is built into Visual Studio, it can be enabled by ticking the checkbox in the `Tools -> Options` menu under `Text Editor -> JavaScript/TypeScript -> Linting`. It is also available for Java development as an Eclipse Tern plugin, and can be integrated with the IntelliJ IDE. Additionally, there is a Visual Studio Code extension.
 
-Google provide an ESLint configuration supporting the Google JavaScript style guide [here](https://github.com/google/eslint-config-google).
+Google provide an ESLint configuration supporting the Google JavaScript style guide here: <https://github.com/google/eslint-config-google>.
 
 ## Unit Testing
 
-Unit testing is required on all applications which execute any JavaScript code.  Jasmine is the chosen unit testing framework for JavaScript, since it is the most widely used, supported, and documented.
+As per the [Unit Testing Policy](../UnitTesting/UnitTestingPolicy.md), unit testing is required on all applications which includes any that execute JavaScript code. Jest is the chosen unit testing framework for JavaScript, since it is the most widely used, supported, and documented. Jest documentation and guides can be found here <https://jestjs.io/>.
 
-Jasmine can be downloaded from <https://jasmine.github.io/>  This site also contains excellent documentation for writing Jasmine tests, along with add-on modules which increase the capability of the framework (e.g. jasmine-ajax)
-
-Jasmine unit tests can be automated by using the Chutzpah JavaScript test runner.
+Jasmine has been used historically and can be downloaded from <https://jasmine.github.io/>  This site also contains excellent documentation for writing Jasmine tests, along with add-on modules which increase the capability of the framework (e.g. jasmine-ajax). Jasmine unit tests can be automated by using the Chutzpah JavaScript test runner.
