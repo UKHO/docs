@@ -31,7 +31,7 @@ Upon install, Playwright downloads a version of Chromium/Chrome and uses the Chr
 
 The core advantage of using Playwright over Cypress is that it is an out-of-process automation driver that is not limited by the scope of in-page JavaScript execution and can automate scenarios with multiple pages and popups.
 
-Playwrights [documentation is excellent](https://playwright.dev/), the tool is being continually developed and the community is growing. See our [Playwright Page Object Model Template](https://github.com/UKHO/playwright-template) for advice on how to use Playwright in a UKHO project.
+Playwrights [documentation is excellent](https://playwright.dev/), the tool is being continually developed and the community is growing. See our [Playwright Page Object Model Template](https://github.com/UKHO/playwright-template) for advice on how to use Playwright in a UKHO project.  Playwright scripts can be written in either C# or Typescript, and this template repo contains examples of each.
 
 ### Selenium
 
