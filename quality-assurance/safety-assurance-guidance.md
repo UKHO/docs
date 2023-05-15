@@ -49,6 +49,8 @@ All participants must have a basic understanding of [bow tie](https://www.youtub
 
 At any point during a delivery, the development team can ask for more information about the safety context of their work, in order to effectively carry out safety modelling. Typically, this will consist of further information about wider IT or business processes, how these contribute to safety, and what mitigations already exist.  The recommended format for this information is the [bow tie](https://www.youtube.com/watch?v=P7Z6L7fjsi0) diagram, but this is not mandated. The Product Owner is responsible for obtaining any such information that the team requires.
 
+For more information on Safety assurance guidance, please speak to a memeber of QA Team
+
 ## Safety Debt
 
 A team team may discover, in an existing system, improvements that can be made to its safety qualities.  These are a form of technical debt which, with the agreement of the Product Owner, should be recorded in usual way as a PBI as per our [standard guidance](https://github.com/UKHO/docs/blob/main/software-engineering-policies/TechnicalDebt/TechnicalDebtGuidance.md).  As well as the standard technical debt tags (*Technical Debt* and *T1/T2/T3/T4)*, the PBI should have the tag *Safety*.
