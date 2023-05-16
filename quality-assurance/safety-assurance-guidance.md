@@ -39,7 +39,7 @@ When developing safety-related software, the following process must be followed:
 
 ## Accountability for safety modelling
 
-The team’s Lead Developer is accountable for this process being followed.
+The team’s Lead Developer is accountable for this process being followed.  However, note that the process can be run by anyone in team.
 
 ## Skills
 
