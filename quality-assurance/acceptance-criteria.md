@@ -27,6 +27,8 @@ in order to confirm that the story is DONE
 1. Use Example Mapping sessions - [Example Mapping as part of BDD](bdd.md)
 1. Record it using Gherkin scenario-orientated syntax - “Given...When...Then...”
 2. Please remember these are behaviour driven and singlular so they should not be trying to depict multible out interations
+
+
  > example of what not to do
  > 1. **Given** the user have entered data
  > 2. **And** they have completed all the mandatory fields
