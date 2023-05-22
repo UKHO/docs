@@ -17,7 +17,7 @@ in order to confirm that the story is DONE
 
 1. The whole team is involved in the creation and refinement of AC
 2. they should be clear and unambigious to ensure clarity
-3. AC is recorded and agreed before a user story is played
+3. AC is recorded and agreed before a user story are played
 4. Every user story has at least 1 AC - too many ACs? Split the story
 5. All criteria are independently testable with a clear pass / fail outcome
 6. Non-functional criteria is included where applicable
@@ -26,7 +26,7 @@ in order to confirm that the story is DONE
 
 1. Use Example Mapping sessions - [Example Mapping as part of BDD](bdd.md)
 1. Record it using Gherkin scenario-orientated syntax - “Given...When...Then...”
-2. Please remember these are behaviour driven and singlular so they should not be trying to depict multible out interations
+1. Gherkin is behaviour driven and reflects the users flow for a singlular activity, so they are not intended to depict more than one set of  actions in terms of the behavious. See example given below 
 
 
  > example of what not to do
@@ -36,3 +36,5 @@ in order to confirm that the story is DONE
  > 4. **Then** they will be presented with the expected results
  > 5. **When** the user clicks the next button
  > 6. **Then** confirm the next set of results
+
+
