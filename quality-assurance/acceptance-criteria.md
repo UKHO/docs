@@ -26,7 +26,7 @@ in order to confirm that the story is DONE
 
 1. Use Example Mapping sessions - [Example Mapping as part of BDD](bdd.md)
 1. Record it using Gherkin scenario-orientated syntax - “Given...When...Then...”
-1. Gherkin is behaviour driven and reflects the users flow for a singlular activity, so they are not intended to depict more than one set of  actions in terms of the behavious. See example given below 
+1. Gherkin is behaviour driven and reflects the users flow for a single activity, so they are not intended to depict more than one set of  actions in terms of the behaviours. See example given below 
 
 
  > example of what not to do
