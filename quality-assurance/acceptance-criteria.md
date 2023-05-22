@@ -30,6 +30,7 @@ in order to confirm that the story is DONE
 
 
  > example of what not to do
+ 
  > 1. **Given** the user have entered data
  > 2. **And** they have completed all the mandatory fields
  > 3. **when** then submit / click (complete a specific action)
