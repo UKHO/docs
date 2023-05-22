@@ -16,11 +16,11 @@ in order to confirm that the story is DONE
 ## How do I know I am doing it right
 
 1. The whole team is involved in the creation and refinement of AC
-2. they should be clear and unambigious to ensure clarity
-3. AC is recorded and agreed before a user story are played
-4. Every user story has at least 1 AC - too many ACs? Split the story
-5. All criteria are independently testable with a clear pass / fail outcome
-6. Non-functional criteria is included where applicable
+1. they should be clear and unambigious to ensure clarity
+1. AC is recorded and agreed before a user story are played
+1. Every user story has at least 1 AC - too many ACs? Split the story
+1. All criteria are independently testable with a clear pass / fail outcome
+1. Non-functional criteria is included where applicable
 
 ## How to generate good Acceptance Criteria
 
