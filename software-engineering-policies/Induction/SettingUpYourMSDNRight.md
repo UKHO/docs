@@ -10,8 +10,8 @@ MSDN + GitHub will be purchased for anyone with Pro and Enterprise Licenses.
 
 In order to leverage the MSDN license against your github profile, you can do one of two things:
 
-- The first is to create a github account linked to your work email, your MSDN is linked to your work email, so once the two find each other your will instantly be upgraded.
-- The second option is to add your work email as an extra email on your [github profile](https://github.com/settings/emails)
+- The first is to create a github account linked to your work email, your MSDN is linked to your work email, so once the two find each other your account will instantly upgrade.
+- The second option is to add your work email as an extra email on your [github profile](https://github.com/settings/emails), the act of adding your work email to your profile does the same thing as setting up a work specific account.
 
 ## Setup for Azure DevOps
 
