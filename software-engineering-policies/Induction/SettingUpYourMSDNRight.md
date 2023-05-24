@@ -15,7 +15,7 @@ In order to leverage the MSDN license against your github profile, you can do on
 
 There are some caveats; MSDNs can only be leveraged against members of our organisation and only if their license has been purchased by the MoD, 3rd party license cannot be leveraged.
 
-staff who are BPSS will not link to an MSDN license. However performing the above will allow your account to instantly link once you get clearance and become a member of the organisation.
+Staff who are BPSS will not link to an MSDN license. However performing the above will allow your account to instantly link once you get clearance and become a member of the organisation.
 
 ## Setup for Azure DevOps
 
