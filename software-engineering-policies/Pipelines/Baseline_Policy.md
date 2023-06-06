@@ -91,6 +91,7 @@ To change these to something more suitable, you must expand on the **Control Opt
 ![Pipeline Environment - Approval and Checks - Control Options](../Resources/control-options.png)
 
 #### Recommendation for Approvals
+
 Having pipeline approvals for deployment only on environments is not best practice with regards to security. A malicious actor could access GitHub and alter the pipeline YAML in the repository to remove the environment at which point the check disappears and deployment could be forced. A better practice is to add approvals on the service connections and variable libraries utilised by the pipeline as these are maintained outside of the YAML, so if a malicious actor did alter the YAML they would be without access to the secrets which are essential for the deployment to work.
 
 The [Define Approvals & Checks document](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/approvals?view=azure-devops&tabs=check-pass) documents how to set up an approval on resources.
