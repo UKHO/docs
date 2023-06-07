@@ -1,67 +1,35 @@
 # Test Policy
 
-The purpose of this document is to communicate the policy for UKHO for testing of new software, updates, hardware and other related changes.
+The purpose of this document is to communicate the policy for UKHO for testing of new and updated software,
 
-## Why we Test
+## Our goals for testing
 
-* To build confidence in our systems
-* Detect defects
-* Generate information
-* Manage quality risks
-* To deliver value to our customers
+- To ensure our safety-related systems do not cause inaccuracy or delay to our products
+- To ensure our software maintains the good reputation of the organisation
+- To support our agile processes, allowing frequent releases containing valuable changes to our users
+- To spend our time on the most valuable testing activities
 
-## How we measure the effectiveness of Testing
+## Scope of testing
 
-Delivery to customers of software and hardware that provides business value.
+Our testing covers functional and non-functional areas as described in our [strategy](test-strategy.md).
 
-## UKHO long-term Testing goals
+## Who tests
 
-* To move to a DevOps Model
-* Test Automation provides the bulk of testing functionality
-* High Value manual testing is used
-* Testing across UKHO is done within an Agile framework
+The Test Practice consists of a group of test engineers who provide a testing capability across the UKHO software delivery teams.  It also provides oversight of the testing activities of our delivery partners.
 
-## Who Tests
-
-Test Engineering line manages a group of test engineers, ranging from junior to lead people; they provide testing capability across most of UKHO where testing is carried out within Scrum teams.
-
-Outside of the Scrum teams other people do test, for instance within Operations testing of hardware is carried out by the relevant SME, like network engineers carry out network testing. In some non-Agile teams, Business Analysts also carry out testing.
+Where other members of the business carry out software testing, the Practice is available to offer help and advice.
 
 ## Who manages Testing
 
-Software Engineering Team Managers line manage all test engineers, but test engineers are task-managed by the overall technology program in conjunction with the Head of Software Engineering.
-
-Other areas of the business carry out various testing activities, but these people will not necessarily be professional software testers, they are line managed by their relevant program.
-
-## Roles and responsibilities of Test Engineering
-
-This will only deal with the roles within Test Engineering.
-
-### In scope
-
-* All software applications
-* Any changes to database structures
-* Third-party software
-* Cloud-based applications
+Software Engineering Team Managers line manage all test engineers.  However, test engineers are task-managed by the delivery programs in conjunction with the Head of Software Engineering.
 
 ## The Testing Life-Cycle
 
-UKHO follows the Disciplined Agile Delivery (DAD) and testing forms part of that lifecycle process which is collectively referred to as the Agile Delivery Governance Framework (ADGF).
+The UKHO follows its Delivery Governance Framework (DGF), which contains references to testing governance activities.  In summary, a standard Test Approach document must be written at the start of developing the Beta product, and a Test Summary Report must be created and signed off by stakeholders before the Beta is released.
 
-Testing will be carried out at all stages of development of software and products.
+## Testing Processes
 
-There are sub-policies that cover the Agile and Non-Agile methods as well as security, penetration, load and performance testing.
-
-The test guidance within the ADGF provides guidance/support for all teams that will carry out testing across UKHO.
+Test processes may differ by team or project, according to individual circumstances.  All test approaches must conform to the UKHO's [test strategy](test-strategy.md).
 
 ## Test data
-
 It is the UKHO Policy that live data should not be used for testing. Where a copy of live data is used then its use is to be risk assessed and the data sanitised as appropriate, removing references to customers, employees and UKHO corporate proprietary information.
-
-## International standards
-
-Our baseline for standards is [ISO/IEC 29119](http://www.softwaretestingstandard.org/).
-
-## Testing process followed
-
-UKHO follows the fundamental test process as defined by ISTQB.
