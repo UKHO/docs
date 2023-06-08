@@ -8,9 +8,11 @@ Most standards and practises at the UKHO is covered in the Training courses we p
 
 Holding modules in the same repository as the project reduces it's audience. It is likely that you might be tempted to copy the modules you created in the previous project to your new one.
 
-This should be avoided at all costs. Most modules can be written in a relative IP lossless way, to avoid attack vertors or concerns around security, using public modules makes reuse easy to find and use when adhering to a standard naming makes them  easy to find in GitHub, using releases allows for ease of versioning.
+Most modules can be written in a relative IP lossless way, to avoid attack vertors or concerns around security, using public modules makes reuse easy to find and use when adhering to a standard naming makes them  easy to find in GitHub, using releases allows for ease of versioning.
 
-A simple search for [tfmodule](https://github.com/UKHO?q=tfmodule&type=all&language=&sort=) will show a list of all the modules that are available and how to use them.
+Each module should be hosted it's own repo to keep the download size small. following the convention mentioned in the [template project for terraform](https://github.com/UKHO/terraform-module-template) modules.
+
+This allows for a simple [search for tfmodule](https://github.com/UKHO?q=tfmodule&type=all&language=&sort=) in GitHub to show a list of all the modules that are available and how to use them.
 
 ## Verisioning Modules
 
