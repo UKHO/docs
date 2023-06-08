@@ -1,4 +1,4 @@
-# Setting up your MSDN right.
+# Setting up your MSDN right
 
 You may be purchased an MSDN license ranging from MSDN Platforms up to Enterprise, depending on your needs. One of the benefits of an MSDN license is linked access to Azure Services and the option to spend monthly azure credits.
 
