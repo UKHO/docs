@@ -81,9 +81,11 @@ Practice basic XSS injection with the following link [Practical example in Avata
 ## **Session Management**
 
 The basic test to determine that the user session is secure, which focuses around the following points 
+
 1.	The session identifier is secret
 2.	That session identifier must be random, and
 3.	The session identifier must end when the user logs out / times out
+   
 A basic test to determine if the application has got adequate protection is for the user to login to the application, then wait for a significant time for the session id to expire and attempt to perform an action on the application using the previously authorised token. The example addresses point 3 in the bullet points above.
 Some useful links will help you expand on the basics 
 [session management vulnerabilities](https://affinity-it-security.com/how-to-test-for-session-management-vulnerabilities/) will help with scenarios you may want to consider.
@@ -105,18 +107,25 @@ Practices the basic URL manipulation with the following link [Avatao practical e
 
 For test automation tools, then we will look at Zap as its open source and covers the basics which supplements the manual testing that needs to be conducted also.
 Zap will provide:
+
 -	SQL injection
 -	XSS injection 
 -	Session ID in URL rewrite
+
 In general, though the following steps can be used to setup Zap and start testing your application. Zap is targeted for use by Novice and Advance users so seems to provide a good balance.
+
 1.	Setup
+
 -	Download Java 8 JRE or above as this is needed to run ZAP - [java JRE](https://www.java.com/en/download/manual.jsp)
 -	Then download the ZAP exe from [ZAP exe](https://www.zaproxy.org/download/)
 -	Once the ZAP download is completed double click on it to install and follow the instructions on the screen
+
 2.	Running Zap initially through the automated Scan route
+   
 -	double click on the ZAP application under the installed folder e.g. C:\Program Files\OWASP\Zed Attack Proxy
 -	ensure that you follow the instructions as stated in the ZAP getting started documentation and section “Persisting a Session” https://www.zaproxy.org/getting-started/
 -	The Zap Desktop UI should then be displayed as in the get started guide
+  
 3.	Basic steps for a manual approach
 
 This covers off some of the limitations with running the scan in an automated way, such as in cases where the application requires login authentication. Although Zap can be configured to handle the authentication its not out of the box functionality. Follow the link and read the “Exploring an Application Manually” for more details. https://www.zaproxy.org/getting-started/
