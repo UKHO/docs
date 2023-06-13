@@ -46,8 +46,10 @@ The next stage would be that the tester confirms that a SQL query can be injecte
 Reference to the following links in the [SQL injection section](https://www.softwaretestinghelp.com/sql-injection-how-to-test-application-for-sql-injection-attacks/) for further details.
 
 > The subsequent sections within the above link are worth noting, if you are required to as a tester to confirm more than just the basic vulnerability in an exploratory test type approach
+
 - The essence of this attack
 - Security testing of web applications against SQL injection
+  
 Practice basic SQL injection with the following link: [Avatao example](https://next.avatao.com/collections/c26b8ef1-18c9-419a-a023-ac187af3864c/owasp-top-10-intro-in-c/challenges/sql-injection-tutorial-in-asp-net)
 
 ###	XSS Injection
@@ -120,13 +122,13 @@ In general, though the following steps can be used to setup Zap and start testin
 -	Then download the ZAP exe from [ZAP exe](https://www.zaproxy.org/download/)
 -	Once the ZAP download is completed double click on it to install and follow the instructions on the screen
 
-2.	Running Zap initially through the automated Scan route
+1.	Running Zap initially through the automated Scan route
    
 -	double click on the ZAP application under the installed folder e.g. C:\Program Files\OWASP\Zed Attack Proxy
 -	ensure that you follow the instructions as stated in the ZAP getting started documentation and section “Persisting a Session” https://www.zaproxy.org/getting-started/
 -	The Zap Desktop UI should then be displayed as in the get started guide
   
-3.	Basic steps for a manual approach
+1.	Basic steps for a manual approach
 
 This covers off some of the limitations with running the scan in an automated way, such as in cases where the application requires login authentication. Although Zap can be configured to handle the authentication its not out of the box functionality. Follow the link and read the “Exploring an Application Manually” for more details. https://www.zaproxy.org/getting-started/
 
