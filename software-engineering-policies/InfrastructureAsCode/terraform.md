@@ -14,9 +14,9 @@ Holding modules in the same repository as the project reduces it's audience. It 
 
 Most modules can be written in a relative IP lossless way, to avoid attack vectors or concerns around security. Using public modules makes them easy to find and reuse, adhering to a standard naming comvention makes them  easy to find in GitHub, and creating releases allows for ease of specifying a version to use.
 
-Each module should be hosted it's own repo to keep the download size small. following the convention mentioned in the [template project for terraform](https://github.com/UKHO/terraform-module-template) modules.
+Each module should be hosted it's own GitHub repo to keep the download size small. following the convention mentioned in the [template project for terraform](https://github.com/UKHO/terraform-module-template) modules. Using the terraform module template will create a repo with the contents setup as standard. Review the naming convention guide linked on the readme of the template to see how you might go about naming the module.
 
-This allows for a simple [search for tfmodule](https://github.com/UKHO?q=tfmodule&type=all&language=&sort=) in GitHub to show a list of all the modules that are available and how to use them.
+Using the same naming convention  allows for a [simple search for tfmodule](https://github.com/UKHO?q=tfmodule&type=all&language=&sort=) in GitHub to show a list of all the modules that are available and how to use them.
 
 ## Versioning Modules
 
