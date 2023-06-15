@@ -20,8 +20,7 @@ The next stage is to select a repo for the pipeline, in our case we selected GIT
 -	And select the Report build status 
 
 4.	Initial setup for the Agent Job in Azure pipeline
-   
-   ![Azure Agent setup](https://github.com/UKHO/docs/blob/Security-test-automation/quality-assurance/images/zapazuresetup.jpg)
+![Azure Agent setup](https://github.com/UKHO/docs/blob/Security-test-automation/quality-assurance/images/zapazuresetup.jpg)
 
 5.	The setup for the installation for the Docker
    
