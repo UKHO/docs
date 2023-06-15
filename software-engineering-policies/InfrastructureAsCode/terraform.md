@@ -22,7 +22,7 @@ This allows for a simple [search for tfmodule](https://github.com/UKHO?q=tfmodul
 
 Semantic versioning is used, the main branch is used to control the latest releases, when testing an addition, tagging the feature branch with a pre-release tag is a benefitial way to identify this. a main release will be versioned as 0.1.0 where as the pre-release will be versioned 0.1.0-alpha.1.
 
-A new pre release will be needed for each change intended for testing.
+A new pre-release will be needed for each change intended for testing.
 
 ## Referencing modules in code
 
