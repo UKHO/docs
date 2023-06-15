@@ -5,9 +5,11 @@ The ZAP tool can be installed within the azure pipeline using the following step
 1. Download the following file and place it in your desired repo 
 download the file OWASPToNUnit3.xslt, and keep it inside the repository. This file is needed to convert OWASP ZAP Security Test result XML file to publish results in Azure DevOps.
 Here is the link to the git repo for the file [Github repo for ZAP](https://dev.azure.com/francislacroix/_git/CodeShare?path=/OWASPBlog/OWASPToNUnit3.xslt)
-2.	Create a new pipeline in Azure Dev 
+
+1.	Create a new pipeline in Azure Dev 
 Go to the Pipeline section within the azure Devops and select the new pipeline option 
-3.	Repositor selection 
+
+1.	Repositor selection 
 The next stage is to select a repo for the pipeline, in our case we selected GIT 
 
 - The repo we setup was - UKHO/Gridded-Bathymetry-Service-UI
@@ -15,15 +17,16 @@ The next stage is to select a repo for the pipeline, in our case we selected GIT
 -	Set the clean option to TRUE 
 -	Set clean options to SOURCE 
 -	Tag sources are set to NEVER 
--	And select the Report build status 
-4.	Initial setup for the Agent Job in Azure pipeline
+-	And select the Report build status
+-	
+1.	Initial setup for the Agent Job in Azure pipeline
 ![Azure Agent setup](https://github.com/UKHO/docs/blob/Security-test-automation/quality-assurance/images/zapazuresetup.jpg)
 
-5.	The setup for the installation for the Docker
+1.	The setup for the installation for the Docker
    
    ![Azure docker setup](https://github.com/UKHO/docs/blob/Security-test-automation/quality-assurance/images/zap2.jpg)
 
-6. Next stage is to setup the test using a BASH script
+1. Next stage is to setup the test using a BASH script
    
    ![Bash script](https://github.com/UKHO/docs/blob/Security-test-automation/quality-assurance/images/zap3.jpg)
 
@@ -37,7 +40,7 @@ chmod -R 777  ./
 > docker rm /ZapContainer 
 true
 
-7.	The next stage is to setup the conversion into NUnit reports using a PowerShell script
+1.	The next stage is to setup the conversion into NUnit reports using a PowerShell script
    
    ![Bash script](https://github.com/UKHO/docs/blob/Security-test-automation/quality-assurance/images/zap4.jpg)
 
@@ -53,13 +56,13 @@ $XslTransform.Transform($XmlInputPath, $XmlOutputPath)
 > Get-Content $XmlOutputPath 
 
 
-8.	The last stage is to publish the results
+1.	The last stage is to publish the results
    
    ![Bash script](https://github.com/UKHO/docs/blob/Security-test-automation/quality-assurance/images/zap5.jpg)
 
 This stage is the final one for configuration an Agent Job and ensures that you publish the results. 
 
-9.	Setting up API testing for ZAP using BASH script
+1.	Setting up API testing for ZAP using BASH script
     
    ![Bash script](https://github.com/UKHO/docs/blob/Security-test-automation/quality-assurance/images/zap6.jpg)
    
@@ -70,7 +73,7 @@ docker cp ZapContainer:/zap/wrk/OWASP-ZAP-Report.xml $(System.DefaultWorkingDire
 docker rm /ZapContainer 
 true 
 
-10.	Adding PowerShell script to convert report to NUnit
+1. Adding PowerShell script to convert report to NUnit
     
    ![Bash script](https://github.com/UKHO/docs/blob/Security-test-automation/quality-assurance/images/zap7.jpg)
 
@@ -86,7 +89,7 @@ $XslTransform.Load($XslPath)
 $XslTransform.Transform($XmlInputPath, $XmlOutputPath) 
  
 
-11.	Publish the reports
+1. Publish the reports
     
    ![Bash script](https://github.com/UKHO/docs/blob/Security-test-automation/quality-assurance/images/zap8.jpg)
 
