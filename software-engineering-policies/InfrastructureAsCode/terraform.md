@@ -4,17 +4,21 @@ Terraform is our tool of choice, and should be considered in the first instance.
 
 Most standards and practises at the UKHO is covered in the Training courses we provide around the use of Terraform.
 
+Videos and Presentation can be found in the Software Engineering Team > Training Channel.
+
+Also online resources provided by [terraform.io](https://www.terraform.io/) are very useful.
+
 ## Avoid adding local modules
 
 Holding modules in the same repository as the project reduces it's audience. It is likely that you might be tempted to copy the modules you created in the previous project to your new one.
 
-Most modules can be written in a relative IP lossless way, to avoid attack vertors or concerns around security, using public modules makes reuse easy to find and use when adhering to a standard naming makes them  easy to find in GitHub, using releases allows for ease of versioning.
+Most modules can be written in a relative IP lossless way, to avoid attack vectors or concerns around security. Using public modules makes them easy to find and reuse, adhering to a standard naming comvention makes them  easy to find in GitHub, and creating releases allows for ease of specifying a version to use.
 
 Each module should be hosted it's own repo to keep the download size small. following the convention mentioned in the [template project for terraform](https://github.com/UKHO/terraform-module-template) modules.
 
 This allows for a simple [search for tfmodule](https://github.com/UKHO?q=tfmodule&type=all&language=&sort=) in GitHub to show a list of all the modules that are available and how to use them.
 
-## Verisioning Modules
+## Versioning Modules
 
 Semantic versioning is used, the main branch is used to control the latest releases, when testing an addition, tagging the feature branch with a pre-release tag is a benefitial way to identify this. a main release will be versioned as 0.1.0 where as the pre-release will be versioned 0.1.0-alpha.1.
 
