@@ -5,10 +5,8 @@ The ZAP tool can be installed within the azure pipeline using the following step
 1. Download the following file and place it in your desired repo 
 download the file OWASPToNUnit3.xslt, and keep it inside the repository. This file is needed to convert OWASP ZAP Security Test result XML file to publish results in Azure DevOps.
 Here is the link to the git repo for the file [Github repo for ZAP](https://dev.azure.com/francislacroix/_git/CodeShare?path=/OWASPBlog/OWASPToNUnit3.xslt)
-
 2.	Create a new pipeline in Azure Dev 
 Go to the Pipeline section within the azure Devops and select the new pipeline option 
-
 3.	Repositor selection 
 The next stage is to select a repo for the pipeline, in our case we selected GIT 
 
@@ -18,7 +16,6 @@ The next stage is to select a repo for the pipeline, in our case we selected GIT
 -	Set clean options to SOURCE 
 -	Tag sources are set to NEVER 
 -	And select the Report build status 
-
 4.	Initial setup for the Agent Job in Azure pipeline
 ![Azure Agent setup](https://github.com/UKHO/docs/blob/Security-test-automation/quality-assurance/images/zapazuresetup.jpg)
 
