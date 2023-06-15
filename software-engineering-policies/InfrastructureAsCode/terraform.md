@@ -26,7 +26,7 @@ A new pre-release will be needed for each change intended for testing.
 
 ## Referencing modules in code
 
-Modules in github can be referenced easily using a source qualifier for github. the ref pointer in the source url refers to the tag / release version you intend to use.
+Modules in github can be referenced easily using a source qualifier for github. The ref pointer in the source url refers to the tag / release version you intend to use.
 
 ```terraform
 module "eventhub" {
