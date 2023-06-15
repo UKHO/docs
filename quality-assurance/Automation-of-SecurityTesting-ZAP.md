@@ -23,11 +23,11 @@ The next stage is to select a repo for the pipeline, in our case we selected GIT
    
    ![Azure Agent setup](https://github.com/UKHO/docs/blob/Security-test-automation/quality-assurance/images/zapazuresetup.jpg)
 
-6.	The setup for the installation for the Docker
+5.	The setup for the installation for the Docker
    
    ![Azure docker setup](https://github.com/UKHO/docs/blob/Security-test-automation/quality-assurance/images/zap2.jpg)
 
-8. Next stage is to setup the test using a BASH script
+6. Next stage is to setup the test using a BASH script
    
    ![Bash script](https://github.com/UKHO/docs/blob/Security-test-automation/quality-assurance/images/zap3.jpg)
 
