@@ -21,15 +21,15 @@ The next stage is to select a repo for the pipeline, in our case we selected GIT
 
 4.	Initial setup for the Agent Job in Azure pipeline
    
-   ![Azure Agent setup](image.jpg)
+   ![Azure Agent setup](https://github.com/UKHO/docs/blob/Security-test-automation/quality-assurance/images/zapazuresetup.jpg)
 
 6.	The setup for the installation for the Docker
    
-   ![Azure docker setup](image.jpg)
+   ![Azure docker setup](https://github.com/UKHO/docs/blob/Security-test-automation/quality-assurance/images/zap2.jpg)
 
 8. Next stage is to setup the test using a BASH script
    
-   ![Bash script](image.jpg)
+   ![Bash script](https://github.com/UKHO/docs/blob/Security-test-automation/quality-assurance/images/zap3.jpg)
 
 > Within the script section of the page then you will need to add similar text to –  
 chmod -R 777  ./ 
@@ -43,7 +43,7 @@ true
 
 7.	The next stage is to setup the conversion into NUnit reports using a PowerShell script
    
-   ![Bash script](image.jpg)
+   ![Bash script](https://github.com/UKHO/docs/blob/Security-test-automation/quality-assurance/images/zap4.jpg)
 
 > Now setup the ZAP reporting, this is needed to view the results of performing the security checks on the application. Ensure that you have entered the following text in the scripting section: -
 
@@ -59,13 +59,13 @@ $XslTransform.Transform($XmlInputPath, $XmlOutputPath)
 
 8.	The last stage is to publish the results
    
-   ![Bash script](image.jpg)
+   ![Bash script](https://github.com/UKHO/docs/blob/Security-test-automation/quality-assurance/images/zap5.jpg)
 
 This stage is the final one for configuration an Agent Job and ensures that you publish the results. 
 
 9.	Setting up API testing for ZAP using BASH script
     
-   ![Bash script](image.jpg)
+   ![Bash script](https://github.com/UKHO/docs/blob/Security-test-automation/quality-assurance/images/zap6.jpg)
    
 > The above illustrates the 3rd step in configuring the agent to test API’s. this is setting up the Bash Script. You must enter the text into the script section as:- 
 chmod -R 777 ./ 
@@ -76,7 +76,7 @@ true
 
 10.	Adding PowerShell script to convert report to NUnit
     
-   ![Bash script](image.jpg)
+   ![Bash script](https://github.com/UKHO/docs/blob/Security-test-automation/quality-assurance/images/zap7.jpg)
 
 > The next stage is to convert the ZAP report into an Nunit report. 
 Display name  - this can be anything you like that is meaningful 
@@ -92,6 +92,6 @@ $XslTransform.Transform($XmlInputPath, $XmlOutputPath)
 
 11.	Publish the reports
     
-   ![Bash script](image.jpg)
+   ![Bash script](https://github.com/UKHO/docs/blob/Security-test-automation/quality-assurance/images/zap8.jpg)
 
 The final stage is to publish the report
