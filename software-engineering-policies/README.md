@@ -4,12 +4,13 @@ The policies (and associated guidance) that should be followed during software d
 
 | Area | Policy | Guidance |
 | :--- | :--- | :--- |
-| Defect Management | [Policy](DefectManagement/DefectManagementPolicy.md) | |
 | Code Copyright | [Policy](CodeCopyright/CodeCopyrightPolicy.md) | |
 | Code Reuse | [Policy](CodeReuse/CodeReusePolicy.md) | |
 | Code Review | [Policy](CodeReview/CodeReviewPolicy.md) | |
 | Containers | [Policy](Containers/ContainerPolicy.md) | |
+| Defect Management | [Policy](DefectManagement/DefectManagementPolicy.md) | |
 | Inclusive Language | [Policy](InclusiveLanguage/InclusiveLanguagePolicy.md) | |
+| Machine learning and AI developments | [Policy on SharePoint](https://ukho.sharepoint.com/sites/DataScienceandEngineering/SitePages/Machine-learning-and-AI-developments.aspx) | [AI programming assistants guidance](https://ukho.sharepoint.com/sites/DataScienceandEngineering/SitePages/AI-programming-assistants-guidance.aspx) <br/> [Release models for machine learning models](https://ukho.sharepoint.com/sites/DataScienceandEngineering/SitePages/Release-models-for-machine-learning-models.aspx) |
 | Non Functional Requirements | [Policy](NFRs/NFRPolicy.md) | |
 | Open Source Contribution | [Policy](OpenSourceContribution/OpenSourceContributionPolicy.md) | |
 | Open Source Use | [Policy](OpenSourceUse/OpenSourceUsePolicy.md) | |
