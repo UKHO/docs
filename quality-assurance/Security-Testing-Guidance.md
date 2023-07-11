@@ -51,12 +51,12 @@ Practice basic SQL injection with the following link: [Avatao example](https://n
 
 ###	XSS Injection
 
-This form of testing is to determine whether the tester can make the web application serve user-entered data in a form that will be executed by the browser. HTTP, Javascript or XSS are the most used. The usual points of attack are via user data entered through forms or passed by API endpoints.
+This form of testing is to determine whether the tester can make the web application serve user-entered data in a form that will be executed by the browser. The usual points of attack are via user data entered through forms or passed by API endpoints.
 XSS have three flavours
 
 -	Persisted or Stored XSS
--	Reflective XSS (HTTP)
--	DOM XSS (Javascript)
+-	Reflective XSS
+-	DOM XSS
 
 Common points to consider when testing Persisted XSS are message forums, comment fields, or visitor logs e.g.
 Reflective XSS, common points are search results and error messages where they are not properly escaped. 
