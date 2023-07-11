@@ -5,8 +5,6 @@
 
 This document is intended to provide guidance to the UKHO test community and development tests on what testing needs to be considered for their applications / systems they are involved with. It is not intended to replace a formal Penetration testing stage but help in providing a more shift left approach to capture more obvious issues / defects that may otherwise creep through.
 
-For the Avatao platform exercises please contact Raymond.sneddon-jenkins@ukho.gov.uk to arrange access.
-
 ## **Typical Scenarios and types of testing to consider**
 
 This section is broken down into the common areas that we need to consider security testing in that you may come across.
@@ -15,19 +13,18 @@ This section is broken down into the common areas that we need to consider secur
 
 ### ***Login – Password checks***
 
-As a tester then the basic checks for the strength and resilience of the applications login can be achieved through,
+The basic checks for the strength and resilience of the applications login can be achieved through,
 
--	Ensuring that the PBI have clearly defined the rules around password construction and strength to aid testing.
+-	Ensuring that the PBIs have clearly defined the rules around password construction and strength to aid testing.
 -	Confirm that if Cookies are used and store the user's details that these are encrypted
 
 For more details then read the link [Website Cookie Testing](https://www.softwaretestinghelp.com/website-cookie-testing-test-cases)
 
-Examples can be practices on the Avatao security training platform at the following link [testing how to keep secrets with Avatao](https://next.avatao.com/collections/c26b8ef1-18c9-419a-a023-ac187af3864c/owasp-top-10-intro-in-c/challenges/keeping-secrets-in-c?tab=windows) for password secrets.
+Examples can be practiced on the Avatao security training platform at the following link [testing how to keep secrets with Avatao](https://next.avatao.com/collections/c26b8ef1-18c9-419a-a023-ac187af3864c/owasp-top-10-intro-in-c/challenges/keeping-secrets-in-c?tab=windows) for password secrets.
 
 ### ***User Privileges***
 
-As a tester you will want to confirm that users with various roles in the application can gain access and only alter information, they have permission for. In order to perform the basic tests then the tester will need to create several accounts. This tests the authentication process as in who you are and the authorised flow of what you are entitled to view. An example of what to check for would be if there are 2 or more users say 
-User johnny and user Billy, Johnny and billy have some common access for data and functionality, but Johnny has addition access to see more sensitive data and also has privileges to additional functionality. 
+As a tester you will want to confirm that users with various roles in the application can gain access and only alter information they have permission for. In order to perform the basic tests then the tester will need to create several accounts. 
 The tests for this are to basically confirm that the users only have access to the correct level of data and functionality with in the application.
 
 There are cases where user privilege should also be confirmed via the API’s, where necessary the following best explains some of the top 10 API checks you can make are in the following link [top 10 API checks](https://apisecurity.io/encyclopedia/content/owasp-api-security-top-10-cheat-sheet-a4.pdf)
@@ -54,12 +51,12 @@ Practice basic SQL injection with the following link: [Avatao example](https://n
 
 ###	XSS Injection
 
-This form of testing is to determine whether the tester can make the web application serve user-entered data in a form that will be executed by the browser. HTTP or XSS are the most used. The usual points of attack are via user data entered through forms or passed by API endpoints.
+This form of testing is to determine whether the tester can make the web application serve user-entered data in a form that will be executed by the browser. HTTP, Javascript or XSS are the most used. The usual points of attack are via user data entered through forms or passed by API endpoints.
 XSS have three flavours
 
 -	Persisted or Stored XSS
--	Reflective XSS
--	DOM XSS
+-	Reflective XSS (HTTP)
+-	DOM XSS (Javascript)
 
 Common points to consider when testing Persisted XSS are message forums, comment fields, or visitor logs e.g.
 Reflective XSS, common points are search results and error messages where they are not properly escaped. 
@@ -82,7 +79,7 @@ Practice basic XSS injection with the following link [Practical example in Avata
 
 ## **Session Management**
 
-The basic test to determine that the user session is secure, which focuses around the following points 
+The basic test to determine that the user session is secure, which focuses around the following points. 
 
 1.	The session identifier is secret
 2.	That session identifier must be random, and
@@ -103,9 +100,9 @@ The attacker notices
 'http://www.attackbank.com/default.asp?profile=741&debit=1000 could be altered by an attacker to, http://www.attackbank.com/default.asp?profile=852&debit=2000, the attack is attempting to manipulate the url to gain access to other site details they shouldn’t have permission for.'
 for more information then read the link [Web_Parameter_Tampering](https://owasp.org/www-community/attacks/Web_Parameter_Tampering)
 
-Practices the basic URL manipulation with the following link [Avatao practical example](https://next.avatao.com/collections/c26b8ef1-18c9-419a-a023-ac187af3864c/owasp-top-10-intro-in-c/challenges/swapping-the-id?tab=windows)
+Practice the basic URL manipulation with the following link [Avatao practical example](https://next.avatao.com/collections/c26b8ef1-18c9-419a-a023-ac187af3864c/owasp-top-10-intro-in-c/challenges/swapping-the-id?tab=windows)
 
-# **Automation Testing**
+# **Manual Testing using ZAP in standalone setup**
 
 For test automation tools, then we will look at Zap as its open source and covers the basics which supplements the manual testing that needs to be conducted also.
 Zap will provide:
@@ -132,5 +129,5 @@ In general, though the following steps can be used to setup Zap and start testin
 
 This covers off some of the limitations with running the scan in an automated way, such as in cases where the application requires login authentication. Although Zap can be configured to handle the authentication its not out of the box functionality. Follow the link and read the “Exploring an Application Manually” for more details. https://www.zaproxy.org/getting-started/
 
-Please foloow the training guide for awareness of securituy testing and what we need to consider relevant to your project
+Please follow the training guide for awareness of securituy testing and what we need to consider relevant to your project
 in [Avatao QA guild](https://next.avatao.com/teams). contact Raymond.sneddon-jenkins@ukho.gov.uk to arrange access or questions.
