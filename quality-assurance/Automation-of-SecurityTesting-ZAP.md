@@ -6,11 +6,13 @@ The ZAP tool can be installed within the azure pipeline using the following step
 'OWASPToNUnit3.xslt'. This file is needed to convert OWASP ZAP Security Test result XML file to publish results in Azure DevOps.
 Here is the link to the git repo for the file [Github repo for OWASPToNUnit3](https://dev.azure.com/francislacroix/_git/CodeShare?path=/OWASPBlog/OWASPToNUnit3.xslt)
 
-1.	Create a new pipeline in Azure Dev 
-Go to the Pipeline section within the azure Devops and select the new pipeline option 
+1.	Create a new pipeline in Azure DevOps
 
-1.	Repositor selection 
-The next stage is to select a repo for the pipeline, in our case we selected GIT 
+    Go to the Pipeline section within the azure DevOps and select the new pipeline option 
+
+1.	Repository selection 
+
+    The next stage is to select a repo for the pipeline, in our case we selected GIT 
 
     - The repo we setup was - UKHO/Gridded-Bathymetry-Service-UI
     - Setting up the branch we need to trigger off was => refs/heads/OwaspZAPSecurityTests 
