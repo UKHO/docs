@@ -4,7 +4,7 @@ Terraform is our tool of choice, and should be considered in the first instance.
 
 Most standards and practises at the UKHO is covered in the Training courses we provide around the use of Terraform.
 
-Videos and Presentation can be found in the Software Engineering Team > Training Channel.
+Videos and Presentation can be found in the **Software Engineering Team > Training Channel**.
 
 Also online resources provided by [terraform.io](https://www.terraform.io/) are very useful.
 
