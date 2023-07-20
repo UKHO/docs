@@ -128,9 +128,9 @@ Defects (also known as bugs) are only considered technical debt if the decision 
 
 ## Additional Reading
 
-- https://martinfowler.com/bliki/TechnicalDebt.html
-- https://martinfowler.com/bliki/EstimatedInterest.html
-- https://martinfowler.com/bliki/TechnicalDebtQuadrant.html
+* https://martinfowler.com/bliki/TechnicalDebt.html
+* https://martinfowler.com/bliki/EstimatedInterest.html
+* https://martinfowler.com/bliki/TechnicalDebtQuadrant.html
 
 ## Legacy Technical Debt Tracking
 
