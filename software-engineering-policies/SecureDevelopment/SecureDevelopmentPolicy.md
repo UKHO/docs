@@ -55,7 +55,11 @@ A Security Champion is any skill level engineer who is enthusiastic about buildi
 
 ### Security Advisor
 
-The Security Advisor is a lead or senior engineer who has additional responsibilities towards security. They are responsible for:
+The Security Advisor is the team member primarily responsible for security in a software engineering team. This is either the team lead or a senior software engineer. The Security Advisor is expected to have security knowledge relevant to their domain and knowledge of security processes within the UKHO.
+
+They are responsible for:
+
+- Being the Point of Contact within the team for security considerations.
 
 - Ensuring security is considered throughout development.
 
@@ -67,7 +71,9 @@ The Security Advisor is a lead or senior engineer who has additional responsibil
 
 - Ensure a skills matrix is defined per project and developers complete this.
 
-- Assisting SAC where necessary.
+- Assisting in security health checks with the ITSO Team.
+
+- Assisting the Security Assurance Coordinator (SAC) where necessary.
 
 ### Security Working Groups
 
