@@ -6,4 +6,4 @@ An executable specification is an expression of business requirements, usually i
 
 ## When to use executable specifications
 
-The downside of Specflow / Cucumber is that they add an extra technology plus a layer of mapping code to a project.  In theory this is offset by the advantage that tests can be created in collaboration with business users as part of a [BDD](./BDD.md) process.  It is therefore our policy that an executable specification like Specflow should NOT be used except as part of a BDD process.  If a BDD process has not been used, it usually better to express the intent of tests by naming them well and making them easy to read.
+The downside of Specflow / Cucumber is that they add an extra technology plus a layer of mapping code to a project.  In theory this is offset by the advantage that tests can be created in collaboration with business users as part of a [BDD](./bdd.md) process.  It is therefore our policy that an executable specification like Specflow should NOT be used except as part of a BDD process.  If a BDD process has not been used, it usually better to express the intent of tests by naming them well and making them easy to read.
