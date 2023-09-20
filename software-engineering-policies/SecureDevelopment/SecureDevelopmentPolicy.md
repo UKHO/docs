@@ -109,6 +109,7 @@ The risk owner is the person who is responsible for the product. This may be the
 
 - Security considerations must be included within the Definition of Done.
 - Security-related stories (vulnerabilities, upgrades) must be raised in TFS with the ‘Security’ and ‘Security Concern’ tag.
+- See also the [Managing Security Concerns Policy](../../security/ManagingSecurityConcerns/ManagingSecurityConcerns.md)
 
 ### Skills Matrix
 

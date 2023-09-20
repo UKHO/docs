@@ -16,6 +16,7 @@ The policies (and associated guidance) that should be followed during software d
 | Open Source Use | [Policy](OpenSourceUse/OpenSourceUsePolicy.md) | |
 | Pair Programming | [Policy](PairProgramming/PairProgrammingPolicy.md) | |
 | Secure Development | [Policy](SecureDevelopment/SecureDevelopmentPolicy.md) | |
+| &nbsp; Managing Security Concerns | [Policy](../security/ManagingSecurityConcerns/ManagingSecurityConcerns.md) | and [CVSS Scoring Guidance](../security/ManagingSecurityConcerns/CvssScoringMetrics.md)|
 | Source Control | [Policy](SourceControl/SourceControlPolicy.md) | |
 | System Documentation | [Policy](SystemDocumentation/SystemDocumentationPolicy.md) | |
 | Technical Debt | [Policy](TechnicalDebt/TechnicalDebtPolicy.md) | [Guidance](TechnicalDebt/TechnicalDebtGuidance.md) |
