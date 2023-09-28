@@ -1,4 +1,4 @@
-# Terraform Policy
+# Terraform Use And Module Policy
 
 ## Avoid local modules
 
