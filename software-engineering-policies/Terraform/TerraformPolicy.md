@@ -6,7 +6,7 @@ Reiterating the Code Reuse Policy **Code assets must be reused where possible.**
 
 If the intention is to use a module for possible reuse by other teams or future then consider a public module using github as a host.
 
-Examples of other terraform modules can be found by searching for [tfmodule on github](https://github.com/UKHO?q=tfmodule&type=all&language=&sort=)
+Examples of other terraform modules can be found by searching the ukho organisation for [tfmodule on github](https://github.com/UKHO?q=tfmodule&type=all&language=&sort=)
 
 ## Set provider property on all objects
 
