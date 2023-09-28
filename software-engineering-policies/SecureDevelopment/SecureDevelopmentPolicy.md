@@ -27,8 +27,8 @@ This can be due to several reasons, including lack of training, accidental, insu
 
 The purpose of this document is to ensure that:
 
-- It is clear what controls are expected.
-
+- It is clear what controls are expected - see [Managing Security Concerns Policy](../../security/ManagingSecurityConcerns/ManagingSecurityConcerns.md)
+  
 - It is clear what roles are required.
 
 - Teams are using the correct processes.
