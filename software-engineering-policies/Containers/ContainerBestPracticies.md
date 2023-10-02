@@ -15,6 +15,7 @@ The following items supersede these best practices:
 * Aim to use minimal dependencies, such as [distroless container base](https://github.com/GoogleContainerTools/distroless).
 * Avoid defining unnecessary privileges and avoid running as root.
 * Ensure there is a well-established process for updating dependencies.
+* Where both suitable and possible, leverage [multi-stage builds](https://docs.docker.com/build/building/multi-stage).
 
 ## Container Deployment Best Practices
 
