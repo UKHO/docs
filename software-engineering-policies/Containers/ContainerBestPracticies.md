@@ -16,6 +16,7 @@ The following items supersede these best practices:
 * Avoid defining unnecessary privileges and avoid running as root.
 * Ensure there is a well-established process for updating dependencies.
 * Where both suitable and possible, leverage [multi-stage builds](https://docs.docker.com/build/building/multi-stage).
+* The UK Hydrographic office have a number of approved images ib [DockerHub](https://hub.docker.com/u/ukhydrographicoffice) and it is recommended new images are based on these.
 
 ## Container Deployment Best Practices
 
