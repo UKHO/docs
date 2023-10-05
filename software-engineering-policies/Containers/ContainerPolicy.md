@@ -4,7 +4,7 @@
 
 Containers are in use in Data Science and Software Engineering, both in development, test and production environments. This policy defines the use and deployment for current and future usage.
 
-## Policy 
+## Policy
 
 * Containers are a potential option for architects to utilise (a tool in the toolbox).
 * Consideration should be made around why we want to utilise containers.
@@ -19,5 +19,5 @@ Containers are in use in Data Science and Software Engineering, both in developm
 
 This policy does **not** cover the following items:
 
-- Docker Desktop - which is a licensed product. Approval and license acquisition should follow the standard UKHO policy.
-- Kubernetes - the focus of this document is on containers and not their hosting environment.
+* Docker Desktop - which is a licensed product. Approval and license acquisition should follow the standard UKHO policy.
+* Kubernetes - the focus of this document is on containers and not their hosting environment.

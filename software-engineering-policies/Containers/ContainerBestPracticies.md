@@ -4,13 +4,13 @@
 
 Docker provide a series of best practices for writing and developing Dockerfile’s. These are:
 
-* Best practices for [writing a Dockerfile](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/). 
+* Best practices for [writing a Dockerfile](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/).
 * Best practices for [developing with Docker](https://docs.docker.com/develop/dev-best-practices/).
 * Best practices for [secure development with Docker](https://docs.docker.com/develop/security-best-practices/).
 
 The following items supersede these best practices:
 
-* Where a container needs to use secrets and passwords, these should be injected into the container via environment variables defined in the Dockerfile and should be encrypted at a minimum. 
+* Where a container needs to use secrets and passwords, these should be injected into the container via environment variables defined in the Dockerfile and should be encrypted at a minimum.
 * Dockerfile’s should be linted to detect issues and vulnerabilities
 * Aim to use minimal dependencies, such as [distroless container base](https://github.com/GoogleContainerTools/distroless).
 * Avoid defining unnecessary privileges and avoid running as root.
@@ -32,7 +32,7 @@ The following items supersede these best practices:
 
 ### Should do
 
-* Microservices and containers should communicate only with services and ports they need to. 
+* Microservices and containers should communicate only with services and ports they need to.
 * Access Policies and Network Security Groups should be applied.
 * Container deployments should be isolated using Namespaces.
 * Monitoring solution should be in place for deployed containers. For example, ELK (.Net), EFK (Java) stacks, Grafana, Prometheus etc.
@@ -47,4 +47,3 @@ The following items supersede these best practices:
 ## Best practice guides
 
 * sysdig blog [post](<https://sysdig.com/blog/dockerfile-best-practices/>) on practices.
-
