@@ -30,17 +30,9 @@ A PBI is not completed until any code changes have been reviewed and any further
 
 There **must** be evidence that the code changes associated with a check-in have been reviewed.
 
-## Pair Programming
-
-Where development has been carried out with pair programming there is no requirement for a separate code review to be completed.
-
 ## Verification
 
 There are two means of verification:
 
-- A report or similar must be open to inspection showing that all code reviews have been carried out.
-- Alternatively, a workflow can be created which enforces a code review before work can enter the main codebase.
-
-## Code Comments
-
-When responding to code comments, it is best to discuss face to face with the reviewer (where possible) to ensure a common understanding of the requested change.
+- A workflow should be created which enforces a code review before work can enter the main codebase.
+- Alternatively, where the tooling does not support an enforced workflow, a report or similar must be open to inspection showing that all code reviews have been carried out.
