@@ -43,5 +43,3 @@ Note that the preferred technology for Performance/Load testing API's is K6. Ple
 - **Scalability Assessments**: The infrastructure's ability to handle peak usage should be tested.
 
 
-
-
