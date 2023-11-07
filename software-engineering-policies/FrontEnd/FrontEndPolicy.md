@@ -10,7 +10,7 @@ At the UKHO we have an [in house design system](https://github.com/UKHO/admiralt
 
 
 
-The design system repository is public which means that anyone in the world can look at the repository code and commits. We are currently not taking any contributions from people outside the UKHO and offer no support to external developers. 
+The design system repository is public which means that anyone in the world can view the code and commit history. We are currently not taking any contributions from people outside the UKHO and offer no support to external developers. 
 
 
 
@@ -30,7 +30,7 @@ All new projects that have UI's and customer facing elements should consider usi
 
 
 
-Currently at the UKHO our first choice for language when building websites is Angular. This is where our currenty specialities lie but this could change and evolve overtime depending on current recruitment trends. 
+Currently at the UKHO our first choice for language when building websites is Angular. This is currently where our specialties lie but this could change and evolve overtime depending on current recruitment trends. 
 
 
 
