@@ -71,4 +71,3 @@
 * Use the same language as the UI source code. UKHO's preferred UI framework is Angular, therefore most UI tests should use TypeScript.
 * Aim to test one functional behavior per test.
 * Use a known UI testing pattern such as Page Object Model or App Actions. An example can be found in the [UI Test Exemplar project](https://github.com/UKHO/playwright-template).
-

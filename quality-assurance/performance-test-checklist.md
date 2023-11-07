@@ -85,3 +85,5 @@ Add the decisions made so far into the test approach document.
 ### Completion
 
 Ensure load test artefacts are stored for future use according to team policy (typically in source control).  Include all code and deployment scripts.
+
+Performance test results are often used as benchmarks for future testing.  It is therefore important to store results in a known repository (e.g. Devops wiki), where it must be clear which version of the software, environment etc. produced which set of results.

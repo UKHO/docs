@@ -33,7 +33,6 @@
 "SQL Server","Adopt","Data Management","FALSE","None"
 "Hasuara","Adopt","Data Management","FALSE","None"
 "Azure Event Grid","Adopt","Data Management","FALSE","None"
-"Azure CosmosDB","Adopt","Data Management","FALSE","None"
 "Kibana","Adopt","Data Management","FALSE","None"
 "LogStash","Adopt","Data Management","FALSE","None"
 "Java 8","Adopt","Languages","FALSE","None"
