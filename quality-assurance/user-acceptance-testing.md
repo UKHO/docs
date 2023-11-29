@@ -26,7 +26,9 @@ UAT must be scripted, but this should ideally be at a high level, in only enough
 
 # What tools should be used
 
-Although use of Azure Devops is recommended, it is commone for this to *not* be used.  This is due to lack of licenses and skills for the participants.  MS Excel, or any suitable software that the users are comfortable with may be used to store scripts and record issues.  Bugs then need to be translated into the development team's work tracking software.  When using other tools, care should be taken to version control them.
+Although use of Azure Devops is recommended, it is common for this to *not* be used.  This is due to lack of licenses and skills for the participants.  MS Excel, or any suitable software that the users are comfortable with may be used to store scripts and record issues.  The following UAT template can be used to document requirements, test cases and bugs found during UAT testing. Bugs then need to be translated into the development team's work tracking software (if there is development work required. If the project consists of product(s) purchased from 3rd party suppliers, then the bugs need to be raised as defects with the suppliers).  When using other tools, care should be taken to version control them.
+
+[UAT Test Template.xlsx](https://github.com/UKHO/docs/files/13500038/UAT.Test.Template.xlsx)
 
 # The role of the tester in UAT
 
@@ -39,3 +41,4 @@ The UKHO tester does the following:
 - Works with users to plan the work
 - Works with users to plan and create test data
 - Coaches users in testing techniques, including ways to document faults.
+
