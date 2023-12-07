@@ -2,7 +2,7 @@
 
 ## Motivation
 
-Containers are in use in Data Science and Software Engineering, both in development, test and production environments. This policy defines the use and deployment for current and future usage.
+Containers are in use in Data Science and Software Engineering, in all environments of development, test and production. This policy defines the use and deployment for current and future usage.
 
 ## Policy
 
