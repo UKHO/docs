@@ -12,7 +12,7 @@ Containers are in use in Data Science and Software Engineering, both in developm
 * Utilisation of Containers in development and test environments is acceptable without APF review.
 * In the Software Engineering department, deployment of containers into live will need to be approved by The Head of Software Engineering in conjunction with the Principal and Lead Software Engineers, until agreement is reached via APF forum.
 * Containers are a core software and test engineering tool.
-* Container [best practices](./ContainerBestPractices.md) should be adopted by all teams using containers.
+* [Container best practices](./ContainerBestPractices.md) should be adopted by all teams using containers.
 * The Lead Software Engineer for each team is responsible for ensuring that this policy is adhered.
 
 ## Exclusions
