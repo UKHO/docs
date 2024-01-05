@@ -42,7 +42,6 @@ The following items supersede these best practices:
 
 ### Could do
 
-* DAPR sidecar could be utilised for third party component management (queues, DB's etc).
 * Native built in support within visual studio for Docker could be used for development and testing.
 * Docker Compose could be utilised to stub other dependencies that the container uses.
 
