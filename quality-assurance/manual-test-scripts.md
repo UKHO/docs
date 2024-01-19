@@ -19,3 +19,9 @@ In some circumstances it may not be practical to use Azure Devops, typically:
 In these cases, it is acceptable to use MS Office applications to document tests.  Please see the [guidance on user acceptance testing for a suitable template](./user-acceptance-testing.md)
 
 ## Best practices
+
+- Favour _requirement based suites_ where it is possible to link test cases to PBIs.
+- Otherwise, _static suites_ can be used
+- It is common for test suites to be organised according to the sprint in which they are exercised.  However, at the end of a project these must be re-organised according to functional area (TODO add example)
+- Shared steps **must** be used for common functionality in order to make maintenance easier.
+- Parameters must be used where the test case can be run with different data, or if inputs should be recorded.
