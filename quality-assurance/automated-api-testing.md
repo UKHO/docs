@@ -1,8 +1,8 @@
-# API Testing Policy Document
+# Automated API Testing Policy Document
 
 ## Purpose
 
-This document establishes the policy for testing .NET APIs. It delineates when to utilize `WebApplicationFactory` for integration tests and the exceptional circumstances where tests may directly target a deployed instance to verify security and safety requirements.
+This document establishes the policy for testing .NET APIs. It delineates when to utilize `WebApplicationFactory` for integration tests and the circumstances where tests may directly target a deployed instance to verify security and safety requirements.
 
 ## Scope
 
@@ -10,9 +10,18 @@ This policy is applicable to all teams involved in API development and testing w
 
 ## Testing Methodology
 
+### Technology
+The standard language for developing API's at UKHO is C#. Therefore it is expected that automated integration/API tests will also be created using C# (please note this does not apply to performance testing).
+
+#### Approved Clients
+Currently there are two clients that have been approved for use when writing automated tests for APIs.
+
+1. [HttpClient](https://learn.microsoft.com/en-us/dotnet/fundamentals/networking/http/httpclient) - Built into .NET, also used in `WebApplicationFactory`
+2. [RestSharp](https://restsharp.dev/intro.html#introduction) - Third party Nuget package.
+
 ### Integration Testing with `WebApplicationFactory`
 
-`WebApplicationFactory` should be used for conducting integration tests. It creates a test server hosting the application under test, allowing for a controlled, isolated testing environment.
+Where possible [WebApplicationFactory](https://learn.microsoft.com/en-us/aspnet/core/test/integration-tests?view=aspnetcore-8.0) should be used for conducting integration tests. `WebApplicationFactory` creates a test server hosting the application under test, allowing for a controlled, isolated testing environment.
 
 #### Guidelines for `WebApplicationFactory` Usage:
 
@@ -22,13 +31,18 @@ This policy is applicable to all teams involved in API development and testing w
 - **Consistency and Reliability**: Tests should be consistent and not dependent on external environments.
 - **Continuous Integration (CI)**: These tests should be integrated into the CI pipeline.
 
+An example of using WebApplicationFactory with NUnit can be found [here](https://github.com/UKHO/.NET-Guild/blob/main/CleanArchitectueExample/tests/TestScribe.Api.Tests.Integration/WebApplicationFactoryTests/CreateTestSuiteTests.cs)
+
 ### Testing with Deployed Instances
 
 Testing against deployed instances is reserved for:
 
+#### Legacy Applications
+Some legacy applications may not be suitable to test with `WebApplicationFactory` due to out of support frameworks or dependencies.
+
 #### Security Testing:
 
-- **Authentication and Authorization**: Tests should confirm that security measures are effective in a production-like environment.
+- **Authentication and Authorization**: Tests should confirm that security measures should be conducted in a production-like environment.
 
 #### Safety and Compliance Testing:
 
