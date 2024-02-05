@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This document establishes the policy for testing .NET APIs. It delineates when to utilize `WebApplicationFactory` for integration tests and the circumstances where tests may directly target a deployed instance to verify security and safety requirements.
+This document establishes the policy for the automated testing of .NET APIs. It delineates the approved clients and processes for API integration tests.
 
 ## Scope
 
@@ -27,7 +27,7 @@ Where possible [WebApplicationFactory](https://learn.microsoft.com/en-us/aspnet/
 
 - **Business Logic Verification**: Tests that verify business logic are ideal candidates for `WebApplicationFactory`.
 - **Real Database Integration**: When applicable, integration tests should interface with a real relational database rather than an in-memory database to capture the full spectrum of interactions and potential issues. Suitable examples include a LocalSQLDB or a SQL database provisioned in a Docker container.
-- **Mock External Dependencies**: External services can be mocked to isolate the API under test.
+- **External Dependencies**: External services can be mocked to isolate the API under test.
 - **Consistency and Reliability**: Tests should be consistent and not dependent on external environments.
 - **Continuous Integration (CI)**: These tests should be integrated into the CI pipeline.
 
@@ -51,9 +51,6 @@ Some legacy applications may not be suitable to test with `WebApplicationFactory
 
 #### Performance and Load Testing:
 
-Note that the preferred technology for Performance/Load testing API's is K6. Please see "performance testing standards" (link tbc) for more info.
-
-- **Real-world Load Scenarios**: The API should be tested under simulated real-world loads.
-- **Scalability Assessments**: The infrastructure's ability to handle peak usage should be tested.
+Note that the preferred technology for Performance/Load testing API's is K6. Please see [performance testing checklist](https://github.com/UKHO/docs/blob/main/quality-assurance/performance-test-checklist.md) for more info.
 
 
