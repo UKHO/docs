@@ -2,6 +2,10 @@
 
 This policy aims to provide guidance to software engineering teams on how the services they develop or support should be logging. Given our logging repository of choice is ElasticSearch, some of the guidance will be influenced by that service.
 
+## Disclaimer
+
+Not all systems will be using or able to use Elastic logging due to environemntal issues. In these cases the policy is not relevant.
+
 ## Log types and levels
 
 This section will cover the different log types that services are expected to produce, what log levels they should be at, how they should be indexed in ElasticSearch, retention periods and any other related guidance.
@@ -65,6 +69,7 @@ Teams should look to leverage their definitions of Ready and Done to drive their
 - Agreeing a common field or value, for example a TraceId or CorrelationId, and how to test for this property across logs
 - A consideration of the different log types and how to develop towards that
 - What to log where
+- The 'standard' EventHubLogProvider (https://github.com/UKHO/EventHub-Logging-Provider/tree/main/UKHO.Logging.EventHubLogProvider) should be used by default (unless there is good reason not to). If a different variant of logging is required consider extending the EventHubLogProvider to keep logging as standard as possible across all applications.
 
 **Definition of Done** to include:
 

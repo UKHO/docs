@@ -5,8 +5,7 @@ This strategy details how we add value through testing at the UKHO. Our teams ad
 Our core principles are:
 
 * [Test early and Often by adopting a Shift Left test methodology](https://smartbear.com/learn/automated-testing/shifting-left-in-testing/)
-* [Use automation whenever possible](./testing-principles.md#we-use-automation-whenever-possible)
-
+* [Use automation whenever possible](./ukho-quality-charter.md#manual-testing)
 
 ## Methods Of Testing
 
@@ -94,7 +93,7 @@ The disaster recovery plan should be tested for a new or significantly changed s
 
 ### Functional
 
-![Test Pyramid](images/the_test_pyramid.png)
+![Test Pyramid](images/the_test_pyramid_updated.png)
 
 The Functional Testing will be focused on the solution's functionality and business logic. The diagram is only to illustrate the type of tests 
 you could consider, and the users in terms of Dev/Test/Users are only for illustration purposes and are not fixed.

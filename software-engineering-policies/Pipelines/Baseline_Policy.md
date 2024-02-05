@@ -12,7 +12,51 @@ UKHO pipelines should be written as code, using YAML and syntax compatible with 
 
 The UKHO expects a release pipeline to include the following environments:
 
-![Baseline Implementation Diagram](../Resources/baseline-diagram.png)
+```mermaid
+flowchart LR
+    buildNode(Build)
+    testEnv1Node(Dev)
+    testEnvnNode(QA)
+    approvalNode{Approval}
+    prdNode(PRD/Live)
+    infrastructureTestsNode[" #bull; Infrastructure Tests"]
+    style infrastructureTestsNode align: left
+    buildChecks[" #bull; Dependency Check\n #bull; SAST Verfication\n #bull; Container Scanning\n #bull; Unit Tests"]
+    style buildChecks text-align:left; 
+    subgraph sgBuild[Build]
+    direction LR
+        buildNode
+        buildChecks
+    end
+
+  subgraph sgRelease[Release]
+    direction LR
+    subgraph sgPreProd[Non-live environments\n\n]
+        subgraph sgDev["Dev Environment(s)"]
+            direction LR
+            testEnv1Node
+            subgraph sgDevChecks[" #bull; Automated Testing </br>(functional)"]
+            end 
+        end
+    subgraph sgQa["Test Environment(s)"]
+        direction LR
+        testEnvnNode
+        subgraph sgQaChecks[" #bull; Automated Testing </br>(integration, end-to-end)"]
+        end 
+    end
+    end
+    subgraph sgPrd[Production / Live]
+        direction LR
+        approvalNode
+        prdNode
+    end
+    infrastructureTestsNode
+  end
+  buildNode --> testEnv1Node
+  testEnv1Node --> testEnvnNode
+  testEnvnNode --> approvalNode
+  approvalNode --> prdNode
+```
 
 The UKHO considers a minimum of three identical environments standard practice;
 
@@ -46,6 +90,11 @@ To change these to something more suitable, you must expand on the **Control Opt
 
 ![Pipeline Environment - Approval and Checks - Control Options](../Resources/control-options.png)
 
+#### Recommendation for Approvals
+
+Having pipeline approvals for deployment only on environments is not best practice with regards to security. A malicious actor could access GitHub and alter the pipeline YAML in the repository to remove the environment at which point the check disappears and deployment could be forced. A better practice is to add approvals on the service connections and variable libraries utilised by the pipeline as these are maintained outside of the YAML, so if a malicious actor did alter the YAML they would be without access to the secrets which are essential for the deployment to work.
+
+The [Define Approvals & Checks document](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/approvals?view=azure-devops&tabs=check-pass) documents how to set up an approval on resources.
 
 ## Testing
 

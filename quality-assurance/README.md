@@ -25,3 +25,4 @@ If you read nothing else, then read these things:
   * [Performance testing checklist](performance-test-checklist.md)
   * [Safety assurance](safety-assurance-guidance.md)
   * [UI automation](browser-automation.md)
+  * [Security testing Guidance](Security-Testing-Guidance.md)
