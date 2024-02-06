@@ -12,7 +12,7 @@ This policy is applicable to all teams involved in API development and testing w
 
 ### Technology
 
-The standard language for developing API's at UKHO is C#. Therefore it is expected that automated integration/API tests will also be created using C# (please note this does not apply to performance testing).
+The standard language for developing APIs at UKHO is C#. Therefore it is expected that automated integration/API tests will also be created using C# (please note this does not apply to performance testing).
 
 #### Approved Clients
 
@@ -49,11 +49,11 @@ Some legacy applications may not be suitable to test with `WebApplicationFactory
 
 #### Safety and Compliance Testing
 
-- **Safety Compliance** - Some API's will have safety requirements that arise from safety modeling, these tests may need to be run against a deployed production-like environment in order to meet the safety requirements.
-- **Disaster Recovery** - The API's disaster recovery mechanisms must be tested in a deployed environment.
+- **Safety Compliance** - Some APIs will have safety requirements that arise from safety modeling, these tests may need to be run against a deployed production-like environment in order to meet the safety requirements.
+- **Disaster Recovery** - The APIs disaster recovery mechanisms must be tested in a deployed environment.
 
 #### Performance and Load Testing
 
-Note that the preferred technology for Performance/Load testing API's is K6. Please see [performance testing checklist](https://github.com/UKHO/docs/blob/main/quality-assurance/performance-test-checklist.md) for more info.
+Note that the preferred technology for Performance/Load testing APIs is K6. Please see [performance testing checklist](https://github.com/UKHO/docs/blob/main/quality-assurance/performance-test-checklist.md) for more info.
 
 
