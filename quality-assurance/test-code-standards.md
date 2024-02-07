@@ -1,6 +1,6 @@
 # Test Automation Standards
 
-## C# and Java
+## Test Code
 
 * Test Automation code should adhere to the same standard as production code
 * Formatting standards should reflect standard in use by development teams (e.g. Google Code Standard, Microsoft)
