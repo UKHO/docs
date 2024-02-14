@@ -4,7 +4,7 @@ This section covers tools in use for creating stub/mock HTTP endpoints/APIs such
 
 Notable tools which you can use as an alternative to building your owm mock http APIs are:
   - [Wiremock](http://wiremock.org/)
-  - [Prism](https://stoplight.io/open-source/prism) (Not yet known to have been used)
+  - [Prism](https://stoplight.io/open-source/prism) (Not yet investigated)
 
 ## Wiremock
 
@@ -40,10 +40,10 @@ For an example Wiremock repo allowing deployment and configuration of wiremock a
 
 #### Alternatives
 
-Alternative products to aid in mocking include [Prism](https://stoplight.io/open-source/prism) which is node based.
+Alternative products to aid in mocking include [Prism](https://stoplight.io/open-source/prism) which is node based. Investigation needed before adoption of this tool.
 
-## Bespoke API stubs
+## Hand rolling API mocks
 
-If your mock requires greater complexity or is outside what wiremock can facilitate then build your mock in line with the software [engineering policies](software-engineering-policies).
+If your mock requires greater complexity or is outside what other tools can facilitate then build your mock in line with the software [engineering policies](software-engineering-policies).
 
 
