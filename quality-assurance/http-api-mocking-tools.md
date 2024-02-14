@@ -2,6 +2,10 @@
 
 This section covers tools in use for creating stub/mock HTTP endpoints/APIs such as for testing a deployed system or testing a service in development in the absence of another required real service.
 
+Notable tools which you can use as an alternative to building your owm mock http APIs are:
+  - [Wiremock](http://wiremock.org/)
+  - [Prism](https://stoplight.io/open-source/prism) (Not yet known to have been used)
+
 ## Wiremock
 
 ### Simple Mocks
