@@ -3,6 +3,7 @@
 This section covers tools in use for creating stub/mock HTTP endpoints/APIs such as for testing a deployed system or testing a service in development in the absence of another required real service.
 
 Notable tools which you can use as an alternative to building your owm mock http APIs are:
+
   - [Wiremock](http://wiremock.org/)
   - [Prism](https://stoplight.io/open-source/prism) (Not yet investigated)
 
@@ -11,6 +12,7 @@ Notable tools which you can use as an alternative to building your owm mock http
 ### Simple Mocks
 
 Use wiremock to simplify creating mocks/stubs _unless_ your requirements:
+
 - Are beyond fixed or templated HTTP responses and callbacks (including to other URIs) and basic unhappy path tests, most of which Wiremock can cover.
 - Would make a Wiremock based solution more effort or complexity than creating a bespoke mock.
 
@@ -28,6 +30,7 @@ Wiremock can also instantiated inline from code or scripts on demand and dispose
 
 
 #### Versions
+
 Use the free open source wiremock.org (Java version) wherever possible as this has the highest chance of continuing to be supported by the maintainers.
 
 >To instantiate wiremock inline from a .net project there is a .net version of Wiremock distributed via nuget, but be aware that the .net stubbing configurations (declared using JSON) are not compatible with the java version. The .net version is maintaned entirely separately from the Java version. **Consider if the .net version is likely to be well supported enough for your needs.**
