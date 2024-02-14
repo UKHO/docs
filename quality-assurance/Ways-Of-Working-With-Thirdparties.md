@@ -4,7 +4,7 @@
 This is intended to provide some guidance as to a more fruitful interation with a supplier though setting out 
 the terms of engagement.
 
-## When to get involved
+## Where to get involved
 
 The when should the leads testers get involved with third parties, then this really needs to steam right back to the intial WP SoR discussions with the business. At this point it would be easy to have a proper understanding of what the WP is doing to deliver and help in identifying what the QA deliverables need to be. 
 
@@ -26,7 +26,7 @@ as a guide then
 12. Support and user guides need to be delivered as early as possible and should be a living document during the WP development life and then handed over to support which will maintain their upkeep.
 13. Regression suite - Along with the above tests then we need to build out the regression test suite in order that these can be used in the longterm support of the productand they should be aimed at the critical flows to ensure future changes have not prevented the existing functionality from working. 
 
-## Where should the deliverables be delivered
+## When should we expect deliverables
 
 Most of the above documentation and code should be delivered as soon as the functionality is available, during the life of the WP delivery these should be maintained in order that if the team currently performing the task are switched etc then the next team are able to pick up and complete the WP if necessary.
 
