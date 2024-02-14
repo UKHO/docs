@@ -30,9 +30,9 @@ Use the free open source wiremock.org (Java version) wherever possible as this h
 
 ### Examples
 
-For a demonstration of the two versions of wiremock, see [find Gareth's primer]
+For a demonstration of the two versions of wiremock, see [The Wiremock Primer Video](https://ukho.sharepoint.com/:v:/r/sites/SoftwareEngineeringSupport/Shared%20Documents/General/Technical%20Overviews/Wiremock%20Primer-20230802_110158-Meeting%20Recording.mp4?csf=1&web=1&e=gCPQhP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
-For an example Wiremock repo allowing deployment and configuration directly from the official docker container to an azure web app [import ]
+For an example Wiremock repo allowing deployment and configuration directly from the official docker container to an azure web app see the [Wiremock Template](https://github.com/UKHO/wiremock-template)
 
 
 ## Bespoke API stubs
