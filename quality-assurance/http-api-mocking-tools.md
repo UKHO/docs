@@ -1,6 +1,6 @@
 # Mocking HTTP Endpoints
 
-This section covers tools in use for creating stub/mock HTTP endpoints/APIs such as for integration testing a deployed system or testing a service in development in the absence of another required real service.
+This section covers tools in use for creating stub/mock HTTP endpoints/APIs such as for testing a deployed system or testing a service in development in the absence of another required real service.
 
 ## Wiremock
 
