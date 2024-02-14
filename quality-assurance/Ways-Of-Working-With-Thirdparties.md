@@ -20,9 +20,11 @@ as a guide then
 6. Any mocks / stubs need to be properly documented in what they are replacing, in what environment and the test data they will be mimicing.
 7. all mocks /stubs need to be easily setup and run from a ukho side to facilitate fast and effective diagnostics of faults etc.
 8. Functional tests need to be clearly defined in terms of the scenarios they are covering and automated where posible these like everything else will need to executed from ukho side and be executable in the pipeline and locally.
-9. Test data needs to be discussed and identified as to who is responsible for supply and maintenance during and after the WP. the data should be able to be loaded on any of the non production type environments and clear documentation as to the processes involved in generating the data in the first place .
-10. Non functional testing should be delivered as part of the deliverables and with keeping with UKHO standards tooling. The profile for and general system load should be stated as this will for the basis of under what conditions the performance tests are executed
-11. Support and user guides need to be delivered as early as possible and should be a living document during the WP development life and then handed over to support which will maintain their upkeep.
+9. End-to-End tests - where necessary need to be part of the delivery as these will form the backbone for future support and maintenance
+10. Test data needs to be discussed and identified as to who is responsible for supply and maintenance during and after the WP. the data should be able to be loaded on any of the non production type environments and clear documentation as to the processes involved in generating the data in the first place .
+11. Non functional testing should be delivered as part of the deliverables and with keeping with UKHO standards tooling. The profile for and general system load should be stated as this will for the basis of under what conditions the performance tests are executed
+12. Support and user guides need to be delivered as early as possible and should be a living document during the WP development life and then handed over to support which will maintain their upkeep.
+13. Regression suite - Along with the above tests then we need to build out the regression test suite in order that these can be used in the longterm support of the productand they should be aimed at the critical flows to ensure future changes have not prevented the existing functionality from working. 
 
 ## Where should the deliverables be delivered
 
