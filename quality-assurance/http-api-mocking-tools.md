@@ -44,6 +44,6 @@ Alternative products to aid in mocking include [Prism](https://stoplight.io/open
 
 ## Hand rolling API mocks
 
-If your mock requires greater complexity or is outside what other tools can facilitate then build your mock in line with the software [engineering policies](software-engineering-policies).
+If your mock requires complexity outside what other tools can facilitate then build your mock in line with the software [engineering policies](software-engineering-policies).
 
 
