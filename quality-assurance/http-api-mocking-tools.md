@@ -2,7 +2,7 @@
 
 This section covers tool(s) to be used for creating mock HTTP endpoints/APIs for use as test doubles in the absence of real services.
 
-Wiremock is the accepted tool which you should use instead of building your owm mock HTTP APIs where possible.
+You should use Wiremock instead of building your owm mock HTTP APIs where possible.
 
 ## Wiremock
 
