@@ -6,7 +6,7 @@ Wiremock is the accepted tool which you should use instead of building your owm 
 
 ## Wiremock
 
-#### Uses
+### Uses
 
 Many simple HTTP endpoint mocking problems are solved using Wiremock. Parsing requests for string values, serving templated responses, simulating errors and making subsequent calls to other URIs are all built-in features.
 
@@ -17,7 +17,7 @@ Wiremock stubs can run standalone and be deployed as continuously running servic
 Wiremock can also be instantiated inline from code or scripts on demand and disposed after a test (e.g. locally or on build/release/test agents). 
 >The .net version (which you would use inline in a .net project) is separate from the Java version and not wholly compatible with it. **Ensure to fully assess whether the .net version would be well supported enough for a given project in the long term. See the [open source use policy](/software-engineering-policies/OpenSourceUse/OpenSourceUsePolicy.md).**
 
-#### Examples
+### Examples
 
 For an example repo demonstrating the deployment and configuration of wiremock as a service directly from the official docker container to an azure web app, see the [Wiremock Template](https://github.com/UKHO/wiremock-template).
 
