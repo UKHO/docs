@@ -11,8 +11,8 @@
 | Technical Oversight | Technology Sharing | By working closely with multiple teams, the Principals can spot where a solution from one team can help another team. |
 |  |  | Identify and support shared libraries. |
 |   | Ensuring whole system security | With large programmes of work, the Principal Developer is responsible for ensuring a consistent security standard across the whole system, including ensuring that the security solutions in each component is compatible with the other components in the system so that we don't need any compromise in security to get the components to talk to each other. |
-|   | Ensuring whole system supportability | Promoting best practice in terms of SRE. Considering end-to-end software lifecycle (from requirements capture to software develery, support and eventual sunset). |
-|   | Helping planning Enterprise Capabilities | ELK Stack |
+|   | Ensuring whole system supportability | Promoting best practice in terms of SRE. Considering end-to-end software lifecycle (from requirements capture to software delivery, support and eventual sunset). |
+|   | Support Enterprise Capabilities | Logging and Observability solutions (Elastic) |
 |   |   | Cloud Strategy |
 |   |   | Application Performance Monitoring (Elastic APM) |
 |   |   | SAST implementation (Snyk), requirements and collaboration with procurement  |
