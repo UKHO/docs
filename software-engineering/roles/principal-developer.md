@@ -14,7 +14,6 @@
 |   | Ensuring whole system supportability | Promoting best practice in terms of SRE. Considering end-to-end software lifecycle (from requirements capture to software delivery, support and eventual sunset). |
 |   | Support Enterprise Capabilities as SME | Logging and Observability  (Elastic) |
 |   |   | Cloud Strategy |
-|   |   | Application Performance Monitoring (Elastic APM) |
 |   |   | SAST implementation (Snyk)  |
 |   |   | Containerisation (Kubernetes Platform)  |
 |   | Advising on changes to older systems | The Principal Developers have knowledge of a lot of the existing/older systems within the UKHO and will of often be called to advise on either fixing problems with existing systems, or for enhancement of existing systems |
