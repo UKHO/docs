@@ -12,11 +12,17 @@
 |  |  | Identify and support shared libraries. |
 |   | Ensuring whole system security | With large programmes of work, the Principal Developer is responsible for ensuring a consistent security standard across the whole system, including ensuring that the security solutions in each component is compatible with the other components in the system so that we don't need any compromise in security to get the components to talk to each other. |
 |   | Ensuring whole system supportability | Promoting best practice in terms of SRE. Considering end-to-end software lifecycle (from requirements capture to software delivery, support and eventual sunset). |
-|   | Support Enterprise Capabilities | Logging and Observability solutions (Elastic) |
+|   | Support Enterprise Capabilities as SME | Logging and Observability  (Elastic) |
 |   |   | Cloud Strategy |
 |   |   | Application Performance Monitoring (Elastic APM) |
-|   |   | SAST implementation (Snyk), requirements and collaboration with procurement  |
+|   |   | SAST implementation (Snyk)  |
+|   |   | Containerisation (Kubernetes Platform)  |
 |   | Advising on changes to older systems | The Principal Developers have knowledge of a lot of the existing/older systems within the UKHO and will of often be called to advise on either fixing problems with existing systems, or for enhancement of existing systems |
+| Technical Product Ownership | Work with architects to define target and transitional solution architectures | Data Hub/UDU |
+|   | Own product backlog, create and detail PBI’s | Data Hub |
+|   | Work with delivery managers to plan and align roadmaps | Data Hub/UDU |
+|   | Contribute to business cases, and work with Service Owners to define a SoW for a product | Data Hub |
+|   | Work with ITSO to ensure product meets security standards via SbD compliance | Data Hub |
 | Strategic Planning for the Development Practice | Strategic selection of Technologies | Assessing new technologies for their appropriateness for UKHO Delivery Teams |
 |   | Define required skills and training for technical teams| |
 |   | What is the long term? Where do we want to be? How do we want delivery teams to deliver software eng in 5 years' time: Technology, People, Skills |
