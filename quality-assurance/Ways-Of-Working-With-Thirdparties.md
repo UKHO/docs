@@ -1,16 +1,38 @@
-
 # Ways of Working with Third Parties
 
 ## Overview
 
-This is intended to provide some guidance as to a more fruitful interation with a supplier though setting out 
+This is intended to provide some guidance as to a more productive interation with suppliers though setting out 
 the terms of engagement.
 
-## Where to get involved
+## The when to get involved
 
-The when should the leads testers get involved with third parties, then this really needs to steam right back to the intial WP SoR discussions with the business. At this point it would be easy to have a proper understanding of what the WP is doing to deliver and help in identifying what the QA deliverables need to be. 
+suggested when to be involved is below for guidance :-
+  1. the best possible time would be at the intial inception of the Workpackage or SoR discussions with the business. 
+  1. failing being involved right at the start then it would be advisable to get involved prior to the release of the WP / SoR for tender.
 
-## What to expect in terms of deliverables for QA
+## What are the deliverables for QA
+
+For the QA Deliverable there are 3 types of models that need to be taken into account, which are
+1. UKHO teams
+1. Third party colaberations
+1. Independent third party solutions
+
+### UKHO teams
+These will follow all guidlines and deliver the following
+TSR documentation - detailing the tests deems neccessary for the project, which could include for example
+  Unit tests
+  API tests
+  Functional tests
+  Non functional tests
+  security testing
+
+### Third party colaberations
+Where the third parties are working in colaberation with the UKHO and following our own standards then these need to as a standart UKHO team
+
+### Independent third party solutions
+
+
 
 In terms of the QA deliverables then this will pick up from from the initial discussions around the WP and the SoR and should be included in the WP Sor prior to it being sent out for tender. This will help the suppliers have a clear understanding of the level of testing / coverage and documentation that the UKHO is expecting them to deliver from a QA point of view in order to validate that the solution has met the quality expectations on the UKHO.
 as a guide then
