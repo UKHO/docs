@@ -31,8 +31,14 @@ TSR documentation - detailing the tests deems neccessary for the project, which 
 Where the third parties are working in colaberation with the UKHO and following our own standards then these need to as a standart UKHO team
 
 ### Independent third party solutions
+these can be split into two forms of solution 
+  1. Bespoke solution 
+  1. COTS
+
+#### Bespoke solution
 
 
+#### COTS
 
 In terms of the QA deliverables then this will pick up from from the initial discussions around the WP and the SoR and should be included in the WP Sor prior to it being sent out for tender. This will help the suppliers have a clear understanding of the level of testing / coverage and documentation that the UKHO is expecting them to deliver from a QA point of view in order to validate that the solution has met the quality expectations on the UKHO.
 as a guide then
