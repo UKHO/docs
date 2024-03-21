@@ -19,13 +19,14 @@ For the QA Deliverable there are 3 types of models that need to be taken into ac
 1. Independent third party solutions
 
 ### UKHO teams
-These will follow all guidlines and deliver the following
-TSR documentation - detailing the tests deems neccessary for the project, which could include for example
-  Unit tests
-  API tests
-  Functional tests
-  Non functional tests
-  security testing
+These will follow all guidlines and deliver the following TSR documentation, at this point the Test Leads confirm that the test approach in the TSR - 
+detailing the tests deemed neccessary for the project, which could include for example sample list of test types
+  1. Unit tests
+  2. API tests
+  3. Functional tests
+  4. Non functional tests
+  5. security testing
+  6. usability testing
 
 ### Third party colaberations
 Where the third parties are working in colaberation with the UKHO and following our own standards then these need to as a standart UKHO team
