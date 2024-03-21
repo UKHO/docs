@@ -36,9 +36,16 @@ these can be split into two forms of solution
   1. COTS
 
 #### Bespoke solution
-
+The following should be considered for the delivery
+  1. Documentation of their internal testing prior to FAT test stage
+  2. Their FAT tests which need to be agreed with UKHO and a schedule of their execution so that UKHO can arrange if needed to wittness the tests.
+  3. Their SAT tests which will include any points which needs UKHO involvement to cover the End-2-End flows through the system.
 
 #### COTS
+For a Cots solution, the following should be provided
+  1. Clear instructions of how UKHO install and configure the solution
+  2. Clear User guide if needed on how the solution will be used, including any restrictionsy
+  3. Whilst the installation and configuration are conducted then we need a clear process for defect resolution.
 
 In terms of the QA deliverables then this will pick up from from the initial discussions around the WP and the SoR and should be included in the WP Sor prior to it being sent out for tender. This will help the suppliers have a clear understanding of the level of testing / coverage and documentation that the UKHO is expecting them to deliver from a QA point of view in order to validate that the solution has met the quality expectations on the UKHO.
 as a guide then
