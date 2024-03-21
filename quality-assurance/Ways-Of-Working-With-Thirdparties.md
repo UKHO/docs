@@ -20,7 +20,7 @@ For the QA Deliverable there are 3 types of models that need to be taken into ac
 
 ### UKHO teams
 These will follow all guidlines and deliver the following TSR documentation, at this point the Test Leads confirm that the test approach in the TSR - 
-detailing the tests deemed neccessary for the project, which could include for example sample list of test types
+detailing the tests deemed neccessary for the project, a sample list of test types is provided but refrence out the TSR for the complete list
   1. Unit tests
   2. API tests
   3. Functional tests
@@ -29,7 +29,8 @@ detailing the tests deemed neccessary for the project, which could include for e
   6. usability testing
 
 ### Third party colaberations
-Where the third parties are working in colaberation with the UKHO and following our own standards then these need to as a standart UKHO team
+Where the third parties are working in colaberation with the UKHO then it is expected that they will be following our UKHO standards. 
+A test lead will be assigned to the WP and they will ensure that the TSR and test coverage has been followed
 
 ### Independent third party solutions
 these can be split into two forms of solution 
@@ -38,7 +39,7 @@ these can be split into two forms of solution
 
 #### Bespoke solution
 The following should be considered for the delivery
-  1. Documentation of their internal testing prior to FAT test stage
+  1. Documentation in the form of a TSR should be delivered at the outset of the work and agreed with the UKHO test leads to be acheiving our standards as a minimum.
   2. Their FAT tests which need to be agreed with UKHO and a schedule of their execution so that UKHO can arrange if needed to wittness the tests.
   3. Their SAT tests which will include any points which needs UKHO involvement to cover the End-2-End flows through the system.
 
