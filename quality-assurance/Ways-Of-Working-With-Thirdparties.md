@@ -47,6 +47,8 @@ For a Cots solution, the following should be provided
   2. Clear User guide if needed on how the solution will be used, including any restrictionsy
   3. Whilst the installation and configuration are conducted then we need a clear process for defect resolution.
 
+
+**OLD STUFF BELOW** 
 In terms of the QA deliverables then this will pick up from from the initial discussions around the WP and the SoR and should be included in the WP Sor prior to it being sent out for tender. This will help the suppliers have a clear understanding of the level of testing / coverage and documentation that the UKHO is expecting them to deliver from a QA point of view in order to validate that the solution has met the quality expectations on the UKHO.
 as a guide then
 
