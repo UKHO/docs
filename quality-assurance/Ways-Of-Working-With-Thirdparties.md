@@ -49,6 +49,7 @@ For a Cots solution, the following should be provided
 
 
 **OLD STUFF BELOW** 
+
 In terms of the QA deliverables then this will pick up from from the initial discussions around the WP and the SoR and should be included in the WP Sor prior to it being sent out for tender. This will help the suppliers have a clear understanding of the level of testing / coverage and documentation that the UKHO is expecting them to deliver from a QA point of view in order to validate that the solution has met the quality expectations on the UKHO.
 as a guide then
 
@@ -65,6 +66,9 @@ as a guide then
 11. Non functional testing should be delivered as part of the deliverables and with keeping with UKHO standards tooling. The profile for and general system load should be stated as this will for the basis of under what conditions the performance tests are executed
 12. Support and user guides need to be delivered as early as possible and should be a living document during the WP development life and then handed over to support which will maintain their upkeep.
 13. Regression suite - Along with the above tests then we need to build out the regression test suite in order that these can be used in the longterm support of the productand they should be aimed at the critical flows to ensure future changes have not prevented the existing functionality from working. 
+
+**OLD STUFF Above** 
+
 
 ## When should we expect deliverables
 
