@@ -84,7 +84,8 @@ PII should be minimised and/or anonymised in system logging. Where PII is requir
 
 ### Data Protection Act and useful respources (Links)
 
-
+- [An overview of the Data Protection Act 2018](https://ico.org.uk/media/for-organisations/documents/2614158/ico-introduction-to-the-data-protection-bill.pdf)
+- [A guide to the data protection principles](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/)
 
 ### Georedundancy
 
@@ -92,13 +93,27 @@ Where possible, data should be georedundant. Some cloud services have this avail
 
 ### Data Sovereignty (UK datacentres only)
 
+:thinking:
+
 ### Recommended / supported database solutions
 
-## Users
+WIP
+- Support encypt at rest and transit
 
+
+## Users
 ### User Management (Internal and External)
 
+WIP
+- use federated accounts over local accounts in each tenant.
+- use access packages where appropriate
+- External users should have a sponsor from the internal and external domains.
+
 ### Entra ID accounts over SAS / access keys / username/password connection strings
+
+WIP
+- use RBAC over connection strings and local accounts
+- For SQL: Disable SA accounts and/or SQL login (use Entra ID login only)
 
 ## Disaster Recovery & Business Continuity
 
