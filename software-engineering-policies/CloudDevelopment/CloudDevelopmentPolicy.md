@@ -89,25 +89,39 @@ PII should be minimised and/or anonymised in system logging. Where PII is requir
 
 ### Georedundancy
 
-Where possible, data should be georedundant. Some cloud services have this available out-of-the-box, such as Azure Storage Accounts, and others require setting up multiple resources and designating a primary and secondary 
+Where possible, data should be georedundant. Some cloud services have this available out-of-the-box, such as Azure Storage Accounts, and others require setting up multiple resources and designating a primary and secondary.
 
 ### Data Sovereignty (UK datacentres only)
 
 :thinking:
 
+todo:
+- [ ] Speak to DPA about data sovereignty and UKHO perspective
+
+> [!NOTE]
+> Customer data in B2C is held in Europe.
+
 ### Recommended / supported database solutions
 
-WIP
-- Support encypt at rest and transit
+The UKHO have a DBA team dedicated to SQL. Therefore, SQL managed instances are preferred.
 
+UKHO SQL managed instances are georedundant and are the preferred database solution. Document databases should only be considered on a case-by-case basis. 
+
+No matter which database solution is chosen the data MUST be encrypted in transit and at rest.
 
 ## Users
 ### User Management (Internal and External)
 
-WIP
-- use federated accounts over local accounts in each tenant.
-- use access packages where appropriate
-- External users should have a sponsor from the internal and external domains.
+Third-party vendors' access to UKHO directories should be invited using their third-party email address using [B2B collaboration](https://learn.microsoft.com/en-us/entra/external-id/what-is-b2b). 
+
+> [!IMPORTANT]
+> Avoid creating local accounts where possible. These accounts tend to be forgotten about and exist long beyond the required duration.
+
+Each B2B user should have a defined [sponsor](https://learn.microsoft.com/en-us/entra/external-id/b2b-sponsors). Sponsors will typically be the lead engineer(s) of the team the third-party vendor is working with.
+
+Internal and External (guest/B2B) users should only be given access to resources using [Entitlement Management Access Packages](https://learn.microsoft.com/en-us/entra/id-governance/entitlement-management-overview).  Access packages are required once a month by Lead Engineers in each team. 
+
+Q. Do guest users have external access package approvers as well as internal? 
 
 ### Entra ID accounts over SAS / access keys / username/password connection strings
 
