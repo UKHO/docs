@@ -62,6 +62,23 @@
 
 ### Infrastructure as Code - Terraform, etc
 
+Terraform is UKHO's primary tool of choise for IaC and should be used for in all cases. Terraform provided multi-cloud provisioning and so is capable of deploying to any cloud provider. 
+
+#### Setting up a new project
+The Terraform deployment template found here: https://github.com/UKHO/Terraform-Deployment-Template should be used to ensure consistency when starting up any new project. Contact the DDC team if you have any questions. 
+
+#### Networking
+The DDC team are responsible for the creating and maintaining the networking spoke Terraform for each project. This is managed in a separate GitHub repository to the project terraform and can be found here: https://github.com/UKHO/Azure-Spokes
+
+#### Modules 
+The DDC team manages a collection of centralised Terraform modules found here: https://github.com/orgs/UKHO/teams/tfmodules/repositories
+These should be used whenever possible. 
+
+#### IaC Scanning (Trivy)
+Trivy is UKHO's Chosen IaC Scanning tool. All Infrastructure pipelines should include a Trivy Scan stage before deployment that fails the build if misconfigurations or vulnerabilities are detected. 
+A Trivy Stage is included in the previously mentioned Terraform deployment template: https://github.com/UKHO/Terraform-Deployment-Template/blob/5ca2e1c18618dad0df84ef8c08aea87a64c3b94e/azure-pipelines.yml#L37
+
+
 ### Secrets Management
 
 ### Microsoft Defender
@@ -140,6 +157,8 @@ WIP
 ## Tagging
 
 ## BPSS vs SC vs DV
+
+### BPSS - https://ukho.sharepoint.com/:w:/s/DigitalDeliveryCapabilityTeam/EaiafCGzo-JJigC7Wrg_ShwBGg1noZUkSpz20WKUK4XFQA?e=EuST9j&CID=8AE97AC8-BAF8-42E3-9198-41A69AF8AB91&wdLOR=cE51F5039-9C48-4133-B84F-2824A05BF542
 
 ## Related Information/Notes
 
