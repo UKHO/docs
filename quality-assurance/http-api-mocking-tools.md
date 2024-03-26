@@ -15,7 +15,7 @@ Wiremock stubs can run standalone and be deployed as continuously running servic
 >When using containers refer to the [container policy](/software-engineering-policies/Containers/ContainerPolicy.md).
 
 Wiremock can also be instantiated inline from code or scripts on demand and disposed after a test (e.g. locally or on build/release/test agents). 
->**The .net version of wiremock is an project created by an independent team from the Java (wiremock.org) version. See the [open source use policy](/software-engineering-policies/OpenSourceUse/OpenSourceUsePolicy.md) when assessing the stuitability of open source software. The .net version should be used for .net projects, as the two versions are not fully compatible.**
+>**The .net version of wiremock is independent from the Java (wiremock.org) version. See the [open source use policy](/software-engineering-policies/OpenSourceUse/OpenSourceUsePolicy.md) when assessing the stuitability of open source software. The .net version should be used for .net projects, as the two versions are not fully compatible.**
 
 ### Examples
 
