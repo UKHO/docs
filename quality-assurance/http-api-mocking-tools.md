@@ -10,17 +10,16 @@ You should use Wiremock instead of building your owm mock HTTP APIs where possib
 
 Many simple HTTP endpoint mocking problems are solved using Wiremock. Parsing requests for string values, serving templated responses, simulating errors and making subsequent calls to other URIs are all built-in features.
 
-Wiremock stubs can run standalone and be deployed as continuously running services (e.g. to azure as a container instance/app or web app). Use the free open source java version of Wiremock (wiremock.org) for this as it is the most well supported.
+Wiremock stubs can run standalone and be deployed as continuously running services (e.g. to azure as a container instance/app or web app). 
 
 >When using containers refer to the [container policy](/software-engineering-policies/Containers/ContainerPolicy.md).
 
 Wiremock can also be instantiated inline from code or scripts on demand and disposed after a test (e.g. locally or on build/release/test agents). 
->The .net version (which you would use inline in a .net project) is separate from the Java version and not wholly compatible with it. **Ensure to fully assess whether the .net version would be well supported enough for a given project in the long term. See the [open source use policy](/software-engineering-policies/OpenSourceUse/OpenSourceUsePolicy.md).**
+>**The .net version of wiremock is an open source project created by an independent team from the Java (wiremock.org) version [open source use policy](/software-engineering-policies/OpenSourceUse/OpenSourceUsePolicy.md). The .net version should be used for .net projects, as the two are versions not fully compatible**
 
 ### Examples
 
-For an example repo demonstrating the deployment and configuration of wiremock as a service directly from the official docker container to an azure web app, see the [Wiremock Template](https://github.com/UKHO/wiremock-template).
-
+WIP
 
 ## Bespoke API mocks
 
