@@ -142,7 +142,7 @@ The risk owner is the person who is responsible for the product. This may be the
 - The team should decide what the acceptable threshold is to prevent code from being released to production e.g. via a build/release pipeline.
 - The team must provide proof that the code is not released to production when this threshold is breached. Decisions to release even in the presence of a known vulnerability should be recorded and approved by the risk owner.
 - Where a suppression of a vulnerability has been discussed and accepted, a suitable comment must be added to the suppression file so that it can be audited by our security teams.
-- If a suppression has been added where an update is expected, a `<suppress until="2024-01-01Z">` property should be added dated a month from the initial suppression for review.
+- If a suppression has been added which requires a review at a later time, a `<suppress until="2024-01-01Z">` property should be added with an `until` date of one month from the initial suppression or reviewed date.
 - The team should agree on the schedule for updating the dependency checker.
 
 ### SAST Tooling
