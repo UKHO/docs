@@ -21,7 +21,7 @@
 
 ## Objective
 
-Vulnerabilities exist because engineers create them.
+Vulnerabilities in software exist due to poor design or mistakes in implementation.
 
 This can be due to several reasons, including lack of training, accidental, insufficient guidance, poor-quality controls or resource constraints. UKHO software needs to be secure as feasibly possible. This policy is to aid teams in catching vulnerabilities during development.
 
@@ -141,6 +141,8 @@ The risk owner is the person who is responsible for the product. This may be the
 - The tool must be configured to run before code is released to production e.g. via a build/release pipeline.
 - The team should decide what the acceptable threshold is to prevent code from being released to production e.g. via a build/release pipeline.
 - The team must provide proof that the code is not released to production when this threshold is breached. Decisions to release even in the presence of a known vulnerability should be recorded and approved by the risk owner.
+- Where a suppression of a vulnerability has been discussed and accepted, a suitable comment must be added to the suppression file so that it can be audited by our security teams.
+- If a suppression has been added which requires a review at a later time, this should be expressed directly in the suppression file using the supported format or within a comment with a next review date. This should be dated one month from the initial suppression or an agreed upon review date. For example, the dependency-check tool requires a [`<suppress until="2024-01-01Z">`](https://jeremylong.github.io/DependencyCheck/general/suppression.html) property to be added. 
 - The team should agree on the schedule for updating the dependency checker.
 
 ### SAST Tooling
@@ -150,7 +152,8 @@ The risk owner is the person who is responsible for the product. This may be the
 - The team must have a SAST process, either automated or manual via code reviews. (It is strongly recommended that the team use a static analysis tool which the Digital Delivery Team has approved).
 - Each team member must have a basic understanding of interpreting the results of static analysis (manual or automated).
 - If using an automated tool, it must be configured to run as part of either/both a build or release pipeline.  
-- The team should decide what the acceptable threshold is to prevent code from being released to production e.g. a build or release fails.  
+- The team should decide what the acceptable threshold is to prevent code from being released to production e.g. a build or release fails.
+- Teams should have a plan in place to assess SAST results within the tooling so that technical debt can be discussed and dealt with or false positives can be marked as such.  
 
 ### Threat Library & Mitigations
 
