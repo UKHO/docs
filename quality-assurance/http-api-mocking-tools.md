@@ -19,7 +19,24 @@ Wiremock can also be instantiated inline from code or scripts on demand and disp
 
 ### Examples
 
-WIP
+The simplest way to use wiremock in tests directly in your test project is to pull in the library [WireMock.Net](https://www.nuget.org/packages/WireMock.Net) and then use a `WireMockServer` object like `server` below
+
+```
+
+var server = WireMockServer.Start();
+        server.Given(Request.Create().WithPath("/mock").UsingGet())
+              .RespondWith(Response.Create()
+                    .WithStatusCode(200)
+                    .WithBody("Hello world!")
+            );
+
+```
+
+This will create an http mock service that responds to requests as defined. You can use `server.Urls` to find the endpoint url if needed.
+
+For an example of using WireMock as a standalone app that can be deployed, such as for deployed system level testing, see [this example template](https://github.com/UKHO/TemplateForWiremock).
+
+See the [WireMock.net wiki](https://github.com/WireMock-Net/WireMock.Net/wiki) for the complete guide to usage.
 
 ## Bespoke API mocks
 
