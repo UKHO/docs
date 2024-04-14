@@ -160,7 +160,7 @@ The risk owner is the person who is responsible for the product. This may be the
 >_Each project will have recurring pieces of functionality. These generic PBI’s should be captured, threat modelled, and code mitigations agreed. OWASP vulnerabilities should be discussed such as XSS, SQL Injections, broken authentication/authorisation, direct object referencing etc. It is easier to review and catch vulnerabilities during code reviews if everyone tackles vulnerabilities with the same techniques._
 
 - Each team must document a set of generic scenarios for their project.
-- The team must follow a threat modelling process.
+- The team must follow a [threat modelling process](../../security/ThreatModelling/ThreatModelling.md).
 - Each team must agree on standard code approaches to mitigate common vulnerabilities.
 - A code review checklist must be generated from the results of threat modelling.
 - Testing criteria must be agreed and recorded within the solution.
