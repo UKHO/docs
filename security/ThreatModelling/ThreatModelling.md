@@ -14,7 +14,7 @@ Our aim to try and adhere to the CIA triad:
 
 By performing threat modelling, we shift security practices left within the software development lifecycle which helps promote catching issues earlier in process when the cost is lower. Whilst it has a security benefit, there is a business benefit due to the return on investment by doing this whilst the cost of an issue is low. 
 
-> [!INFORMATION]
+> [!TIP]
 > The 3 laws of OPSEC
 > 1.	If you don’t know the threat, how do you know what to protect.
 > 2.	If you don’t know what to protect, how do you know you’re protecting it.
