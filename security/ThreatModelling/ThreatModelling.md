@@ -19,7 +19,7 @@ By performing threat modelling, we shift security practices left within the soft
 > 2.	If you don’t know what to protect, how do you know you’re protecting it.
 > 3.	If you are not protecting it, the dragon wins. 
 
-## What is threat modelling?
+## What is threat modelling
 
 At its basic, threat modelling is identifying and prioritizing potential attacks, threats, and vulnerabilities within your assets. This is done by identifying assets utilising methods such as data flow diagrams to help discuss scenarios, surface areas and counter measures. 
 
