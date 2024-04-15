@@ -58,7 +58,7 @@
 
 ### See Government Cloud First Policy (https://www.gov.uk/guidance/government-cloud-first-policy#government-cloud-principles)
 
-### Statement of Current Regulatory Compliance?
+### Statement of Current Regulatory Compliance
 
 ## Recommendations for Container Hosting / Orchestration
 
@@ -92,7 +92,7 @@
 
 ## Data Use in the cloud
 
-### SOLAS Requirements?
+### SOLAS Requirements
 
 ### Statement on personal / sensitive data
 
