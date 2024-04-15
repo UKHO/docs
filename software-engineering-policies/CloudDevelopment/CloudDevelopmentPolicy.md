@@ -132,10 +132,12 @@ https://github.com/UKHO/docs/blob/main/software-engineering-policies/Logging/Log
 Monitoring Recommendations
 
 * Consider implementing Elastic Cloud APM to trace interactions across your services and identify performance issues or bottlenecks
+  - proceed at risk as procurement process is in progress
 * Consider using correlation Ids to link related logs and events
 * Consider whether dashboards can be utilised to give developers ongoing visibility of service health, usage and performance
 * Consider whether automated alerts can be used to notify the development team of any outage or event
 * Consider how to balance necessary alerts against unnecessary noise.
+* Integrate solar winds for business central alerting
 
 A full draft policy on [Protective Monitoring](link TBC) for security purposes can be found here...
 
