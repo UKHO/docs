@@ -15,8 +15,8 @@ By performing threat modelling, we shift security practices left within the soft
 > [!TIP]
 > The 3 laws of OPSEC
 >
-> 1.	If you don’t know the threat, how do you know what to protect.
-> 2.	If you don’t know what to protect, how do you know you’re protecting it.
+> 1.	If you don’t know the threat, how do you know what to protect?
+> 2.	If you don’t know what to protect, how do you know you’re protecting it?
 > 3.	If you are not protecting it, the dragon wins. 
 
 ## What is Threat Modelling
