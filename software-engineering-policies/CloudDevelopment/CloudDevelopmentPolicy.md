@@ -10,7 +10,27 @@
 
 ## Acceptable Use for Cloud Technologies
 
-### Consequences?
+### Guidelines
+
+#### Data Security and Compliance
+
+#### Access Control and Authentication
+
+#### Data Sovereignty and Jurisdiction
+
+#### Service Level Agreements (SLAs) and Support
+
+#### Cost Management and Budgeting
+
+#### Backup and Disaster Recovery
+
+#### Compliance with Government Policies and Standards
+
+#### Monitoring and Auditing
+
+#### Training and Awareness
+
+#### Change Management and Documentation
 
 ## Supported clouds for UKHO
 
@@ -38,7 +58,7 @@
 
 ### See Government Cloud First Policy (https://www.gov.uk/guidance/government-cloud-first-policy#government-cloud-principles)
 
-### Statement of Current Regulatory Compliance?
+### Statement of Current Regulatory Compliance
 
 ## Recommendations for Container Hosting / Orchestration
 
@@ -51,6 +71,8 @@
 ### Auditing
 
 ### Testing - limit scope to infra testing
+
+### Linting
 
 ### Virus Scanning
 
@@ -74,7 +96,7 @@
 
 ## Data Use in the cloud
 
-### SOLAS Requirements?
+### SOLAS Requirements
 
 ### Statement on personal / sensitive data
 
@@ -95,6 +117,34 @@
 ## Disaster Recovery & Business Continuity
 
 ## Logging and Monitoring for Cloud-Based Deployments
+
+Appropriate logging, monitoring and auditing are essential to:
+
+* Maintain confidence in your systems and services
+* Provide early detection of outages and other issues affecting your services
+* identify root causes in the event of outages, data loss, security concerns or other undesirable events
+
+Logging Recommendations:
+
+* Consider using the UKHOs centralised elasticsearch capability to ensure that all logs are captured and retained
+* Agree on appropriate formats and logging levels to ensure logs are available and useful in maintaining your services
+* Consider options to control log access and ensure logs are free from unnecessary sensitive data
+
+Please view the dedicated logging policy here:
+https://github.com/UKHO/docs/blob/main/software-engineering-policies/Logging/LoggingPolicy.md
+
+Monitoring Recommendations
+
+* Consider implementing Elastic Cloud APM to trace interactions across your services and identify performance issues or bottlenecks
+  - proceed at risk as procurement process is in progress
+  - Consider using the EventHub logging Nuget package: UKHO.Logging.EventHubLogProvider
+* Consider using correlation Ids to link related logs and events
+* Consider whether dashboards can be utilised to give developers ongoing visibility of service health, usage and performance
+* Consider whether automated alerts can be used to notify the development team of any outage or event
+* Consider how to balance necessary alerts against unnecessary noise.
+* Integrate solar winds for business central alerting
+
+A full draft policy on [Protective Monitoring](link TBC) for security purposes can be found here...
 
 ### On-prem vs DDC-managed vs In-team ELK/EFK stacks, etc
 
