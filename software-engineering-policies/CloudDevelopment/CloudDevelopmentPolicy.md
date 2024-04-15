@@ -50,9 +50,7 @@
 
 ### Auditing
 
-### Testing
-
-### Linting
+### Testing - limit scope to infra testing
 
 ### Virus Scanning
 
@@ -67,6 +65,10 @@
 ### Microsoft Defender
 
 ## Deployment
+
+### Container Scanning / Trivvy / MDVM
+
+### Snyk
 
 ## Security
 
