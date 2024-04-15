@@ -42,17 +42,17 @@
 
 ### Benefits of Multi-Cloud Approaches
 
-## Network Security / Access Control Recommendations
+## Network Security / Access Control Recommendations?
 
 ### Guidance on Security with the Hub and Spoke Model (See https://github.com/UKHO/how-do-i/blob/3373f41de95525cf795df0d9c1aae7ada2dcea86/docs/subscriptions.md?plain=1)
 
 ### Public Cloud Security Policy
 
-### Hybrid Cloud Security Policy
+### Hybrid Cloud Security Policy ??
 
-### Private Cloud Security Policy
+### Private Cloud Security Policy ??
 
-## Legal / Government Regulations Affecting Cloud Policy
+## Legal / Government Regulations Affecting Cloud Policy?
 
 ### See Cloud Security Principles from National CyberSecurity Center(https://www.ncsc.gov.uk/collection/cloud/the-cloud-security-principles)
 
@@ -70,7 +70,7 @@
 
 ### Auditing
 
-### Testing
+### Testing - limit scope to infra testing
 
 ### Linting
 
@@ -87,6 +87,10 @@
 ### Microsoft Defender
 
 ## Deployment
+
+### Container Scanning / Trivvy / MDVM
+
+### Snyk
 
 ## Security
 
