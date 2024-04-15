@@ -12,7 +12,7 @@
 
 ### Guidelines
 
-#### Data Security and Compliance: 
+#### Data Security and Compliance
 
 #### Access Control and Authentication
 
@@ -42,17 +42,17 @@
 
 ### Benefits of Multi-Cloud Approaches
 
-## Network Security / Access Control Recommendations?
+## Network Security / Access Control Recommendations
 
 ### Guidance on Security with the Hub and Spoke Model (See https://github.com/UKHO/how-do-i/blob/3373f41de95525cf795df0d9c1aae7ada2dcea86/docs/subscriptions.md?plain=1)
 
 ### Public Cloud Security Policy
 
-### Hybrid Cloud Security Policy ??
+### Hybrid Cloud Security Policy
 
-### Private Cloud Security Policy ??
+### Private Cloud Security Policy
 
-## Legal / Government Regulations Affecting Cloud Policy?
+## Legal / Government Regulations Affecting Cloud Policy
 
 ### See Cloud Security Principles from National CyberSecurity Center(https://www.ncsc.gov.uk/collection/cloud/the-cloud-security-principles)
 
@@ -137,7 +137,7 @@ Monitoring Recommendations
 * Consider whether automated alerts can be used to notify the development team of any outage or event
 * Consider how to balance necessary alerts against unnecessary noise.
 
-A full draft policy on Logging and Monitoring can be found here...
+A full draft policy on [Protective Monitoring](link TBC) for security purposes can be found here...
 
 ### On-prem vs DDC-managed vs In-team ELK/EFK stacks, etc
 
