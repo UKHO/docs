@@ -40,9 +40,10 @@ these can be split into two forms of solution
 #### Bespoke solution
 The following should be considered for the delivery
   1. Documentation in the form of a TSR should be delivered at the outset of the work and agreed with the UKHO test leads to be acheiving our standards as a minimum.
-  2. Where appropriate, then the WP will produce a Formal Acceptance Test Document (FAT). The UKHO test leads will review and need to agree that this provides a suitable level of coverage.
-  3. A FAT schedule for test execution will need to be agreed so that UKHO can arrange if needed to wittnessed.
-  4. Where appropriate, a Site Acceptance Test document (SAT) will be delivered. The UKHO test leads will review and need to agree that this provides a suitable level of coverage. If the solution is part of a wider programme of delivery then there will need UKHO involvement to cover the End-2-End flows through the system.
+  2. Where appropriate, the WP will produce a Formal Acceptance Test Document (FAT). This needs to be agreed with UKHO test leads to confirm suitable level of coverage.
+  4. A FAT schedule for test execution will need to be agreed so that UKHO can arrange if needed to wittnessed.
+  5. Where appropriate, a Site Acceptance Test document (SAT) will be delivered. This needs to be agreed with UKHO test leads to confirm suitable level of coverage.
+  6. If the solution is part of a wider programme of delivery there will be a need for UKHO involvement to cover the End-2-End flows through the system.
 
 #### COTS
 For a Cots solution, the following should be provided
