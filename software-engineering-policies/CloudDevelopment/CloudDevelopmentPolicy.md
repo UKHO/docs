@@ -158,7 +158,7 @@ WIP
 
 ## BPSS vs SC vs DV
 
-### BPSS - https://ukho.sharepoint.com/:w:/s/DigitalDeliveryCapabilityTeam/EaiafCGzo-JJigC7Wrg_ShwBGg1noZUkSpz20WKUK4XFQA?e=EuST9j&CID=8AE97AC8-BAF8-42E3-9198-41A69AF8AB91&wdLOR=cE51F5039-9C48-4133-B84F-2824A05BF542
+### BPSS - 
 
 ## Related Information/Notes
 
