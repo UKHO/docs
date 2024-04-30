@@ -84,7 +84,7 @@ The actions are as follows:
 - __Transfer__ - Transfer risk to an insurer or customer.
 
 >[!NOTE]
->Any documentation around threat modelling should not be stored in a public >domain. As an effort to provide a secure and robust service to our users, we do >not want to expose any potential weaknesses to bad actors. 
+>Any documentation around threat modelling should not be stored in a public domain. As an effort to provide a secure and robust service to our users, we do not want to expose any potential weaknesses to bad actors. 
 
 ## Training
 
