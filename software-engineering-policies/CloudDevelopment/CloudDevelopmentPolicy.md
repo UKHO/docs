@@ -109,6 +109,10 @@ UKHO SQL managed instances are georedundant and are the preferred database solut
 
 No matter which database solution is chosen the data MUST be encrypted in transit and at rest.
 
+> [!NOTE]
+> For SQL Server, it is recommended you disable SA accounts and SQL login. Use Entra ID logins only. See Entra ID Accounts over SAS / access keys...
+
+
 ## Users
 ### User Management (Internal and External)
 
@@ -119,15 +123,17 @@ Third-party vendors' access to UKHO directories should be invited using their th
 
 Each B2B user should have a defined [sponsor](https://learn.microsoft.com/en-us/entra/external-id/b2b-sponsors). Sponsors will typically be the lead engineer(s) of the team the third-party vendor is working with.
 
-Internal and External (guest/B2B) users should only be given access to resources using [Entitlement Management Access Packages](https://learn.microsoft.com/en-us/entra/id-governance/entitlement-management-overview).  Access packages are required once a month by Lead Engineers in each team. 
+Internal and External (guest/B2B) users should only be given access to resources using [Entitlement Management Access Packages](https://learn.microsoft.com/en-us/entra/id-governance/entitlement-management-overview). Access packages are required once a month by Lead Engineers in each team. 
 
-Q. Do guest users have external access package approvers as well as internal? 
+##### Q. Do guest users have external access package approvers as well as internal? 
 
 ### Entra ID accounts over SAS / access keys / username/password connection strings
 
-WIP
-- use RBAC over connection strings and local accounts
-- For SQL: Disable SA accounts and/or SQL login (use Entra ID login only)
+Where possible, use Managed Identity and enterprise accounts for authenticating to connected services instead of Shared Access Signatures (SAS), access keys, or secrets.
+
+Developers may also need the permissions assigned against their Entra ID account to run and debug locally, where a Managed Identity is not available. For example, `App Configuration Data Reader` RBAC role is specifically required to read configuration from Azure App Configuration.
+
+When enabling Managed Identity for a resource, prefer System-Assigned over User-Assigned. System-Assigned Managed Identity will be deleted if the resource is deleted, and thus the permissions granted to it will also be removed.
 
 ## Disaster Recovery & Business Continuity
 
