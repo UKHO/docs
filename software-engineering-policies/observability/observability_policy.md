@@ -29,7 +29,7 @@ This is a general guide to the most useful metrics in a service:<Br>
 * a count of what is going in 
 * a count of what is going out 
 * a count of what has been processed
-* a count of what has errored
+* a count of any errors/exceptions
 * latency of processing in the service
 
 These are usually further repeated if multiple business object types are processed in the same service e.g. they might be replicated for each order type.<br>
