@@ -46,7 +46,7 @@ Metrics of course do not replace good logging practice but they do work well tog
 
 ## Implementation overview
 
-Add the APM code and libraries and configuration to the Application at the root level. The APM library will then be able to provide metrics on the most of the application (APM will intercept the HTTP pipeline to automatically tract all calls passing through). 
+Add the APM code and libraries and configuration to the Application at the root level. The APM library will then be able to provide metrics on the most of the application (APM will intercept the HTTP pipeline to automatically trace all calls passing through). 
 There are specific libraries and hooks for each type of .NET application flavour: http web applications/API/Desktop/Containers etc. Follow the provider documentation for implementation and the existing implemented projects for examples – e.g.: Fleet Manager HTTP UI and B2B API. <br>
 The Application will need to be configured to point to the relevant provider instance – see the Support SME for the credentials. <br>
 Extra traces and meta data can be added into the code to allow finer-grained collection of metrics within the application e.g. custom or business specific metrics known as 'labels' in Elastic APM. <br>
