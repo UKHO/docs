@@ -16,9 +16,10 @@ This then allows us to take preventative and remedial action in a timely manner.
 Logging is primarily text data that covers a wide range of issues, whereas metrics are focussed on real-time numeric data or counters which summarise the performance of a service.<br>
 For example in Solarwinds the counters would be things like CPU & diskspace. Observability metrics are similar but can go much deeper to show how the internals of a service are performing.<br>
 Metrics provide other advantages over logging:<br>
+
 * Use less resource (logging use signifcantly more storage/processing)
 * Focussed on key performance indicators 
-* Easier to interpret as logs suffers from 'finding the needle in the haystack' type problem
+* Easier to interpret as logs suffer from 'finding the needle in the haystack' type problem
 * Easier to alert on
 
 This is a general guide to the most useful metrics in a service:<Br>
@@ -31,7 +32,8 @@ This is a general guide to the most useful metrics in a service:<Br>
 * a count of what has errored
 * latency of processing in the service
 
-These are usually further repeated if multiple business object types are processed in the same service e.g. they might be replicated for each order type
+These are usually further repeated if multiple business object types are processed in the same service e.g. they might be replicated for each order type.<br>
+Metrics of course do not replace good logging practice but they do work well together. Specific APM event e.g. errors can be automatically linked with the underlying log detail.
 
 ## Vision – to provide:
 
