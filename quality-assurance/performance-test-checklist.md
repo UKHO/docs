@@ -36,7 +36,7 @@ Design the system that will be tested.  This should be as close to the live syst
 ### Select tools
 
 Consult team tech radars for currently in-use technologies.
-Depending on the types of testing planned, you will typically be using some sort of load testing tool.  The approved load testing tool is [K6](https://k6.io/).  For more complex scenarios you might use other technologies, e.g. for collecting, correlating and visualising results.  It is suggested that you use InfluxDB & Grafana for visualising k6 output, as per [this example](https://github.com/UKHO/k6-reporting).
+Depending on the types of testing planned, you will typically be using some sort of load testing tool.  The approved load testing tool is [K6](https://k6.io/).  For more complex scenarios you might use other technologies, e.g. for collecting, correlating and visualising results.  It is suggested that you use cloud-based Grafana for visualising k6 output, as per [this](https://k6.io/docs/results-output/real-time/cloud/).
 
 ### Design performance test tool infrastructure
 
