@@ -11,13 +11,19 @@ This then allows us to take preventative and remedial action in a timely manner.
 <br>
 ![Screenshot 2024-05-23 113220](https://github.com/UKHO/docs/assets/3432241/8eb37689-e48c-4fe3-999e-95c41379afa8)
 
-## How does observability differ from logging
+## How observability differs from logging
 
-Logging is primarily text data that covers a wide range of issues whereas metrics is focussed on real-time numeric data or counters which summarise the performance of a service.<br>
+Logging is primarily text data that covers a wide range of issues, whereas metrics are focussed on real-time numeric data or counters which summarise the performance of a service.<br>
 For example in Solarwinds the counters would be things like CPU & diskspace. Observability metrics are similar but can go much deeper to show how the internals of a service are performing.<br>
-A good general guide to what counters are useful in a service are:<Br>
+Metrics provide other advantages over logging:<br>
+* Use less resource (logging use signifcantly more storage/processing)
+* Focussed on key performance indicators 
+* Easier to interpret as logs suffers from 'finding the needle in the haystack' type problem
+* Easier to alert on
 
-### Golden signals:
+This is a general guide to the most useful metrics in a service:<Br>
+
+### The 5 Golden signals:
 
 * a count of what is going in 
 * a count of what is going out 
