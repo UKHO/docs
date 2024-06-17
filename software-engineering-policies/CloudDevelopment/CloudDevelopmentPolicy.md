@@ -18,6 +18,14 @@ This policy applies to all software engineering teams and individuals within the
 
 ## Revision History / Schedule
 
+| Version | Date of Revision | Description of Change | Author | Approval Status |
+| ------- | ----- | ----- | ----- | ----- |
+| 0.1 |	12/04/2024 | Initial Draft | Martyn Fewtrell | |
+
+### Description of Changes:
+
+Version 0.1: Initial draft of Cloud Policy prepared by the Cloud Guild.
+
 ## Cloud First Approach
 
 ## Acceptable Use for Cloud Technologies
