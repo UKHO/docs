@@ -2,6 +2,16 @@
 
 ## Purpose of this policy
 
+The purpose of this policy is to establish guidelines and procedures for the appropriate and secure utilization of cloud resources in software engineering within the UK Hydrographic Office.
+
+By leveraging cloud technologies, we aim to:
+
+* Enhance the security posture of our organization by implementing robust controls and encryption mechanisms.
+* Ensure compliance with relevant data protection laws, industry standards, and government regulations.
+* Manage risks associated with cloud usage through proactive identification, assessment, and mitigation strategies.
+* Optimize resource utilization and drive cost savings through efficient allocation and management of cloud resources.
+* Facilitate scalability and flexibility to meet evolving business requirements and demands.
+
 ## Scope of this policy
 
 ## Revision History / Schedule
