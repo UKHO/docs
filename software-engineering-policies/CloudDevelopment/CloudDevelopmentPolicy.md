@@ -14,6 +14,8 @@ By leveraging cloud technologies, we aim to:
 
 ## Scope of this policy
 
+This policy applies to all software engineering teams and individuals within the UK Hydrographic Office who are involved in the development, deployment, and maintenance of cloud-based applications and services.
+
 ## Revision History / Schedule
 
 ## Cloud First Approach
