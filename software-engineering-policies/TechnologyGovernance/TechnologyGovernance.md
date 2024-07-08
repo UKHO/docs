@@ -24,7 +24,7 @@ Further goals are to:
 
 ## Use of Tech Radars
 
-Each team must maintain a tech radar on our standard tool.  The Lead Developer is accountable for making sure that this kept up to date.
+Each team must maintain a tech radar on our standard tool (<https://techradar.ukho.gov.uk/>).  The Lead Developer is accountable for making sure that this kept up to date.
 
 When a change is made to a radar, the Lead Developer must do the following:
 
