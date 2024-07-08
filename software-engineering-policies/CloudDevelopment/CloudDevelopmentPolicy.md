@@ -95,17 +95,15 @@ The purpose of this section is to ensure that cloud resources are utilized in co
 
 #### Access Control and Authentication
 
-#### Data Sovereignty and Jurisdiction
+#### Data Sovereignty and Jurisdiction - CHP?
 
 #### Service Level Agreements (SLAs) and Support
 
-#### Cost Management and Budgeting
+#### Cost Management and Budgeting - CY
 
-#### Backup and Disaster Recovery
+#### Compliance with Government Policies and Standards - MF
 
-#### Compliance with Government Policies and Standards
-
-#### Monitoring and Auditing
+#### Monitoring and Auditing - BM (Mark Norman - any existing policy?)
 
 #### Training and Awareness
 
@@ -139,7 +137,7 @@ The purpose of this section is to ensure that cloud resources are utilized in co
 
 ### Statement of Current Regulatory Compliance
 
-## Recommendations for Container Hosting / Orchestration
+## Recommendations for Container Hosting / Orchestration (Rich Shawley)
 
 ## See Container Policy
 
@@ -153,13 +151,13 @@ The purpose of this section is to ensure that cloud resources are utilized in co
 
 ### Linting
 
-### Virus Scanning
+### Virus Scanning (Callum & Mark)
 
-### Code Analysis
+### Code Analysis (Callum & Mark)
 
 ### Dependency Checking for Cloud Applications
 
-### Infrastructure as Code - Terraform, etc
+### Infrastructure as Code - Terraform, etc (Callum & Mark)
 
 ### Secrets Management
 
@@ -173,7 +171,7 @@ The purpose of this section is to ensure that cloud resources are utilized in co
 
 ## Security
 
-## Data Use in the cloud
+## Data Use in the cloud (Dee)
 
 ### SOLAS Requirements
 
@@ -191,7 +189,7 @@ The purpose of this section is to ensure that cloud resources are utilized in co
 
 ### User Management (Internal and External)
 
-### Entra ID accounts over SAS / access keys / username/password connection strings
+### Entra ID accounts over SAS / access keys / username/password connection strings (Paul King)
 
 ## Disaster Recovery & Business Continuity
 
@@ -279,7 +277,7 @@ A full draft policy on [Protective Monitoring](link TBC) for security purposes c
 
 ### On-prem vs DDC-managed vs In-team ELK/EFK stacks, etc
 
-## Training
+## Training (JT)
 
 ### Requirements
 
@@ -297,7 +295,7 @@ A full draft policy on [Protective Monitoring](link TBC) for security purposes c
 
 ## Tagging
 
-## BPSS vs SC vs DV
+## BPSS vs SC vs DV (Callum & Mark)
 
 ## Related Information/Notes
 
