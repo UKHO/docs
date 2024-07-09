@@ -9,6 +9,10 @@
 * Any source code found in any other source control method must first be migrated and proven to build via a CI pipeline.
 * All new source will host a primary branch called _trunk_ or _main_ over _master_.
 
+## Repository Setup
+
+Information about setting up your repository can be found [here](/software-engineering-policies/SourceControl/RepositorySetupPolicy.md)
+
 ## Access control
 
 Access to a repo should be done through a team and not through an individual as to ensure that there is never a single point of failiure. Team access does not mean team ownership however.
