@@ -46,7 +46,8 @@ So that we are only using the features that we require of Github and avoid any c
 
 ### Pull Requests
 
-There are multiple merging strategies for merging a pull request into a repository. 
+There are multiple merging strategies for merging a pull request into a repository.
+
 - Merge commits allow us to merge all commits.
 - Squash and merge puts all commits into 1 and is added to the base branch.
 - Rebase and merge puts all commits into 1 and is rebased onto the base branch.
@@ -65,4 +66,4 @@ Branch protection should always be setup against your default branch. The policy
 
 ## Code security and analysis
 
-From a code security point of view, we already have tooling that runs against the codebase externally however to support in the maintenance of your codebase we should be enabling `Dependabot alerts`, `Dependabot security updates` and `Dependabot version updates` so that we can try and keep on top of dependency updates and vulnerability updates.  
+From a code security point of view, we already have tooling that runs against the codebase externally however to support in the maintenance of your codebase we should be enabling `Dependabot alerts`, `Dependabot security updates` and `Dependabot version updates` so that we can try and keep on top of dependency updates and vulnerability updates.
