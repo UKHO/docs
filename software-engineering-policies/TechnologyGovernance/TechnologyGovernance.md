@@ -24,14 +24,13 @@ Further goals are to:
 
 ## Use of Tech Radars
 
-Each team must maintain a tech radar on our standard tool.  The Lead Developer is accountable for making sure that this kept up to date.
+Each team must maintain a tech radar on our standard tool (<https://techradar.ukho.gov.uk/>).  The Lead Developer is accountable for making sure that this kept up to date.
 
 When a change is made to a radar, the Lead Developer must do the following:
 
-* If a technology enters "Assess" they must update their team's tech radar
-* If they wish to move a technology into "Trial" they must inform the Leads' meeting in order to get feedback.
-* If they wish to move a technology into "Adopt" the must ask permission of the Leads' meeting.  The decision is made by Lead Developers, by a simple majority.
-* If they need to start using a technology urgently they may continue at risk until the next Leads' meeting.
+* When a team begins to investigate or trial a new technology, they must add it to their team's tech radar as *"Monitor"* immediately, and they must inform the next Leads' meeting to get feedback. If the team subsequently decides not to continue to use the technology, they should remove it from their radar with some details as to why they chose not to continue with it.
+* If they wish to adopt a technology, such as moving that technology into production or using the technology as part of their day-to-day team processes, they must ask permission from the Lead Developers' meeting and following approval, the technology must be moved into the *"Buy"* ring of the radar. The decision is made by Lead Developers by a simple majority.
+* If they need to start using a technology urgently, they may continue at risk until the next Leads' meeting.
 
 ## Solution Architecture and Architects
 
