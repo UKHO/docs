@@ -20,9 +20,9 @@ This policy applies to all software engineering teams and individuals within the
 
 | Version | Date of Revision | Description of Change | Author | Approval Status |
 | ------- | ----- | ----- | ----- | ----- |
-| 0.1 |	12/04/2024 | Initial Draft | Martyn Fewtrell | |
+| 0.1 | 12/04/2024 | Initial Draft | Martyn Fewtrell | |
 
-### Description of Changes:
+### Description of Changes
 
 Version 0.1: Initial draft of Cloud Policy prepared by the Cloud Guild.
 
@@ -31,6 +31,7 @@ Version 0.1: Initial draft of Cloud Policy prepared by the Cloud Guild.
 The Cloud First Approach is a strategic initiative aimed at prioritizing the adoption of cloud computing technologies in software engineering endeavors within the UK Hydrographic Office. This approach stems from the recognition of the transformative potential of cloud computing to enhance agility, innovation, and cost-effectiveness in delivering digital services.
 
 ### Guiding Principles
+
 * Agility: Embrace cloud technologies to rapidly respond to changing business requirements and market dynamics.
 * Security: Ensure the confidentiality, integrity, and availability of data and applications through robust security measures.
 * Compliance: Adhere to relevant regulatory requirements and industry standards governing data privacy, security, and governance.
@@ -58,34 +59,53 @@ The purpose of this section is to ensure that cloud resources are utilized in co
 
 ### Guidelines
 
-#### Data Security and Compliance: 
+#### Data Security and Compliance
+
 * All data stored or processed in the cloud must comply with relevant data protection regulations, including GDPR and UK data protection laws.
 * Encryption must be applied to data both in transit and at rest to maintain confidentiality and integrity.
+  
 #### Access Control and Authentication
+
 * User authentication and access control mechanisms must be implemented to prevent unauthorized access to cloud resources.
 * Multi-factor authentication is required for accessing sensitive cloud services and data.
+  
 #### Data Sovereignty and Jurisdiction - CHP?
+
 * Cloud data storage and processing locations must adhere to data sovereignty requirements and legal regulations.
 * Transfers of sensitive data across international borders require prior approval and must comply with applicable laws.
+  
 #### Service Level Agreements (SLAs) and Support
+
 * SLAs with cloud service providers must define expectations for service availability, performance, and reliability.
 * Procedures for escalating and resolving technical issues or incidents must be established and documented.
+  
 #### Cost Management and Budgeting - CY
+
 * Practices for monitoring and optimizing cloud costs must be implemented to prevent budget overruns.
 * Budget allocation and approval procedures for cloud-related expenses must be defined within project teams or departments.
+  
 #### Backup and Disaster Recovery
+
 * Regular backups of critical data stored in the cloud must be performed, and procedures for data restoration must be documented.
 * Disaster recovery plans must be developed, tested, and maintained to ensure business continuity in case of disruptions.
+  
 #### Compliance with Government Policies and Standards - MF
+
 * Cloud usage must align with relevant government policies, standards, and guidelines, including the UK Government Cloud First Policy and NCSC Cloud Security Principles.
 * Adherence to information security, IT procurement, and digital transformation initiatives must be ensured.
+  
 #### Monitoring and Auditing - BM (Mark Norman - any existing policy?)
+
 * Tools and processes for monitoring cloud usage, detecting security incidents, and generating audit trails must be implemented.
 * Regular security assessments and audits of cloud environments must be conducted to identify vulnerabilities and ensure compliance.
+  
 #### Training and Awareness
+
 * Training and awareness programs on cloud security best practices must be provided to employees to mitigate insider threats and human error.
 * A culture of security awareness and accountability must be fostered within the organization.
+  
 #### Change Management and Documentation
+
 * Change management procedures for modifying cloud configurations, applications, or data structures must be established.
 * Up-to-date documentation of cloud architectures, configurations, and dependencies must be maintained to facilitate troubleshooting and scalability.
 
@@ -99,9 +119,11 @@ The purpose of this section is to ensure that cloud resources are utilized in co
 
 ### Benefits of Multi-Cloud Approaches
 
-## Network Security / Access Control Recommendations?
+## Network Security
 
-### Guidance on Security with the Hub and Spoke Model (See https://github.com/UKHO/how-do-i/blob/3373f41de95525cf795df0d9c1aae7ada2dcea86/docs/subscriptions.md?plain=1)
+## Access Control Recommendations
+
+### Guidance on Security with the Hub and Spoke Model. See [link](https://github.com/UKHO/how-do-i/blob/3373f41de95525cf795df0d9c1aae7ada2dcea86/docs/subscriptions.md?plain=1)
 
 ### Public Cloud Security Policy
 
@@ -111,15 +133,15 @@ The purpose of this section is to ensure that cloud resources are utilized in co
 
 ## Legal / Government Regulations Affecting Cloud Policy?
 
-### See Cloud Security Principles from National CyberSecurity Center(https://www.ncsc.gov.uk/collection/cloud/the-cloud-security-principles)
+### See Cloud Security Principles from National CyberSecurity Center [here](https://www.ncsc.gov.uk/collection/cloud/the-cloud-security-principles)
 
-### See Government Cloud First Policy (https://www.gov.uk/guidance/government-cloud-first-policy#government-cloud-principles)
+### See Government Cloud First Policy [here](https://www.gov.uk/guidance/government-cloud-first-policy#government-cloud-principles)
 
 ### Statement of Current Regulatory Compliance
 
 ## Recommendations for Container Hosting / Orchestration (Rich Shawley)
 
-## See Container Policy
+### See Container Policy
 
 ### Never Run As Root
 
@@ -127,7 +149,7 @@ The purpose of this section is to ensure that cloud resources are utilized in co
 
 ### Auditing
 
-### Testing - limit scope to infra testing
+### Testing - limit scope to infra testing ?? hand off to test community ?? - RS
 
 ### Linting
 
@@ -171,58 +193,59 @@ The purpose of this section is to ensure that cloud resources are utilized in co
 
 ### Entra ID accounts over SAS / access keys / username/password connection strings (Paul King)
 
+### Auth - Are there existing policies, should there be, who should own this (paul to chat/investigate with security guild)
+
 ## Disaster Recovery & Business Continuity
 
 A business is as only as robust as its systems and services. Ensure you have a plan to restore your services in the event of a partial or complete failure. Don't wait for a crisis to occur. Instead, prepare ahead by planning and designing your services to be robust, and ensure you have structures in place to restore your services in the event of a failure. Recommended steps include:
 
 * Know your business requirements and SLAs (Service Level Agreements). These will inform the approach taken to recovering after services fail.
 * Understand the risks within your services, and their potential impacts. Consider and document options to mitigate those risks.
-* Ensure you have systems in place for detecting outages, updating stakeholders and restoring services so you can 
-  - resolve outages quickly and efficiently,
-  - recover from data loss or corruption
-  - resume normal services
-  	- as fast as possible.
-    - within the requirements of your SLAs
+* Ensure you have systems in place for detecting outages, updating stakeholders and restoring services so you can
+  * resolve outages quickly and efficiently,
+  * recover from data loss or corruption
+  * resume normal services
+    * as fast as possible.
+    * within the requirements of your SLAs
 
-Training is available in Business Continuity planning. This should be completed by all members of the development team:
-https://learning.ukho.gov.uk/course/view.php?id=18
+Training is available in Business Continuity planning. This should be completed by all members of the development team: See [link](https://learning.ukho.gov.uk/course/view.php?id=18)
 
-### Building Robust Systems:
+### Building Robust Systems
 
 * Where possible, use infrastructure as code tools, particularly Terraform (see Infrastructure as Code)
 * Document infrastructure requirements, especially any secrets or manual steps that cannot or should not be recorded as infrastructure as code
 * Consider using scaling, redundancy and load balancing solutions (such as those offered by Kubernetes) to mitigate the effects of single-service outages.
 * Ensure that you have scheduled backups in place for all your data, supporting metadata and auditing solutions, and that these backups are sufficient to meet the terms of your SLAs
-  - Scheduled backups should consider using GeoRedundant or Zone Redundant storage where possible (see Georedundancy above): this ensures that services can recover in the event of data loss affecting a single data centre
-  - Data Sovereignty implications (See Data Sovereignty above) may mean that redundancy must be limited to the UK South and UK West data centres
+  * Scheduled backups should consider using GeoRedundant or Zone Redundant storage where possible (see Georedundancy above): this ensures that services can recover in the event of data loss affecting a single data centre
+  * Data Sovereignty implications (See Data Sovereignty above) may mean that redundancy must be limited to the UK South and UK West data centres
 * Set appropriate retention policies for historic data to ensure that that you can recover from partial or complete data corruption
 * Ensure that backup and restore processes are thoroughly and unambiguously documented
 * Agree and enforce secure policies for managing secrets within the team
 * Consider using blue / green deployments, additional environments and other solutions to ensure redundancy and consistency between your services
 * Consider employing external auditors to review your plans and recommend valuable improvements
-* Perform regular testing and auditing to ensure the integrity of your data 
+* Perform regular testing and auditing to ensure the integrity of your data
 
 ### Disaster Recovery
 
 * Complete and document a Disaster Recovery plan detailing how:
-  - systems can be fully rebuilt from the ground up 
-    - following
-      - a complete failure
-      - a database service outage 
-      - a data corruption event
-    - using 
-      - backups
-      - infrastructure as code
-      - documented manual steps
-  - Ensure data and associated metadata can be recovered and restored from your regular backups
-    - without data loss outside of agreed limits (usually a 2-hour time window)
-    - within the timeframes allowed by your SLAs
-    - without leaving data and supporting metadata out of sync
+  * systems can be fully rebuilt from the ground up
+    * following
+      * a complete failure
+      * a database service outage
+      * a data corruption event
+    * using
+      * backups
+      * infrastructure as code
+      * documented manual steps
+  * Ensure data and associated metadata can be recovered and restored from your regular backups
+    * without data loss outside of agreed limits (usually a 2-hour time window)
+    * within the timeframes allowed by your SLAs
+    * without leaving data and supporting metadata out of sync
 * Perform a disaster recovery exercise as early as possible to ensure that your processes work as intended
 * Consider scheduling regular Disaster Recovery exercises:
-  - to ensure necessary skills are maintained within the team
-  - to ensure that documentation remains valid and up-to-date
-  - and to maintain confidence in your recovery plan
+  * to ensure necessary skills are maintained within the team
+  * to ensure that documentation remains valid and up-to-date
+  * and to maintain confidence in your recovery plan
 * Consider using Azure Chaos studio to test common DR scenarios
 
 ## Logging and Monitoring for Cloud-Based Deployments
@@ -244,8 +267,8 @@ Please view the [Software Engineering Team Logging Policy](https://github.com/UK
 Monitoring Recommendations
 
 * Consider implementing Elastic Cloud APM to trace interactions across your services and identify performance issues or bottlenecks
-  - proceed at risk as procurement process is in progress
-  - Consider using the EventHub logging Nuget package: UKHO.Logging.EventHubLogProvider
+  * proceed at risk as procurement process is in progress
+  * Consider using the EventHub logging Nuget package: UKHO.Logging.EventHubLogProvider
 * Consider using correlation Ids to link related logs and events
 * Consider whether dashboards can be utilised to give developers ongoing visibility of service health, usage and performance
 * Consider whether automated alerts can be used to notify the development team of any outage or event
@@ -276,8 +299,8 @@ Monitoring Recommendations
 
 ## Related Information/Notes
 
-### Nautilus Account Types & Purposes - https://ukho.sharepoint.com/sites/SoftwareDevandTest/SitePages/Account-types.aspx
+### [Nautilus Account Types & Purposes](https://ukho.sharepoint.com/sites/SoftwareDevandTest/SitePages/Account-types.aspx)
 
-### Code Review Policy - https://github.com/UKHO/docs/blob/main/software-engineering-policies/CodeReview/CodeReviewPolicy.md
+### [Code Review Policy](https://github.com/UKHO/docs/blob/main/software-engineering-policies/CodeReview/CodeReviewPolicy.md)
 
-### Container Policy - https://github.com/UKHO/docs/blob/main/software-engineering-policies/Containers/ContainerPolicy.md
+### [Container Policy](https://github.com/UKHO/docs/blob/main/software-engineering-policies/Containers/ContainerPolicy.md)
