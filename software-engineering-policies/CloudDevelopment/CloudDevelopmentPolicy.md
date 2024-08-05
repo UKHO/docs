@@ -57,7 +57,7 @@ It also presents challenges such as:
 
 The purpose of this section is to ensure that cloud resources are utilized in compliance with relevant laws, regulations, and organizational standards, while promoting efficiency, reliability, and data security.
 
-### Guidelines
+### Guidelines - Not MVP
 
 #### Data Security and Compliance
 
@@ -109,7 +109,7 @@ The purpose of this section is to ensure that cloud resources are utilized in co
 * Change management procedures for modifying cloud configurations, applications, or data structures must be established.
 * Up-to-date documentation of cloud architectures, configurations, and dependencies must be maintained to facilitate troubleshooting and scalability.
 
-## Supported clouds for UKHO
+## Supported clouds for UKHO - Not MVP
 
 ### Azure
 
@@ -121,7 +121,7 @@ The purpose of this section is to ensure that cloud resources are utilized in co
 
 ## Network Security
 
-## Access Control Recommendations
+## Access Control Recommendations - Not MVP
 
 ### Guidance on Security with the Hub and Spoke Model. See [link](https://github.com/UKHO/how-do-i/blob/3373f41de95525cf795df0d9c1aae7ada2dcea86/docs/subscriptions.md?plain=1)
 
@@ -131,7 +131,7 @@ The purpose of this section is to ensure that cloud resources are utilized in co
 
 ### Private Cloud Security Policy ??
 
-## Legal / Government Regulations Affecting Cloud Policy?
+## Legal / Government Regulations Affecting Cloud Policy? - Not MVP
 
 ### See Cloud Security Principles from National CyberSecurity Center [here](https://www.ncsc.gov.uk/collection/cloud/the-cloud-security-principles)
 
@@ -151,37 +151,35 @@ The purpose of this section is to ensure that cloud resources are utilized in co
 
 ### Testing - limit scope to infra testing ?? hand off to test community ?? - RS
 
-### Linting
+### Linting - Not MVP
 
 ### Virus Scanning (Callum & Mark)
 
 ### Code Analysis (Callum & Mark)
 
-### Dependency Checking for Cloud Applications
-
 ### Infrastructure as Code - Terraform, etc (Callum & Mark)
 
 ### Secrets Management
 
-### Microsoft Defender
-
 ## Deployment
 
-### Container Scanning / Trivvy / MDVM
+### Container Scanning
 
-### Snyk
+### SAST
+
+### Dependency Checking for Cloud Applications
 
 ## Security
 
+### Azure Advisor - Not MVP
+
 ## Data Use in the cloud (Dee)
 
-### SOLAS Requirements
+### SOLAS Requirements - Not MVP
 
-### Statement on personal / sensitive data
+### Statement on personal / sensitive data - Not MVP
 
-### Data Protection Act and useful respources (Links)
-
-### Georedundancy
+### Georedundancy - Not MVP
 
 ### Data Sovereignty (UK datacentres only)
 
@@ -189,7 +187,7 @@ The purpose of this section is to ensure that cloud resources are utilized in co
 
 ## Users
 
-### User Management (Internal and External)
+### User Management (Internal and External) - Rich to talk to Neena Brown about target IDAM architecture
 
 ### Entra ID accounts over SAS / access keys / username/password connection strings (Paul King)
 
@@ -287,15 +285,11 @@ Monitoring Recommendations
 
 ### Cloud Pilot's License
 
-## Incident Detection and Reporting
-
-## Register of UKHO Security contacts and responsible persons
-
 ## Azure Policy for enforcement of configuration
 
 ## Tagging
 
-## BPSS vs SC vs DV (Callum & Mark)
+## Security Clearance (Callum & Mark)
 
 ## Related Information/Notes
 
