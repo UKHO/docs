@@ -277,15 +277,39 @@ Monitoring Recommendations
 
 ### On-prem vs DDC-managed vs In-team ELK/EFK stacks, etc
 
-## Training (JT)
-
-### Requirements
-
-### Recommendations
+## Training
 
 ### Resources
 
+[Microsoft online training](https://learn.microsoft.com/en-us/training/browse/)
+
+Learn new skills and discover the power of Microsoft products with step-by-step guidance. Start your journey today by exploring learning paths and modules.
+
+Access is free.
+
+[Pluralsight](https://app.pluralsight.com/library/)
+
+Pluralsight offers a variety of video training courses for software developers, IT administrators, and creative professionals through its website.
+
+Talk to you line manager to get a license.
+
+[Microsoft enterprise skills initiative](https://esi.microsoft.com/)
+
+Sharpen your technical skills and knowledge of Microsoft solutions by enrolling in interactive courses and training designed for your role, and advance your career by getting certified.
+
+In order to use the site you need to enter your UKHO email address to validate that you are part of the scheme and then register a personal Microsoft account.
+
 ### Cloud Pilot's License
+
+The UKHO Cloud Pilot's Licence is a new mandatory training module aimed at new starters or those moving into a development role, and is necessary to gain elevated access to UKHO cloud accounts. There are five areas of study and familiarisation:
+
+* Azure Fundamentals
+* UKHO Resource Naming Conventions
+* UKHO Hub/Spoke Architecture
+* UKHO Privileged Identity Management
+* UKHO Cloud Security
+
+For further details see the [UKHO Cloud Pilot's Licence](https://ukho.sharepoint.com/sites/SoftwareDevandTest/SitePages/Cloud-Pilot's-Licence.aspx) on Nautilus.
 
 ## Incident Detection and Reporting
 
