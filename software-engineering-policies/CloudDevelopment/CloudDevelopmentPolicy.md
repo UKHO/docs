@@ -266,8 +266,8 @@ Please view the [Software Engineering Team Logging Policy](https://github.com/UK
 Monitoring Recommendations
 
 * Consider implementing Elastic Cloud APM to trace interactions across your services and identify performance issues or bottlenecks
-  - Following recent budgeting and procurement activities, APM and ElasticSearch are now the UKHO standards for logging and observability
-  - Consider using the EventHub logging Nuget package: UKHO.Logging.EventHubLogProvider
+  * Following recent budgeting and procurement activities, APM and ElasticSearch are now the UKHO standards for logging and observability
+  * Consider using the EventHub logging Nuget package: UKHO.Logging.EventHubLogProvider
 * Consider using correlation Ids to link related logs and events
 * Consider whether dashboards can be utilised to give developers ongoing visibility of service health, usage and performance
 * Consider whether automated alerts can be used to notify the development team of any outage or event
