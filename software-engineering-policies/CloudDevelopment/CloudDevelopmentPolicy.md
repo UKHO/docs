@@ -94,11 +94,12 @@ The purpose of this section is to ensure that cloud resources are utilized in co
 * Cloud usage must align with relevant government policies, standards, and guidelines, including the UK Government Cloud First Policy and NCSC Cloud Security Principles.
 * Adherence to information security, IT procurement, and digital transformation initiatives must be ensured.
   
-#### Monitoring and Auditing - BM (Mark Norman - any existing policy?)
+#### Monitoring and Auditing
 
 * Tools and processes for monitoring cloud usage, detecting security incidents, and generating audit trails must be implemented.
 * Regular security assessments and audits of cloud environments must be conducted to identify vulnerabilities and ensure compliance.
-  
+* A draft policy on observability is currently in development and can be viewed [here](https://github.com/UKHO/docs/blob/Kirosoft-patch-1/software-engineering-policies/observability/observability_policy.md)
+
 #### Training and Awareness
 
 * Training and awareness programs on cloud security best practices must be provided to employees to mitigate insider threats and human error.
@@ -267,8 +268,8 @@ Please view the [Software Engineering Team Logging Policy](https://github.com/UK
 Monitoring Recommendations
 
 * Consider implementing Elastic Cloud APM to trace interactions across your services and identify performance issues or bottlenecks
-  * proceed at risk as procurement process is in progress
-  * Consider using the EventHub logging Nuget package: UKHO.Logging.EventHubLogProvider
+  - Following recent budgeting and procurement activities, APM and ElasticSearch are now the UKHO standards for logging and observability
+  - Consider using the EventHub logging Nuget package: UKHO.Logging.EventHubLogProvider
 * Consider using correlation Ids to link related logs and events
 * Consider whether dashboards can be utilised to give developers ongoing visibility of service health, usage and performance
 * Consider whether automated alerts can be used to notify the development team of any outage or event
