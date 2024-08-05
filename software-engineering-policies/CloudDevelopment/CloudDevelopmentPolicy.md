@@ -276,15 +276,17 @@ Monitoring Recommendations
 
 ### On-prem vs DDC-managed vs In-team ELK/EFK stacks, etc
 
-## Training (JT)
+## Cloud Pilot's License
 
-### Requirements
+The UKHO Cloud Pilot's Licence is a new mandatory training module aimed at new starters or those moving into a development role, and is necessary to gain elevated access to UKHO cloud accounts. There are five areas of study and familiarisation:
 
-### Recommendations
+* Azure Fundamentals
+* UKHO Resource Naming Conventions
+* UKHO Hub/Spoke Architecture
+* UKHO Privileged Identity Management
+* UKHO Cloud Security
 
-### Resources
-
-### Cloud Pilot's License
+For further details see the [UKHO Cloud Pilot's Licence](https://ukho.sharepoint.com/sites/SoftwareDevandTest/SitePages/Cloud-Pilot's-Licence.aspx) on Nautilus.
 
 ## Azure Policy for enforcement of configuration
 
