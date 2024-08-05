@@ -31,7 +31,7 @@ It is pointless running checks and doing code reviews on code that is not inline
 
 ### Snyk SAST status check to be required
 
-Snyk has been setup against all Repos so when you type `snyk` into the text box it should hopefully show up and you can select it. It is important that we have this as a required check as we do not want to push insecure code into main. 
+Snyk has been setup against all Repos. This means when you enable status checks to be required and you search for the status checks you want to enable, typing `snyk` into the text box provided should hopefully show `snyk/sast` and you can select it. It is important that we have this as a required check as we do not want to push insecure code into main. 
 
 ## Require conversation resolution before merging
 

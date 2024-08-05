@@ -16,7 +16,7 @@ This describes the license in which the codebase is under.
 
 ### CONTRIBUTING.md
 
-The contributing file explains to anyone wishing to interact with the codebase how they would go about doing so. This would include raising issues, how to go about creating pull requests and any guidance to what should be included when making changes. Examples of these files can be found [here](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors#examples-of-contribution-guidelines)
+The contributing file explains to anyone wishing to interact with the codebase how they would go about doing so. This would include raising issues, how to go about creating pull requests and any guidance to what should be included when making changes. Examples of these files can be found [here](/using-github/creating-a-contributing-file.md)
 
 ### SECURITY.md
 
