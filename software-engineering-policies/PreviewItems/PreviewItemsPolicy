@@ -1,0 +1,39 @@
+## DRAFT Preview Items policy
+
+## Purpose of policy
+
+To give some guidance on considerations when a preview item is required on an Azure subscription.
+
+## Before enabling a preview feaure
+Decide upon the reason for enabling the feature:  There is a caveat with preview features - they may never go into GA , may be in preview for many months (or even years) and may be withdrawn.
+
+In addition a preview feature may not have the same reliability or security standards of a GA feature.
+
+## Enabling
+A feature can be enabled (registered) by anyone on a subscription who has contributor or owner rights (or a custom role created just for the purpose).
+
+Some features must be enabled by contacting Microsoft.
+
+The feature should be enabled on Dev or Test subscription to begin with and then the functionality tested
+
+If any adverse affects are seen , it should be removed (unregistered).
+
+If the functionality does not meet the requirements it should be removed (unregistered).
+
+The preview feature can then be enabled in QA if needed and further tested.
+
+If the feature is to be enabled in a Production or Live environment, best practice would dictate there should be a Change Request.
+After this the feature can be enabled in Live/Production.
+
+## Removing and risk of continuing to use
+If after assessment of the preview feature, it does not meet the requirements, it should be unregistered from all affected subscriptions.
+
+If the requirements are met it should be noted that to adopt any service which depends on the preview feature could be a risk.
+
+A provisioned service which depends on a preview feature could cease to function after a period of time.
+
+It is highly recommended not to adopt any Azure preview feature in any production or live environment until it has been designated as GA by Microsoft.  If there is a business need to do it, it should be approved by senior management (tbc).
+
+## Monitoring
+
+It is not possible to centrally monitor enabled preview features.  Therefore the responsibility for removing the feature should lie with the developer/staff member who enabled it.
