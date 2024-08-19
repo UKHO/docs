@@ -156,9 +156,10 @@ WIP
 
 ## Tagging
 
-## BPSS vs SC vs DV
+## Security Clearance
 
-### BPSS - 
+View Security Clearance policies here: 
+https://github.com/UKHO/docs-private/tree/main/software-engineering-policies/CloudDevelopment/Security%20Clearance
 
 ## Related Information/Notes
 
