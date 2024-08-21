@@ -35,11 +35,11 @@ Snyk has been setup against all Repos. This means when you enable status checks 
 
 ## Require conversation resolution before merging
 
-If there are conversations on your pull request then it is important to know that these have been acknowledged in one way or another. Sometimes a passing comment can go unnoticed but could have an effect on something down the line. By dealing with it at the pull request we can be sure that the conversation is atleast taken into consideration.
+If there are conversations on your pull request then it is important to know that these have been acknowledged in one way or another. Sometimes a passing comment can go unnoticed but could have an effect on something down the line. By dealing with it at the pull request we can be sure that the conversation is at least taken into consideration.
 
 ## Do not allow bypassing the above settings
 
-The point of these settings is to ensure we deliver safe and secure code where possible. By allowing anyone to bypass this would defeat the object of what we are trying to achieve. Whilst a nusiance, they provide a level of automated checks to help with the continued delivery of our code, so problems should be dealt with at the various levels and not bypassed. There will always be unique cases where this cannot be done but that must be dealt with on a case by case basis.
+The point of these settings is to ensure we deliver safe and secure code where possible. By allowing anyone to bypass this would defeat the object of what we are trying to achieve. Whilst a nuisance, they provide a level of automated checks to help with the continued delivery of our code, so problems should be dealt with at the various levels and not bypassed. There will always be unique cases where this cannot be done but that must be dealt with on a case by case basis.
 
 ## Restrict who can push to matching branches
 

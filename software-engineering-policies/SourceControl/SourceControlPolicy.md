@@ -15,13 +15,13 @@ Information about setting up your repository can be found [here](/software-engin
 
 ## Access control
 
-Access to a repo should be done through a team and not through an individual as to ensure that there is never a single point of failiure. Team access does not mean team ownership however.
+Access to a repo should be done through a team and not through an individual as to ensure that there is never a single point of failure. Team access does not mean team ownership however.
 
 Ensure that developers with BPSS clearance are only granted read access. BPSS-cleared developers may temporarily be granted write access to a repository, provided suitable controls exist to prevent any change they make progressing to a live environment without review by a Security Cleared (SC) colleague.
 
 ## Branching
 
-As a Software Engineering collective, we endevour to practice [github flow based development](https://docs.github.com/en/get-started/using-github/github-flow) when working within our teams and when working with 3rd parties.
+As a Software Engineering collective, we endeavour to practice [github flow based development](https://docs.github.com/en/get-started/using-github/github-flow) when working within our teams and when working with 3rd parties.
 
 To be able to trace our branches back to PBI's it is preferable that we keep out branch naming consistent. The ideal would look something like 
 
@@ -31,7 +31,7 @@ So for example if someone was working on a feature to update a button the branch
 
 `1001/feature-update-button-onclick`
 
-[Branch Protection](/software-engineering-policies/SourceControl/BranchProtectionPolicy.md) should be setup against the main branch.
+Branch Protection should be setup against the main branch. Information is provided for [GitHub](/software-engineering-policies/SourceControl/GitBranchProtectionPolicy.md) and [Azure Devops](/software-engineering-policies/SourceControl/AzDoBranchProtection.md)
 
 ## Check-in comments
 
