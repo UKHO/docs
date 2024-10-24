@@ -162,13 +162,17 @@ The purpose of this section is to ensure that cloud resources are utilized in co
 
 ### Secrets Management
 
+
 ## Deployment
 
-### Container Scanning
+### Code Scanning
+Before any code is pushed into an environment it should undergo our SAST checks from [Snyk](https://app.snyk.io/login) to try and ensure that the code we are creating is not going to leave us vulnerable. Any issues found that are high or above should be dealt with before doing any deployments to an environment. Where you feel there may be an exception to this, you can reach out the Security team or your Lead Developers for advice on mitigation/suppression of these issues.
 
-### SAST
+### Container Scanning
+Container images being produced for deployment into an environment should be scanned by a preferred scanning solution to ensure that we are not deploying vulnerable software. Details on our container policies can be found in the [Containers area.](/software-engineering-policies/Containers/) 
 
 ### Dependency Checking for Cloud Applications
+tbc
 
 ## Security
 
