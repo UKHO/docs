@@ -69,7 +69,7 @@ The purpose of this section is to ensure that cloud resources are utilized in co
 * User authentication and access control mechanisms must be implemented to prevent unauthorized access to cloud resources.
 * Multi-factor authentication is required for accessing sensitive cloud services and data.
   
-#### Data Sovereignty and Jurisdiction - CHP?
+#### Data Sovereignty and Jurisdiction - CHP
 
 * Cloud data storage and processing locations must adhere to data sovereignty requirements and legal regulations.
 * Transfers of sensitive data across international borders require prior approval and must comply with applicable laws.
@@ -128,9 +128,9 @@ The purpose of this section is to ensure that cloud resources are utilized in co
 
 ### Public Cloud Security Policy
 
-### Hybrid Cloud Security Policy ??
+### Hybrid Cloud Security Policy
 
-### Private Cloud Security Policy ??
+### Private Cloud Security Policy
 
 ## Legal / Government Regulations Affecting Cloud Policy? - Not MVP
 
@@ -166,12 +166,15 @@ The purpose of this section is to ensure that cloud resources are utilized in co
 ## Deployment
 
 ### Code Scanning
+
 Before any code is pushed into an environment it should undergo our SAST checks from [Snyk](https://app.snyk.io/login) to try and ensure that the code we are creating is not going to leave us vulnerable. Any issues found that are high or above should be dealt with before doing any deployments to an environment. Where you feel there may be an exception to this, you can reach out the Security team or your Lead Developers for advice on mitigation/suppression of these issues.
 
 ### Container Scanning
+
 Container images being produced for deployment into an environment should be scanned by a preferred scanning solution to ensure that we are not deploying vulnerable software. Details on our container policies can be found in the [Containers area.](/software-engineering-policies/Containers/) 
 
 ### Dependency Checking for Cloud Applications
+
 tbc
 
 ## Security
