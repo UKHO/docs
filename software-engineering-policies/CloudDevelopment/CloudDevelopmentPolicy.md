@@ -73,11 +73,11 @@ The purpose of this section is to ensure that cloud resources are utilized in co
 
 ### Testing - limit scope to infra testing ?? hand off to test community ?? - RS
 
-### Virus Scanning (Callum & Mark)
+### Virus Scanning
 
-### Code Analysis (Callum & Mark)
+### Code Analysis
 
-### Infrastructure as Code - Terraform, etc (Callum & Mark)
+### Infrastructure as Code - Terraform, etc
 
 ### Secrets Management
 
@@ -199,9 +199,9 @@ For further details see the [UKHO Cloud Pilot's Licence](https://ukho.sharepoint
 
 ## Azure Policy for enforcement of configuration
 
-## Tagging
+## Tagging (Mark)
 
-## Security Clearance (Callum & Mark)
+## Security Clearance
 
 ## Related Information/Notes
 
