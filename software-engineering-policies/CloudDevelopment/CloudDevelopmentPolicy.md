@@ -77,7 +77,29 @@ The purpose of this section is to ensure that cloud resources are utilized in co
 
 ### Code Analysis
 
+### Dependency Checking for Cloud Applications
+
 ### Infrastructure as Code - Terraform, etc
+
+Terraform is UKHO's primary tool of choise for IaC and should be used for in all cases. Terraform provided multi-cloud provisioning and so is capable of deploying to any cloud provider.
+
+#### Setting up a new project
+
+The Terraform deployment template found here: https://github.com/UKHO/Terraform-Deployment-Template should be used to ensure consistency when starting up any new project. Contact the DDC team if you have any questions.
+
+#### Networking
+
+The DDC team are responsible for the creating and maintaining the networking spoke Terraform for each project. This is managed in a separate GitHub repository to the project terraform and can be found here: https://github.com/UKHO/Azure-Spokes
+
+#### Modules
+
+The DDC team manages a collection of centralised Terraform modules found here: https://github.com/orgs/UKHO/teams/tfmodules/repositories
+These should be used whenever possible.
+
+#### IaC Scanning (Trivy)
+
+Trivy is UKHO's Chosen IaC Scanning tool. All Infrastructure pipelines should include a Trivy Scan stage before deployment that fails the build if misconfigurations or vulnerabilities are detected.
+A Trivy Stage is included in the previously mentioned Terraform deployment template: https://github.com/UKHO/Terraform-Deployment-Template/blob/5ca2e1c18618dad0df84ef8c08aea87a64c3b94e/azure-pipelines.yml#L37
 
 ### Secrets Management
 
@@ -87,19 +109,51 @@ The purpose of this section is to ensure that cloud resources are utilized in co
 
 ### SAST
 
-### Dependency Checking for Cloud Applications
-
 ## Data Use in the cloud (Dee)
+
+### Statement on personal / sensitive data
+
+Personal Identifiable Information (PII) should only be held in accordance with the Data Protection Act 2018.
+
+PII should be minimised and/or anonymised in system logging. Where PII is required in logs, the PII should be pseudonymised.
+
+![Image shows pseudonymisation allows decryption to the original PII and anonymisation is irreversible PII manipulation](images/Difference-between-anonymization-and-pseudonymization.png)
+
+### Data Protection Act and useful respources (Links)
+
+* [An overview of the Data Protection Act 2018](https://ico.org.uk/media/for-organisations/documents/2614158/ico-introduction-to-the-data-protection-bill.pdf)
+* [A guide to the data protection principles](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/)
+
+### Georedundancy
+
+Where possible, data should be georedundant. Some cloud services have this available out-of-the-box, such as Azure Storage Accounts, and others require setting up multiple resources and designating a primary and secondary.
 
 ### Data Sovereignty (UK datacentres only)
 
+:thinking:
+
 ### Recommended / supported database solutions
+
+WIP
+
+* Support encypt at rest and transit
 
 ## Users
 
 ### User Management (Internal and External) - Rich to talk to Neena Brown about target IDAM architecture
 
+WIP
+
+* use federated accounts over local accounts in each tenant.
+* use access packages where appropriate
+* External users should have a sponsor from the internal and external domains.
+
 ### Entra ID accounts over SAS / access keys / username/password connection strings (Paul King)
+
+WIP
+
+* use RBAC over connection strings and local accounts
+* For SQL: Disable SA accounts and/or SQL login (use Entra ID login only)
 
 ### Auth - Are there existing policies, should there be, who should own this (paul to chat/investigate with security guild)
 
@@ -199,9 +253,28 @@ For further details see the [UKHO Cloud Pilot's Licence](https://ukho.sharepoint
 
 ## Azure Policy for enforcement of configuration
 
-## Tagging (Mark)
+## Tagging
+
+Applied policies require the following tags on resources:
+
+* SERVICE
+* ENVIRONMENT
+* COST_CENTRE
+* SERVICE_OWNER
+* RESPONSIBLE_TEAM
+* CALLOUT_TEAM
+
+Possible to use terraform `ignore_changes = [tags]` in which case tags will be inherited from resource hierarchy.
+
+Should tags be deleted they will reapply with values from resource hierarchy.
+
+Tag values can be changed and retained.
+
+Tags should be kept current.
 
 ## Security Clearance
+
+View Security Clearance policies [here]:(https://github.com/UKHO/docs-private/tree/main/software-engineering-policies/CloudDevelopment/Security%20Clearance)
 
 ## Related Information/Notes
 
