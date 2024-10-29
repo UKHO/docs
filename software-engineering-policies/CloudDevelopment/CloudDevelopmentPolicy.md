@@ -20,7 +20,7 @@ This policy applies to all software engineering teams and individuals within the
 
 | Version | Date of Revision | Description of Change | Author | Approval Status |
 | ------- | ----- | ----- | ----- | ----- |
-| 0.1 | 12/04/2024 | Initial Draft | Martyn Fewtrell | |
+| 0.1 | 07/11/2024 | Initial Draft | Cloud Guild | |
 
 ### Description of Changes
 
