@@ -103,6 +103,38 @@ A Trivy Stage is included in the previously mentioned Terraform deployment templ
 
 ### Secrets Management
 
+#### Centralized Secrets Management
+
+All secrets, credentials, and sensitive data used by applications must be stored in Azure Key Vault.
+   
+#### Access Control
+
+Access to Key Vault must be restricted using Azure RBAC and Key Vault Access Policies, with access granted based on the principle of least privilege.
+
+#### Network Security
+
+Enable Private Endpoints or Service Endpoints for Key Vault to restrict access to trusted networks.
+
+#### Secret Rotation and Expiration
+
+Secrets must be rotated on a regular basis, with automation for renewal and alerting in place for any approaching expiration.
+
+#### Audit and Monitoring
+
+Key Vault access logs must be enabled and monitored for suspicious activities, with alerts configured for any unauthorized attempts.
+
+#### Secure Application Integration
+
+Applications must access secrets via Managed Identities, and all hardcoded secrets must be removed from codebases.
+
+#### Compliance
+
+All Key Vault configurations and data handling processes must align with applicable UK government standards and data residency requirements.
+
+#### Exceptions
+
+Any deviation from this policy requires a documented approval from the Information Security Officer and an approved risk assessment.
+
 ## Deployment
 
 ### Container Scanning
