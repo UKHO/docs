@@ -20,7 +20,7 @@ This policy applies to all software engineering teams and individuals within the
 
 | Version | Date of Revision | Description of Change | Author | Approval Status |
 | ------- | ----- | ----- | ----- | ----- |
-| 0.1 | 12/04/2024 | Initial Draft | Martyn Fewtrell | |
+| 0.1 | 07/11/2024 | Initial Draft | Cloud Guild | |
 
 ### Description of Changes
 
@@ -57,88 +57,9 @@ It also presents challenges such as:
 
 The purpose of this section is to ensure that cloud resources are utilized in compliance with relevant laws, regulations, and organizational standards, while promoting efficiency, reliability, and data security.
 
-### Guidelines - Not MVP
-
-#### Data Security and Compliance
-
-* All data stored or processed in the cloud must comply with relevant data protection regulations, including GDPR and UK data protection laws.
-* Encryption must be applied to data both in transit and at rest to maintain confidentiality and integrity.
-  
-#### Access Control and Authentication
-
-* User authentication and access control mechanisms must be implemented to prevent unauthorized access to cloud resources.
-* Multi-factor authentication is required for accessing sensitive cloud services and data.
-  
-#### Data Sovereignty and Jurisdiction - CHP
-
-* Cloud data storage and processing locations must adhere to data sovereignty requirements and legal regulations.
-* Transfers of sensitive data across international borders require prior approval and must comply with applicable laws.
-  
-#### Service Level Agreements (SLAs) and Support
-
-* SLAs with cloud service providers must define expectations for service availability, performance, and reliability.
-* Procedures for escalating and resolving technical issues or incidents must be established and documented.
-  
-#### Cost Management and Budgeting - CY
-
-* Practices for monitoring and optimizing cloud costs must be implemented to prevent budget overruns.
-* Budget allocation and approval procedures for cloud-related expenses must be defined within project teams or departments.
-  
-#### Backup and Disaster Recovery
-
-* Regular backups of critical data stored in the cloud must be performed, and procedures for data restoration must be documented.
-* Disaster recovery plans must be developed, tested, and maintained to ensure business continuity in case of disruptions.
-  
-#### Compliance with Government Policies and Standards - MF
-
-* Cloud usage must align with relevant government policies, standards, and guidelines, including the UK Government Cloud First Policy and NCSC Cloud Security Principles.
-* Adherence to information security, IT procurement, and digital transformation initiatives must be ensured.
-  
-#### Monitoring and Auditing
-
-* Tools and processes for monitoring cloud usage, detecting security incidents, and generating audit trails must be implemented.
-* Regular security assessments and audits of cloud environments must be conducted to identify vulnerabilities and ensure compliance.
-* A draft policy on observability is currently in development and can be viewed [here](https://github.com/UKHO/docs/blob/Kirosoft-patch-1/software-engineering-policies/observability/observability_policy.md)
-
-#### Training and Awareness
-
-* Training and awareness programs on cloud security best practices must be provided to employees to mitigate insider threats and human error.
-* A culture of security awareness and accountability must be fostered within the organization.
-  
-#### Change Management and Documentation
-
-* Change management procedures for modifying cloud configurations, applications, or data structures must be established.
-* Up-to-date documentation of cloud architectures, configurations, and dependencies must be maintained to facilitate troubleshooting and scalability.
-
-## Supported clouds for UKHO - Not MVP
-
-### Azure
-
-### AWS? (Only Data Science?)
-
-### GCP
-
-### Benefits of Multi-Cloud Approaches
-
 ## Network Security
 
-## Access Control Recommendations - Not MVP
-
 ### Guidance on Security with the Hub and Spoke Model. See [link](https://github.com/UKHO/how-do-i/blob/3373f41de95525cf795df0d9c1aae7ada2dcea86/docs/subscriptions.md?plain=1)
-
-### Public Cloud Security Policy
-
-### Hybrid Cloud Security Policy
-
-### Private Cloud Security Policy
-
-## Legal / Government Regulations Affecting Cloud Policy? - Not MVP
-
-### See Cloud Security Principles from National CyberSecurity Center [here](https://www.ncsc.gov.uk/collection/cloud/the-cloud-security-principles)
-
-### See Government Cloud First Policy [here](https://www.gov.uk/guidance/government-cloud-first-policy#government-cloud-principles)
-
-### Statement of Current Regulatory Compliance
 
 ## Recommendations for Container Hosting / Orchestration (Rich Shawley)
 
@@ -152,13 +73,33 @@ The purpose of this section is to ensure that cloud resources are utilized in co
 
 ### Testing - limit scope to infra testing ?? hand off to test community ?? - RS
 
-### Linting - Not MVP
+### Virus Scanning
 
-### Virus Scanning (Callum & Mark)
+### Code Analysis
 
-### Code Analysis (Callum & Mark)
+### Dependency Checking for Cloud Applications
 
-### Infrastructure as Code - Terraform, etc (Callum & Mark)
+### Infrastructure as Code - Terraform, etc
+
+Terraform is UKHO's primary tool of choise for IaC and should be used for in all cases. Terraform provided multi-cloud provisioning and so is capable of deploying to any cloud provider.
+
+#### Setting up a new project
+
+The Terraform deployment template found here: https://github.com/UKHO/Terraform-Deployment-Template should be used to ensure consistency when starting up any new project. Contact the DDC team if you have any questions.
+
+#### Networking
+
+The DDC team are responsible for the creating and maintaining the networking spoke Terraform for each project. This is managed in a separate GitHub repository to the project terraform and can be found here: https://github.com/UKHO/Azure-Spokes
+
+#### Modules
+
+The DDC team manages a collection of centralised Terraform modules found here: https://github.com/orgs/UKHO/teams/tfmodules/repositories
+These should be used whenever possible.
+
+#### IaC Scanning (Trivy)
+
+Trivy is UKHO's Chosen IaC Scanning tool. All Infrastructure pipelines should include a Trivy Scan stage before deployment that fails the build if misconfigurations or vulnerabilities are detected.
+A Trivy Stage is included in the previously mentioned Terraform deployment template: https://github.com/UKHO/Terraform-Deployment-Template/blob/5ca2e1c18618dad0df84ef8c08aea87a64c3b94e/azure-pipelines.yml#L37
 
 ### Secrets Management
 
@@ -183,21 +124,49 @@ tbc
 
 ## Data Use in the cloud (Dee)
 
-### SOLAS Requirements - Not MVP
+### Statement on personal / sensitive data
 
-### Statement on personal / sensitive data - Not MVP
+Personal Identifiable Information (PII) should only be held in accordance with the Data Protection Act 2018.
 
-### Georedundancy - Not MVP
+PII should be minimised and/or anonymised in system logging. Where PII is required in logs, the PII should be pseudonymised.
+
+![Image shows pseudonymisation allows decryption to the original PII and anonymisation is irreversible PII manipulation](images/Difference-between-anonymization-and-pseudonymization.png)
+
+### Data Protection Act and useful respources (Links)
+
+* [An overview of the Data Protection Act 2018](https://ico.org.uk/media/for-organisations/documents/2614158/ico-introduction-to-the-data-protection-bill.pdf)
+* [A guide to the data protection principles](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/)
+
+### Georedundancy
+
+Where possible, data should be georedundant. Some cloud services have this available out-of-the-box, such as Azure Storage Accounts, and others require setting up multiple resources and designating a primary and secondary.
 
 ### Data Sovereignty (UK datacentres only)
 
+:thinking:
+
 ### Recommended / supported database solutions
+
+WIP
+
+* Support encypt at rest and transit
 
 ## Users
 
 ### User Management (Internal and External) - Rich to talk to Neena Brown about target IDAM architecture
 
+WIP
+
+* use federated accounts over local accounts in each tenant.
+* use access packages where appropriate
+* External users should have a sponsor from the internal and external domains.
+
 ### Entra ID accounts over SAS / access keys / username/password connection strings (Paul King)
+
+WIP
+
+* use RBAC over connection strings and local accounts
+* For SQL: Disable SA accounts and/or SQL login (use Entra ID login only)
 
 ### Auth - Are there existing policies, should there be, who should own this (paul to chat/investigate with security guild)
 
@@ -299,7 +268,26 @@ For further details see the [UKHO Cloud Pilot's Licence](https://ukho.sharepoint
 
 ## Tagging
 
-## Security Clearance (Callum & Mark)
+Applied policies require the following tags on resources:
+
+* SERVICE
+* ENVIRONMENT
+* COST_CENTRE
+* SERVICE_OWNER
+* RESPONSIBLE_TEAM
+* CALLOUT_TEAM
+
+Possible to use terraform `ignore_changes = [tags]` in which case tags will be inherited from resource hierarchy.
+
+Should tags be deleted they will reapply with values from resource hierarchy.
+
+Tag values can be changed and retained.
+
+Tags should be kept current.
+
+## Security Clearance
+
+View Security Clearance policies [here]:(https://github.com/UKHO/docs-private/tree/main/software-engineering-policies/CloudDevelopment/Security%20Clearance)
 
 ## Related Information/Notes
 
