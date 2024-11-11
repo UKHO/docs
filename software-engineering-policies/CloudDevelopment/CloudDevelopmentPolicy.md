@@ -108,7 +108,7 @@ A Trivy Stage is included in the previously mentioned Terraform deployment templ
 
 ### Code Scanning
 
-Before any code is pushed into an environment it should undergo our SAST checks from [Snyk](https://app.snyk.io/login) to try and ensure that the code we are creating is not going to leave us vulnerable. Any issues found that are high or above should be dealt with before doing any deployments to an environment. Where you feel there may be an exception to this, you can reach out the Security team or your Lead Developers for advice on mitigation/suppression of these issues.
+Before any code is pushed into an environment it should undergo our SAST checks from [Snyk](https://app.snyk.io/login) to try and ensure that the code we are creating is not going to leave us vulnerable. Any issues found that are high or above should be dealt with before doing any deployments to an environment. Where you feel there may be an exception to this, you can reach out to our [ITSO team](mailto:ukho-itso@ukho.gov.uk) or your Lead Developers for advice on mitigation/suppression of these issues.
 
 ### Container Scanning
 
