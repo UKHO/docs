@@ -116,7 +116,7 @@ Container images being produced for deployment into an environment should be sca
 
 ### Dependency Checking for Cloud Applications
 
-It is important that we do not allow our dependencies to be the weak link in our security chain. Pipelines should use the preferred Software Composition Analysis (SCA) scanning tool that prevents any dependencies with high or above vulnerabilities to be released. Where you feel there may be an exception to this, you can reach out the Security team or your Lead Developers for advice on mitigation/suppression of these issues.
+It is important that we do not allow our dependencies to be the weak link in our security chain. Pipelines should use the preferred Software Composition Analysis (SCA) scanning tool that prevents any dependencies with high or above vulnerabilities to be released. Where you feel there may be an exception to this, you can reach out to our [ITSO team](mailto:ukho-itso@ukho.gov.uk) or your Lead Developers for advice on mitigation/suppression of these issues.
 
 ## Security
 
