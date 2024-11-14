@@ -1,4 +1,4 @@
-# (DRAFT) Observability Reference Architecture
+# Observability Reference Architecture
 [Observability Reference Architecture](https://ukho.sharepoint.com/sites/eagwiki/Pages/Observability%20Reference%20Architecture.aspx)
 
 ## Overview
@@ -176,6 +176,11 @@ Elastic integration examples:
 apm-agent-dotnet/sample at main · elastic/apm-agent-dotnet (github.com)
 
 (https://github.com/elastic/apm-agent-dotnet/tree/main/sample)
+
+# Related links
+
+Logging policy
+
 
 ## Calypso team experience adding APM
 
