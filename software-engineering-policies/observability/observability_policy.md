@@ -26,7 +26,7 @@ Metrics provide other advantages over logging:<br>
 
 This is a general guide to the most useful metrics in a service:<Br>
 
-### The 5 Golden signals:
+### The 5 Golden signals
 
 * a count of what is going in 
 * a count of what is going out 
@@ -37,7 +37,7 @@ This is a general guide to the most useful metrics in a service:<Br>
 These are usually further repeated if multiple business object types are processed in the same service e.g. they might be replicated for each order type.<br>
 Metrics of course do not replace good logging practice but they do work well together. Specific APM event e.g. errors can be automatically linked with the underlying log detail.
 
-## Vision – to provide:
+## Vision – to provide
 
 * a standardised way of collecting software application performance metrics across the UKHO.
 * the business with a simple way of understanding what state the UKHO production estate is in.
@@ -104,7 +104,7 @@ API keys are secrets and need to be help in key vault
 
 For all live environments logging the environment name should be: **TBC**
 
-## Documentation for the APM library: 
+## Documentation for the APM library
 
 [APM .NET Agent Reference [1.x] | Elastic] (https://www.elastic.co/guide/en/apm/agent/dotnet/current/index.html)
 
@@ -167,7 +167,7 @@ Install the Agent | APM Real User Monitoring JavaScript Agent Reference [5.x] | 
 Please download the latest version of RUM agent from GitHub or UNPKG and host the file in your Server/CDN before deploying to production. <br>
 Remember to use a proper versioning scheme and set a far future max-age and immutable in the cache-control header, as the file never changes
 
-### Example of adding APM and RUM to the TechRadar: 
+### Example of adding APM and RUM to the TechRadar
 
 Add Elastic APM Instrumentationto the Tech-Radar by rockydevnet · Pull Request #682 · UKHO/techradar (github.com)
 
