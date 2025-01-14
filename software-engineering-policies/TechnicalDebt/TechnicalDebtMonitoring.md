@@ -8,6 +8,8 @@
 - Each project will need a "Technical Debt" dash board.
 - An aggregation of all the "Technical Debt" will be visible on a central dashboard.
 
+![Dashboard Technical Debt](./dashboard_TD_V1.png)
+
 ## Work item fields
 
 * A **Technical debt** work item type **MUST** be created in target project. 
