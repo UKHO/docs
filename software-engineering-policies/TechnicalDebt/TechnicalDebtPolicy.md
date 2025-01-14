@@ -43,15 +43,15 @@ Technical debt impacts various aspects of an application's life cycle, this is o
 
 ## Raising Technical Debt
 
-Technical debt identified in the current sprint but not being resolved as part of present work **MUST** be raised as a PBI in the relevant area of Azure DevOps. The relevant location is based on whether the technical debt is related to a product or a team.
+Technical debt identified in the current sprint but not being resolved as part of present work **MUST** be raised as a `Technical debt` work item type in the relevant area of Azure DevOps. The relevant location is based on whether the technical debt is related to a product or a team.
 
 Ideally even if technical debt is going to be resolved immediately raising it is good for understanding its impact on UKHO work and identifying that technical debt was discovered.
 
-When raising technical debt, please add the following information to the Technical Debt PBI:
+When raising technical debt, please add the following information to the Technical Debt work item:
 
 ### Title
 
-```Technical Debt - {Concise outline of Technical Debt item}```
+```{Concise outline of Technical Debt item}```
 
 ### Description
 
@@ -62,41 +62,19 @@ The description of the Technical Debt item must include the following as a minim
 * A proposed solution or ideas for a fix **
 * Cost/Benefit and risk of the Technical Debt item, simply as a "why should this be fixed?/How long would it take?"
 
-### Tagging Strategy
+### Strategy
 
-* The Technical Debt PBI **MUST** be tagged with the `````Technical Debt````` tag and should have any further appropriate tags, such as the following:
-  * Product Name (could be multiple, see the product list in AppRegister; [AppRegister](http://appregister/))
-  * Tech Debt Types and Impact:
-    * Knowledge
-    * Automation
-    * Testing
-    * Architecture
-    * Code
-    * Infrastructure
-    * Security
-    * Availability
-    * Portability
-    * Compatibility
-    * Performance
-    * Maintainability
-    * Extensibility  
-  * Out-Of-Support**
-  * Investigate To Remove** - This tag has been used to mark a Technical Debt item that may already have been completed or is going to be irrelevant due to other work.
-  * UKHO TD priority tag:
-    * TD1 - High business/technical value, high risk debt that needs to be paid off ASAP (a Security tag should automatically be considered for a TD1 prioritisation).
-    * TD2 - High business/technical value (cost reduction, blocker removing, maintainability improvement), lower risk, a change that should be worked on when time/opportunity permits and is not something that can be accepted or supported long term.
-    * TD3 - Tech debt that has been accepted as a risk but through paying off would add value through improving usability, maintainability, reliability or performance.
-    * TD4 - Accepted risk from the business, safe to leave until service reaches end of life. Worth tracking in case developers are working in the area and can complete as quick wins.
+* A **Technical debt** work item type **MUST** be created in target project. Using queries and dashboads it is then possible to monitor Technical Debt.
 
-** - Denotes where the tag is appropriate
+![Example Tech Debt work item](./Example_TD_V4.PNG)
 
-![Example Tech Debt PBI](./Example_TD_V3.PNG)
+ For more on requirements, review the information on [Technical Debt Monitoring](./TechnicalDebtMonitoring.md)
 
 ---
 
 ### How this meshes with RAID
 
-A technical debt PBI should be created if the team is not planning on addressing the technical debt within the current sprint. We advise that teams carrying out RAID analysis and create technical debt PBIs in addition to this analysis. Consider that some technical debt items have been long lived in the past this will help support or future development teams consider the technical debt for future resolution and when planning.
+A technical debt work item should be created, even if the team is not planning on addressing the technical debt within the current sprint. We advise that teams carrying out RAID analysis and create technical debt work items in addition to this analysis. Consider that some technical debt items have been long lived in the past this will help support or future development teams consider the technical debt for future resolution and when planning.
 
 ## Refining Technical Debt
 
@@ -104,7 +82,6 @@ If the technical debt item doesn't meet any of the above it should be considered
 
 If during refinement an imminent issue is discovered (e.g. old Technical Debt, with high risk, which is time sensitive, but has not been addressed) this should be refined and flagged to a senior Solution Architect, Product Manager and relevant Delivery Manager.
 
-When the technical debt PBI has been refined (i.e. each item on this page has been considered and applied) ensure that you add the tag ```TD-APPROVED``` to show this.
 
 ## Technical Debt Tracking/Monitoring
 
@@ -133,15 +110,11 @@ Defects (also known as bugs) are only considered technical debt if the decision 
 
 ## Legacy Technical Debt Tracking
 
-There **MUST BE** a centralised shared query in each project area that can be run in Azure Dev Ops (TFS) and Azure Dev Ops Server (VSTS) which centralises all tagged technical debt PBIs into one result set. This pulls from all accessible backlogs.
-
-Customer:
-
-[Link to internal queries - UKHO access only](https://github.com/UKHO/docs-internal/blob/main/links.md)
+To properly manage this, everything will be added to one collection, but where that isnt possible we will use a symbolic Technical Debt work item, it might not have the same fields, but will allow for some sort of tracking.
 
 ### Team Technical Debt queries
 
-Each team should have its own query. This should be named ```Technical Debt - Basic``` and be stored in a ```Shared Queries\Technical Debt``` folder. This will ensure consistency across all teams.
+Each team should have its own set of queries and a dashboard. These will be copied into the team by the Project Collection Admin.
 
 ## Points of Contact
 
