@@ -165,7 +165,7 @@ Install the Agent | APM Real User Monitoring JavaScript Agent Reference [5.x] | 
 Please download the latest version of RUM agent from GitHub or UNPKG and host the file in your Server/CDN before deploying to production. <br>
 Remember to use a proper versioning scheme and set a far future max-age and immutable in the cache-control header, as the file never changes
 
-### Example of adding APM and RUM to the TechRadar: 
+### Example of adding APM and RUM to the TechRadar
 
 Add Elastic APM Instrumentationto the Tech-Radar by rockydevnet · Pull Request #682 · UKHO/techradar (github.com)
 
@@ -176,11 +176,6 @@ Elastic integration examples:
 apm-agent-dotnet/sample at main · elastic/apm-agent-dotnet (github.com)
 
 (https://github.com/elastic/apm-agent-dotnet/tree/main/sample)
-
-# Related links
-
-Logging policy
-
 
 ## Calypso team experience adding APM
 
