@@ -20,7 +20,7 @@ We suggest that all teams using automation should adhere to these principles:
 * New functionality must be covered by passing automated tests (unless there is a legitimate reason not to).
 * Test design patterns and principles should be used.
 * Tests should be used at the optimum level of the test pyramid – lower is better.
-* All functional code must have accompanying unit
+* All functional code must have accompanying unit tests.
 * All API development must have accompanying API tests
 * Testing at the UI level should be limited to a small number tests where possible
 * There must be a compelling reason to use a gherkin-based layer ( see [specific guidance](specflow-cucumber.md) )
