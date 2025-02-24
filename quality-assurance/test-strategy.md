@@ -20,12 +20,12 @@ We suggest that all teams using automation should adhere to these principles:
 * New functionality must be covered by passing automated tests (unless there is a legitimate reason not to).
 * Test design patterns and principles should be used.
 * Tests should be used at the optimum level of the test pyramid – lower is better.
-* All functional code must have accompanying unit
-* All API development must have accompanying API tests
-* Testing at the UI level should be limited to a small number tests where possible
-* There must be a compelling reason to use a gherkin-based layer ( see [specific guidance](specflow-cucumber.md) )
-* Test code must be treated with the same care and attention as production code (including pairing on writing)
-* The team will maintain their automated test suite (test content, relevance and code quality) to ensure it adds maximum value
+* All functional code must have accompanying unit.
+* All API development must have accompanying API tests.
+* Testing at the UI level should be limited to a small number tests where possible.
+* There must be a compelling reason to use a gherkin-based layer ( see [specific guidance](specflow-cucumber.md)).
+* Test code must be treated with the same care and attention as production code (including pairing on writing).
+* The team will maintain their automated test suite (test content, relevance and code quality) to ensure it adds maximum value.
 * All tests should be independent of each other.
 
 ### Manual Scripted
@@ -36,7 +36,7 @@ We suggest that all teams using automation should adhere to these principles:
 
 ### Exploratory
 
-* Exploratory testing should be used to verify quality in addition to regular automated and manual scripted testing (see [specific guidance](exploratory-testing.md) ).
+* Exploratory testing should be used to verify quality in addition to regular automated and manual scripted testing (see [specific guidance](exploratory-testing.md)).
 * Sessions should be planned with a charter (including time-box, area to review, personas).
 
 ---
