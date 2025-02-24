@@ -23,7 +23,7 @@ We suggest that all teams using automation should adhere to these principles:
 * All functional code must have accompanying unit tests.
 * All API development must have accompanying API tests.
 * Testing at the UI level should be limited to a small number tests where possible.
-* There must be a compelling reason to use a gherkin-based layer (see [specific guidance](specflow-cucumber.md)).
+* There must be a compelling reason to use a gherkin-based layer (see [specific guidance](executable-specifications.md)).
 * Test code must be treated with the same care and attention as production code (including pairing on writing).
 * The team will maintain their automated test suite (test content, relevance and code quality) to ensure it adds maximum value.
 * All tests should be independent of each other.
