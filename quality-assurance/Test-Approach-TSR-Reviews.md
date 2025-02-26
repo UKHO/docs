@@ -2,7 +2,7 @@ This page documents the production and review of Test Approach / Test Summary Re
 
 ## When is the document modified
 
-The test approach section of the document is completed early in the project, before or at the beginning of the build phase (e.g. it could be a 'sprint 0' deliverable).
+The test approach section of the document is completed early in the project, ideally before or at the beginning of the build phase.
 
 The test summary section is completed as a pre-requisite for the software going live, or for project closure if the software is not going live.
 
@@ -25,12 +25,16 @@ It is not required if the testing is going to follow a established practices, e.
 
 ## Reviewing the TA-TSR
 
-The tester is responsible for identifying the reviewers for the document.  The reviewers for the Test Approach section and for Test Summary Report section need not be the same, but often will be. The following people will always be reviewers:
+The tester is responsible for identifying people who can provide expertise to the review and for naming them as reviewers.  The reviewers for the Test Approach section and for the Test Summary Report section need not be the same, but often will be. The following people will always be reviewers:
 
 - Test Lead;
 - Lead Developer;
 - Product Owner, Service Owner or equivalent;
 - Delivery Manager or equivalent.
+
+## Document Storage
+
+A copy of every completed TSR should be stored in a central location on SharePoint.
 
 ## Test Lead responsibility
 
