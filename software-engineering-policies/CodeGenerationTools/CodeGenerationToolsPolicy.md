@@ -1,9 +1,11 @@
 # Use of Code Generation Tools
 
 ## Purpose
+
 This policy establishes guidelines and responsibilities for the use of code generation tools by colleagues within the UK Hydrographic Office. Its purpose is to maximize productivity and innovation while safeguarding data security, intellectual property, legal compliance, and code quality.
 
 ## Scope
+
 This policy applies to all employees, contractors, and third-party users who utilize code generation tools, including but not limited to tools that offer AI-assisted code completion, generation, or modification in any development environment across the organization.
 
 ## Data Security and Confidentiality
