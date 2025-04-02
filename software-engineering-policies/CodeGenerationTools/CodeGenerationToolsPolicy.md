@@ -20,7 +20,7 @@ This policy applies to all employees, contractors, and third-party users who uti
 
 * Ownership: The UK Hydrographic Office retains ownership of the codebase. Users must understand how generated code is integrated, ensuring that no third-party intellectual property rights are inadvertently compromised.
 
-* Licensing Compatibility: All outputs produced by code generation tools should be verified for licensing compliance. Generated code must not introduce code snippets that conflict with the organization’s licensing policies.
+* Licensing Compatibility: All outputs produced by code generation tools should be verified for licensing compliance. Generated code must not introduce code snippets that conflict with the organization's licensing policies. To ensure compliance and mitigate risks, only vetted and appropriately licensed tooling should be used for UKHO codebases.
 
 * Review: Generated code should be treated as a draft and subject to full review before integration, ensuring alignment with the organization’s IP and licensing standards.
 
