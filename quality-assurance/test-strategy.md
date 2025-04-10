@@ -18,19 +18,25 @@ Automation must be used when possible.
 We suggest that all teams using automation should adhere to these principles:
 
 * New functionality must be covered by passing automated tests (unless there is a legitimate reason not to).
-* Make use of test design patterns and principles.
-* Add tests at the correct level of the test pyramid – lower is better.
+* Test design patterns and principles should be used.
+* Tests should be used at the optimum level of the test pyramid – lower is better.
+* All functional code must have accompanying unit tests.
+* All API development must have accompanying API tests.
+* Testing at the UI level should be limited to a small number tests where possible.
+* There must be a compelling reason to use a gherkin-based layer (see [specific guidance](executable-specifications.md)).
+* Test code must be treated with the same care and attention as production code (including pairing on writing).
+* The team will maintain their automated test suite (test content, relevance and code quality) to ensure it adds maximum value.
 * All tests should be independent of each other.
 
 ### Manual Scripted
 
 * Manual scripted testing should only be used when automation is not deemed the best approach (e.g. too costly, not feasible, not applicable).
 * Tests will be created using appropriate test design techniques, e.g. risk based, decision tables, boundary values analysis.
-* The team will decide on where these manual tests will be stored and maintained; Azure DevOps or feature files are two examples.
+* The team will decide on where these manual tests will be stored and maintained; Azure DevOps is preferred.
 
 ### Exploratory
 
-* Exploratory testing should be used to verify quality in addition to regular automated and manual scripted testing.
+* Exploratory testing should be used to verify quality in addition to regular automated and manual scripted testing (see [specific guidance](exploratory-testing.md)).
 * Sessions should be planned with a charter (including time-box, area to review, personas).
 
 ---
