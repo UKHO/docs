@@ -1,7 +1,7 @@
+# Observability Reference Architecturet
 
-# (DRAFT) Observability Reference Architecture
 
-[Observability Reference Architecture](https://ukho.sharepoint.com/sites/eagwiki/Pages/Observability%20Reference%20Architecture.aspx) (internal only)
+[Observability Reference Architecture](https://ukho.sharepoint.com/sites/eagwiki/Pages/Observability%20Reference%20Architecture.aspx)
 
 ## Overview
 
