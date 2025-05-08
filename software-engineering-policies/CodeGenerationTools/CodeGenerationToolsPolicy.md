@@ -10,7 +10,7 @@ This policy applies to all employees, contractors, and third-party users who uti
 
 ## Data Security and Confidentiality
 
-* Data Handling: Users must ensure that any adopted tools do not inadvertently share with external services sensitive, classified, or personally identifiable information (PII) during code generation.
+* Data Handling: Users must ensure that any adopted tools do not inadvertently share sensitive, classified, or personally identifiable information (PII) with external services during code generation.
 
 * Transmission and Storage: All interactions with adopted code generation tools should comply with the organization’s encryption and data residency policies, ensuring that any data transmitted is securely handled.
 
