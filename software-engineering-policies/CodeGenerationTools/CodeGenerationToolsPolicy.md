@@ -6,13 +6,13 @@ This policy establishes guidelines and responsibilities for the use of code gene
 
 ## Scope
 
-This policy applies to all employees, contractors, and third-party users who utilize code generation tools, including but not limited to tools that offer AI-assisted code completion, generation, or modification in any development environment across the organization.
+This policy applies to all employees, contractors, and third-party users who utilize code generation tools, including, but not limited to, tools that offer AI-assisted code completion, generation, or modification in any development environment across the organization.
 
 ## Data Security and Confidentiality
 
 * Data Handling: Users must ensure that any adopted tools do not inadvertently share with external services sensitive, classified, or personally identifiable information (PII) during code generation.
 
-* Transmission and Storage: All interactions with adopted code generation tools should comply with the organization’s encryption and data residency policies, ensuring that any data transmitted is securely handled.
+* Transmission and Storage: All interactions with adopted code generation tools should comply with the organizationâ€™s encryption and data residency policies, ensuring that any data transmitted is securely handled.
 
 * Compliance: The use of adopted tools must be aligned with all internal and external information security requirements, including those applicable to cloud-hosted environments.
 
@@ -22,7 +22,7 @@ This policy applies to all employees, contractors, and third-party users who uti
 
 * Licensing Compatibility: All outputs produced by code generation tools should be verified for licensing compliance. Generated code must not introduce code snippets that conflict with the organization's licensing policies. To ensure compliance and mitigate risks, only vetted and appropriately licensed tooling should be used for UKHO codebases.
 
-* Review: Generated code should be treated as a draft and subject to full review before integration, ensuring alignment with the organization’s IP and licensing standards.
+* Review: Generated code should be treated as a draft and subject to full review before integration, ensuring alignment with the organizationâ€™s IP and licensing standards.
 
 ## Legal and Regulatory Compliance
 
@@ -64,4 +64,4 @@ This policy applies to all employees, contractors, and third-party users who uti
 
 * Feedback Mechanism: A feedback loop should be established, enabling users to report problematic outputs or suggest improvements. This information will be used to refine both tool usage guidelines and the policy itself.
 
-* Responsibility: Each user is responsible for ensuring that the generated code complies with this policy and does not compromise the organization’s security or quality standards.
+* Responsibility: Each user is responsible for ensuring that the generated code complies with this policy and does not compromise the organizationâ€™s security or quality standards.
