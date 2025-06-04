@@ -18,26 +18,26 @@ Each product **MUST** maintain a register of technical debt within its Azure Dev
 
 This should include all types of technical debt, i.e.:
 
-* Architectural – Tightly coupled systems (lots of criss-crossed dependencies), restrictive to extension or automation
-* Code – Low quality code or ineffective patterns
-* Knowledge – lack of documentation or inaccessible documentation
-* Automation – Lack of automated tasks forcing manual intervention (Testing, deployments, backup/restore)
-* Testing – Unknown or unrecorded test scenarios, lack of test coverage
-* Maintenance – Out-of-support products, usually leading to security vulnerabilities
-* Process - inefficient or wasteful process steps, this could be related to practice or tooling
-* Security - Known and exploitable vulnerabilities
+- Architectural – Tightly coupled systems (lots of criss-crossed dependencies), restrictive to extension or automation
+- Code – Low quality code or ineffective patterns
+- Knowledge – lack of documentation or inaccessible documentation
+- Automation – Lack of automated tasks forcing manual intervention (Testing, deployments, backup/restore)
+- Testing – Unknown or unrecorded test scenarios, lack of test coverage
+- Maintenance – Out-of-support products, usually leading to security vulnerabilities
+- Process - inefficient or wasteful process steps, this could be related to practice or tooling
+- Security - Known and exploitable vulnerabilities
 
 ## Technial Debt Impact
 
 Technical debt impacts various aspects of an application's life cycle, this is often dictated by the type of technical debt but common impacts you can expect from outstanding technical debt are:
 
-* Increased time to deliver
-* Unplanned work
-* Inaccurate planning
-* Disengaged Development teams
-* Longer times to recover
-* Instability
-* Security Concerns
+- Increased time to deliver
+- Unplanned work
+- Inaccurate planning
+- Disengaged Development teams
+- Longer times to recover
+- Instability
+- Security Concerns
 
 ---
 
@@ -57,14 +57,14 @@ When raising technical debt, please add the following information to the Technic
 
 The description of the Technical Debt item must include the following as a minimum:
 
-* The repository the Technical Debt lives within (a link to the repo would be good but the name would suffice)
-* Description of the issue in as much detail as you can provide, including class/file names if this can be included
-* A proposed solution or ideas for a fix **
-* Cost/Benefit and risk of the Technical Debt item, simply as a "why should this be fixed?/How long would it take?"
+- The repository the Technical Debt lives within (a link to the repo would be good but the name would suffice)
+- Description of the issue in as much detail as you can provide, including class/file names if this can be included
+- A proposed solution or ideas for a fix **
+- Cost/Benefit and risk of the Technical Debt item, simply as a "why should this be fixed?/How long would it take?"
 
 ### Strategy
 
-* A **Technical debt** work item type **MUST** be created in target project. Using queries and dashboads it is then possible to monitor Technical Debt.
+- A **Technical debt** work item type **MUST** be created in target project. Using queries and dashboads it is then possible to monitor Technical Debt.
 
 ![Example Tech Debt work item](./Example_TD_V4.PNG)
 
@@ -118,4 +118,4 @@ Each team should have its own set of queries and a dashboard. These will be copi
 
 ## Points of Contact
 
-* Policy Owner - Principal Support Developer
+- Policy Owner - Principal Support Developer
