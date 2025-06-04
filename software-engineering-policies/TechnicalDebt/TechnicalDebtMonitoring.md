@@ -22,13 +22,13 @@
       - TD3 - Tech debt that has been accepted as a risk but through paying off would add   value through improving usability, maintainability, reliability or performance.
       - TD4 - Accepted risk from the business, safe to leave until service reaches end of   life. Worth tracking in case developers are working in the area and can complete as   quick wins.
     - Technical Debt type
-      - Architectural – Tightly coupled systems (lots of criss-crossed dependencies),       - restrictive to extension or automation
+      - Architectural – Tightly coupled systems (lots of criss-crossed dependencies), restrictive to extension or automation
       - Code – Low quality code or ineffective patterns
       - Knowledge – lack of documentation or inaccessible documentation
-      - Automation – Lack of automated tasks forcing manual intervention (Testing, deployments,       - backup/restore)
+      - Automation – Lack of automated tasks forcing manual intervention (Testing, deployments, backup/restore)
       - Testing – Unknown or unrecorded test scenarios, lack of test coverage
       - Maintenance – Out-of-support products, usually leading to security vulnerabilities
-      - Process - inefficient or wasteful process steps, this could be related to practice or       - tooling
+      - Process - inefficient or wasteful process steps, this could be related to practice or tooling
       - Security - Known and exploitable vulnerabilities
     - Technical Debt impact
       - Increased time to deliver
