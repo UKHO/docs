@@ -27,7 +27,7 @@ This should include all types of Technical Debt, i.e.:
 - Process - inefficient or wasteful process steps, this could be related to practice or tooling
 - Security - Known and exploitable vulnerabilities
 
-## Technial Debt Impact
+## Technical Debt Impact
 
 Technical Debt impacts various aspects of an application's life cycle, this is often dictated by the type of Technical Debt but common impacts you can expect from outstanding Technical Debt are:
 
