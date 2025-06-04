@@ -64,7 +64,7 @@ The description of the Technical Debt item must include the following as a minim
 
 ### Strategy
 
-- A **Technical Debt** work item type **MUST** be created in target project. Using queries and dashboads it is then possible to monitor Technical Debt.
+- A **Technical Debt** work item type **MUST** be created in target project. Using queries and dashboards it is then possible to monitor Technical Debt.
 
 ![Example Tech Debt work item](./Example_TD_V4.PNG)
 
