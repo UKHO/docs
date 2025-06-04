@@ -3,8 +3,8 @@
 ## Pre-requisites
 
 - Each project will need a `Technical Debt` work item type in their process.
-    - This has to be added by a process editor.
-    - if you are using the default **DGf** template then the project will have a Technical Debt type already.
+  - This has to be added by a process editor.
+  - if you are using the default **DGf** template then the project will have a Technical Debt type already.
 - Each project will need a "Technical Debt" dash board.
 - An aggregation of all the "Technical Debt" will be visible on a central dashboard.
 
@@ -12,7 +12,7 @@
 
 ## Work item fields
 
-- A **Technical Debt** work item type **MUST** be created in target project. 
+- A **Technical Debt** work item type **MUST** be created in target project.
   - Add new Details section with the following fields (use existing field, do not create a  new field):
     - Primary Product or Service
       - there may be several interconnecting products but which is the main one, if needed, create a separate TD item for each product if they would be addressed separately.
