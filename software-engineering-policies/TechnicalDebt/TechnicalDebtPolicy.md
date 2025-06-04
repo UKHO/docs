@@ -82,7 +82,6 @@ If the Technical Debt item doesn't meet any of the above it should be considered
 
 If during refinement an imminent issue is discovered (e.g. old Technical Debt, with high risk, which is time sensitive, but has not been addressed) this should be refined and flagged to a senior Solution Architect, Product Manager and relevant Delivery Manager.
 
-
 ## Technical Debt Tracking/Monitoring
 
 There is automated near-realtime monitoring of Technical Debt available for all projects within the UKHydro Azure DevOps tenant. This is made available by the DDC Technical Debt Prometheus exporter and relies on accurately tracked Technical Debt PBIs. For information on this exporter and the technology used please refer to the [Technical Debt monitoring](../TechnicalDebt/TechnicalDebtMonitoring.md) document.
@@ -104,9 +103,9 @@ Defects (also known as bugs) are only considered Technical Debt if the decision 
 
 ## Additional Reading
 
-- https://martinfowler.com/bliki/TechnicalDebt.html
-- https://martinfowler.com/bliki/EstimatedInterest.html
-- https://martinfowler.com/bliki/TechnicalDebtQuadrant.html
+- [https://martinfowler.com/bliki/TechnicalDebt.html]
+- [https://martinfowler.com/bliki/EstimatedInterest.html]
+- [https://martinfowler.com/bliki/TechnicalDebtQuadrant.html]
 
 ## Legacy Technical Debt Tracking
 
