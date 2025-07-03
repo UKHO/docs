@@ -10,7 +10,11 @@ If you have any questions, please open an issue.
 
 ## Improvements
 
-If you have any improvements (things being poorly worded, misspelt, unclear, tweaks) please make a pull request. During the pull request review we will check to ensure your improvements have not changed the meaning of the guidance.
+If you have any improvements (things being poorly worded, misspelt, unclear, tweaks) please make a pull request. During the pull request review we will check to ensure your improvements have not changed the meaning of the guidance. Ensure prior to making any changes to the repository that you run the following commands so that our linting checks are performed on your changes.
+```sh
+npm run install
+npm run prepare
+```
 
 ## Changes
 
