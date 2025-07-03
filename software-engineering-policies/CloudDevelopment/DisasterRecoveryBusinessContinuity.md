@@ -13,7 +13,7 @@ A business is as only as robust as its systems and services. Ensure you have a p
     * as fast as possible.
     * within the requirements of your SLAs
 
-Training is available in Business Continuity planning. This should be completed by all members of the development team: See [link](https://learning.ukho.gov.uk/course/view.php?id=18)
+Training is available in Business Continuity planning. This should be completed by all members of the development team: [See link](https://learning.ukho.gov.uk/course/view.php?id=18)
 
 ## Building Robust Systems
 

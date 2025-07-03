@@ -56,4 +56,4 @@ This metric measures the impact to integrity of a successfully exploited vulnera
 
 This metric measures the impact to the availability of the impacted component resulting from a successfully exploited vulnerability. While the Confidentiality and Integrity impact metrics apply to the loss of confidentiality or integrity of *data* (e.g., information, files) used by the impacted component, this metric refers to the loss of availability of the impacted component itself, such as a networked service (e.g., web, database, email). Since availability refers to the accessibility of information resources, attacks that consume network bandwidth, processor cycles, or disk space all impact the availability of an impacted component. The Base Score is greatest when the consequence to the impacted component is highest.
 
-More information on the CVSS score metrics can be found on the specification document [here](https://www.first.org/cvss/v3.1/specification-document).
+More information on the CVSS score metrics can be found on the [specification document here](https://www.first.org/cvss/v3.1/specification-document).

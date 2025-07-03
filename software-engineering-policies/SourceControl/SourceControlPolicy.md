@@ -11,7 +11,7 @@
 
 ## Repository Setup
 
-Information about setting up your repository can be found [here](/software-engineering-policies/SourceControl/RepositorySetupPolicy.md)
+Information about setting up your repository can be [found here](/software-engineering-policies/SourceControl/RepositorySetupPolicy.md)
 
 ## Access control
 

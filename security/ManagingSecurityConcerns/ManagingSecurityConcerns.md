@@ -81,7 +81,7 @@ During development, a team will make some changes that will have a security impa
 
 ## Common Vulnerability Scoring
 
-To provide a standard and quick way to characterise a security concern, every security concern will be scored using the NIST Standard Scoring for security concern assessment. An online calculator to assist the scoring can be found [here](https://www.first.org/cvss/calculator/3.1).
+To provide a standard and quick way to characterise a security concern, every security concern will be scored using the NIST Standard Scoring for security concern assessment. An online calculator to assist the scoring can be [found here](https://www.first.org/cvss/calculator/3.1).
 
 To provide a common risk severity, scores are mapped as follows:
 
@@ -98,7 +98,7 @@ The CVSS v3.* score we are interested in are the Base Score Metrics (Exploitabil
 
 The base metric group captures the characteristics of a vulnerability that are constant with time and across user environments.
 
-A reference guide to the CVSS Scoring Metrics can be found [here](./CvssScoringMetrics.md).
+A reference guide to the CVSS Scoring Metrics can be [found here](./CvssScoringMetrics.md).
 
 ## Recording the CVSS Risk Assessment
 
