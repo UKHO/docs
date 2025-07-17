@@ -46,9 +46,9 @@ Threat modelling should be performed:
  - At the beginning of a project - (to assist with understanding potential attack vectors, and allow for designs to be changed before anything is created),
  - Whenever there is a change to the _attack surface_ of the application.
 
-Wherever possible, a **_Data Flow Diagram_** can be created to help visualise and define the assets that are apart of the application, so that a conversation can be started about attack vectors of the different areas. The data flow diagram should be a growing diagram that is maintained in tandem with the project.
+Wherever possible, a ___Data Flow Diagram___ can be created to help visualise and define the assets that are apart of the application, so that a conversation can be started about attack vectors of the different areas. The data flow diagram should be a growing diagram that is maintained in tandem with the project.
 
-The tooling of choice to support this is the **_Microsoft Threat Modelling Tool_**. Utilising the data flow diagram within the tooling, it can analyse and support the STRIDE method of giving potential attack vectors to your application. This tooling should be a compliment for the _conversation_ however, rather than a replacement for it. 
+The tooling of choice to support this is the ___Microsoft Threat Modelling Tool___. Utilising the data flow diagram within the tooling, it can analyse and support the STRIDE method of giving potential attack vectors to your application. This tooling should be a compliment for the _conversation_ however, rather than a replacement for it. 
 
 To start the conversation for a Threat Modelling session, the following will need to be understood so that the session can focus on what is required from the threat modelling:
 
@@ -74,7 +74,7 @@ Questions around the system should utilise the 6 aspects of STRIDE. There can be
 | __Denial of Service__	| Availability of application |	Availability | Degradation of service due to high volumes of requests |
 | __Elevation of Privilege__ | Access to the right privileged information | Authorization | Ability to self-promote to admin via a unvalidated parameter |
 
-Any issues found will need an **_Action_** assigned to it (see list below), as well as an **_Action Owner_**. This owner is not _responsible_ for the issue, but it accountable for _chasing up_ the issue.
+Any issues found will need an ___Action___ assigned to it (see list below), as well as an ___Action Owner___. This owner is not _responsible_ for the issue, but it accountable for _chasing up_ the issue.
 
 The actions are as follows:
 

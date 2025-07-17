@@ -6,7 +6,7 @@
 |   |   | Data Hub |
 |   |   | Sailing Directions |
 |   |   | Dashboard Visibility Project |
-|   | Feedback to Senior Managers | Whilst individual delivery teams are responsible for their own progress feedback, the Principal Dev will be frequently reporting on overall progress, particularly from the technical perspective. | |
+|   | Feedback to Senior Managers | Whilst individual delivery teams are responsible for their own progress feedback, the Principal Dev will be frequently reporting on overall progress, particularly from the technical perspective. |
 |   | Tech/non-tech translations at high level | |
 | Technical Oversight | Technology Sharing | By working closely with multiple teams, the Principals can spot where a solution from one team can help another team. |
 |  |  | Identify and support shared libraries. |
@@ -26,7 +26,7 @@
 |   | Implement PoC’s and demonstrate technologies and tooling | Argo Rollouts |
 |   | Contribute and oversee development of cloud and container policies | Container, Cloud Development |
 |   | Define required skills and training for technical teams| |
-|   | What is the long term? Where do we want to be? How do we want delivery teams to deliver software eng in 5 years' time: Technology, People, Skills |
+|   | What is the long term? Where do we want to be? How do we want delivery teams to deliver software eng in 5 years' time: Technology, People, Skills | |
 | Bridge between teams & Practices | Linking Development and Architecture | Attend APF as Development Practice representative |
 |   | Links with Testing Practice | Working closely with the test leads to help ensure teams deliver using the most appropriate testing practices |
 | Consultancy | | Providing consultancy across the teams and the wider business (TBC) |
