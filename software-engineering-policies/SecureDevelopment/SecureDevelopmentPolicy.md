@@ -4,12 +4,9 @@
   - [Objective](#objective)
   - [Roles](#roles)
     - [Security Champion(s)](#security-champions)
-    - [Security Advisor](#security-advisor)
     - [Security Working Groups](#security-working-groups)
-    - [Accreditor](#accreditor)
-    - [Security Assurance Coordinator (SAC)](#security-assurance-coordinator-sac)
     - [Risk Owner](#risk-owner)
-  - [Controls](#controls)
+    - [Controls](#controls)
     - [Team Roles](#team-roles)
     - [SCRUM](#scrum)
     - [Skills Matrix](#skills-matrix)
@@ -101,7 +98,7 @@ The risk owner is the person who is responsible for the product. This may be the
 >_Source control is a key requirement for projects as it provides role-based access control to code, change management and a changelog._
 
 - All project code intended for delivery should be stored as per the UKHO source control policy.
-- Source control repositories should conform to the policies as found [here](../SourceControl/SourceControlPolicy.md)
+- Source control repositories should conform to the policies as [found here](../SourceControl/SourceControlPolicy.md)
 
 ### 3rd Party Dependency/Package Management
 
