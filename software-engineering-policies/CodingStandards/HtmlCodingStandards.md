@@ -114,7 +114,7 @@ Independent of the styling of an element (as CSS allows elements to assume a dif
 
 Also, indent them if they are child elements of a block, list, or table element.
 
-(If you run into issues around white space between list items it’s acceptable to put all `li` elements in one line. A linter is encouraged to throw a warning instead of an error.)
+(If you run into issues around blank space between list items it’s acceptable to put all `li` elements in one line. A linter is encouraged to throw a warning instead of an error.)
 
 ```html
 <blockquote>

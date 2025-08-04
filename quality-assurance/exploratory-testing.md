@@ -40,7 +40,7 @@ This approach is often taken when testers are familiar with the application/syst
   - How it can be tested
   - Which part of the application/system to explore?
 
-A sample test charter can be found [here](https://www.tmap.net/sites/tmap/files/files/Exploratory%20Testing%20Charter%20Template%20v1.2_0.pdf)
+A sample test charter can be [found here](https://www.tmap.net/sites/tmap/files/files/Exploratory%20Testing%20Charter%20Template%20v1.2_0.pdf)
 
 ### Time Box
 
