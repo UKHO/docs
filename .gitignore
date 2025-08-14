@@ -4,3 +4,5 @@ site/
 .idea/
 /quality-assurance/.vs
 /.vs
+
+node_modules/

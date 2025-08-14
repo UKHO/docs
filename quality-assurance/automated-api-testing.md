@@ -33,7 +33,7 @@ Where possible [WebApplicationFactory](https://learn.microsoft.com/en-us/aspnet/
 - **Consistency and Reliability** - Tests should be consistent and not dependent on external environments.
 - **Continuous Integration (CI)** - These tests should be integrated into the CI pipeline.
 
-An example of using WebApplicationFactory with NUnit can be found [here](https://github.com/UKHO/.NET-Guild/blob/main/CleanArchitectueExample/tests/TestScribe.Api.Tests.Integration/WebApplicationFactoryTests/CreateTestSuiteTests.cs)
+An example of using WebApplicationFactory with NUnit can be [found here](https://github.com/UKHO/.NET-Guild/blob/main/CleanArchitectueExample/tests/TestScribe.Api.Tests.Integration/WebApplicationFactoryTests/CreateTestSuiteTests.cs)
 
 ### Testing with Deployed Instances
 

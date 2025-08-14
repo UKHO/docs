@@ -102,7 +102,7 @@ for more information then read the link [Web_Parameter_Tampering](https://owasp.
 
 Practice the basic URL manipulation with the following link [Avatao practical example](https://next.avatao.com/collections/c26b8ef1-18c9-419a-a023-ac187af3864c/owasp-top-10-intro-in-c/challenges/swapping-the-id?tab=windows)
 
-# **Manual Testing using ZAP in standalone setup**
+## **Manual Testing using ZAP in standalone setup**
 
 For test automation tools, then we will look at Zap as its open source and covers the basics which supplements the manual testing that needs to be conducted also.
 Zap will provide:

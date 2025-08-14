@@ -16,7 +16,7 @@ This describes the license in which the codebase is under.
 
 ### CONTRIBUTING.md
 
-The contributing file explains to anyone wishing to interact with the codebase how they would go about doing so. This would include raising issues, how to go about creating pull requests and any guidance to what should be included when making changes. Examples of these files can be found [here](/using-github/creating-a-contributing-file.md)
+The contributing file explains to anyone wishing to interact with the codebase how they would go about doing so. This would include raising issues, how to go about creating pull requests and any guidance to what should be included when making changes. Examples of these files can be [found here](/using-github/creating-a-contributing-file.md)
 
 ### SECURITY.md
 
@@ -62,7 +62,7 @@ Finally `Automatically delete head branches` is required to be enabled to suppor
 
 ## Branch Protection Rules
 
-Branch protection should always be setup against your default branch. The policy for this can be found [here](/software-engineering-policies/SourceControl/BranchProtectionPolicy.md)
+Branch protection should always be setup against your default branch. The policy for this can be [found here](/software-engineering-policies/SourceControl/BranchProtectionPolicy.md)
 
 ## Code security and analysis
 
