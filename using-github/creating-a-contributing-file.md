@@ -4,7 +4,7 @@
 
 The CONTRIBUTING.md is the file that users will normally read before contributing to a project and it must provide them with the information needed to contribute to the project in a style which the owner wants. The CONTRIBUTING.md allows the owner to specify the standards and processes they want contributors to use thus setting the rules for everyone, including the rules for how the owner treats contributors. The CONTRIBUTING.md is written in [Markdown](https://en.wikipedia.org/wiki/Markdown) and placed in the root directory of the repository.
 
-If a repo does not have a CONTRIBUTING.md then we do not class it as "open" and the owner may not want external contributions.
+It is important to understand that contributions are not always in the form of code. Make sure that you specify how you wish people to interact and contribute through this file and how they will go about doing this.
 
 ### Must Have
 
