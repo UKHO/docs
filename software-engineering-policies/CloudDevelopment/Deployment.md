@@ -6,7 +6,7 @@
 
 Before releasing applications and infrastructure into our cloud environments, it is important that we scan our assets for any potential vulnerabilities and remediate issues that exceed our risk appetite. Our current preffered security tooling for the various scanning outlets is [Snyk.io](https://app.eu.snyk.io/login) which is connected to our Github repos for Static Analysis testing and Software Composistion testing as a PR is raised. However it is greatly encouraged that the below scanning is added to your pipelines using the [provided task](https://github.com/UKHO/ukho-azure-pipeline-scan-task) so that any vulnerabilities exceeding your risk appetite do not reach your cloud environment.
 
-Its important to understand that the tooling doesnt have context so can sometimes provide false positives or your will have a need to be excused from a issue. In these cases you can reach out to our [Cyber Security team](mailto:ukho-itso@ukho.gov.uk), your lead developer or one of the security champions for advice on mitigation/suppression of the issue. 
+Its important to understand that the tooling doesnt have context so can sometimes provide false positives or you will have a need to be excused from a issue. In these cases you can reach out to our [Cyber Security team](mailto:ukho-itso@ukho.gov.uk), your lead developer or one of the security champions for advice on mitigation/suppression of the issue. 
 
 ## Code Scanning
 
