@@ -51,10 +51,11 @@ Microsoft is a US company, and is subject to laws such as the [US Cloud Act](htt
 At the UKHO, we should always choose solutions that support encryption at rest and in transit, whilst providing highly available, performant access to our data.
 
 Currently, the UKHO recommends the following data management systems:
+
 * Microsoft SQL Server
-  - as a standard Relational Database Management Solution
+  * as a standard Relational Database Management Solution
 * Cosmos DB 
-  - for non-relational (document based) data
+  * for non-relational (document based) data
 
 Both of these services are widely used, and offer a good range of modern features including encryption at rest and in transit.
 
