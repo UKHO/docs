@@ -10,5 +10,3 @@ This document describes the policy for the usage of AI tools in software testing
 - DO NOT USE AI tools to process any Personal Information for the purpose of software testing
 - DO NOT USE any data that will cause harm to the organisation, including access tokens or other secrets
 - If in doubt seek guidance from the Lead Test Engineers
-
-
