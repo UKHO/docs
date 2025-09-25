@@ -1,6 +1,6 @@
 # How to Meet Section 12: Make New Source Code Open (MOD / GOV.UK Standards)
 
-This guidance explains how teams can meet [**Section 12 – Make New Source Code Open**](https://www.digital.mod.uk/service-manual/meet-the-standard), following both the GOV.UK Service Standard and Defence‑specific considerations from the MOD Service Manual.
+This guidance explains how teams can meet [**Section 12 – Make New Source Code Open**](https://www.digital.mod.uk/policy-rules-standards-and-guidance/service-manual/meet-the-standard), following both the GOV.UK Service Standard and Defence‑specific considerations from the MOD Service Manual.
 
 ## 1. Why this matters
 
