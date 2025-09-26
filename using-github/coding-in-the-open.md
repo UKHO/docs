@@ -26,6 +26,23 @@ This guidance explains how teams can meet [**Section 12 – Make New Source Code
 - Use a clear open-source licence, handle versioning (e.g. Semantic Versioning), provide contributing guidelines, manage issues, and encourage community contributions.
 - Track changes via version control and prepare to manage security vulnerabilities in public code responsibly.
 
+#### Closed code
+
+You should keep some data and code closed, including:
+
+- keys and credentials
+- algorithms used to detect fraud
+- unreleased policy
+
+#### Open code
+
+You should open all other code. This includes:
+
+- configuration code
+- database schema
+- security-enforcing code
+More details can be found in the [GDS Guidance- When code should be open or closed](https://www.gov.uk/government/publications/open-source-guidance/when-code-should-be-open-or-closed)
+
 ## 3. Defence (MOD)‑specific enhancements
 
 - **Do open code where possible**—unless the code deals with SECRET or TOP SECRET elements.
