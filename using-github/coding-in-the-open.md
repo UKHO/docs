@@ -64,4 +64,4 @@ More details can be found in the [GDS Guidance- When code should be open or clos
 - **Plan for openness from the start** – reducing the burden of retrospectively sanitising code.
 - **Favour openness even in security‑critical modules** – properly designed open cryptographic code can be more robust.
 - **Use secure development workflows** – store code in trusted repositories, manage secrets separately, and structure your release process to accommodate open-source norms.
-- **Provide clear governance** – licences, versioning, contribution policies, and response channels for external collaborators.
+- **Provide clear governance** – licenses, versioning, contribution policies, and response channels for external collaborators.
