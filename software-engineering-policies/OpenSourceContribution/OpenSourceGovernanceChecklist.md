@@ -1,59 +1,55 @@
-# Open Source Governance Checklist
+# Repository Visibility Change Governance Checklist
+
+The purpose of this checklist is to ensure before changing a repository from private/internal to public the necessary due diligence has been performed. Support for this checklist can be sought from the Lead Tech (Security)
 
 ## Identifier
 
-(e.g. repo name)
+<!-- Repository Name -->
+<!-- Repository Url -->
 
 ## Technical owner
 
-The lead responsible for the repo
+<!-- Team Lead -->
+<!-- Team SRO -->
 
 ## Description of functionality
 
-Must contain enough detail to allow assessment of whether it contains intellectual property that we need to protect.
+<!-- Describe the application/codes purpose and what functions it performs. Supporting documentation is welcomed -->
 
 ## Security
 
-*How has security been considered?*
+### Has this been assigned to the correct team
 
-Has application code been scanned with security tooling and issues corrected?
-> This must be done for code supported by our SAST tooling
+<!-- Ensure that the correct team has permissions to access and maintain the application. Check access packages, security tooling and repository access to be sure -->
 
-Has the application been threat modelled during development and the evidence captured within TFS (or similar)?
-> Threat modelling must be carried out for all application code, this evidence needs to be reviewed by expert or lead engineer
+### Does this repository have an active pipeline
 
-Has the code been double-checked for security credentials, keys etc.?
-> Give details of who has double-checked the code
+<!-- Active means ran in the last 7 days. The ability to update vulnerabilities relies on an active pipeline -->
 
-Is a disclosure process in place and linked from the codebase?
-> Use the standard disclose text
+### Has this repository had a clean secret scan
+
+<!-- Reach out to the Lead Tech (Security) for a scan of the repository -->
+
+### Has the SECURITY.md been updated
+
+<!-- Ensure the file is updated with the latest information -->
 
 ## Quality
 
-*How has code quality been considered?*
+### Has a code review been performed
 
-Does the quality of the code reflect our ambitions for high quality code, in terms of being clean, well-tested etc.
-> Correct answer = yes!
+<!-- Ensuring that the code meets our policy prior to going public helps prevent issues later down the line around code quality -->
 
-Has all code been reviewed?
-> Correct answer = yes!
+### Is there a coherent Readme
 
-Has the open-sourced codebase had its history removed?  If not, have all check-in comments been reviewed?
-> Describe the steps taken to prevent inadvertent disclosed in comments / etc.
-
-Does the codebase contain all documentation and configuration elements required to build and verify the software?
-> A user should be able to build / run tests etc. based on what is in the repo
+<!-- This repository can be seen by all so ensuring people accessing for the first time can understand what is happening is important -->
 
 ## Contributions
 
-*Has the handling of contributions considered?*
+### Has the CONTRIBUTIONS.md been updated
 
-Are contributions explicitly encouraged in the codebase
-> For example, have you enabled the use of issues and provided a CONTRIBUTING.md?
-> Think very carefully before inviting change, as you will then have to answer 'yes' to the next two questions
+<!-- Read the policy and ensure your contributions file meets the minimum standard before submitting this request -->
 
-Is a process for responding to issues defined?
-> Describe in detail the process by which you are going to ensure that issues are responded to in a timely manner
+### Is there a process in place for dealing with issues
 
-How is this process resourced?
-> Describe how you have made sure that time is available to carry out the process described above.  For example, has the relevant manager agreed for time for time to spent on this?
+<!-- This can be mentioned in the contributions or a team wiki -->

@@ -65,3 +65,7 @@ More details can be found in the [GDS Guidance- When code should be open or clos
 - **Favour openness even in security‑critical modules** – properly designed open cryptographic code can be more robust.
 - **Use secure development workflows** – store code in trusted repositories, manage secrets separately, and structure your release process to accommodate open-source norms.
 - **Provide clear governance** – licenses, versioning, contribution policies, and response channels for external collaborators.
+
+## 6. Opening a close repository
+
+In the case where a repository is available to be made open, it is required that a team lead fills in the [checklist](/software-engineering-policies/OpenSourceContribution/OpenSourceGovernanceChecklist.md) with the necessary details. This request can then be processed in the development portal.
