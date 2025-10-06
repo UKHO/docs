@@ -114,14 +114,10 @@ how to test for this property across logs
 
 ### What to log where
 
-- The 'standard' EventHubLogProvider
-(https://github.com/UKHO/EventHub-Logging-Provider/tree/main/UKHO.Logging.EventHubLogProvider)
-should be used by default (unless there is good reason not to). If a different
-variant of logging is required consider extending the EventHubLogProvider to
-keep logging as standard as possible across all applications.
-
-- or the *new*  direct 'serilog' logging provider
-(https://github.com/UKHO/UKHO.Logging.Serilog) which has the same standards.
+Teams should use the [UKHO.Logging.Serilog](https://github.com/UKHO/UKHO.Logging.Serilog)
+package to implement logging in their services. This package provides a
+standardised way of logging across services, and provides a number of built-in
+log enrichments that will be useful for searching and filtering logs in Elastic.
 
 **Definition of Done** to include:
 
@@ -190,15 +186,15 @@ immutable data store (such as Kibana).
 
 ## Available log ingestion patterns
 
-### Cloud services - Elastic Cloud *(not yet available)*
+### Cloud services - Elastic Cloud
 
-Services held in Azure will log to an Azure Event Hub, with a separate storage
-account container used to track the processing of logs via a pointer. In
-Elastic Cloud, an Elastic Agent policy will have an integration defined that
-links to the Event Hub and storage account. Elastic Agent will process the logs
-so that they are more readable and searchable in Kibana, and will set up the
-necessary indexes and index lifecycle management (as per the Elastic Cloud
-retention details above). Your DDC resource can help with this set up.
+Services held in Azure log to an Azure Event Hub. In Elastic Cloud, a managed
+Elastic Agent policy has an integration that pulls from all Event Hubs, using a
+dedicated storage account container to track the processing of logs.
+
+An automated process discovers new Event Hubs, adds them to the Elastic Agent
+policy, and sets up  necessary indexes and index lifecycle management (as per
+the Elastic Cloud retention details above).
 
 #### Cloud native logs
 
@@ -206,22 +202,19 @@ Cloud resource specific logging, such as native activity or diagnostic, can be
 used by teams where beneficial. These logs aren't usually ingested in Elastic,
 and teams need to keep a close eye on the costs associated with using them.
 
-#### Legacy - LogStash and on-premise ElasticSearch
-
-An on-premise LogStash instance is responsible for ingesting and mutating logs
-from Azure Event Hub into on-premise ElasticSearch. This pattern is considered
-legacy and should only continue to be adopted whilst Elastic Cloud is not yet
-available.
-
 ### On-premise services
 
-On-premise services should use a log aggregator and shipper such as Elastic
-Filebeat, or the Serilog ElasticSearch sink, to ingest logs into Elastic Cloud.
+On-premise services should also log to an Azure Event Hub as a step towards
+becoming cloud services. The
+[UKHO.Logging.Serilog](https://github.com/UKHO/UKHO.Logging.Serilog) package
+provides support for logging to Event Hubs.
 
 #### Legacy - LogShipper and on-premise ElasticSearch
 
 Using LogShipper to ingest logs from on-premise services to on-premise
-ElasticSearch is considered legacy and should no longer be adopted.
+ElasticSearch has been depreciated and should no longer be used in new
+code. Existing projects using this pattern should look to migrate to Elastic Cloud
+as soon as possible.
 
 ***
 
