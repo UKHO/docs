@@ -66,35 +66,18 @@ email notification to supporting team).
 
 ## Retention
 
-### Elastic Cloud
+Data logged to Elastic Cloud comes under the following retention policy:
 
-By default, services that are using the UKHO’s Elastic Cloud instance will come
-under the following retention policy:
-
-- Logs will remain in the "Hot" phase for 7 days. This tier provides the best
+- Logs are ingested into the "Hot" tier. This tier provides the best
 indexing and search performance.
 
-- After 7 days, logs will move to the "Warm" tier. This tier is optimal for
-data that is still likely to be searched, but infrequently updated.
+- After **2 days** logs are automatically moved to the "Cold" tier. This tier 
+is optimal for data that is still likely to be searched, but infrequently
+- updated.
 
-- After 30 days, logs will move to the "Cold" tier. This tier is used when
-searching data less often and where we don’t need to update it.
+- After **7 days**, logs in **non-live** are deleted, and can not be recovered.
 
-- After 90 days, logs will move to the "Frozen" tier for a longer term
-retention. This is the most cost-effective way to store data and still be able
-to search it.
-
-- After 365 days, logs will be deleted.
-
-### On-premise ElasticSearch (legacy)
-
-Currently the retention policy for logs differs by Elastic Search instance:
-
-- Engineering – once indexes are created, they are subject to a 90 day deletion
-policy.
-
-- Live – logs are retained indefinitely. Although a policy exists that will
-delete logs after a year, this  is only used by one service.
+- After **90 days**, logs in **live** are deleted, and can not be recovered.
 
 ***
 
