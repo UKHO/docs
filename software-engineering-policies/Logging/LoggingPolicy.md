@@ -8,7 +8,7 @@ by that service.
 ## Disclaimer
 
 Not all systems will be using or able to use Elastic logging due to
-environemntal issues. In these cases the policy is not relevant.
+environmental issues. In these cases the policy is not relevant.
 
 ## Log types and levels
 
