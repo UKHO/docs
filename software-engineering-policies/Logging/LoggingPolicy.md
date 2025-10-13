@@ -1,173 +1,193 @@
 # Logging Policy
 
-This policy aims to provide guidance to software engineering teams on how the
-services they develop or support should be logging. Given our logging
-repository of choice is ElasticSearch, some of the guidance will be influenced
-by that service.
+This policy defines the logging requirements for services developed and
+supported by software engineering teams at UKHO.
 
-## Disclaimer
+## Contents of Logs
 
-Not all systems will be using or able to use Elastic logging due to
-environmental issues. In these cases the policy is not relevant.
+Logs must contain the following information:
+ - projectName (The overarching project that the service belongs to)
+ - serviceName (The name of an individual service)
+ - environment (One of "Development", "Test", "PreProduction", "Production")
+ - level ("Information", "Warning", "Error", "Fatal")
+    - Information is for regular messages that can be aggregated into a metric
+    - Warning is for expected problems that the service can recover from
+    - Error is for for unexpected problems that require investigation that should trigger an alert
+    - Fatal is for situations where the service is broken and requires immediate human intervention
+ - message (The data being logged. This should be a JSON formatted blob)
+ - traceId (If the process that generates the log was started from a request external to the project, 
+    the traceId should be included to allow the logs to be correlated with the request)
+
 
 ## Log types and levels
 
-This section will cover the different log types that services are expected to
-produce, what log levels they should be at, how they should be indexed in
-ElasticSearch, retention periods and any other related guidance.
+Services should produce logs that fall into three main categories: diagnostic,
+audit/metric, and request/response.
 
-Services can produce logs that fall into three main categories: diagnostic,
-audit, and request/response. Each type will have an expected level and
-ElasticSearch index pattern that is named according to the following
-convention: **FullServiceName-environment-category**.
+### Diagnostic logs
 
-### Diagnostic logs - Error, warning logs
+These are logs that provide information about the service's operation and are
+generally useful for debugging. Projects need to balance the need to provide
+useful information with the risk of logging too much information.
 
-- Expected minimum log levels for Production: Warning or Error
+Expected minimum log levels for Production: Warning or Error
 
-- Should ingest into a dedicated ElasticSearch index named as e.g.,
+### Audit/Metric logs
+
+These are logs that provide information about the service's operation and are
+generally useful for auditing and metrics. Where possible these logs should be
+numeric or small enums to allow for aggregation.
+
+Expected minimum log levels for Production: Information, but may differ based
+on the individual type of audit or metric log
+
+### Request/response logging
+
+These are logs that record requests to and responses from a service. These logs
+are useful to trace a request through different services and to identify
+problems with requests. 
+
+Expected minimum log levels for Production: Information
+
+### General logging guidance
+
+- Health check logging is not essential and can cause log saturation. Prefer
+using health check endpoints that can be polled.
+
+- Consider the value of logs – avoid logging information that provides no
+diagnostic or audit value.
+
+- Consider the GPDR - avoid logging customer information.
+
+- Avoid logging binary data or large files. Log references to objects stored in 
+appropriate storage instead.
+
+- Be consistent with data that is being logged across a project. 
+
+- Teams should be selective about what is included in logs. Avoid logging
+many different properties in the hope of capturing everything.
+
+- On-premise services need to have known mitigations for failures that may
+occur upon trying to ingest logs (e.g., log to EventViewer, send an email
+notification to supporting team).
+
+## Security
+
+When implementing logging, consider the following secure design practices:
+
+- Use structured logging instead of string concatenation to avoid log injection vulnerabilities.
+
+- Ensure that no sensitive information gets stored in logs, for example,
+  passwords, secret keys, and session IDs.
+
+- Ensure that no personal information gets stored in logs, for example,
+  customer names, addresses, and email addresses.
+
+## Retention
+
+Log retention is manged by the Observability team and is set to:
+
+- **Non-live environments**: 7 days
+- **Live environments**: 90 days
+
+Logs are not recoverable after this period.
+
+## Testing and assuring logging
+
+Teams should leverage their definitions of Ready and Done to drive logging
+practices:
+
+**Definition of Ready** should include:
+
+- A common dictionary for log messages ensuring that values are comparable
+across services within a project.
+
+- A consideration of the different log types and how to develop towards that
+
+**Definition of Done** should include:
+
+- Ensure log levels are correct for each environment
+
+### Implementation
+
+Teams should use the [UKHO.Logging.Serilog](https://github.com/UKHO/UKHO.Logging.Serilog)
+package to implement logging in their services. This package provides a
+standardised way of logging across services and provides built-in log
+enrichments.
+
+**Note**: Teams should prefer UKHO.Logging.Serilog over the legacy
+UKHO.EventHubLogging provider. Existing projects using the legacy provider
+should plan to migrate.
+
+### Testing requirements
+
+- **Test Approach and TSR documents**: Teams must demonstrate observability for
+the service and prove this is working as expected.
+
+- **Support team handovers**: Support/CI teams will ensure that good logging
+practice has been adhered to, and this should be demonstrated.
+
+- **Smoke test/monitor log ingestion**: Teams should ensure logs have ingested
+successfully and are discoverable. This could be via an automated test or a
+manual check.
+
+- **Unit tests**: Logging is a first class citizen. Unit tests should assert
+that logs are logging to the expected level.
+
+- **Load testing**: Load tests should use Production level logging, so the
+capacity generated from logs targeting Production is understood. The load
+testing environment should be as live-like as possible.
+
+
+***
+
+# Guidance for Elastic
+
+This section provides technical guidance for implementing the Logging Policy
+using ElasticSearch and Elastic Cloud.
+
+## Technology Choice
+
+Elastic is the tool of choice for log aggregation and analysis. If there are
+technical considerations which prevent use of Elastic, consider appropriate
+alternatives and detail how these make a best effort to meet this policy in
+your design documentation.
+
+## Index naming convention
+
+Logs should be indexed in ElasticSearch according to the following convention:
+**FullServiceName-environment-category**
+
+### Diagnostic logs
+
+Should ingest into a dedicated ElasticSearch index named as e.g.,
 `SalesCatalogueService-Dev1-Diagnostic`
 
 ### Audit/Metric logs
 
-- Expected minimum log levels for Production: Information, but may differ based
-on the individual type of audit or metric log
-
-- Should ingest into a dedicated ElasticSearch index named as e.g.,
+Should ingest into a dedicated ElasticSearch index named as e.g.,
 `SalesCatalogueService-Dev1-Audit`
 
 ### Request/response logging
 
-- Expected minimum log levels for Production: Information
-
-- Should ingest into a dedicated ElasticSearch index named as e.g.,
+Should ingest into a dedicated ElasticSearch index named as e.g.,
 `SalesCatalogueService-Dev1-HTTP`
 
-### Further related guidance
+## Retention implementation in Elastic Cloud
 
-- Healthcheck logging is not essential and can cause log saturation. We should
-prefer instead to use healthcheck endpoints that can be polled.
+Data logged to Elastic Cloud follows this retention implementation:
 
-- Consider the value of logs – e.g., we don’t need to log that an Azure Event
-Hub is in existence and healthy.
+- Logs are ingested into the "Hot" tier for best indexing and search
+performance.
 
-- Avoid logging binary data to ElasticSearch. We should instead log a reference
-to the object that is stored in blob storage.
+- After **2 days** logs are automatically moved to the "Cold" tier, optimal for
+data that is still likely to be searched but infrequently updated.
 
-- Consideration needs to be given to what is included in logs. Teams should
-avoid logging many different properties in the hope that they will then have
-captured everything.
+- After **7 days**, logs in **non-live** are deleted and cannot be recovered.
 
-- On-premise services need to have known mitigations for failures that may
-occur upon trying to ingest logs to Elastic (e.g. log to EventViewer, send an
-email notification to supporting team).
+- After **90 days**, logs in **live** are deleted and cannot be recovered.
 
-***
-
-## Retention
-
-Data logged to Elastic Cloud comes under the following retention policy:
-
-- Logs are ingested into the "Hot" tier. This tier provides the best
-indexing and search performance.
-
-- After **2 days** logs are automatically moved to the "Cold" tier. This tier 
-is optimal for data that is still likely to be searched, but infrequently
-- updated.
-
-- After **7 days**, logs in **non-live** are deleted, and can not be recovered.
-
-- After **90 days**, logs in **live** are deleted, and can not be recovered.
-
-***
-
-## Testing and assuring logging
-
-This section will cover how to test the logging implemented by a service.
-
-Teams should look to leverage their definitions of Ready and Done to drive
-their logging practices:
-
-**Definition of Ready** to include:
-
-- Agreeing a common field or value, for example a TraceId or CorrelationId, and
-how to test for this property across logs
-
-- A consideration of the different log types and how to develop towards that
-
-### What to log where
-
-Teams should use the [UKHO.Logging.Serilog](https://github.com/UKHO/UKHO.Logging.Serilog)
-package to implement logging in their services. This package provides a
-standardised way of logging across services, and provides a number of built-in
-log enrichments that will be useful for searching and filtering logs in Elastic.
-
-**Definition of Done** to include:
-
-- Ensure log levels are correct for each environment
-
-### Test Approach and TSR documents
-
-Teams will be expected to demonstrate observability for the service and prove
-this is working as expected.
-
-### Support team handovers
-
-When receiving a service, support/CI teams will ensure that good logging
-practice has been adhered to, and this should be demonstrated.
-
-### Smoke test/monitor log ingestion
-
-Teams should ensure when creating logs in Elastic that they have ingested
-successfully to the correct index and are discoverable. This could be via an
-automated test or a manual check.
-
-If teams are using the legacy Azure Event Hub > LogStash > on-premise
-ElasticSearch pattern for ingesting logs, they must check LogStash for errors
-at every stage of the development process, using the DDC Grafana monitor set up
-for this purpose.
-
-### Unit tests
-
-Logging is a first class citizen when it comes to unit testing. At a code
-level, unit tests should assert that logs are logging to the level they should
-be.
-
-In later environments as log levels become more restrictive, teams should test
-that the correct log levels are being used in accordance with the environment.
-
-### Load testing
-
-Load tests should be set to Production level logging, so the capacity generated
-from logs targeting Production is understood. The load testing environment
-should be as live-like as possible.
-
-***
-
-## Security
-
-When implementing logging into a solution, it is essential to consider the
-following secure design practices:
-
-- Encode and validate any dangerous inputs before storing the log to prevent
-[log injection](https://owasp.org/www-community/attacks/Log_Injection) or log
-forging attacks.
-
-- Ensure that no sensitive information gets stored in logs, for example,
-passwords, secret keys, and session IDs.
-
-- Forward any logs to a centralised, secure logging system that implements a
-proper failover system. A load-balanced logging system will ensure that no log
-data is lost if a node is compromised.
-
-- Protect log integrity by ensuring that log files cannot be tampered with, as
-a malicious attacker usually carries this out to cover up an attack. You can
-confirm this by implementing proper user permissions and logging into an
-immutable data store (such as Kibana).
-
-***
-
-## Available log ingestion patterns
+## Log ingestion patterns
 
 ### Cloud services - Elastic Cloud
 
@@ -176,8 +196,7 @@ Elastic Agent policy has an integration that pulls from all Event Hubs, using a
 dedicated storage account container to track the processing of logs.
 
 An automated process discovers new Event Hubs, adds them to the Elastic Agent
-policy, and sets up  necessary indexes and index lifecycle management (as per
-the Elastic Cloud retention details above).
+policy, and sets up necessary indexes and index lifecycle management.
 
 #### Cloud native logs
 
@@ -192,19 +211,29 @@ becoming cloud services. The
 [UKHO.Logging.Serilog](https://github.com/UKHO/UKHO.Logging.Serilog) package
 provides support for logging to Event Hubs.
 
-#### Legacy - LogShipper and on-premise ElasticSearch
+## Legacy patterns and migration
+
+### Legacy - LogShipper and on-premise ElasticSearch
 
 Using LogShipper to ingest logs from on-premise services to on-premise
-ElasticSearch has been depreciated and should no longer be used in new
-code. Existing projects using this pattern should look to migrate to Elastic Cloud
-as soon as possible.
+ElasticSearch has been deprecated and should no longer be used in new code.
+Existing projects using this pattern should look to migrate to Elastic Cloud as
+soon as possible.
 
-***
+### Legacy - UKHO.EventHubLogging provider
 
-## Migrating services to Elastic Cloud
+The UKHO.EventHubLogging provider has been superseded by UKHO.Logging.Serilog.
+Teams using the legacy provider should plan their migration path.
 
-Existing services that are currently using the legacy Azure Event Hub >
-LogStash > on-premise ElasticSearch pattern should have no errors (and no
-warnings) in LogStash before they are migrated to Elastic Cloud. Furthermore,
-these services should adhere to the logging policy before migration.
+### Migrating services to Elastic Cloud
 
+Existing services currently using the legacy Azure Event Hub > LogStash >
+on-premise ElasticSearch pattern should have no errors (and no warnings) in
+LogStash before they are migrated to Elastic Cloud.
+
+If teams are using the legacy Azure Event Hub > LogStash > on-premise
+ElasticSearch pattern for ingesting logs, they must check LogStash for errors
+at every stage of the development process, using the DDC Grafana monitor set up
+for this purpose.
+
+Services should adhere to the logging policy before migration.
