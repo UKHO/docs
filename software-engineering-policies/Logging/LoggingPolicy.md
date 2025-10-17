@@ -148,10 +148,9 @@ using ElasticSearch and Elastic Cloud.
 
 ## Technology Choice
 
-Elastic is the tool of choice for log aggregation and analysis. If there are
-technical considerations which prevent use of Elastic, consider appropriate
-alternatives and detail how these make a best effort to meet this policy in
-your design documentation.
+Elastic is the business's logging platform. There can be good reasons to select
+other logging platforms, however approval from the Observability team and 
+Architectural Practice Forum is required in these cases.
 
 ## Index naming convention
 
