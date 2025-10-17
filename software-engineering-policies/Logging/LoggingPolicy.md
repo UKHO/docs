@@ -57,7 +57,7 @@ using health check endpoints that can be polled.
 - Consider the value of logs – avoid logging information that provides no
 diagnostic or audit value.
 
-- Consider the GPDR - avoid logging customer information.
+- Consider the GDPR - avoid logging customer information.
 
 - Avoid logging binary data or large files. Log references to objects stored in 
 appropriate storage instead.
