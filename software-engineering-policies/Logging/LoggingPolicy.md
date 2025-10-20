@@ -6,18 +6,18 @@ supported by software engineering teams at UKHO.
 ## Contents of Logs
 
 Logs must contain the following information:
- - projectName (The overarching project that the service belongs to)
- - serviceName (The name of an individual service)
- - environment (One of "Development", "Test", "PreProduction", "Production")
- - level ("Information", "Warning", "Error", "Fatal")
+
+- projectName (The overarching project that the service belongs to)
+- serviceName (The name of an individual service)
+- environment (One of "Development", "Test", "PreProduction", "Production")
+- level ("Information", "Warning", "Error", "Fatal")
     - Information is for regular messages that can be aggregated into a metric
     - Warning is for expected problems that the service can recover from
     - Error is for for unexpected problems that require investigation that should trigger an alert
     - Fatal is for situations where the service is broken and requires immediate human intervention
- - message (The data being logged. This should be a JSON formatted blob)
- - traceId (If the process that generates the log was started from a request external to the project, 
-    the traceId should be included to allow the logs to be correlated with the request)
-
+- message (The log message from the application)
+- traceId (OpenTelemetry format trace id, if available. Sometimes called a
+  "correlation id")
 
 ## Log types and levels
 
@@ -45,31 +45,32 @@ on the individual type of audit or metric log
 
 These are logs that record requests to and responses from a service. These logs
 are useful to trace a request through different services and to identify
-problems with requests. 
+problems with requests.
 
 Expected minimum log levels for Production: Information
 
 ### General logging guidance
 
 - Health check logging is not essential and can cause log saturation. Prefer
-using health check endpoints that can be polled.
+  using health check endpoints that can be polled.
 
 - Consider the value of logs – avoid logging information that provides no
-diagnostic or audit value.
+  diagnostic or audit value, and include information that makes this request
+  different from other requests.
 
 - Consider the GDPR - avoid logging customer information.
 
-- Avoid logging binary data or large files. Log references to objects stored in 
-appropriate storage instead.
+- Avoid logging binary data or large files. Log references to objects stored in
+  appropriate storage instead.
 
-- Be consistent with data that is being logged across a project. 
+- Be consistent, use the same language and format across all logs.
 
 - Teams should be selective about what is included in logs. Avoid logging
-many different properties in the hope of capturing everything.
+  many different properties in the hope of capturing everything.
 
 - On-premise services need to have known mitigations for failures that may
-occur upon trying to ingest logs (e.g., log to EventViewer, send an email
-notification to supporting team).
+  occur upon trying to ingest logs (e.g., log to EventViewer, send an email
+  notification to supporting team).
 
 ## Security
 
@@ -85,7 +86,7 @@ When implementing logging, consider the following secure design practices:
 
 ## Retention
 
-Log retention is manged by the Observability team and is set to:
+Log retention is managed by the Observability team and is set to:
 
 - **Non-live environments**: 7 days
 - **Live environments**: 90 days
@@ -100,7 +101,7 @@ practices:
 **Definition of Ready** should include:
 
 - A common dictionary for log messages ensuring that values are comparable
-across services within a project.
+  across services within a project.
 
 - A consideration of the different log types and how to develop towards that
 
@@ -122,22 +123,21 @@ should plan to migrate.
 ### Testing requirements
 
 - **Test Approach and TSR documents**: Teams must demonstrate observability for
-the service and prove this is working as expected.
+  the service and prove this is working as expected.
 
 - **Support team handovers**: Support/CI teams will ensure that good logging
-practice has been adhered to, and this should be demonstrated.
+  practice has been adhered to, and this should be demonstrated.
 
 - **Smoke test/monitor log ingestion**: Teams should ensure logs have ingested
-successfully and are discoverable. This could be via an automated test or a
-manual check.
+  successfully and are discoverable. This could be via an automated test or a
+  manual check.
 
 - **Unit tests**: Logging is a first class citizen. Unit tests should assert
-that logs are logging to the expected level.
+  that logs are logging to the expected level.
 
 - **Load testing**: Load tests should use Production level logging, so the
-capacity generated from logs targeting Production is understood. The load
-testing environment should be as live-like as possible.
-
+  capacity generated from logs targeting Production is understood. The load
+  testing environment should be as live-like as possible.
 
 ***
 
@@ -149,13 +149,15 @@ using ElasticSearch and Elastic Cloud.
 ## Technology Choice
 
 Elastic is the business's logging platform. There can be good reasons to select
-other logging platforms, however approval from the Observability team and 
+other logging platforms, however approval from the Observability team and
 Architectural Practice Forum is required in these cases.
 
-## Index naming convention
+## Elastic Index Naming Convention
 
 Logs should be indexed in ElasticSearch according to the following convention:
-**FullServiceName-environment-category**
+**FullServiceName-environment-category**. The Observability team automation
+creates indexes, so teams should not need to create them manually. Teams
+with legacy indexes should be migrated to the new naming convention.
 
 ### Diagnostic logs
 
@@ -177,10 +179,10 @@ Should ingest into a dedicated ElasticSearch index named as e.g.,
 Data logged to Elastic Cloud follows this retention implementation:
 
 - Logs are ingested into the "Hot" tier for best indexing and search
-performance.
+  performance.
 
 - After **2 days** logs are automatically moved to the "Cold" tier, optimal for
-data that is still likely to be searched but infrequently updated.
+  data that is still likely to be searched but infrequently updated.
 
 - After **7 days**, logs in **non-live** are deleted and cannot be recovered.
 
