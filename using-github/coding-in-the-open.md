@@ -15,7 +15,7 @@ This guidance explains how teams can meet [**Section 12 – Make New Source Code
 ### GOV.UK expectations
 
 - Write code in the open from the start, using a public repository—but never include secrets like API keys or credentials.
-- Always retain IP ownership of your service’s new code and license it openly (e.g., MIT or another Open Source Initiative–compatible licence).
+- Always retain IP ownership of your service’s new code and license it openly (e.g., MIT or another Open Source Initiative–compatible license).
 - If code must remain closed (e.g., unreleased policy or sensitive security mechanisms), provide a strong rationale—but open it as soon as permissible.
 
 ### Additional GOV.UK technical guidance
@@ -23,7 +23,7 @@ This guidance explains how teams can meet [**Section 12 – Make New Source Code
 - Host code publicly (e.g., GitHub), ensuring departmental control and compliance with cybersecurity standards.
 - Avoid embedding secrets—manage them using secure secret-management systems.
 - Open configuration code, database schemas, and even security‑enforcing code (cryptographic or authentication logic) unless there's a specific reason—noting that openness often strengthens security.
-- Use a clear open-source licence, handle versioning (e.g. Semantic Versioning), provide contributing guidelines, manage issues, and encourage community contributions.
+- Use a clear open-source license, handle versioning (e.g. Semantic Versioning), provide contributing guidelines, manage issues, and encourage community contributions.
 - Track changes via version control and prepare to manage security vulnerabilities in public code responsibly.
 
 #### Closed code
@@ -33,6 +33,8 @@ You should keep some data and code closed, including:
 - keys and credentials
 - algorithms used to detect fraud
 - unreleased policy
+- Commercially sensitive
+- Intellectual Property not owned by UKHO
 
 #### Open code
 
@@ -61,7 +63,7 @@ More details can be found in the [GDS Guidance- When code should be open or clos
 ## 5. Tips & Best Practices
 
 - **Open by default, closed only for strong reasons** – and open as soon as those reasons no longer apply.
-- **Plan for openness from the start** – reducing the burden of retrospectively sanitising code.
+- **Plan for openness from the start** – reducing the burden of retrospectively sanitizing code.
 - **Favour openness even in security‑critical modules** – properly designed open cryptographic code can be more robust.
 - **Use secure development workflows** – store code in trusted repositories, manage secrets separately, and structure your release process to accommodate open-source norms.
 - **Provide clear governance** – licenses, versioning, contribution policies, and response channels for external collaborators.

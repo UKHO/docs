@@ -2,7 +2,7 @@
 
 ## Overview
 
-When developing software for government use, it's important to choose appropriate open source licenses that align with the UK Government's Open Source Policy and the Open Government Licence framework.
+When developing software for government use, it's important to choose appropriate open source licenses that align with the UK Government's Open Source Policy and the Open Government License framework.
 
 ## Recommended Open Source Licenses
 
