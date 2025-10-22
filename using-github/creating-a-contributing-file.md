@@ -1,12 +1,12 @@
 # The Importance of CONTRIBUTING.md in Open Source Projects
 
-## What is CONTRIBUTING.md?
+## What is CONTRIBUTING.md
 
 A `CONTRIBUTING.md` file is a documentation file that serves as a guide for contributors who want to participate in your project. It acts as the first point of contact for potential contributors, explaining how they can help improve your project and in what manner the project owner will allow this.
 
 It is important to understand that contributions are not always in the form of code. Make sure that you specify how you wish people to interact and contribute through this file and how they will go about doing this.
 
-## Why is CONTRIBUTING.md Important?
+## Why is CONTRIBUTING.md Important
 
 ### 1. Lowers the Barrier to Entry
 
