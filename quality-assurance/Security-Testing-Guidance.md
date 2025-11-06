@@ -102,32 +102,4 @@ for more information then read the link [Web_Parameter_Tampering](https://owasp.
 
 Practice the basic URL manipulation with the following link [Avatao practical example](https://next.avatao.com/collections/c26b8ef1-18c9-419a-a023-ac187af3864c/owasp-top-10-intro-in-c/challenges/swapping-the-id?tab=windows)
 
-## **Manual Testing using ZAP in standalone setup**
 
-For test automation tools, then we will look at Zap as its open source and covers the basics which supplements the manual testing that needs to be conducted also.
-Zap will provide:
-
--	SQL injection
--	XSS injection 
--	Session ID in URL rewrite
-
-In general, though the following steps can be used to setup Zap and start testing your application. Zap is targeted for use by Novice and Advance users so seems to provide a good balance.
-
-1.	Setup
-
--	Download Java 8 JRE or above as this is needed to run ZAP - [java JRE](https://www.java.com/en/download/manual.jsp)
--	Then download the ZAP exe from [ZAP exe](https://www.zaproxy.org/download/)
--	Once the ZAP download is completed double click on it to install and follow the instructions on the screen
-
-1.	Running Zap initially through the automated Scan route
-   
--	double click on the ZAP application under the installed folder e.g. C:\Program Files\OWASP\Zed Attack Proxy
--	ensure that you follow the instructions as stated in the ZAP getting started documentation and section “Persisting a Session” https://www.zaproxy.org/getting-started/
--	The Zap Desktop UI should then be displayed as in the get started guide
-  
-1.	Basic steps for a manual approach
-
-This covers off some of the limitations with running the scan in an automated way, such as in cases where the application requires login authentication. Although Zap can be configured to handle the authentication its not out of the box functionality. Follow the link and read the “Exploring an Application Manually” for more details. https://www.zaproxy.org/getting-started/
-
-Please follow the training guide for awareness of securituy testing and what we need to consider relevant to your project
-in [Avatao QA guild](https://next.avatao.com/teams). contact Raymond.sneddon-jenkins@ukho.gov.uk to arrange access or questions.
