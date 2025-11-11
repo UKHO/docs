@@ -18,7 +18,7 @@ The purpose of this checklist is to ensure before changing a repository from pri
 
 ## Security
 
-### Has this been assigned to the correct team?
+### Has this been assigned to the correct team
 
 <!-- Ensure that the correct team has permissions to access and maintain the application. Check access packages, security tooling and repository access to be sure -->
 
@@ -48,7 +48,7 @@ The purpose of this checklist is to ensure before changing a repository from pri
 
 ### Has the CONTRIBUTIONS.md been updated
 
-<!-- Read the policy and ensure your contributions file meets the minimum standard before submitting this request -->
+<!-- Read the [policy](/using-github/creating-a-contributing-file.md) and ensure your contributions file meets the minimum standard before submitting this request -->
 
 ### Is there a process in place for dealing with issues
 
