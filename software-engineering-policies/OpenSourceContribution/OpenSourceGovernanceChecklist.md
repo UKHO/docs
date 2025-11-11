@@ -10,15 +10,15 @@ The purpose of this checklist is to ensure before changing a repository from pri
 ## Technical owner
 
 <!-- Team Lead -->
-<!-- Team SRO -->
+<!-- Team SRO (Senior Responsible Owner) -->
 
 ## Description of functionality
 
-<!-- Describe the application/codes purpose and what functions it performs. Supporting documentation is welcomed -->
+<!-- Describe the application/code's purpose and what functions it performs. Supporting documentation is welcomed -->
 
 ## Security
 
-### Has this been assigned to the correct team
+### Has this been assigned to the correct team?
 
 <!-- Ensure that the correct team has permissions to access and maintain the application. Check access packages, security tooling and repository access to be sure -->
 

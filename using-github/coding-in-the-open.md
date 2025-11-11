@@ -36,6 +36,8 @@ You should keep some data and code closed, including:
 - Commercially sensitive
 - Intellectual Property not owned by UKHO
 
+These items will usually be identified early in the product lifecycle with support from your product owner and cyber security team. If you are unsure if your code should be open or closed then it is important to organize a session to work through this. 
+
 #### Open code
 
 You should open all other code. This includes:
@@ -68,6 +70,6 @@ More details can be found in the [GDS Guidance- When code should be open or clos
 - **Use secure development workflows** – store code in trusted repositories, manage secrets separately, and structure your release process to accommodate open-source norms.
 - **Provide clear governance** – licenses, versioning, contribution policies, and response channels for external collaborators.
 
-## 6. Opening a close repository
+## 6. Opening a closed repository
 
 In the case where a repository is available to be made open, it is required that a team lead fills in the [checklist](/software-engineering-policies/OpenSourceContribution/OpenSourceGovernanceChecklist.md) with the necessary details. This request can then be processed in the development portal.

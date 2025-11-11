@@ -2,7 +2,9 @@
 
 ## Overview
 
-When developing software for government use, it's important to choose appropriate open source licenses that align with the UK Government's Open Source Policy and the Open Government License framework.
+When developing software for government use, it's important to choose appropriate open source licenses that align with the UK Government's Open Source Policy and the Open Government License framework. No matter the visibility of the repository you should select a license to support the project you are working on to protect the project in case of visibility change.
+
+It is important that we include a LICENSE file with the relevant contents within the repository so that GitHub can correctly pick up the license in which we are publishing our code with. It is also advised to add a section at the bottom of the README.md for the relevant license type so that it is visible for anybody viewing the repository. 
 
 ## Recommended Open Source Licenses
 
