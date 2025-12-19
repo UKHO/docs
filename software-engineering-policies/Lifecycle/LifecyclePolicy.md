@@ -12,8 +12,9 @@ This policy applies to all software engineers, contractors, and teams involved i
 
 ### Planning & Design
 
-- All new software must include documented requirements, architecture diagrams, and risk assessments.
-- Designs must consider security, scalability, observability, and maintainability.
+- All new software must include documented requirements, architecture diagrams, threat models and risk assessments.
+- Designs must consider security (ref. [POL201 - Secure by Design](https://ukho.sharepoint.com/sites/docstore-prd/_layouts/15/Doc.aspx?sourcedoc=%7BD068DDEC-D0A6-49A6-AA88-B16D4A3B6A30%7D&file=POL201.docx&action=default&mobileredirect=true&DefaultItemOpen=1)), scalability, observability, and maintainability.
+- Designs should be peer reviewed to identify any sharable components.
 - [Naming conventions](../NamingConventions/NamingConventions.md) must be defined and followed consistently.
 
 ### Development
@@ -35,13 +36,14 @@ This policy applies to all software engineers, contractors, and teams involved i
 
 - Deployment pipelines must comply with the [pipeline policy](../Pipelines/Baseline_Policy.md).
 - Rollback procedures must be defined and tested.
-- IaC (Infrastructure as Code) practices should be used for environment provisioning.
+- [IaC (Infrastructure as Code) practices](../InfrastructureAsCode/terraform.md) should be used for environment provisioning.
 
 ### Operational Maintenance
 
-- Teams must monitor system performance, security alerts, and error logs.
-- Critical vulnerabilities must be remediated within defined SLAs.
+- Teams must monitor system performance, security alerts, and error logs as per the [observability policy](../observability/observability_policy.md).
+- Critical vulnerabilities must be remediated within defined SLAs (ref. [POL218 - Patch Management Policy](https://ukho.sharepoint.com/sites/docstore-prd/_layouts/15/Doc.aspx?sourcedoc=%7B82EA818D-00AA-44EE-B9A1-E901879DE72E%7D&file=POL218.docx&action=default&mobileredirect=true&DefaultItemOpen=1)).
 - [Technical debt](../TechnicalDebt/TechnicalDebt.md) should be periodically reviewed and addressed.
+- Disaster recovery procedures must be defined and tested.
 
 ### Documentation
 
