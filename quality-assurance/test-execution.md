@@ -36,7 +36,7 @@ This involves execution of manual, automated, API, and performance tests.
   
 
 ### 🔹 2.3 Defect Management
-- Log defects in Azure DevOps / Jira.
+- Log defects in Azure DevOps.
 - Prioritize based on severity + business impact.
 - Conduct daily triage with developers.
 - Track defect aging, reopen rate, resolution time.
