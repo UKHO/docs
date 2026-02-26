@@ -2,8 +2,6 @@
 
 ## Foreword
 
-### From the Head of Software Engineering
-
 Software Engineering plays a central role in delivering UKHO's digital products and services. AI-powered developer tools are an opportunity to increase productivity, improve code quality, and free engineers to focus on higher-value design and systems thinking. This document sets out our practical, security-conscious approach to adopting AI within software delivery, with GitHub Copilot established as the sanctioned coding assistant.
 
 The strategy balances pragmatic adoption with strong governance: engineers remain accountable for all code, security and IP considerations are enforced, and we prioritise training, monitoring and targeted support so benefits are realised evenly across teams.
@@ -31,7 +29,7 @@ Scope
 
 - Developer-facing AI assistants (primary focus: GitHub Copilot) used by engineers, testers and platform teams during development, test and documentation activities.
 - Tooling that generates or suggests code, tests, infrastructure-as-code, configuration or documentation.
-- Integration patterns, sandboxes and platform controls that permit safe experimentation with AI tools.
+- Integration patterns and platform controls that permit safe experimentation with AI tools.
 
 Out of scope
 
@@ -72,8 +70,12 @@ Refer to the Code Generation Tools Policy for detailed organisational requiremen
    - Improve code quality and reduce defect injection by using AI-assisted testing and linting alongside existing quality gates.
 
  - Enabling Platform & Tooling
-   - Provide secure, supported Copilot integrations and sandboxes so engineers can experiment safely without exposing sensitive data.
+   - Provide secure, supported Copilot integrations so engineers can experiment safely without exposing sensitive data.
    - Build observability and metric pipelines to measure Copilot usage and its impact on delivery and quality.
+
+- Enabling Platform & Tooling
+  - Provide secure, supported Copilot integrations and platform controls so engineers can experiment safely without exposing sensitive data.
+  - Build observability and metric pipelines to measure Copilot usage and its impact on delivery and quality.
 
  - Governance, Ethics & Risk
    - Maintain clear policies and approval processes for developer-facing AI tooling and ensure guidance is readily available.
@@ -105,7 +107,7 @@ To accelerate practical AI adoption within Software Engineering we will prioriti
 
 - **GitHub Copilot adoption program:**
   - Licences have been provisioned for the majority of engineers; continue onboarding remaining staff as needed.
-  - Establish a set of usage guidelines and best practices for Copilot (see Annex D).
+  - Establish a set of usage guidelines and best practices for Copilot.
   - Maintain and grow a Copilot champions network to support peer-to-peer learning and share patterns.
 
 Implementation notes:
@@ -157,7 +159,7 @@ By focusing on Copilot as the primary developer-facing AI tool, we expect faster
 Operational governance responsibilities:
 
 - Engineering managers: ensure team members complete baseline training and that Copilot is used in line with guidance.
-- Platform/security: maintain secure integrations, sandboxes and monitoring dashboards; run periodic compliance checks.
+- Platform/security: maintain secure integrations and monitoring dashboards; run periodic compliance checks.
 - Legal/IP: provide fast-turnaround guidance for licensing questions and keep an approved patterns list for reuse.
 
 ---
