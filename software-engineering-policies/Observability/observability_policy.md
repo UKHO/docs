@@ -5,7 +5,9 @@
 
 ## Overview
 
-Why Observability and Monitoring? If we don’t know how our systems are performing – how do we know they meet our needs? <br> 
+Why Observability and Monitoring?
+
+If we don’t know how our systems are performing – how do we know they meet our needs? <br> 
 Observability monitoring provide performance monitoring of our systems so that we can detect and be informed if a service or capability is performing as expected or has become degraded. <br>
 This then allows us to take preventative and remedial action in a timely manner. A reliable and performant system gives our end-users confidence and the desire to continue using our systems, while improving our reputation. <br>
 <br>
