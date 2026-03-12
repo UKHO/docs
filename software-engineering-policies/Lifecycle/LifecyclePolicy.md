@@ -28,7 +28,7 @@ This policy applies to all software engineers, contractors, and teams involved i
 ### Testing & Quality Assurance
 
 - Testing must include unit, integration, system, and security tests.
-- Testing should be automated where possible, following the [test strategy](../quality-assurance/test-strategy.md).
+- Testing should be automated where possible, following the [test strategy](../../quality-assurance/test-strategy.md).
 - Test coverage and results should be documented and reviewed.
 - Performance and load testing should be conducted for critical systems.
 
