@@ -40,7 +40,7 @@ This policy applies to all software engineers, contractors, and teams involved i
 
 ### Operational Maintenance
 
-- Teams must monitor system performance, security alerts, and error logs as per the [observability policy](../observability/observability_policy.md).
+- Teams must monitor system performance, security alerts, and error logs as per the [observability policy](../Observability/observability_policy.md).
 - Critical vulnerabilities must be remediated within defined SLAs (ref. [POL218 - Patch Management Policy](https://ukho.sharepoint.com/sites/docstore-prd/_layouts/15/Doc.aspx?sourcedoc=%7B82EA818D-00AA-44EE-B9A1-E901879DE72E%7D&file=POL218.docx&action=default&mobileredirect=true&DefaultItemOpen=1)).
 - [Technical debt](../TechnicalDebt/TechnicalDebtPolicy.md) should be periodically reviewed and addressed.
 - Disaster recovery procedures must be defined and tested.
