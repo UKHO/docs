@@ -19,16 +19,16 @@ This policy applies to all software engineers, contractors, and teams involved i
 
 ### Development
 
-- Code must be version-controlled using approved [source control](../SourceControl/SourceControl.md) solutions.
-- Code must follow established [coding standards](../CodingStandards/CodingStandards.md).
+- Code must be version-controlled using approved [source control](../SourceControl/SourceControlPolicy.md) solutions.
+- Code must follow established [coding standards](../CodingStandards/README.md).
 - Code must be peer reviewed in line with [code review policy](../CodeReview/CodeReviewPolicy.md).
-- [Secure Development](../SecureDevelopment/SecureDevelopment.md) practices must be followed to mitigate vulnerabilities.
+- [Secure Development](../SecureDevelopment/SecureDevelopmentPolicy.md) practices must be followed to mitigate vulnerabilities.
 - Automated testing (unit, integration, and security checks) must be implemented before merge.
 
 ### Testing & Quality Assurance
 
 - Testing must include unit, integration, system, and security tests.
-- Testing should be automated where possible, following the [test strategy](../QualityAssurance/TestStrategy.md).
+- Testing should be automated where possible, following the [test strategy](../quality-assurance/test-strategy.md).
 - Test coverage and results should be documented and reviewed.
 - Performance and load testing should be conducted for critical systems.
 
@@ -42,13 +42,13 @@ This policy applies to all software engineers, contractors, and teams involved i
 
 - Teams must monitor system performance, security alerts, and error logs as per the [observability policy](../observability/observability_policy.md).
 - Critical vulnerabilities must be remediated within defined SLAs (ref. [POL218 - Patch Management Policy](https://ukho.sharepoint.com/sites/docstore-prd/_layouts/15/Doc.aspx?sourcedoc=%7B82EA818D-00AA-44EE-B9A1-E901879DE72E%7D&file=POL218.docx&action=default&mobileredirect=true&DefaultItemOpen=1)).
-- [Technical debt](../TechnicalDebt/TechnicalDebt.md) should be periodically reviewed and addressed.
+- [Technical debt](../TechnicalDebt/TechnicalDebtPolicy.md) should be periodically reviewed and addressed.
 - Disaster recovery procedures must be defined and tested.
 
 ### Documentation
 
 - Architecture, APIs, deployment steps, and dependencies must be kept up-to-date.
-- [System documentation](../SystemDocumentation/SystemDocumentation.md) must be comprehensive and accessible.
+- [System documentation](../SystemDocumentation/SystemDocumentationPolicy.md) must be comprehensive and accessible.
 
 ### Decommissioning
 

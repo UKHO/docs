@@ -27,7 +27,7 @@ SolarWinds alerts and dashboards should be removed once the service is decommiss
 
 ### Documentation
 
-Documentation should be removed or updated to reflect the decommissioning of the service. Consider that documentation in dependent services may also need to be updated.
+Documentation should be archived or updated to reflect the decommissioning of the service. Consider that documentation in dependent services may also need to be updated.
 
 - Documentation in Github repositories
 - Documentation in Azure DevOps wiki
@@ -37,7 +37,8 @@ Documentation should be removed or updated to reflect the decommissioning of the
 
 Resources that are no longer needed should be removed to avoid unnecessary costs. Consider the following which may need removing or updating.
 
-- Azure subscription & resources
+- Azure service subscriptions & resources
+- Resources outside of service subscription e.g. shared service key vaults.
 - Azure spoke configuration
 - Entra identities
 - Access packages
