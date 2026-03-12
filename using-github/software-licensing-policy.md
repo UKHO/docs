@@ -6,6 +6,10 @@ When developing software for government use, it's important to choose appropriat
 
 It is important that we include a LICENSE file with the relevant contents within the repository so that GitHub can correctly pick up the license in which we are publishing our code with. It is also advised to add a section at the bottom of the README.md for the relevant license type so that it is visible for anybody viewing the repository. 
 
+### Sidenote
+
+There will be instances where adding a license to the repo may not be applicable/required due to a multitude of reasons. It is important that if you feel that this applies to your repository that you reach out to your Security Champion or Technical Lead so that this can be assessed on a case by case basis. Exceptions will be made where deemed necessary, ensuring there are other methods of protection are in place. 
+
 ## Recommended Open Source Licenses
 
 The UK Government recommends using well-established, OSI-approved licenses for software projects:
