@@ -29,10 +29,9 @@ The DDC team are responsible for the creating and maintaining the networking spo
 The DDC team manages a collection of centralised Terraform modules found here: https://github.com/orgs/UKHO/teams/tfmodules/repositories
 These should be used whenever possible.
 
-### IaC Scanning (Trivy)
+### IaC Scanning
 
-Trivy is UKHO's Chosen IaC Scanning tool. All Infrastructure pipelines should include a Trivy Scan stage before deployment that fails the build if misconfigurations or vulnerabilities are detected.
-A Trivy Stage is included in the previously mentioned Terraform deployment template: https://github.com/UKHO/Terraform-Deployment-Template/blob/5ca2e1c18618dad0df84ef8c08aea87a64c3b94e/azure-pipelines.yml#L37
+[Snyk.io](https://app.eu.snyk.io/login) is the UKHO's chosen security tool which provides IaC scanning. Any repository with Infrastructure should include a IaC scan task which can be added using the [provided task](https://github.com/UKHO/ukho-azure-pipeline-scan-task). Pipelines should fail at a level that matches the projects risk appetite.
 
 ## Secrets Management
 
