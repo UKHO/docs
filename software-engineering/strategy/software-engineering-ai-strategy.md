@@ -8,8 +8,6 @@ The strategy balances pragmatic adoption with strong governance: engineers remai
 
 This is a living strategy and will be reviewed annually to reflect technology, policy and operational lessons learned.
 
----
-
 ## 1. Executive Summary
 
 This strategy sets out how Software Engineering will use AI to improve delivery quality and developer productivity while maintaining security, IP and governance standards. Our pragmatic approach focuses on sanctioned developer tooling (GitHub Copilot), training and measurement to ensure benefits are realised safely and evenly across teams.
@@ -18,8 +16,6 @@ Key outcomes:
 - Broad, effective adoption of GitHub Copilot with measurable productivity improvements.
 - Clear governance, audit and safe-usage standards for developer-facing AI tools.
 - Reduced cycle times and improved code quality through AI-assisted testing and code review support.
-
----
 
 ## 2. Purpose & Scope
 
@@ -49,9 +45,7 @@ Relationship to organisational strategy
 
 This strategy aligns with the UKHO AI strategy and Data Strategy and supports cross-departmental interoperability, auditability and assurance. It complements existing security, accessibility and procurement policies and provides actionable controls for safe developer-facing AI adoption.
 
-Refer to the Code Generation Tools Policy for detailed organisational requirements on the use of code generation and AI-assisted development tools: `software-engineering-policies/CodeGenerationTools/CodeGenerationToolsPolicy.md`.
-
----
+Refer to the [Code Generation Tools Policy](../../software-engineering-policies/CodeGenerationTools/CodeGenerationToolsPolicy) for detailed organisational requirements on the use of code generation and AI-assisted development tools.
 
 ## 3. Principles
 
@@ -60,8 +54,6 @@ Refer to the Code Generation Tools Policy for detailed organisational requiremen
 - Human-in-the-loop and accountability: engineers retain responsibility for correctness and security of code; AI is an assistant not an approver.
 - Reproducibility and traceability: track where AI suggestions were applied and keep reproducible pipelines for model-assisted tasks.
 - Security and compliance: prevent leakage of sensitive data to external services and enforce licensing/IP checks.
-
----
 
 ## 4. Strategic Objectives
 
@@ -81,8 +73,6 @@ Refer to the Code Generation Tools Policy for detailed organisational requiremen
    - Maintain clear policies and approval processes for developer-facing AI tooling and ensure guidance is readily available.
    - Monitor and mitigate risks (data leakage, licensing, model hallucination) and integrate AI-specific incidents into security playbooks.
 
----
-
 ## 5. Priority Use Cases for Software Engineering
 
 - AI-assisted development (code generation, refactoring, documentation)
@@ -99,8 +89,6 @@ Priority rationale:
 - High value: automated testing and CI/CD optimisations reduce downstream defects and rework.
 - Safety alignment: security scanning and static analysis can be integrated with established security tooling to reduce risk.
 
----
-
 ## 6. Capability Development
 
 To accelerate practical AI adoption within Software Engineering we will prioritise developer-facing tooling. GitHub Copilot has already been rolled out organisation-wide and licences issued to most engineers. The current phase focuses on consolidating that rollout by emphasising training, pilots, monitoring and targeted support to raise effective adoption across all teams.
@@ -113,7 +101,7 @@ To accelerate practical AI adoption within Software Engineering we will prioriti
 Implementation notes:
 
 - Licensing: maintain a licence registry and reconcile seat usage quarterly.
-- Training approach: each team will schedule team-level sessions at a cadence appropriate to their members; cadence will vary according to need. Periodic deep-dive workshops will remain available for cross-team topics. New starters must complete basic Copilot training as part of onboarding.
+- Training approach: each team will schedule team-level sessions at a cadence appropriate to their members; cadence will vary according to need. Periodic deep-dive workshops will remain available for cross-team topics. New starters should complete basic Copilot training as part of onboarding. Suitable training can be found on PluralSight.
 - Champions: identify champions to spread knowledge.
 
 - **Pilots and AI projects:**
@@ -135,8 +123,6 @@ Implementation notes:
   - Work with GitHub and other vendors to stay aligned on security, licensing and feature roadmaps.
 
 By focusing on Copilot as the primary developer-facing AI tool, we expect faster, measurable productivity gains while ensuring governance and security controls are in place.
-
----
 
 ## 7. Governance & Ethics for Developer-Facing AI
 
@@ -162,8 +148,6 @@ Operational governance responsibilities:
 - Platform/security: maintain secure integrations and monitoring dashboards; run periodic compliance checks.
 - Legal/IP: provide fast-turnaround guidance for licensing questions and keep an approved patterns list for reuse.
 
----
-
 ## 8. Security & Resilience
 
 - **Secure supply chain:** Ensure Copilot integrations and any model artifacts are vetted and kept up to date.
@@ -177,8 +161,6 @@ Controls and safeguards:
 - Sandboxing: ephemeral workspaces where engineers can run Copilot on sensitive code without sending secrets to external services.
 - Access controls: RBAC for Copilot features where supported and integration with SSO for auditability.
 
----
-
 ## 9. Implementation Roadmap
 
 ### Phase 1: Consolidate Rollout (Year 1)
@@ -191,7 +173,7 @@ Success criteria for Phase 1:
 - 50%+ of engineers have completed basic Copilot training within 6 months.
 - Two case studies demonstrating measurable productivity gains.
 
-### Phase 2: Integrate & Scale (Years 2–3)
+### Phase 2: Integrate & Scale (Years 2-3)
 - Embed Copilot-enabled workflows into CI/CD, code review and documentation processes where safe.
 - Launch monitoring dashboards and adoption incentives; provide targeted support for slower adopters.
 - Expand sandbox and platform support for experimentation.
@@ -200,8 +182,6 @@ Success criteria for Phase 1:
 - Use metrics to continuously refine training and tooling.
 - Institutionalise Copilot best practices and maintain a Copilot champions community.
 - Explore advanced integrations (secure code generation, internal model tuning) where justified and governed.
-
----
 
 ## 10. Metrics & Evaluation
 
@@ -222,24 +202,18 @@ Reporting:
 - Monthly engineering leadership dashboard summarising adoption and key impact metrics.
 - Quarterly review with security and legal for policy adjustments.
 
----
-
 ## 11. Risks & Mitigations
 
-- Over-reliance on generated code — enforce mandatory peer review and testing.
-- Data leakage via external services — redact sensitive inputs.
-- IP and licensing uncertainty — provide legal guidance and approval workflows.
-- Uneven adoption — monitor usage and target support to teams lagging behind.
-
----
+- Over-reliance on generated code - enforce mandatory peer review and testing.
+- Data leakage via external services - redact sensitive inputs.
+- IP and licensing uncertainty - provide legal guidance and approval workflows.
+- Uneven adoption - monitor usage and target support to teams lagging behind.
 
 ## 12. What we will not do
 
 - Replace human judgement in safety-critical decisions.
 - Expose sensitive operational data to unvetted services.
 - Mandate Copilot in contexts where its use would breach security, privacy or licensing constraints; instead we will require approved alternatives or workflows.
-
----
 
 *Draft created: [date]*
 
