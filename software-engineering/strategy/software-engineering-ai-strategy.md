@@ -45,7 +45,7 @@ Relationship to organisational strategy
 
 This strategy aligns with the UKHO AI strategy and Data Strategy and supports cross-departmental interoperability, auditability and assurance. It complements existing security, accessibility and procurement policies and provides actionable controls for safe developer-facing AI adoption.
 
-Refer to the [Code Generation Tools Policy](../../software-engineering-policies/CodeGenerationTools/CodeGenerationToolsPolicy) for detailed organisational requirements on the use of code generation and AI-assisted development tools.
+Refer to the [Code Generation Tools Policy](../../software-engineering-policies/CodeGenerationTools/CodeGenerationToolsPolicy.md) for detailed organisational requirements on the use of code generation and AI-assisted development tools.
 
 ## 3. Principles
 
