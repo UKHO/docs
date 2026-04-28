@@ -14,24 +14,24 @@ Architectural Practice Forum is required in these cases.
 ## Elastic Index Naming Convention
 
 Logs should be indexed in ElasticSearch according to the following convention:
-**FullServiceName-environment-category**. The Observability team automation
+**fullServiceName.environment.category**. The Observability team automation
 creates indexes, so teams should not need to create them manually. Teams
 with legacy indexes should be migrated to the new naming convention.
 
 ### Diagnostic logs
 
 Should ingest into a dedicated ElasticSearch index named as e.g.,
-`SalesCatalogueService-Dev1-Diagnostic`
+`salesCatalogueService.dev1.diagnostic`
 
 ### Audit/Metric logs
 
 Should ingest into a dedicated ElasticSearch index named as e.g.,
-`SalesCatalogueService-Dev1-Audit`
+`salesCatalogueService.dev1.audit`
 
 ### Request/response logging
 
 Should ingest into a dedicated ElasticSearch index named as e.g.,
-`SalesCatalogueService-Dev1-HTTP`
+`salesCatalogueService.dev1.http`
 
 ## Retention implementation in Elastic Cloud
 
