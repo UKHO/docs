@@ -204,7 +204,8 @@ Reporting:
 
 ## 11. Risks & Mitigations
 
-- Over-reliance on generated code - enforce mandatory peer review and testing.
+- Over-reliance on generated code and perfunctory review practices - enforce mandatory peer review and testing, with sufficiently detailed reviews of AI-assisted changes to keep engineers aligned with the codebase and to catch subtle security and quality issues.
+- Erosion of core engineering skills where AI adoption is limited or inappropriate - reinforce code-writing and review capability through deep-dive reviews and periodic non-AI coding exercises or hackathons, particularly for teams operating in higher-security environments.
 - Data leakage via external services - redact sensitive inputs.
 - IP and licensing uncertainty - provide legal guidance and approval workflows.
 - Uneven adoption - monitor usage and target support to teams lagging behind.
