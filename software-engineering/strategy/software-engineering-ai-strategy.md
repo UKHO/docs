@@ -52,7 +52,6 @@ Refer to the [Code Generation Tools Policy](../../software-engineering-policies/
 - Responsible and pragmatic AI use: adopt tools where they demonstrably add value and remain easy to govern.
 - Safety and quality first: all AI-assisted outputs must meet existing quality gates and testing standards.
 - Human-in-the-loop and accountability: engineers retain responsibility for correctness and security of code; AI is an assistant not an approver.
-- Reproducibility and traceability: track where AI suggestions were applied and keep reproducible pipelines for model-assisted tasks.
 - Security and compliance: prevent leakage of sensitive data to external services and enforce licensing/IP checks.
 
 ## 4. Strategic Objectives
