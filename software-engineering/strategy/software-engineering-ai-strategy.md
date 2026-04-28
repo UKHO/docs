@@ -34,7 +34,7 @@ Out of scope
 Applicability and constraints
 
 - Applies to all civil service staff, contractors and suppliers working in or for Software Engineering.
-- Use of AI tooling with classified, personal, or otherwise sensitive data is prohibited unless explicitly authorised by security policy and executed within approved sandboxes or vetted on-premises solutions.
+- Use of AI tooling with classified (anything above Official), personal, or otherwise sensitive data is prohibited unless explicitly authorised by security policy and executed within approved sandboxes or vetted on-premises solutions.
 - All use must comply with MOD/UKHO policies, data protection law and procurement rules.
 
 Audience
