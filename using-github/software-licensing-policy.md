@@ -1,14 +1,22 @@
-# Software Licensing Guidance for Government Projects
+# Software Licensing Policy
 
 ## Overview
 
-When developing software for government use, it's important to choose appropriate open source licenses that align with the UK Government's Open Source Policy and the Open Government License framework. No matter the visibility of the repository you should select a license to support the project you are working on to protect the project in case of visibility change.
+When developing software for government use, it is important to choose appropriate open-source licences that align with the [GOV.UK Service Standard point 12](https://www.gov.uk/service-manual/service-standard/point-12-make-new-source-code-open), the [MOD Defence Service Manual (Section 12)](https://www.digital.mod.uk/policy-rules-standards-and-guidance/service-manual/meet-the-standard), and the UK Government's Open Source Licensing framework.
 
-It is important that we include a LICENSE file with the relevant contents within the repository so that GitHub can correctly pick up the license in which we are publishing our code with. It is also advised to add a section at the bottom of the README.md for the relevant license type so that it is visible for anybody viewing the repository. 
+**All code produced by civil servants or contractors working on behalf of the Crown is automatically covered by [Crown Copyright](https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/).** Regardless of repository visibility you should select and publish a licence so that the terms of use are clear, and so that GitHub can correctly identify the licence.
 
-### Sidenote
+You must include a `LICENSE` file in the repository root. It is also recommended to add a licence section to the `README.md`.
 
-There will be instances where adding a license to the repo may not be applicable/required due to a multitude of reasons. It is important that if you feel that this applies to your repository that you reach out to your Security Champion or Technical Lead so that this can be assessed on a case by case basis. Exceptions will be made where deemed necessary, ensuring there are other methods of protection are in place. 
+### When a licence may not be required
+
+There are limited circumstances where publishing a licence is not appropriate or required:
+
+- **Never-public repositories** — internal-only tooling that is explicitly scoped as never publicly accessible (though teams should challenge this and default to openness)
+- **Classified or restricted repositories** — repositories that carry security classifications and are not accessible outside the department; apply classification markings instead
+- **Third-party owned code** — where UKHO does not hold the IP and therefore cannot grant a licence to others
+
+If you believe a licence is not required for your repository, you must discuss this with your Security Champion or Technical Lead so it can be assessed on a case-by-case basis. Any exception must be documented and approved. Do not simply omit a licence without review.
 
 ## Recommended Open Source Licenses
 
@@ -137,20 +145,27 @@ Contains public sector information licensed under the Open Government Licence v3
 
 ## Important Considerations
 
-- **Crown Copyright**: Government-developed software is subject to Crown Copyright
-- **Third-party dependencies**: Ensure all dependencies have compatible licenses
-- **Contributor agreements**: Consider requiring contributor license agreements for external contributions
+- **Crown Copyright**: All government-developed software is subject to Crown Copyright
+- **Third-party dependencies**: Ensure all dependencies have compatible licences; see the [Open Source Use Policy](/software-engineering-policies/OpenSourceUse/OpenSourceUsePolicy.md) for permitted licence types
+- **Commercial software boundaries**: If your repository integrates with or is built on commercial software, verify the vendor licence does not restrict you from openly publishing your own code. The vendor's proprietary licence applies to their code — **not** to your code that calls or wraps it, unless the contract states otherwise. Engage the Legal Adviser if uncertain.
+- **Vendor-supplied code**: Code written by a contractor or third-party supplier as part of a delivery contract should be covered by the contract terms. Ensure contracts require IP assignment to the Crown and permit open publication under an OSI licence.
+- **Contributor agreements**: Consider requiring Contributor Licence Agreements (CLAs) for significant external contributions to ensure IP is clearly assigned
 - **Export controls**: Be aware of any export control restrictions on your software
-- **Security review**: Ensure security-sensitive code is reviewed before public release
-- **Mixed content**: If your repository contains both software and data/documentation, consider using OGL v3.0 for consistency
+- **Security review**: Ensure security-sensitive code is reviewed before public release; see the [Coding in the Open guidance](./coding-in-the-open.md)
+- **Mixed content**: If your repository contains both software and data/documentation, consider OGL v3.0 for consistency
 
 ## Resources
 
+- [GOV.UK Service Standard – Point 12: Make new source code open](https://www.gov.uk/service-manual/service-standard/point-12-make-new-source-code-open)
+- [MOD Defence Service Manual – Meet the Standard (Section 12)](https://www.digital.mod.uk/policy-rules-standards-and-guidance/service-manual/meet-the-standard)
+- [GDS – Making source code open and reusable](https://www.gov.uk/service-manual/technology/making-source-code-open-and-reusable)
+- [GDS – When code should be open or closed](https://www.gov.uk/government/publications/open-source-guidance/when-code-should-be-open-or-closed)
 - [UK Government Open Source Policy](https://www.gov.uk/government/publications/open-source-procurement-toolkit)
 - [Choose an open source license](https://choosealicense.com/)
 - [OSI Approved Licenses](https://opensource.org/licenses)
 - [Open Government Licence v3.0](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
+- [Crown Copyright framework](https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/)
 
 ---
 
-*This guidance is based on the UK Government's licensing framework and current best practices for open source software development.*
+*This policy aligns with the UK Government's licensing framework and the MOD/GOV.UK Service Standard. Review annually or when government guidance changes.*

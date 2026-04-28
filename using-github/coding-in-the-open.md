@@ -28,15 +28,17 @@ This guidance explains how teams can meet [**Section 12 – Make New Source Code
 
 #### Closed code
 
-You should keep some data and code closed, including:
+Only a small number of well-defined situations justify keeping code closed. Per the [GDS guidance on when code should be open or closed](https://www.gov.uk/government/publications/open-source-guidance/when-code-should-be-open-or-closed) and the [MOD Defence Service Manual (Section 12)](https://www.digital.mod.uk/policy-rules-standards-and-guidance/service-manual/meet-the-standard), these are:
 
-- keys and credentials
-- algorithms used to detect fraud
-- unreleased policy
-- Commercially sensitive
-- Intellectual Property not owned by UKHO
+- **Keys and credentials** – must always be kept separate and closed; use a secret management system
+- **Fraud detection algorithms** – keep the algorithm closed but separate from the code that uses it
+- **Unreleased policy** – keep closed only until the policy is announced; open as soon as possible thereafter
+- **SECRET or TOP SECRET content (MOD-specific)** – code that directly relates to classified systems or content at these markings must not be published
+- **Third-party intellectual property not licensed for open publication** – code, algorithms, or data owned by a vendor or third party where the licence does not permit open redistribution
 
-These items will usually be identified early in the product lifecycle with support from your product owner and cyber security team. If you are unsure if your code should be open or closed then it is important to organize a session to work through this. 
+> **Note on "commercially sensitive" code:** Commercial sensitivity alone is **not** a valid reason under GDS or MOD guidance to keep code closed. If a team believes code is commercially sensitive, this must be assessed case-by-case with the product owner, security champion, and legal adviser. A clear and documented rationale must be provided — see [Providing a rationale for closed code](#providing-a-rationale-for-closed-code) below.
+
+These items will usually be identified early in the product lifecycle with support from your product owner and cyber security team. If you are unsure if your code should be open or closed then it is important to organise a session to work through this.
 
 #### Open code
 
@@ -45,7 +47,31 @@ You should open all other code. This includes:
 - configuration code
 - database schema
 - security-enforcing code
-More details can be found in the [GDS Guidance- When code should be open or closed](https://www.gov.uk/government/publications/open-source-guidance/when-code-should-be-open-or-closed)
+
+More details can be found in the [GDS Guidance – When code should be open or closed](https://www.gov.uk/government/publications/open-source-guidance/when-code-should-be-open-or-closed)
+
+#### Providing a rationale for closed code
+
+Where code cannot be made open, teams **must** provide a convincing written explanation of why. This rationale should:
+
+- identify the specific subset of code that must remain closed (do not close entire repositories unnecessarily)
+- name the applicable reason from the list above
+- state the expected date or condition under which the code can be opened
+- be recorded in the repository's README or a linked document, and reviewed at each service assessment
+
+This is a requirement of both [GOV.UK Service Standard point 12](https://www.gov.uk/service-manual/service-standard/point-12-make-new-source-code-open) and the MOD Defence Service Manual.
+
+#### Commercial software and open/closed boundaries
+
+When your service includes or is built on commercial software:
+
+- **Our own code remains open by default** even when it integrates with commercial products — the commercial product licence does not automatically make your code closed
+- **Vendor-supplied or vendor-owned code** must not be published without explicit permission from the vendor; check your contract and engage the legal adviser if in doubt
+- **Proprietary SDKs, APIs, or libraries** incorporated into your codebase may restrict redistribution; ensure the vendor licence is reviewed against our [Software Licensing Policy](./software-licensing-policy.md) before publishing
+- **Configuration code for commercial tools** (e.g. Terraform modules targeting a commercial product, Helm charts, CI/CD pipeline definitions) should be open unless they contain credentials or commercially confidential configuration values
+- Where a commercial product contains **open-core** components, ensure you are publishing only the OSI-licensed portions and not conflating them with the proprietary modules
+
+If you are uncertain about any commercial software boundary, consult your Security Champion, Lead Engineer, and Legal Adviser before publishing.
 
 ## 3. Defence (MOD)‑specific enhancements
 
@@ -73,3 +99,13 @@ More details can be found in the [GDS Guidance- When code should be open or clos
 ## 6. Opening a closed repository
 
 In the case where a repository is available to be made open, it is required that a team lead fills in the [checklist](/software-engineering-policies/OpenSourceContribution/OpenSourceGovernanceChecklist.md) with the necessary details. This request can then be processed in the development portal.
+
+## 7. Repositories that do not require a licence
+
+Most repositories should carry an open-source licence. However, there are limited circumstances where publishing a licence is not appropriate:
+
+- **Classified or restricted repositories** that are not and will not be publicly accessible do not require an OSI licence, but must still carry appropriate classification markings
+- **Purely internal tooling** that is explicitly scoped as never-to-be-published — though teams should challenge this assumption and default to openness
+- **Third-party code** repositories where UKHO does not hold the IP and cannot grant a licence
+
+In all these cases, the absence of a licence must be documented and approved. See the [Software Licensing Policy](./software-licensing-policy.md) for further detail on when a licence may not be required.

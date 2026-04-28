@@ -1,14 +1,28 @@
-# Safe Contribution to Open Source Projects
+# Open Source Policy: Publishing Our Code and Contributing to External Projects
 
-We are increasingly making use of open source assets as part of our business infrastructure, as governed by our Use of Open Source Policy.  This often requires us to invest in the development, enhancement or integration of those OS assets to meet our specific business requirements.
+We are increasingly making use of open source assets as part of our business infrastructure, as governed by our [Use of Open Source Policy](../OpenSourceUse/OpenSourceUsePolicy.md).
 
-In line with Government policy and [GDS guidance](https://www.gov.uk/service-manual/service-standard/point-13-use-common-standards-components-patterns), our default position should be that usage and contribution of common components and patterns is preferred over re-inventing the wheel. The aim is to provide users with a good experience through code thats been extensively tested in a cost effective manner. If the need to develop our own component or pattern arises this should be made open to allow others to benefit from our work (where possible).
+In line with [GOV.UK Service Standard point 12](https://www.gov.uk/service-manual/service-standard/point-12-make-new-source-code-open), the [MOD Defence Service Manual (Section 12)](https://www.digital.mod.uk/policy-rules-standards-and-guidance/service-manual/meet-the-standard), and [GDS guidance](https://www.gov.uk/service-manual/service-standard/point-13-use-common-standards-components-patterns), our default position is that **all new source code written at UKHO should be made open**. Reusing and contributing to common components is preferred over re-inventing the wheel.
 
-## Introduction
+This document covers two distinct activities, each with different governance requirements:
 
-Contributing to open source projects can greatly benefit both the contributor and the community. However, it is essential to do so in a manner that safeguards our interests and adheres to established guidelines. This document outlines best practices for contributing to open source projects safely, incorporating insights from the [GDS guidance](https://www.gov.uk/service-manual/service-standard/point-13-use-common-standards-components-patterns).
+1. **[Publishing our own code openly](#part-1-publishing-our-own-code-in-the-open)** — the default; no special approval required
+2. **[Contributing to external open source projects](#part-2-contributing-to-external-open-source-projects)** — requires approval before submitting
 
-## Best Practices for Safe Contributions
+## Part 1: Publishing our own code in the open
+
+Making our own code publicly available is the **default expectation**, not an exception. Teams do not need to seek approval to open their own repositories. The process for publishing is:
+
+1. Review the code against the [Coding in the Open guidance](../../using-github/coding-in-the-open.md) to confirm it is safe to publish (no credentials, no classified content, no unreleased policy, IP is Crown-owned or appropriately licensed)
+2. Complete the [Open Source Governance Checklist](./OpenSourceGovernanceChecklist.md)
+3. Select an appropriate open-source licence per the [Software Licensing Policy](../../using-github/software-licensing-policy.md) — MIT is recommended for most software
+4. Publish the repository and continue development in the open
+
+If a team believes their code **cannot** be made open, they must provide a documented rationale with a specific reason from the approved list (see [Coding in the Open – Closed code](../../using-github/coding-in-the-open.md)) and record the expected date for opening. This must be reviewed at each service assessment.
+
+## Part 2: Contributing to external open source projects
+
+Contributing to open source projects can greatly benefit both the contributor and the community. However, it is essential to do so in a manner that safeguards our interests and adheres to established guidelines. This section outlines best practices for contributing to **external, third-party** open source projects.
 
 ### 1. Understand the Project
 
@@ -65,4 +79,14 @@ Paying a supplier to make enhancements to an open source codebase is a procureme
 
 ## Conclusion
 
-By adhering to these best practices, we can contribute to open source projects in a manner that is safe, responsible, and beneficial to both our organization and the wider community. Always prioritize quality, compliance, and security in every contribution.
+By adhering to these best practices, we can contribute to open source projects in a manner that is safe, responsible, and beneficial to both our organisation and the wider community.
+
+**Key principle**: Publishing our own code openly is the default. Seek approval when contributing to external projects, not when opening your own repositories.
+
+## Related policies
+
+- [Coding in the Open](../../using-github/coding-in-the-open.md)
+- [Software Licensing Policy](../../using-github/software-licensing-policy.md)
+- [Open Source Use Policy](../OpenSourceUse/OpenSourceUsePolicy.md)
+- [Open Source Governance Checklist](./OpenSourceGovernanceChecklist.md)
+- [Open Source Governance Checklist](./OpenSourceGovernanceChecklist.md)
