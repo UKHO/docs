@@ -77,7 +77,7 @@ Refer to the [Code Generation Tools Policy](../../software-engineering-policies/
 
 - AI-assisted development (code generation, refactoring, documentation)
 - Automated testing and test generation
-- CI/CD optimisation and release automation
+- CI/CD optimisation and release automation, with senior engineering oversight and stronger security review, especially for initial CD design and infrastructure or networking changes.
 - Static and dynamic analysis, security scanning
 - Observability, anomaly detection and incident triage
 - Developer productivity tooling (chatbots, knowledge search)
@@ -86,7 +86,7 @@ Refer to the [Code Generation Tools Policy](../../software-engineering-policies/
 Priority rationale:
 
 - Low friction: developer assistants yield quick productivity gains for routine code and documentation tasks.
-- High value: automated testing and CI/CD optimisations reduce downstream defects and rework.
+- High value: automated testing and appropriately governed CI/CD optimisations can reduce downstream defects and rework, but higher-risk release automation work should be led or closely reviewed by experienced engineers.
 - Safety alignment: security scanning and static analysis can be integrated with established security tooling to reduce risk.
 
 ## 6. Capability Development
