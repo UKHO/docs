@@ -62,10 +62,6 @@ Refer to the [Code Generation Tools Policy](../../software-engineering-policies/
   - Improve code quality and reduce defect injection by using AI-assisted testing and linting alongside existing quality gates.
 
 - Enabling Platform & Tooling
-  - Provide secure, supported Copilot integrations so engineers can experiment safely without exposing sensitive data.
-  - Build observability and metric pipelines to measure Copilot usage and its impact on delivery and quality.
-
-- Enabling Platform & Tooling
   - Provide secure, supported Copilot integrations and platform controls so engineers can experiment safely without exposing sensitive data.
   - Build observability and metric pipelines to measure Copilot usage and its impact on delivery and quality.
 
