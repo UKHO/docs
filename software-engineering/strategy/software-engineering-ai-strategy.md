@@ -13,6 +13,7 @@ This is a living strategy and will be reviewed annually to reflect technology, p
 This strategy sets out how Software Engineering will use AI to improve delivery quality and developer productivity while maintaining security, IP and governance standards. Our pragmatic approach focuses on sanctioned developer tooling (GitHub Copilot), training and measurement to ensure benefits are realised safely and evenly across teams.
 
 Key outcomes:
+
 - Broad, effective adoption of GitHub Copilot with measurable productivity improvements.
 - Clear governance, audit and safe-usage standards for developer-facing AI tools.
 - Reduced cycle times and improved code quality through AI-assisted testing and code review support.
@@ -56,21 +57,21 @@ Refer to the [Code Generation Tools Policy](../../software-engineering-policies/
 
 ## 4. Strategic Objectives
 
- - Delivery Excellence
-   - Reduce routine engineering effort by automating repetitive tasks (tests, scaffolding, refactor suggestions) so engineers focus on architecture and domain complexity.
-   - Improve code quality and reduce defect injection by using AI-assisted testing and linting alongside existing quality gates.
+- Delivery Excellence
+  - Reduce routine engineering effort by automating repetitive tasks (tests, scaffolding, refactor suggestions) so engineers focus on architecture and domain complexity.
+  - Improve code quality and reduce defect injection by using AI-assisted testing and linting alongside existing quality gates.
 
- - Enabling Platform & Tooling
-   - Provide secure, supported Copilot integrations so engineers can experiment safely without exposing sensitive data.
-   - Build observability and metric pipelines to measure Copilot usage and its impact on delivery and quality.
+- Enabling Platform & Tooling
+  - Provide secure, supported Copilot integrations so engineers can experiment safely without exposing sensitive data.
+  - Build observability and metric pipelines to measure Copilot usage and its impact on delivery and quality.
 
 - Enabling Platform & Tooling
   - Provide secure, supported Copilot integrations and platform controls so engineers can experiment safely without exposing sensitive data.
   - Build observability and metric pipelines to measure Copilot usage and its impact on delivery and quality.
 
- - Governance, Ethics & Risk
-   - Maintain clear policies and approval processes for developer-facing AI tooling and ensure guidance is readily available.
-   - Monitor and mitigate risks (data leakage, licensing, model hallucination) and integrate AI-specific incidents into security playbooks.
+- Governance, Ethics & Risk
+  - Maintain clear policies and approval processes for developer-facing AI tooling and ensure guidance is readily available.
+  - Monitor and mitigate risks (data leakage, licensing, model hallucination) and integrate AI-specific incidents into security playbooks.
 
 ## 5. Priority Use Cases for Software Engineering
 
@@ -163,21 +164,25 @@ Controls and safeguards:
 ## 9. Implementation Roadmap
 
 ### Phase 1: Consolidate Rollout (Year 1)
+
 - Rollout complete for most engineers; focus on onboarding remaining staff and closing any licence gaps.
 - Complete training curriculum and ensure baseline training completion across teams.
 - Capture early pilot results and case studies to support wider adoption.
 - Finalise governance baseline and refresh policies based on pilot feedback.
 
 Success criteria for Phase 1:
+
 - 50%+ of engineers have completed basic Copilot training within 6 months.
 - Two case studies demonstrating measurable productivity gains.
 
 ### Phase 2: Integrate & Scale (Years 2-3)
+
 - Embed Copilot-enabled workflows into CI/CD, code review and documentation processes where safe.
 - Launch monitoring dashboards and adoption incentives; provide targeted support for slower adopters.
 - Expand sandbox and platform support for experimentation.
 
 ### Phase 3: Optimise & Institutionalise (Year 4+)
+
 - Use metrics to continuously refine training and tooling.
 - Institutionalise Copilot best practices and maintain a Copilot champions community.
 - Explore advanced integrations (secure code generation, internal model tuning) where justified and governed.
@@ -193,11 +198,13 @@ We will measure both adoption and impact:
 Use these measures to target coaching for slower adopters and to verify that Copilot usage delivers expected benefits.
 
 Data sources and cadence:
+
 - Usage telemetry: weekly and monthly reports from Copilot management portal or platform integrations.
 - Delivery metrics: pull request, CI and defect metrics from SCM and CI systems (weekly rollups).
 - Quality/security: automated test and SAST/DAST results integrated into dashboards (per release).
 
 Reporting:
+
 - Monthly engineering leadership dashboard summarising adoption and key impact metrics.
 - Quarterly review with security and legal for policy adjustments.
 
@@ -215,7 +222,9 @@ Reporting:
 - Expose sensitive operational data to unvetted services.
 - Mandate Copilot in contexts where its use would breach security, privacy or licensing constraints; instead we will require approved alternatives or workflows.
 
-*Draft created: [date]*
+## 13. Draft Information
+
+- Draft created: [date]
 
 Final review checklist:
 
