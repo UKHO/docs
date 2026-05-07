@@ -55,7 +55,6 @@ This section outlines the test types that need to be considered when preparing a
 
 * Contract testing should be considered when developing an API that will communicate with another UKHO API.
 * When interacting with the Data Platform this is mandatory.
-* [PACT](https://docs.pact.io/) is the technology to use.
 * Use the [UKHO Data Platform PACT documentation](https://docs.data.ukho.gov.uk/testing/pact/introduction/) to learn how to do this.
 
 ### Cross Browser
@@ -119,7 +118,7 @@ Tests should be added at the correct level of the test pyramid which directly in
 ### Safety
 
 * Safety assurance is part of our core software engineering processes (ensuring our products are safe for the end user).
-* We are working to adopt [BS EN 61508-3:2010](https://fdocuments.in/document/iec-61508-6.html) as our safety standard.
+* We are working to adopt [BS EN 61508-3:2010] as our safety standard.
 * Safety is the responsibility of the whole team and is championed by the Test Engineer.
 * More details can be found on on the [safety assurance](safety-assurance-guidance.md) page.
 
