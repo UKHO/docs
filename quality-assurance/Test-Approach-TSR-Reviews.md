@@ -32,10 +32,6 @@ The tester is responsible for identifying people who can provide expertise to th
 - Product Owner, Service Owner or equivalent;
 - Delivery Manager or equivalent.
 
-## Document Storage
-
-A copy of every completed TSR should be stored in a central location on SharePoint.
-
 ## Test Lead responsibility
 
 In reviewing these documents a Test Lead is assuring the following:
