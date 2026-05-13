@@ -20,10 +20,10 @@ Many simple HTTP endpoint mocking problems are solved using WireMock. Parsing re
 
 WireMock stubs can run standalone and be deployed as continuously running services (e.g. to azure as a container instance/app or web app). 
 
->When using containers refer to the [container policy](/software-engineering-policies/Containers/ContainerPolicy.md).
+>When using containers refer to the [container policy](/policies/platform/containers/ContainerPolicy.md).
 
 WireMock can also be instantiated inline from code or scripts on demand and disposed after a test (e.g. locally or on build/release/test agents). 
->**The .net version of WireMock is independent from the Java (wiremock.org) version. See the [open source use policy](/software-engineering-policies/OpenSourceUse/OpenSourceUsePolicy.md) when assessing the stuitability of open source software. The .net version should be used for .net projects, as the two versions are not fully compatible.**
+>**The .net version of WireMock is independent from the Java (wiremock.org) version. See the [open source use policy](/policies/platform/open-source-use/OpenSourceUsePolicy.md) when assessing the suitability of open source software. The .net version should be used for .NET projects, as the two versions are not fully compatible.**
 
 ### Examples
 
@@ -53,4 +53,4 @@ Use WireMock wherever possible for creating HTTP API mocks _unless_ your require
 - Are beyond fixed or templated HTTP responses and callbacks (including to other URIs) and basic unhappy path tests, most of which WireMock can cover.
 - Would make a WireMock based solution more effort or complexity than creating a bespoke mock.
 
-If a mock requires complexity outside of what WireMock can facilitate, _only_ then build it using known general purpose tools (e.g. in C# using .net), keeping in line with the [software engineering policies](/software-engineering-policies).
+If a mock requires complexity outside of what WireMock can facilitate, _only_ then build it using known general purpose tools (e.g. in C# using .NET), keeping in line with the [software engineering policies](/policies/README.md).

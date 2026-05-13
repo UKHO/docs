@@ -4,12 +4,25 @@ Welcome to Quality Assurance at the UKHO. Here you will find both process and te
 
 This is a community site - if you want to add or change a thing then submit a PR and ask a Test Lead to approve.
 
+## Purpose
+
+This area is the community entry point for testing and assurance guidance.
+
+## Intended audience
+
+- testers planning and delivering assurance
+- developers who need testing guidance
+- test leads reviewing quality practices
+- delivery teams improving test automation and coverage
+
 ## Where to start
 
 If you read nothing else, then read these things:
 
 * Our [Test Strategy](test-strategy.md) contains details of the UKHO approach to testing.
 * The [UKHO Delivery Quality Charter](ukho-quality-charter.md) assists delivery teams in adopting practices proven to improve quality of delivery.
+* The [Testing policies](../../policies/testing/README.md) explain the mandatory testing requirements.
+* The [Testing standards](../../standards/testing/README.md) explain testing-specific implementation expectations.
 
 ## Contents
 
@@ -25,4 +38,11 @@ If you read nothing else, then read these things:
   * [Performance testing checklist](performance-test-checklist.md)
   * [Safety assurance](safety-assurance-guidance.md)
   * [UI automation](browser-automation.md)
-  * [Security testing Guidance](Security-Testing-Guidance.md)
+  * [Security testing guidance](security-testing-guidance.md)
+
+## Related areas
+
+- [Security community](../security/README.md)
+- [Testing policies](../../policies/testing/README.md)
+- [Testing standards](../../standards/testing/README.md)
+- [Guidance checklists](../../guidance/checklists/README.md)

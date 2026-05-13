@@ -53,5 +53,5 @@ For more information on Safety assurance guidance, please speak to a memeber of 
 
 ## Safety Debt
 
-A team team may discover, in an existing system, improvements that can be made to its safety qualities.  These are a form of technical debt which, with the agreement of the Product Owner, should be recorded in usual way as a PBI as per our [standard guidance](https://github.com/UKHO/docs/blob/main/software-engineering-policies/TechnicalDebt/TechnicalDebtGuidance.md).  As well as the standard technical debt tags (*Technical Debt* and *T1/T2/T3/T4)*, the PBI should have the tag *Safety*.
+A team team may discover, in an existing system, improvements that can be made to its safety qualities. These are a form of technical debt which, with the agreement of the Product Owner, should be recorded in the usual way as a PBI as per our [technical debt guidance](../../policies/engineering/technical-debt/TechnicalDebtMonitoring.md). As well as the standard technical debt tags (*Technical Debt* and *T1/T2/T3/T4)*, the PBI should have the tag *Safety*.
 
