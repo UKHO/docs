@@ -35,9 +35,9 @@ All open repositories must use git and contributions should follow the standard 
 
 ## Related areas
 
-- [Platform policies](../../../policies/platform/README.md)
-- [Source control standards](../../../standards/source-control/README.md)
-- [Root contribution guidance](../../../CONTRIBUTING.md)
+* [Platform policies](../../../policies/platform/README.md)
+* [Source control standards](../../../standards/source-control/README.md)
+* [Root contribution guidance](../../../CONTRIBUTING.md)
 
 ## Terminology
 

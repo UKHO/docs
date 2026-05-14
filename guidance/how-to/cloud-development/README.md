@@ -60,6 +60,6 @@ This policy applies to all software engineering teams and individuals within the
 
 ## Related areas
 
-- [Data engineering](../../../communities/data-engineering/README.md)
-- [Platform policies](../../../policies/platform/README.md)
-- [Observability standards](../../../standards/observability/README.md)
+* [Data engineering](../../../communities/data-engineering/README.md)
+* [Platform policies](../../../policies/platform/README.md)
+* [Observability standards](../../../standards/observability/README.md)
