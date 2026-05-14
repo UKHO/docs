@@ -24,6 +24,28 @@ Before adding a new document, decide what kind of document it is and place it in
 - **Checklist**: repeatable review or assurance steps.
 - **Reference**: supporting information, templates, examples, or background material.
 
+## Mapping for contributors
+
+When deciding how to shape a page, use the following mapping to keep each document focused on a clear reader need.
+
+| Local type | Primary documentation mode | Guidance |
+| --- | --- | --- |
+| Policy | Reference | State authoritative requirements. Keep rationale separate or clearly marked. |
+| Standard | Reference | State repeatable implementation expectations. Link to how-to guidance for procedures. |
+| Guidance | How-to or explanation | Decide whether the page helps the reader complete a task or understand a topic. |
+| Checklist | Reference or how-to | Use reference style for lookup checklists and how-to style for workflow checklists. |
+| Example | Tutorial, explanation, or reference | Make clear whether the example teaches, explains, or provides a reusable pattern. |
+| Community page | Landing page | Orient an audience and route them to the right policies, standards, guidance, and reference pages. |
+
+Use these documentation modes when shaping content:
+
+- **Tutorials** teach a newcomer through a safe, successful first experience.
+- **How-to guides** help a reader complete a specific task.
+- **Reference** provides accurate information for lookup.
+- **Explanation** builds understanding, context, and judgement.
+
+A page should usually have one primary mode. If a page starts to mix policy, task guidance, reference detail, and explanation, either split it into separate pages or make the sections clearly distinct.
+
 ## Naming rules
 
 - folders use `kebab-case`
