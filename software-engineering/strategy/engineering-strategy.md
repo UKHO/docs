@@ -6,15 +6,15 @@
 
 ### Purpose
 
-This strategy sets out how engineering (Software , Data and Test) at the UK Hydrographic Office (UKHO) enables the delivery of Defence, SOLAS and commercial obligations through sustainable, secure and resilient digital services, while supporting the development and retention of engineering talent.
+This strategy sets out how engineering (software, data and test) at the UK Hydrographic Office (UKHO) enables the delivery of Defence, SOLAS and commercial obligations through sustainable, secure and resilient digital services, while supporting the development and retention of engineering talent.
 
 ### Context
 
-UKHO delivers long‑lived, safety‑critical products in an environment of increasing digital demand. This strategy aligns with cross‑government Digital, Data and Technology (DDaT) expectations, while remaining tailored to UKHO’s specific mission. Software engineering is treated as a core organisational capability rather than a purely delivery-focused activity.
+UKHO delivers long‑lived, safety‑critical products in an environment of increasing digital demand. This strategy aligns with cross‑government Digital, Data and Technology (DDaT) expectations, while remaining tailored to UKHO’s specific mission. Engineering is treated as a core organisational capability rather than a purely delivery-focused activity.
 
 ## 2. Strategic Outcomes
 
-The UKHO Software Engineering Strategy optimises for the following outcomes:
+The UKHO Engineering Strategy optimises for the following outcomes:
 
 - Reliable and resilient digital services that meet safety, availability and performance expectations
 - Sustainable systems that can be evolved rather than repeatedly replaced
@@ -47,7 +47,7 @@ These principles guide engineering decisions across UKHO:
 
 **In practice:** Agile, iterative delivery supported by continuous integration, automated testing and continuous deployment.
 
-We look to leverage AI where we can obtain the biggest ROI, but being aware of the ethical, technical, security and and other risks (A separate AI Engineering strategy has been created)
+We look to leverage AI where we can obtain the biggest return on investment, while remaining aware of the ethical, technical, security and other risks. A separate AI engineering strategy has been created.
 
 ### 4.3 Sustainable Architecture and Technical Debt
 
@@ -89,7 +89,7 @@ These measures are indicators of health, not performance targets.
 
 ## 7. Alignment with Wider UKHO Strategy
 
-This Software Engineering Strategy supports the UKHO Technology Strategy and aligns with MOD, SOLAS and Cabinet Office expectations. It complements data, cloud and security strategies and draws on cross‑government DDaT standards while remaining tailored to UKHO’s needs.
+This Engineering Strategy supports the UKHO Technology Strategy and aligns with MOD, SOLAS and Cabinet Office expectations. It complements data, cloud and security strategies and draws on cross‑government DDaT standards while remaining tailored to UKHO’s needs.
 
 ## 8. What This Strategy Is and Is Not
 

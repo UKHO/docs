@@ -1,8 +1,8 @@
-# Software Engineering AI Strategy
+# Engineering AI Strategy
 
 ## Foreword
 
-Software Engineering plays a central role in delivering UKHO's digital products and services. AI-powered developer tools are an opportunity to increase productivity, improve code quality, and free engineers to focus on higher-value design and systems thinking. This document sets out our practical, security-conscious approach to adopting AI within software delivery, with GitHub Copilot established as the sanctioned coding assistant.
+Engineering plays a central role in delivering UKHO's digital products and services. AI-powered engineering tools are an opportunity to increase productivity, improve quality, and free engineers to focus on higher-value design, analysis and systems thinking. This document sets out our practical, security-conscious approach to adopting AI across engineering delivery, with GitHub Copilot established as the sanctioned coding assistant.
 
 The strategy balances pragmatic adoption with strong governance: engineers remain accountable for all code, security and IP considerations are enforced, and we prioritise training, monitoring and targeted support so benefits are realised evenly across teams.
 
@@ -10,7 +10,7 @@ This is a living strategy and will be reviewed annually to reflect technology, p
 
 ## 1. Executive Summary
 
-This strategy sets out how Software Engineering will use AI to improve delivery quality and developer productivity while maintaining security, IP and governance standards. Our pragmatic approach focuses on sanctioned developer tooling (GitHub Copilot), training and measurement to ensure benefits are realised safely and evenly across teams.
+This strategy sets out how Engineering will use AI to improve delivery quality and productivity while maintaining security, IP and governance standards. Our pragmatic approach focuses on sanctioned engineering tooling, including GitHub Copilot, alongside training and measurement to ensure benefits are realised safely and evenly across teams.
 
 Key outcomes:
 
@@ -20,11 +20,11 @@ Key outcomes:
 
 ## 2. Purpose & Scope
 
-This document describes the purpose, scope and constraints for adopting developer-facing AI within Software Engineering. It sets out how AI assistants and related tooling will be used to improve software delivery efficiency and quality while meeting obligations for security, legal compliance, data stewardship and public service transparency.
+This document describes the purpose, scope and constraints for adopting engineering-facing AI within Engineering. It sets out how AI assistants and related tooling will be used to improve engineering delivery efficiency and quality while meeting obligations for security, legal compliance, data stewardship and public service transparency.
 
 Scope
 
-- Developer-facing AI assistants (primary focus: GitHub Copilot) used by engineers, testers and platform teams during development, test and documentation activities.
+- Engineering-facing AI assistants, with GitHub Copilot as the primary approved assistant, used by software, data, test and platform teams during development, analysis, test and documentation activities.
 - Tooling that generates or suggests code, tests, infrastructure-as-code, configuration or documentation.
 - Integration patterns and platform controls that permit safe experimentation with AI tools.
 
@@ -34,13 +34,13 @@ Out of scope
 
 Applicability and constraints
 
-- Applies to all civil service staff, contractors and suppliers working in or for Software Engineering.
+- Applies to all civil service staff, contractors and suppliers working in or for Engineering.
 - Use of AI tooling with classified (anything above Official), personal, or otherwise sensitive data is prohibited unless explicitly authorised by security policy and executed within approved sandboxes or vetted on-premises solutions.
 - All use must comply with MOD/UKHO policies, data protection law and procurement rules.
 
 Audience
 
-This document is intended for software engineers, engineering managers, security and compliance teams, legal/IP advisers, procurement and vendor managers, platform and operations teams, and senior leadership.
+This document is intended for engineers across software, data and test disciplines, engineering managers, security and compliance teams, legal/IP advisers, procurement and vendor managers, platform and operations teams, and senior leadership.
 
 Relationship to organisational strategy
 
@@ -69,9 +69,9 @@ Refer to the [Code Generation Tools Policy](../../software-engineering-policies/
   - Maintain clear policies and approval processes for developer-facing AI tooling and ensure guidance is readily available.
   - Monitor and mitigate risks (data leakage, licensing, model hallucination) and integrate AI-specific incidents into security playbooks.
 
-## 5. Priority Use Cases for Software Engineering
+## 5. Priority Use Cases for Engineering
 
-- AI-assisted development (code generation, refactoring, documentation)
+- AI-assisted development and analysis (code generation, refactoring, documentation and data or test artefact support)
 - Automated testing and test generation
 - CI/CD optimisation and release automation, with senior engineering oversight and stronger security review, especially for initial CD design and infrastructure or networking changes.
 - Static and dynamic analysis, security scanning
@@ -87,7 +87,7 @@ Priority rationale:
 
 ## 6. Capability Development
 
-To accelerate practical AI adoption within Software Engineering we will prioritise developer-facing tooling. GitHub Copilot has already been rolled out organisation-wide and licences issued to most engineers. The current phase focuses on consolidating that rollout by emphasising training, pilots, monitoring and targeted support to raise effective adoption across all teams.
+To accelerate practical AI adoption within Engineering we will prioritise engineering-facing tooling. GitHub Copilot has already been rolled out organisation-wide and licences issued to most engineers. The current phase focuses on consolidating that rollout by emphasising training, pilots, monitoring and targeted support to raise effective adoption across all teams.
 
 - **GitHub Copilot adoption program:**
   - Licences have been provisioned for the majority of engineers; continue onboarding remaining staff as needed.
@@ -118,9 +118,9 @@ Implementation notes:
 - **Partnerships:**
   - Work with GitHub and other vendors to stay aligned on security, licensing and feature roadmaps.
 
-By focusing on Copilot as the primary developer-facing AI tool, we expect faster, measurable productivity gains while ensuring governance and security controls are in place.
+By focusing on Copilot as the primary approved engineering AI tool, we expect faster, measurable productivity gains while ensuring governance and security controls are in place.
 
-## 7. Governance & Ethics for Developer-Facing AI
+## 7. Governance & Ethics for Engineering-Facing AI
 
 - **Tool approval and policy:**
   - GitHub Copilot is the recommended and organisationally approved coding assistant. Use of other external coding assistants must follow the tool approval process.
@@ -228,6 +228,6 @@ Final review checklist:
 - Confirm proposed targets and timelines with engineering leadership.
 - Ensure licence registry and monitoring dashboards in place.
 
-Approved by: [Head of Software Engineering]  
+Approved by: [Head of Engineering]  
 Date: [TBD]
 
