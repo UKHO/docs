@@ -32,7 +32,7 @@ Before contributing, thoroughly review the project's documentation, contribution
 
 - Ensure that the open source project is governed by an OSI-approved license.
 - Verify that the license allows for the intended use and contribution.
-- Obtain necessary approvals from the UKHO Legal Advisor for any contributions that may involve valuable intellectual property (CLA for example).
+- Obtain necessary approvals from the Head of Engineering for any contributions that may involve valuable intellectual property (CLA for example).
 
 ### 3. Maintain Quality Standards
 
@@ -48,7 +48,7 @@ Forking a project and making changes without contributing back is discouraged. T
 
 ### 5. Secure Approval for Contributions
 
-- Obtain authorization from the Technology Head of Division before contributing to any open source repository.
+- Obtain authorization from the Head of Engineering before contributing to any open source repository.
 - For significant changes, re-authorization is required.
 
 ### 6. Limit Support and Engagement
