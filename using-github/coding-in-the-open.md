@@ -57,7 +57,7 @@ Where code cannot be made open, teams **must** provide a convincing written expl
 - identify the specific subset of code that must remain closed (do not close entire repositories unnecessarily)
 - name the applicable reason from the list above
 - state the expected date or condition under which the code can be opened
-- be recorded in the repository's README or a linked document, and reviewed at each service assessment
+- be recorded in the repository's README or a linked document, and reviewed at regular intervals
 
 This is a requirement of both [GOV.UK Service Standard point 12](https://www.gov.uk/service-manual/service-standard/point-12-make-new-source-code-open) and the MOD Defence Service Manual.
 
