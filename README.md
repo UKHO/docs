@@ -88,7 +88,7 @@ Use this README as the main content map for the repository.
 ### Test lead reviewing assurance
 
 1. Start with [Quality assurance](./communities/quality-assurance/README.md).
-2. Review [Test strategy](./communities/quality-assurance/test-strategy.md).
+2. Review [Test strategy](./policies/testing/test-strategy.md).
 3. Review [Defect management](./policies/testing/defect-management/DefectManagementPolicy.md).
 
 ### Security champion reviewing delivery risks

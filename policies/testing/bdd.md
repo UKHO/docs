@@ -23,11 +23,11 @@ BDD is NOT:
 * Ensures all perspectives are considered when defining requirements
 * Produces better software that matches user needs first time
 
-![bdd tree swing](images/bdd_tree_swing.png)
+![bdd tree swing](../../communities/quality-assurance/images/bdd_tree_swing.png)
 
 ## Stages of BDD
 
-![dicovery formulation automation](images/dicovery_formulation_automation.png)
+![dicovery formulation automation](../../communities/quality-assurance/images/dicovery_formulation_automation.png)
 
 ## How a team can apply BDD
 
@@ -61,7 +61,7 @@ Example Mapping sessions can involve the whole team, or just the "Three Amigos" 
 1. Any questions that cannot be answered in the session should be recorded and answered subsequently.
 1. If there are lots of questions this may indicate the story is not understood and needs to go back to the customer.
 
-![Example Mapping](images/example_mapping.png)
+![Example Mapping](../../communities/quality-assurance/images/example_mapping.png)
 
 ## Resources
 

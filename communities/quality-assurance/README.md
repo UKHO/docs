@@ -19,26 +19,26 @@ This area is the community entry point for testing and assurance guidance.
 
 If you read nothing else, then read these things:
 
-- Our [Test Strategy](test-strategy.md) contains details of the UKHO approach to testing.
-- The [UKHO Delivery Quality Charter](ukho-quality-charter.md) assists delivery teams in adopting practices proven to improve quality of delivery.
+- Our [Test Strategy](../../policies/testing/test-strategy.md) contains details of the UKHO approach to testing.
+- The [UKHO Delivery Quality Charter](../../policies/testing/ukho-quality-charter.md) assists delivery teams in adopting practices proven to improve quality of delivery.
 - The [Testing policies](../../policies/testing/README.md) explain the mandatory testing requirements.
 - The [Testing standards](../../standards/testing/README.md) explain testing-specific implementation expectations.
 
 ## Contents
 
 - Process guidance
-  - [Acceptance criteria](acceptance-criteria.md)
-  - [BDD reference page](bdd.md)
-  - [Test strategy](test-strategy.md)
-  - [Test automation standards](test-code-standards.md)
-  - [UKHO Delivery Quality Charter](ukho-quality-charter.md)
+	- [Acceptance criteria](../../policies/testing/acceptance-criteria.md)
+  - [BDD reference page](../../policies/testing/bdd.md)
+  - [Test strategy](../../policies/testing/test-strategy.md)
+  - [Test automation standards](../../policies/testing/test-code-standards.md)
+  - [UKHO Delivery Quality Charter](../../policies/testing/ukho-quality-charter.md)
 - Technical testing resources
-  - [Accessibility](accessibility-testing.md)
-  - [Exemplar repositories](test-repositories.md)
-  - [Performance testing checklist](performance-test-checklist.md)
-  - [Safety assurance](safety-assurance-guidance.md)
-  - [UI automation](browser-automation.md)
-  - [Security testing guidance](security-testing-guidance.md)
+	- [Accessibility](../../policies/testing/accessibility-testing.md)
+  - [Exemplar repositories](../../policies/testing/test-repositories.md)
+  - [Performance testing checklist](../../policies/testing/performance-test-checklist.md)
+  - [Safety assurance](../../policies/testing/safety-assurance-guidance.md)
+  - [UI automation](../../policies/testing/browser-automation.md)
+  - [Security testing guidance](../../policies/testing/security-testing-guidance.md)
 
 ## Related areas
 
