@@ -27,13 +27,13 @@ If you read nothing else, then read these things:
 ## Contents
 
 - Process guidance
-	- [Acceptance criteria](../../policies/testing/acceptance-criteria.md)
+  - [Acceptance criteria](../../policies/testing/acceptance-criteria.md)
   - [BDD reference page](../../policies/testing/bdd.md)
   - [Test strategy](../../policies/testing/test-strategy.md)
   - [Test automation standards](../../policies/testing/test-code-standards.md)
   - [UKHO Delivery Quality Charter](../../policies/testing/ukho-quality-charter.md)
 - Technical testing resources
-	- [Accessibility](../../policies/testing/accessibility-testing.md)
+  - [Accessibility](../../policies/testing/accessibility-testing.md)
   - [Exemplar repositories](../../policies/testing/test-repositories.md)
   - [Performance testing checklist](../../policies/testing/performance-test-checklist.md)
   - [Safety assurance](../../policies/testing/safety-assurance-guidance.md)
