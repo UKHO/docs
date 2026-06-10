@@ -22,7 +22,7 @@ To help ensure the security of applications, this process provides a common proc
 
 ## Managing a list of current Security Concerns
 
-Every software development team will keep a **prioritised** list of **current security concerns**. This list should be stored in the same work item tracking system that the team uses for bugs and general work (usually Azure DevOps) and identified using a ticket type of Risk with a tag of Security.
+Every software development team will keep a **prioritised** list of **current security concerns**. This list should be stored in the same work item tracking system that the team uses for bugs and general work (usually Azure DevOps) and identified using a ticket type of Risk with a Risk Category of Security.
 
 Each security concern requires an assessment and the Security Champion or Lead Technical Software Engineer (Security) will ensure that an initial assessment will be carried out within 2 working days of the concern being raised (although this may be carried out by another team member on their behalf). This should give the Security Concern a standard scoring using the Inherent, Residual and Target risk measures.
 
@@ -30,7 +30,7 @@ Each security concern requires an assessment and the Security Champion or Lead T
 > - Residual Risk: Remaining risk after mitigations are in place
 > - Target Risk: The risk appetite your team/application/product is willing to accept
 
-Every sprint, the list of current security concerns should be reviewed by the team and all new security concerns should be highlighted as part of the sprint review.
+On a regular delivery cadence, the list of current security concerns should be reviewed by the team. For sprint teams this should happen during sprint review/planning activities, and for Kanban teams this should happen during their regular flow review or service review. All new security concerns should be highlighted during these reviews.
 
 Additionally, each concern should be assessed to determine if additional training is required to prevent further issues.
 
@@ -66,7 +66,8 @@ Additionally, each concern should be assessed to determine if additional trainin
 
 - Team implements a fix for the security concern.
 - The fix is deployed and tested.
-- Any testing tools that indicated an issue are to retest the issue to ensure this has been resolve or that new issues are not being presented. 
+- Any testing tools that indicated an issue are to retest the issue to ensure this has been resolve or that new issues are not being presented.
+- Update Risk PBI with any information that supports your remediation (PRs, supporting test results, pipeline successes) 
 
 :arrow_down:
 
@@ -76,7 +77,7 @@ Additionally, each concern should be assessed to determine if additional trainin
 
 ### Changes and New Features with a Security Impact
 
-During development, a team will make some changes that will have a security impact. This may be introducing new security features or changing the way that some existing security feature works. These features will be **tagged** with **Security** to highlight to the IT Security Team.
+During development, a team will make some changes that will have a security impact. This may be introducing new security features or changing the way that some existing security feature works. These Risks will be updated with the Category **Security** to highlight to the IT Security Team.
 
 ------
 
@@ -84,7 +85,7 @@ During development, a team will make some changes that will have a security impa
 
 Once a security concern has been identified, it should be raised in the team's backlog. The Risk should have the following characteristics:
 
-- Tagged with **Security**.
+- Risk Category set as **Security**.
 - Title contains detail such as the service name and type of security issue.
 - Include a detailed description of the security concern e.g. Services affected.
 - Risk should contain steps to reproduce the issue (if possible).
@@ -96,17 +97,17 @@ Once a security concern has been identified, it should be raised in the team's b
 A penetration test of the Contoso website has identified a XSS vulnerability on the customer details form.
 
 1. A Risk is raised in the Azure DevOps backlog
-2. The bug is given the following title: *Contoso Website, XSS possible on customer details form.*
-3. The bug is tagged with the following: Security
+2. The Risk is given the following title: *Contoso Website, XSS possible on customer details form.*
+3. The Risk is given the Category: Security
 
 ## Prioritising and Fixing Security Concerns
 
-Discussions of prioritisation will usually happen during the team's planning session. In most cases, the team has the capability to address the security concern within their sprint. The IT Security Team will drive very high priority security concerns, this is usually discussed during SWGs (Security Working Groups) or ad-hoc meetings. In order to escalate an issue use the following guidance:
+Discussions of prioritisation will usually happen during the team's regular prioritisation activities (for example sprint planning/refinement or Kanban replenishment/flow review). In most cases, the team has the capability to address the security concern within their planned work cycle. The IT Security Team will drive very high priority security concerns, this is usually discussed during SWGs (Security Working Groups) or ad-hoc meetings. In order to escalate an issue use the following guidance:
 
 1. Raise the issue with the Security Champion for the team or Lead Technical Software Engineer (Security)
-2. You will inform next steps i.e. raise to an ITSO (IT Security Officer).
-3. ITSO will have an initial discussion with the relevant parties to enable a review of the risk labelled **Security**. With appropriate tagging, queries can be used to easily identify items of interest.
+2. You will be informed of next steps based on the information i.e. raise to an ITSO (IT Security Officer) as High/Critical or raise to an ITSO as a long standing issue with mitigations.
+3. ITSO will have an initial discussion with the relevant parties to enable a review of the risk with the Category **Security**.
 4. In this review ITSO will discuss and verify the risk score. This may require further follow-up meetings with either the Security Champion, or member of staff who raised the concern. Discussions are recorded in the bug.
-5. If the issue is directly related to an existing project and benefits from an opportunity to easily address in a following sprint, this must be pursued first. If required ITSO can contact the Delivery Manager for inclusion in the next sprint planning meeting.
+5. If the issue is directly related to an existing project and benefits from an opportunity to be easily addressed in the next delivery window, this must be pursued first. If required ITSO can contact the Delivery Manager for inclusion in the next appropriate planning or prioritisation meeting.
 6. If the issue fails to be remediated, the issue may need to be risk accepted in which a further conversation with ITSO will be required.
 7. ITSO will discuss the issue and will guide you through the process.

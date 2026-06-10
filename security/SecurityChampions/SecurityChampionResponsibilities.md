@@ -14,7 +14,7 @@ I coach the team into creating security processes that make our systems secure w
 
 I ensure the team create an effective set of standards for securely developing their software.
 
-I help the team understand the security training materials, and I work to ensure they are all consumed.
+I help the team understand the security training materials, and I work to ensure they are all consumed. I support growth in our learning by feeding back on topics or certifications of interest. 
 
 I have an understanding of security testing tools and use them during development to harden our software.
 
@@ -55,6 +55,8 @@ I have a broad knowledge of security risks and how to counter them.
 I'm an expert in how my team’s technologies must be used to keep them secure.
 
 I'm an expert in my team’s security tooling (e.g. static analysis tools, third-party checkers).
+
+I'm well trained and willing to work towards security based qualifications
 
 I understand the security aspects of solution architecture.
 
