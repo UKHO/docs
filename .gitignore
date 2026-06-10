@@ -6,3 +6,6 @@ site/
 /.vs
 
 node_modules/
+
+_site
+.cache
