@@ -10,13 +10,13 @@
 
 *I am a software engineer whose main job is to write code. I additionally have a responsibility to help the team write secure software, as a source of expertise and a coach.*
 
-I coach the team into creating security processes that make our systems secure while minimising the effect on development velocity. I ensure that these processes run effectively, but I don’t make myself a bottleneck or a single point of failure in the process.
+I coach the team into creating security processes that make our systems secure while minimizing the effect on development velocity. I ensure that these processes run effectively, but I don’t make myself a bottleneck or a single point of failure in the process.
 
 I ensure the team create an effective set of standards for securely developing their software.
 
-I help the team define a set of security training materials, and I make sure they are all consumed.
+I help the team understand the security training materials, and I work to ensure they are all consumed.
 
-I have expertise in pen testing tools and use them during development to harden our software.
+I have an understanding of security testing tools and use them during development to harden our software.
 
 I help the team run threat modelling sessions.
 
@@ -53,8 +53,6 @@ I’m not the only person to run security activities – I coach others to run t
 I have a broad knowledge of security risks and how to counter them.
 
 I'm an expert in how my team’s technologies must be used to keep them secure.
-
-I'm well trained and hold security-related qualifications.
 
 I'm an expert in my team’s security tooling (e.g. static analysis tools, third-party checkers).
 
