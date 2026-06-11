@@ -81,7 +81,7 @@ Branch protection for main should be considered to avoid accidental or malicious
 When setting up checks and approvals on a Pipeline Environment; the default expiry is 30 days, this behaviour is queuing builds for days when they arent needed, in the scope of this a set of default values should be followed depending on the target environment.
 
 | Environment | Timeout |
-|-------------|---------|
+| ----------- | ------- |
 | DEV | < 30 minutes |
 | QA | < 3 hours |
 | LIVE | < 6 hours |
