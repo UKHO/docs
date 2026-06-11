@@ -97,7 +97,7 @@ To accelerate practical AI adoption within Engineering we will prioritise develo
 Implementation notes:
 
 - Licensing: maintain a licence registry and reconcile seat usage quarterly.
-- Training approach: each team will schedule team-level sessions at a cadence appropriate to their members; cadence will vary according to need. Periodic deep-dive workshops will remain available for cross-team topics. New starters should complete basic Approved Assistant training as part of onboarding. Suitable training can be found on PluralSight.
+- Training approach: each team will schedule team-level sessions at a cadence appropriate to their members; cadence will vary according to need. Periodic deep-dive workshops will remain available for cross-team topics. New starters should complete basic Approved Assistant training as part of onboarding. Suitable training can be found on PluralSight and/or Microsoft Learn ([GH-300 GitHub Copilot](https://learn.microsoft.com/en-us/training/courses/gh-300t00)).
 - Champions: identify champions to spread knowledge.
 
 - **Pilots and AI projects:**
