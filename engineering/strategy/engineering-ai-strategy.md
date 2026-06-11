@@ -159,7 +159,7 @@ Controls and safeguards:
 
 ## 9. Implementation Roadmap
 
-### Phase 1: Consolidate Rollout (Year 1)
+### Phase 1: Consolidate Rollout
 
 - Rollout complete for most engineers; focus on onboarding remaining staff and closing any licence gaps.
 - Complete training curriculum and ensure baseline training completion across teams.
@@ -171,13 +171,13 @@ Success criteria for Phase 1:
 - 50%+ of engineers have completed basic Approved Assistant training within 6 months.
 - Two case studies demonstrating measurable productivity gains.
 
-### Phase 2: Integrate & Scale (Years 2-3)
+### Phase 2: Integrate & Scale
 
 - Embed Approved Assistant-enabled workflows into CI/CD, code review and documentation processes where safe.
 - Launch monitoring dashboards and adoption incentives; provide targeted support for slower adopters.
 - Expand sandbox and platform support for experimentation.
 
-### Phase 3: Optimise & Institutionalise (Year 4+)
+### Phase 3: Optimise & Institutionalise
 
 - Use metrics to continuously refine training and tooling.
 - Institutionalise Approved Assistant best practices and maintain an Approved Assistant champions community.
