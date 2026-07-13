@@ -107,20 +107,16 @@ Legacy applications may well be exempt from this statement due to existing desig
 Pipeline Threat Modelling should be carried out in all design, innovation and development work relating to pipelines, considering where threats may develop or emerge over time. Security is a vital aspect of how our pipelines should be designed and developed, the following approaches are detailed and should be considered per product pipeline:
 
 ### Must
-
-- Dependency Checking - we recommend the OWASP dependency checker, other options are valid but consider impact on support and required knowledge for future changes.
-- Static Application Security Testing (SAST) - Coverity is the current SAST offering, alternate options must be equivalent in provision.
+- Implementation of the UKHO Snyk scan task is high recommended
+  - [Dependency Checking](https://github.com/UKHO/ukho-azure-pipeline-scan-task) - Implementation of the UKHO Snyk scan task is high recommended.
+  - [Static Application Security Testing (SAST)](https://github.com/UKHO/ukho-azure-pipeline-scan-task)
+  - [Infrastructure as Code Scanning](https://github.com/UKHO/ukho-azure-pipeline-scan-task)
+  - [Container Scanning](https://github.com/UKHO/ukho-azure-pipeline-scan-task)
 - Secret values required by deployment must be backed by an Azure key vault
 
-### Should - Added by UKHO
+### Should
 
-- Static Code Analysis (SCA) - Coverity contains the functionality to do this, future implementation examples to follow. Alternatives are available but should be justified (consider support and knowledge impact/requirement when using alternatives).
-- Container Security Screening - Currently trialing Snyk and ECR (currently used by Data Science/Engineering) depending on technology stack.
-
-### Could - Added by UKHO
-
-- Software Composition Analysis - Coverity also has the ability to provide this.
-- Dynamic Application Security Testing (DAST) - No set or experimental implementations currently, future research to follow.
+- Dynamic Application Security Testing (DAST) - Invicti is setup to perform this. If you require the ability to perform testing from a pipeline, contact your Lead Technical Software Engineer (Security) to discuss the details. 
 
 ## Working Principles
 
