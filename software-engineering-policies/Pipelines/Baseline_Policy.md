@@ -107,6 +107,7 @@ Legacy applications may well be exempt from this statement due to existing desig
 Pipeline Threat Modelling should be carried out in all design, innovation and development work relating to pipelines, considering where threats may develop or emerge over time. Security is a vital aspect of how our pipelines should be designed and developed, the following approaches are detailed and should be considered per product pipeline:
 
 ### Must
+
 - Implementation of the UKHO Snyk scan task is high recommended
   - [Dependency Checking](https://github.com/UKHO/ukho-azure-pipeline-scan-task) - Implementation of the UKHO Snyk scan task is high recommended.
   - [Static Application Security Testing (SAST)](https://github.com/UKHO/ukho-azure-pipeline-scan-task)
