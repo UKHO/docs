@@ -1,7 +1,11 @@
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
+import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
+import { InputPathToUrlTransformPlugin } from "@11ty/eleventy";
 
 export default function (eleventyConfig) {
     eleventyConfig.addPlugin(eleventyImageTransformPlugin);
+    eleventyConfig.addPlugin(syntaxHighlight);
+    eleventyConfig.addPlugin(InputPathToUrlTransformPlugin);
 
     const prettyTitle = (value = "") => {
         return String(value)
