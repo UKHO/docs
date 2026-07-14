@@ -80,9 +80,9 @@ If you are uncertain about any commercial software boundary, consult your Securi
 
 ## 4. Summary: Step‑by‑Step Guidance
 
-| Phase         | Actions                                                                 |
-|---------------|-------------------------------------------------------------------------|
-| **Planning**  | - Define IP and open licensing (e.g., MIT) <br> - Choose open repo tool within Defence and compliant with cyber policy |
+| Phase | Actions |
+| ------------- | ----------------------------------------------------------------------- |
+| **Planning** | - Define IP and open licensing (e.g., MIT) <br> - Choose open repo tool within Defence and compliant with cyber policy |
 | **Development** | - Code openly from day one<br> - Exclude secrets and credentials (use secret management)<br> - Write clear documentation and commit history |
 | **Security Review** | - Conduct security checks before publishing<br> - Remove sensitive content and confirm what may remain closed (e.g., unreleased policy or SECRET parts) |
 | **Publishing** | - Release code publicly under an open licence<br> - Include versioning rules, contributing guidelines, issue tracking |
