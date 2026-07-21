@@ -1,8 +1,8 @@
-# Software Engineering AI Strategy
+# Engineering AI Strategy
 
 ## Foreword
 
-Software Engineering plays a central role in delivering UKHO's digital products and services. AI-powered developer tools are an opportunity to increase productivity, improve code quality, and free engineers to focus on higher-value design and systems thinking. This document sets out our practical, security-conscious approach to adopting AI within software delivery. GitHub Copilot is the current Organisation Approved coding assistant (referred to as the 'Approved Assistant' throughout this document).
+Engineering plays a central role in delivering UKHO's digital products and services. AI-powered developer tools are an opportunity to increase productivity, improve code quality, and free engineers to focus on higher-value design and systems thinking. This document sets out our practical, security-conscious approach to adopting AI within software delivery. GitHub Copilot is the current Organisation Approved coding assistant (referred to as the 'Approved Assistant' throughout this document).
 
 The strategy balances pragmatic adoption with strong governance: engineers remain accountable for all code, security and IP considerations are enforced, and we prioritise training, monitoring and targeted support so benefits are realised evenly across teams.
 
@@ -10,7 +10,7 @@ This is a living strategy and will be reviewed annually to reflect technology, p
 
 ## 1. Executive Summary
 
-This strategy sets out how Software Engineering will use AI to improve delivery quality and developer productivity while maintaining security, IP and governance standards. Our pragmatic approach focuses on sanctioned developer tooling (the Approved Assistant), training and measurement to ensure benefits are realised safely and evenly across teams.
+This strategy sets out how Engineering will use AI to improve delivery quality and developer productivity while maintaining security, IP and governance standards. Our pragmatic approach focuses on sanctioned developer tooling (the Approved Assistant), training and measurement to ensure benefits are realised safely and evenly across teams.
 
 Key outcomes:
 
@@ -20,7 +20,7 @@ Key outcomes:
 
 ## 2. Purpose & Scope
 
-This document describes the purpose, scope and constraints for adopting developer-facing AI within Software Engineering. It sets out how AI assistants and related tooling will be used to improve software delivery efficiency and quality while meeting obligations for security, legal compliance, data stewardship and public service transparency.
+This document describes the purpose, scope and constraints for adopting developer-facing AI within Engineering. It sets out how AI assistants and related tooling will be used to improve software delivery efficiency and quality while meeting obligations for security, legal compliance, data stewardship and public service transparency.
 
 Scope
 
@@ -34,7 +34,7 @@ Out of scope
 
 Applicability and constraints
 
-- Applies to all civil service staff, contractors and suppliers working in or for Software Engineering.
+- Applies to all civil service staff, contractors and suppliers working in or for Engineering.
 - Use of AI tooling with classified (anything above Official), personal, or otherwise sensitive data is prohibited unless explicitly authorised by security policy and executed within approved sandboxes or vetted on-premises solutions.
 - All use must comply with MOD/UKHO policies, data protection law and procurement rules.
 
@@ -69,7 +69,7 @@ Refer to the [Code Generation Tools Policy](../../software-engineering-policies/
   - Maintain clear policies and approval processes for developer-facing AI tooling and ensure guidance is readily available.
   - Monitor and mitigate risks (data leakage, licensing, model hallucination) and integrate AI-specific incidents into security playbooks.
 
-## 5. Priority Use Cases for Software Engineering
+## 5. Priority Use Cases for Engineering
 
 - AI-assisted development (code generation, refactoring, documentation)
 - Automated testing and test generation
@@ -87,7 +87,7 @@ Priority rationale:
 
 ## 6. Capability Development
 
-To accelerate practical AI adoption within Software Engineering we will prioritise developer-facing tooling. The Approved Assistant has already been rolled out organisation-wide and licences issued to most engineers. The current phase focuses on consolidating that rollout by emphasising training, pilots, monitoring and targeted support to raise effective adoption across all teams.
+To accelerate practical AI adoption within Engineering we will prioritise developer-facing tooling. The Approved Assistant has already been rolled out organisation-wide and licences issued to most engineers. The current phase focuses on consolidating that rollout by emphasising training, pilots, monitoring and targeted support to raise effective adoption across all teams.
 
 - **Approved Assistant adoption program:**
   - Licences have been provisioned for the majority of engineers; continue onboarding remaining staff as needed.
@@ -97,7 +97,7 @@ To accelerate practical AI adoption within Software Engineering we will prioriti
 Implementation notes:
 
 - Licensing: maintain a licence registry and reconcile seat usage quarterly.
-- Training approach: each team will schedule team-level sessions at a cadence appropriate to their members; cadence will vary according to need. Periodic deep-dive workshops will remain available for cross-team topics. New starters should complete basic Approved Assistant training as part of onboarding. Suitable training can be found on PluralSight.
+- Training approach: each team will schedule team-level sessions at a cadence appropriate to their members; cadence will vary according to need. Periodic deep-dive workshops will remain available for cross-team topics. New starters should complete basic Approved Assistant training as part of onboarding. Suitable training can be found on PluralSight and/or Microsoft Learn ([GH-300 GitHub Copilot](https://learn.microsoft.com/en-us/training/courses/gh-300t00)).
 - Champions: identify champions to spread knowledge.
 
 - **Pilots and AI projects:**
@@ -159,7 +159,7 @@ Controls and safeguards:
 
 ## 9. Implementation Roadmap
 
-### Phase 1: Consolidate Rollout (Year 1)
+### Phase 1: Consolidate Rollout
 
 - Rollout complete for most engineers; focus on onboarding remaining staff and closing any licence gaps.
 - Complete training curriculum and ensure baseline training completion across teams.
@@ -171,13 +171,13 @@ Success criteria for Phase 1:
 - 50%+ of engineers have completed basic Approved Assistant training within 6 months.
 - Two case studies demonstrating measurable productivity gains.
 
-### Phase 2: Integrate & Scale (Years 2-3)
+### Phase 2: Integrate & Scale
 
 - Embed Approved Assistant-enabled workflows into CI/CD, code review and documentation processes where safe.
 - Launch monitoring dashboards and adoption incentives; provide targeted support for slower adopters.
 - Expand sandbox and platform support for experimentation.
 
-### Phase 3: Optimise & Institutionalise (Year 4+)
+### Phase 3: Optimise & Institutionalise
 
 - Use metrics to continuously refine training and tooling.
 - Institutionalise Approved Assistant best practices and maintain an Approved Assistant champions community.
@@ -228,6 +228,6 @@ Final review checklist:
 - Confirm proposed targets and timelines with engineering leadership.
 - Ensure licence registry and monitoring dashboards in place.
 
-Approved by: [Head of Software Engineering]  
+Approved by: [Head of Engineering]  
 Date: [TBD]
 
