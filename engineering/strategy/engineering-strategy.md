@@ -1,6 +1,6 @@
 # UKHO Engineering Strategy
 
-*A pragmatic, government-aligned strategy for sustainable engineering*
+A pragmatic, government-aligned strategy for sustainable engineering
 
 ## 1. Purpose and Context
 
