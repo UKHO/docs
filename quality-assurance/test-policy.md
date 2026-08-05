@@ -33,4 +33,4 @@ Test processes may differ by team or project, according to individual circumstan
 
 ## Test data
 
-It is the UKHO Policy that live data should not be used for testing. Where a copy of live data is used then its use is to be risk assessed and the data sanitised as appropriate, removing references to customers, employees and UKHO corporate proprietary information.
+It is the UKHO Policy that sensitive data (e.g. personally identifiable information) should not be used for testing. Where a copy of live data is used, the data must be sanitised as appropriate, removing references to customers, employees and UKHO corporate proprietary information.  Sanitisation scripts must be appropriately controlled, and the copying and sanitisation of the data must be requested through a documented service request.
