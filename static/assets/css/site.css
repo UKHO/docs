@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-container {
+    display: flex;
+}
+
+.content {
+    padding: 1rem;
+}
+
+admiralty-theme-toggle {
+    padding: 1.2rem;
+}

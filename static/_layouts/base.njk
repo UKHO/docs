@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if title %}{{ title }} | {% endif %}{{ siteName }}</title>
+    <link rel="stylesheet" href="/assets/css/site.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ukho/admiralty-core/styles/admiralty.bundle.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ukho/admiralty-core/themes/default.css" />
+    <link rel="stylesheet" href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" />
+    <script type="module"
+        src="https://cdn.jsdelivr.net/npm/@ukho/admiralty-core/dist/admiralty/admiralty.esm.min.js"></script>
+</head>
+
+<body>
+    <admiralty-header header-title="{{ siteName }}" logo-img-url="/assets/svg/Admiraltystackedlogo.svg">
+    <admiralty-theme-toggle slot="profile"></admiralty-theme-toggle>
+    </admiralty-header>
+
+    <div class="main-container">
+        <admiralty-text-side-bar label="Documentation Navigation" show-logo="false" text-side-bar-width="320px">
+            {% for section in collections.docsBySection %}
+            <admiralty-text-side-bar-item slot="items" suppress-redirect="true" item-text="{{ section.title }}"
+                variant="expandable">
+                {% for item in section.items %}
+                <admiralty-text-side-bar-item id="{{ item.fileSlug }}" href="{{ item.url }}"
+                    item-text="{{ item.data.title or (item.fileSlug | prettyTitle) }}"
+                    variant="text"></admiralty-text-side-bar-item>
+                {% endfor %}
+            </admiralty-text-side-bar-item>
+            {% endfor %}
+        </admiralty-text-side-bar>
+
+        <main class="content">
+            <article>
+                {% if not title %}
+                <h1>{{ page.fileSlug | prettyTitle }}</h1>
+                {% endif %}
+                {{ content | safe }}
+            </article>
+        </main>
+    </div>
+    <admiralty-footer image-src="/assets/svg/UKHOstackedlogo.svg">
+    </admiralty-footer>
+</body>
+
+</html>
