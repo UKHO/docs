@@ -1,111 +1,113 @@
-# How to Meet Section 12: Make New Source Code Open (MOD / GOV.UK Standards)
+# GitHub Repository Visibility Policy
 
-This guidance explains how teams can meet [**Section 12 – Make New Source Code Open**](https://www.digital.mod.uk/policy-rules-standards-and-guidance/service-manual/meet-the-standard), following both the GOV.UK Service Standard and Defence‑specific considerations from the MOD Service Manual.
+This policy sets out when UKHO source code may be published on GitHub. It applies to new repositories and changes to existing repository visibility.
 
-## 1. Why this matters
+## Policy position
 
-- **Public value**  
-  New source code created with public funds should be open by default—this maximises reuse, reduces duplication, and supports transparency and cost-efficiency across government.
+UKHO repositories are **private by default**. A repository may be public only where there is a clear, current business or engineering justification and the content is suitable for external visibility.
 
-- **Defence-specific constraints**  
-  Defence teams should open code when appropriate, but withhold publishing code relating to SECRET or TOP SECRET systems or content that hasn't been publicly announced.
+Public repositories are not inherently inappropriate. They can support transparency, reuse, and coding in the open. Public visibility must be intentional, approved, documented, and reviewed regularly.
 
-## 2. What "make source code open" means
+Private repositories must still follow UKHO requirements for access control, secret management, vulnerability scanning, and secure handling of personal and sensitive information.
 
-### GOV.UK expectations
+This policy supports [GOV.UK Service Standard point 12](https://www.gov.uk/service-manual/service-standard/point-12-make-new-source-code-open), the [GDS guidance on when code should be open or closed](https://www.gov.uk/government/publications/open-source-guidance/when-code-should-be-open-or-closed), and the [MOD Defence Service Manual](https://www.digital.mod.uk/policy-rules-standards-and-guidance/service-manual/meet-the-standard). These standards inform the decision, but do not override UKHO's private-by-default position.
 
-- Write code in the open from the start, using a public repository—but never include secrets like API keys or credentials.
-- Always retain IP ownership of your service’s new code and license it openly (e.g., MIT or another Open Source Initiative–compatible license).
-- If code must remain closed (e.g., unreleased policy or sensitive security mechanisms), provide a strong rationale—but open it as soon as permissible.
+## Code ownership and commercial boundaries
 
-### Additional GOV.UK technical guidance
+UKHO should retain ownership of code created for its services and must use an appropriate open-source licence before publication.
 
-- Host code publicly (e.g., GitHub), ensuring departmental control and compliance with cybersecurity standards.
-- Avoid embedding secrets—manage them using secure secret-management systems.
-- Open configuration code, database schemas, and even security‑enforcing code (cryptographic or authentication logic) unless there's a specific reason—noting that openness often strengthens security.
-- Use a clear open-source license, handle versioning (e.g. Semantic Versioning), provide contributing guidelines, manage issues, and encourage community contributions.
-- Track changes via version control and prepare to manage security vulnerabilities in public code responsibly.
+Using commercial software does not automatically require UKHO-developed code to remain private. However:
 
-#### Closed code
+- vendor-owned code must not be published without permission
+- proprietary SDKs, APIs, libraries, and data must be checked against their licence terms
+- UKHO configuration, infrastructure code, and integration code may be published only after the same security, information, and licensing review as other source code
+- open-core products must be assessed so that only components permitted for redistribution are published
 
-Only a small number of well-defined situations justify keeping code closed. Per the [GDS guidance on when code should be open or closed](https://www.gov.uk/government/publications/open-source-guidance/when-code-should-be-open-or-closed) and the [MOD Defence Service Manual (Section 12)](https://www.digital.mod.uk/policy-rules-standards-and-guidance/service-manual/meet-the-standard), these are:
+Where a restriction is temporary, such as unreleased policy, record the date or condition for reconsideration. Keep only the necessary content private and review the decision when the restriction expires.
 
-- **Keys and credentials** – must always be kept separate and closed; use a secret management system
-- **Fraud detection algorithms** – keep the algorithm closed but separate from the code that uses it
-- **Unreleased policy** – keep closed only until the policy is announced; open as soon as possible thereafter
-- **SECRET or TOP SECRET content (MOD-specific)** – code that directly relates to classified systems or content at these markings must not be published
-- **Third-party intellectual property not licensed for open publication** – code, algorithms, or data owned by a vendor or third party where the licence does not permit open redistribution
+## Opening a repository
 
-> **Note on "commercially sensitive" code:** Commercial sensitivity alone is **not** a valid reason under GDS or MOD guidance to keep code closed. If a team believes code is commercially sensitive, this must be assessed case-by-case with the product owner, security champion, and legal adviser. A clear and documented rationale must be provided — see [Providing a rationale for closed code](#providing-a-rationale-for-closed-code) below.
+Before making a repository public, the team must:
 
-These items will usually be identified early in the product lifecycle with support from your product owner and cyber security team. If you are unsure if your code should be open or closed then it is important to organise a session to work through this.
+1. Record the purpose, benefits, owner, owning team, and next review date.
+2. Confirm that the proposed content is suitable for external visibility.
+3. Complete the [Repository Visibility Change Governance Checklist](/software-engineering-policies/OpenSourceContribution/OpenSourceGovernanceChecklist.md).
+4. Complete code, dependency, secret, personal-data, classification, and licensing reviews.
+5. Add or update the README, `SECURITY.md`, licence, `CODEOWNERS`, contribution guidance, and issue process as appropriate.
+6. Obtain the required approval through the development portal.
 
-#### Open code
+Public repositories must not contain:
 
-You should open all other code. This includes:
+- keys, credentials, tokens, or other secrets
+- SECRET or TOP SECRET content
+- unreleased policy or information not approved for publication
+- unnecessary personal data or internal information
+- third-party content not licensed for public redistribution
+- algorithms or other material specifically assessed as requiring confidentiality
 
-- configuration code
-- database schema
-- security-enforcing code
+Where a repository contains both publishable and restricted content, separate the content rather than publishing the whole repository.
 
-More details can be found in the [GDS Guidance – When code should be open or closed](https://www.gov.uk/government/publications/open-source-guidance/when-code-should-be-open-or-closed)
+## Minimum standard for public repositories
 
-#### Providing a rationale for closed code
+A public repository must have:
 
-Where code cannot be made open, teams **must** provide a convincing written explanation of why. This rationale should:
+- a clear README describing its purpose and ownership
+- a `CONTRIBUTING.md` describing contribution expectations and processes
+- an appropriate open-source licence, unless an approved exception applies
+- a current `SECURITY.md`
+- `CODEOWNERS` where appropriate
+- suitable branch protection and access controls
+- an active pipeline with vulnerability and secret scanning
+- pipeline checks for SAST, software composition analysis, code quality, and dependency or vulnerability updates
+- container scanning and infrastructure-as-code scanning where applicable
+- a process for vulnerabilities, issues, and external contributions
 
-- identify the specific subset of code that must remain closed (do not close entire repositories unnecessarily)
-- name the applicable reason from the list above
-- state the expected date or condition under which the code can be opened
-- be recorded in the repository's README or a linked document, and reviewed at regular intervals
+The publication review must include configuration, infrastructure code, database schemas, and security-enforcing code. These must not be treated as safe simply because they are not application code.
 
-This is a requirement of both [GOV.UK Service Standard point 12](https://www.gov.uk/service-manual/service-standard/point-12-make-new-source-code-open) and the MOD Defence Service Manual.
+## Ongoing review
 
-#### Commercial software and open/closed boundaries
+Repository owners must review each public repository at least every six months and whenever its owner, purpose, or content changes materially. The review should cover:
 
-When your service includes or is built on commercial software:
+- purpose, owner, activity, and maintenance status
+- repository content, history, issues, pull requests, and metadata
+- required files, branch protection, pipeline activity, and scan evidence
+- secrets, credentials, personal data, and organisational intelligence
 
-- **Our own code remains open by default** even when it integrates with commercial products — the commercial product licence does not automatically make your code closed
-- **Vendor-supplied or vendor-owned code** must not be published without explicit permission from the vendor; check your contract and engage the legal adviser if in doubt
-- **Proprietary SDKs, APIs, or libraries** incorporated into your codebase may restrict redistribution; ensure the vendor licence is reviewed against our [Software Licensing Policy](./software-licensing-policy.md) before publishing
-- **Configuration code for commercial tools** (e.g. Terraform modules targeting a commercial product, Helm charts, CI/CD pipeline definitions) should be open unless they contain credentials or commercially confidential configuration values
-- Where a commercial product contains **open-core** components, ensure you are publishing only the OSI-licensed portions and not conflating them with the proprietary modules
+Make a repository private or archive it when public visibility is no longer justified or its content is unsuitable for publication. Public visibility must not continue simply because it was previously approved.
 
-If you are uncertain about any commercial software boundary, consult your Security Champion, Lead Engineer, and Legal Adviser before publishing.
+## Governance and reporting
 
-## 3. Defence (MOD)‑specific enhancements
+The designated owner of the public repository review process must maintain an inventory of public repositories, their owners, justifications, review dates, and outstanding actions. They must report overdue reviews and material exceptions through the agreed governance route.
 
-- **Do open code where possible**—unless the code deals with SECRET or TOP SECRET elements.
-- **Ensure classification awareness**: assess which parts of the codebase are sensitive and only withhold those as necessary, with intent to open once safe.
+Repository owners must promptly report suspected secret exposure, unsuitable public content, failed security scans, or loss of the justification for public visibility. The repository must be made private or access restricted while the issue is assessed where necessary.
 
-## 4. Summary: Step‑by‑Step Guidance
+## Contributor account hygiene
 
-| Phase | Actions |
-| ------------- | ----------------------------------------------------------------------- |
-| **Planning** | - Define IP and open licensing (e.g., MIT) <br> - Choose open repo tool within Defence and compliant with cyber policy |
-| **Development** | - Code openly from day one<br> - Exclude secrets and credentials (use secret management)<br> - Write clear documentation and commit history |
-| **Security Review** | - Conduct security checks before publishing<br> - Remove sensitive content and confirm what may remain closed (e.g., unreleased policy or SECRET parts) |
-| **Publishing** | - Release code publicly under an open licence<br> - Include versioning rules, contributing guidelines, issue tracking |
-| **Ongoing Management** | - Continue development openly<br> - Maintain version control and handle issues transparently<br> - Monitor and promptly patch security vulnerabilities |
+Contributor accounts are part of repository governance. Public activity can link code, reviews, issues, usernames, profile details, and working patterns.
 
-## 5. Tips & Best Practices
+Contributors should:
 
-- **Open by default, closed only for strong reasons** – and open as soon as those reasons no longer apply.
-- **Plan for openness from the start** – reducing the burden of retrospectively sanitizing code.
-- **Favour openness even in security‑critical modules** – properly designed open cryptographic code can be more robust.
-- **Use secure development workflows** – store code in trusted repositories, manage secrets separately, and structure your release process to accommodate open-source norms.
-- **Provide clear governance** – licenses, versioning, contribution policies, and response channels for external collaborators.
+- use an account suitable for UKHO work and a UKHO email address where required
+- keep email addresses private or use GitHub proxy-email features
+- minimise public profile information, including location, employer details, photographs, and personal links
+- avoid linking personal services to a work-associated GitHub profile
+- understand the effects on links and attribution before renaming an account
+- enable the authentication controls required by UKHO
 
-## 6. Opening a closed repository
+This guidance must be included in contributor onboarding and periodic repository access reviews. It reduces unnecessary personal exposure without removing accountability or contribution history.
 
-In the case where a repository is available to be made open, it is required that a team lead fills in the [checklist](/software-engineering-policies/OpenSourceContribution/OpenSourceGovernanceChecklist.md) with the necessary details. This request can then be processed in the development portal.
+## Secret detection and history management
 
-## 7. Repositories that do not require a licence
+Secret prevention and detection must be layered. TruffleHog should be assessed periodically and supplemented where appropriate with GitHub secret scanning and push protection, GitLeaks or equivalent scanning, pre-commit controls, pipeline checks, and repository monitoring. Secrets must be kept outside source control using approved secret-management systems.
 
-Most repositories should carry an open-source licence. However, there are limited circumstances where publishing a licence is not appropriate:
+Container images must continue to be scanned for vulnerabilities and embedded secrets when they are built, imported, or refreshed, using the existing Snyk controls and container-ingestion checks where applicable. Suspected exposed secrets must be revoked or rotated promptly and handled through the appropriate incident process.
 
-- **Classified or restricted repositories** that are not and will not be publicly accessible do not require an OSI licence, but must still carry appropriate classification markings
-- **Purely internal tooling** that is explicitly scoped as never-to-be-published — though teams should challenge this assumption and default to openness
-- **Third-party code** repositories where UKHO does not hold the IP and cannot grant a licence
+Squash and merge is encouraged for new projects where appropriate. It improves maintainability but does not remove all contributor information.
 
-In all these cases, the absence of a licence must be documented and approved. See the [Software Licensing Policy](./software-licensing-policy.md) for further detail on when a licence may not be required.
+History rewriting is not routine remediation. `git filter-repo`, mailmap files, and rebasing can break signatures and references and require contributors to re-clone. Use them only for a specific, material risk that cannot be addressed less disruptively, with approval, communication, and testing beforehand.
+
+## Exceptions and licensing
+
+Where code cannot be made public, document the specific restricted content, the reason, and the date or condition for reconsideration. Commercial sensitivity alone is not sufficient; consult the product owner, Security Champion, Lead Engineer, and Legal Adviser where relevant.
+
+Most public repositories must carry an open-source licence. An exception may apply to classified or restricted repositories, approved internal-only tooling, or third-party code where UKHO cannot grant a licence. The absence of a licence must be documented and approved. See the [Software Licensing Policy](./software-licensing-policy.md).

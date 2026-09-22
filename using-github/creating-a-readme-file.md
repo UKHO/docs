@@ -32,6 +32,9 @@ It is not the place for detailed documentation, keep that elsewhere and include 
 * Link to documentation
 * Background context, why have you written this
 * Team members/contributors.
+* Code of Conduct
+* Development scripts, such as `script/bootstrap`, `script/dev`, and `script/test`, where applicable
+* Technical decision logs or architecture decision records, where applicable
 * Anything else that seems relevant
 
 ### Resources

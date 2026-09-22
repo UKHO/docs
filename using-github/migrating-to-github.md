@@ -2,22 +2,8 @@
 
 ## Remove sensitive data
 
-As part of [the Open Source Governance Checklist](../software-engineering-policies/OpenSourceContribution/OpenSourceGovernanceChecklist.md), it is a requirement that sensitive data has been removed from the repository history. This can be acheived with Git's `filter-branch` command to walk over the history of a branch and apply changes throughout.
+As part of [the Repository Visibility Change Governance Checklist](../software-engineering-policies/OpenSourceContribution/OpenSourceGovernanceChecklist.md), sensitive data must be removed before a repository is made public.
 
-## Remove lines from commit messages
+History rewriting is disruptive and must not be used as routine remediation. First remove the sensitive data from the current working tree, rotate or revoke exposed secrets, and assess whether the repository should remain private. Where history rewriting is necessary, use `git filter-repo` rather than the deprecated `git filter-branch` command. Obtain approval, communicate the change to contributors, and test the process on a representative copy before rewriting the repository.
 
-Gerrit leaves a `Commit-Id` line in every commit message made. To remove these, the `--msg-filter` can be used as follows:
-
-```bash
-git filter-branch -f --msg-filter 'sed "/Change-Id/ d"' -- --all
-```
-
-Substitute `Change-Id` for any string to match an entire line and delete from all commit message in the branch.
-
-## Remove directories/files from branch trees
-
-To remove directories from the entire history of a branch, use the `--tree-filter` as follows:
-
-```bash
-git filter-branch --tree-filter "rm -rf dev" --prune-empty HEAD
-```
+Specific history-rewriting commands are intentionally not included here because the correct filters depend on the repository and the data being removed. Use the [git-filter-repo documentation](https://github.com/newren/git-filter-repo) and obtain a review from the repository owner and Security Champion before applying any rewrite.

@@ -4,7 +4,7 @@
 
 When developing software for government use, it is important to choose appropriate open-source licences that align with the [GOV.UK Service Standard point 12](https://www.gov.uk/service-manual/service-standard/point-12-make-new-source-code-open), the [MOD Defence Service Manual (Section 12)](https://www.digital.mod.uk/policy-rules-standards-and-guidance/service-manual/meet-the-standard), and the UK Government's Open Source Licensing framework.
 
-**All code produced by civil servants or contractors working on behalf of the Crown is automatically covered by [Crown Copyright](https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/).** Regardless of repository visibility you should select and publish a licence so that the terms of use are clear, and so that GitHub can correctly identify the licence.
+**All code produced by civil servants or contractors working on behalf of the Crown is automatically covered by [Crown Copyright](https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/).** Public repositories must include an appropriate licence so that the terms of use are clear and GitHub can correctly identify the licence. Private repositories should follow the licensing requirements agreed for the project.
 
 You must include a `LICENSE` file in the repository root. It is also recommended to add a licence section to the `README.md`.
 
@@ -12,7 +12,7 @@ You must include a `LICENSE` file in the repository root. It is also recommended
 
 There are limited circumstances where publishing a licence is not appropriate or required:
 
-- **Never-public repositories** — internal-only tooling that is explicitly scoped as never publicly accessible (though teams should challenge this and default to openness)
+- **Never-public repositories** — internal-only tooling that is explicitly scoped as never publicly accessible
 - **Classified or restricted repositories** — repositories that carry security classifications and are not accessible outside the department; apply classification markings instead
 - **Third-party owned code** — where UKHO does not hold the IP and therefore cannot grant a licence to others
 
