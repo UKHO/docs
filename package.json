@@ -24,6 +24,10 @@
   },
   "devDependencies": {
     "husky": "^9.1.7",
-    "markdownlint-cli": "^0.45.0"
+    "markdownlint-cli": "^0.48.0"
+  },
+  "overrides": {
+    "@pnpm/npm-conf": "3.0.2",
+    "brace-expansion": "5.0.7"
   }
 }

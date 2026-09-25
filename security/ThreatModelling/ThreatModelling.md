@@ -65,12 +65,12 @@ All findings that come out of a session should be logged so that if required it 
 
 Questions around the system should utilise the 6 aspects of STRIDE. There can be some crossover with these aspects so wherever possible call out the most prominent one (or if there are indeed multiple aspects for a single issue, log them as such)
 
-|Name |	Meaning | Desired Security Property | Example |
+| Name | Meaning | Desired Security Property | Example |
 | --- | ------- | ------------------------- | ------- |
 | __Spoofing__ | Pretending to be another user/system |	Authentication | Unauthenticated API with username header |
 | __Tampering__	| Modifying data in the application | Integrity | SQL Injection through unvalidated parameters |
 | __Repudiation__ |	Accountability of action | Non-repudiation | Deletion of data with information logged as to who and what. |
-| __Information Disclosure__ | Access of allowed information | Confidentiality  |Bleed of information between users |
+| __Information Disclosure__ | Access of allowed information | Confidentiality | Bleed of information between users |
 | __Denial of Service__	| Availability of application |	Availability | Degradation of service due to high volumes of requests |
 | __Elevation of Privilege__ | Access to the right privileged information | Authorization | Ability to self-promote to admin via a unvalidated parameter |
 
