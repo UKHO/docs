@@ -1,6 +1,6 @@
 # Disaster Recovery & Business Continuity
 
-[Back to main Readme](README.md)
+[Back to main Readme](../../governance/policies/CloudDevelopmentPolicy.md)
 
 A business is as only as robust as its systems and services. Ensure you have a plan to restore your services in the event of a partial or complete failure. Don't wait for a crisis to occur. Instead, prepare ahead by planning and designing your services to be robust, and ensure you have structures in place to restore your services in the event of a failure. Recommended steps include:
 
@@ -53,4 +53,4 @@ Training is available in Business Continuity planning. This should be completed 
   * and to maintain confidence in your recovery plan
 * Consider using Azure Chaos studio to test common DR scenarios
 
-[Back to main Readme](README.md)
+[Back to main Readme](../../governance/policies/CloudDevelopmentPolicy.md)

@@ -11,7 +11,7 @@ The purpose of this document is to communicate the policy for UKHO for testing o
 
 ## Scope of testing
 
-Our testing covers functional and non-functional areas as described in our [strategy](test-strategy.md).
+Our testing covers functional and non-functional areas as described in our [strategy](../../quality-assurance/test-strategy.md).
 
 ## Who tests
 
@@ -29,7 +29,7 @@ The UKHO follows its Delivery Governance Framework (DGF), which contains referen
 
 ## Testing Processes
 
-Test processes may differ by team or project, according to individual circumstances.  All test approaches must conform to the UKHO's [test strategy](test-strategy.md).
+Test processes may differ by team or project, according to individual circumstances.  All test approaches must conform to the UKHO's [test strategy](../../quality-assurance/test-strategy.md).
 
 ## Test data
 

@@ -63,7 +63,7 @@ Dependabot setup instructions:
 - [Configuring Dependabot security updates](https://docs.github.com/en/code-security/dependabot/dependabot-security-updates/configuring-dependabot-security-updates)
 - [About Dependabot alerts](https://docs.github.com/en/code-security/dependabot/dependabot-alerts/about-dependabot-alerts)
 
-Repository baseline expectations for security tooling are also described in the [Repository Setup Policy](/software-engineering-policies/SourceControl/RepositorySetupPolicy.md).
+Repository baseline expectations for security tooling are also described in the [Repository Setup Policy](RepositorySetupPolicy.md).
 
 ### Using Snyk and Dependabot Together
 
@@ -89,7 +89,7 @@ Where remediation cannot be completed within policy timescales, teams must:
 - Define interim mitigations and owner.
 - Escalate through the team's Security Champion and/or the Lead Technical Security Engineer (Security) where required.
 
-For guidance on security concern handling, see [Managing Security Concerns](../ManagingSecurityConcerns/ManagingSecurityConcerns.md).
+For guidance on security concern handling, see [Managing Security Concerns](ManagingSecurityConcerns.md).
 
 ## Evidence and Auditability
 
@@ -103,6 +103,6 @@ Teams should retain evidence showing dependency management is operating effectiv
 ## References
 
 - Patch and Vulnerability Management Policy - POL218 (internal policy)
-- [Repository Setup Policy](/software-engineering-policies/SourceControl/RepositorySetupPolicy.md)
-- [Secure Development Policy](/software-engineering-policies/SecureDevelopment/SecureDevelopmentPolicy.md)
-- [Managing Security Concerns](../ManagingSecurityConcerns/ManagingSecurityConcerns.md)
+- [Repository Setup Policy](RepositorySetupPolicy.md)
+- [Secure Development Policy](SecureDevelopmentPolicy.md)
+- [Managing Security Concerns](ManagingSecurityConcerns.md)

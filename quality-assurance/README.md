@@ -23,6 +23,6 @@ If you read nothing else, then read these things:
   * [Accessibility](accessibility-testing.md)
   * [Exemplar repositories](test-repositories.md)
   * [Performance testing checklist](performance-test-checklist.md)
-  * [Safety assurance](safety-assurance-guidance.md)
+  * [Safety assurance](../governance/policies/safety-assurance-guidance.md)
   * [UI automation](browser-automation.md)
   * [Security testing Guidance](Security-Testing-Guidance.md)

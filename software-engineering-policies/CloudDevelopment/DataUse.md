@@ -1,6 +1,6 @@
 # Data Use in the cloud (Dee)
 
-[Back to main Readme](README.md)
+[Back to main Readme](../../governance/policies/CloudDevelopmentPolicy.md)
 
 ## Statement on personal / sensitive data
 
@@ -29,4 +29,4 @@ WIP
 
 * Support encypt at rest and transit
 
-[Back to main Readme](README.md)
+[Back to main Readme](../../governance/policies/CloudDevelopmentPolicy.md)

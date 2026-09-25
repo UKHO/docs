@@ -1,6 +1,6 @@
 # Tagging
 
-[Back to main Readme](README.md)
+[Back to main Readme](../../governance/policies/CloudDevelopmentPolicy.md)
 
 Applied policies require the following tags on resources:
 
@@ -19,4 +19,4 @@ Tag values can be changed and retained.
 
 Tags should be kept current.
 
-[Back to main Readme](README.md)
+[Back to main Readme](../../governance/policies/CloudDevelopmentPolicy.md)

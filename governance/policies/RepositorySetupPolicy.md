@@ -62,7 +62,7 @@ Finally `Automatically delete head branches` is required to be enabled to suppor
 
 ## Branch Protection Rules
 
-Branch protection should always be setup against your default branch. The policy for this can be [found here](/software-engineering-policies/SourceControl/BranchProtectionPolicy.md)
+Branch protection should always be setup against your default branch. The policy for this can be [found here](GitBranchProtectionPolicy.md)
 
 ## Code security and analysis
 

@@ -42,6 +42,6 @@ Google provide an ESLint configuration supporting the Google JavaScript style gu
 
 ## Unit Testing
 
-As per the [Unit Testing Policy](../UnitTesting/UnitTestingPolicy.md), unit testing is required on all applications which includes any that execute JavaScript code. Jest is the chosen unit testing framework for JavaScript, since it is the most widely used, supported, and documented. Jest documentation and guides can be found here <https://jestjs.io/>.
+As per the [Unit Testing Policy](../../governance/policies/UnitTestingPolicy.md), unit testing is required on all applications which includes any that execute JavaScript code. Jest is the chosen unit testing framework for JavaScript, since it is the most widely used, supported, and documented. Jest documentation and guides can be found here <https://jestjs.io/>.
 
 Jasmine has been used historically and can be downloaded from <https://jasmine.github.io/>  This site also contains excellent documentation for writing Jasmine tests, along with add-on modules which increase the capability of the framework (e.g. jasmine-ajax). Jasmine unit tests can be automated by using the Chutzpah JavaScript test runner.

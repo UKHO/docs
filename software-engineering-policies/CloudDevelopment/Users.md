@@ -1,6 +1,6 @@
 # Users
 
-[Back to main Readme](README.md)
+[Back to main Readme](../../governance/policies/CloudDevelopmentPolicy.md)
 
 ## User Management (Internal and External) - Rich to talk to Neena Brown about target IDAM architecture
 
@@ -19,4 +19,4 @@ WIP
 
 ## Auth - Are there existing policies, should there be, who should own this (paul to chat/investigate with security guild)
 
-[Back to main Readme](README.md)
+[Back to main Readme](../../governance/policies/CloudDevelopmentPolicy.md)

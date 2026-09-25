@@ -24,7 +24,7 @@ This can be due to several reasons, including lack of training, accidental, insu
 
 The purpose of this document is to ensure that:
 
-- It is clear what controls are expected - see [Managing Security Concerns Policy](../../security/ManagingSecurityConcerns/ManagingSecurityConcerns.md)
+- It is clear what controls are expected - see [Managing Security Concerns Policy](ManagingSecurityConcerns.md)
   
 - It is clear what roles are required.
 
@@ -76,7 +76,7 @@ The risk owner is the person who is responsible for the product. This may be the
 
 - Security considerations must be included within the Definition of Done.
 - Security-related stories (vulnerabilities, upgrades) must be raised in TFS with the ‘Security’ and ‘Security Concern’ tag.
-- See also the [Managing Security Concerns Policy](../../security/ManagingSecurityConcerns/ManagingSecurityConcerns.md)
+- See also the [Managing Security Concerns Policy](ManagingSecurityConcerns.md)
 
 ### Skills Matrix
 
@@ -98,7 +98,7 @@ The risk owner is the person who is responsible for the product. This may be the
 >_Source control is a key requirement for projects as it provides role-based access control to code, change management and a changelog._
 
 - All project code intended for delivery should be stored as per the UKHO source control policy.
-- Source control repositories should conform to the policies as [found here](../SourceControl/SourceControlPolicy.md)
+- Source control repositories should conform to the policies as [found here](SourceControlPolicy.md)
 
 ### 3rd Party Dependency/Package Management
 

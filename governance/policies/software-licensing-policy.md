@@ -146,12 +146,12 @@ Contains public sector information licensed under the Open Government Licence v3
 ## Important Considerations
 
 - **Crown Copyright**: All government-developed software is subject to Crown Copyright
-- **Third-party dependencies**: Ensure all dependencies have compatible licences; see the [Open Source Use Policy](/software-engineering-policies/OpenSourceUse/OpenSourceUsePolicy.md) for permitted licence types
+- **Third-party dependencies**: Ensure all dependencies have compatible licences; see the [Open Source Use Policy](OpenSourceUsePolicy.md) for permitted licence types
 - **Commercial software boundaries**: If your repository integrates with or is built on commercial software, verify the vendor licence does not restrict you from openly publishing your own code. The vendor's proprietary licence applies to their code — **not** to your code that calls or wraps it, unless the contract states otherwise. Engage the Legal Adviser if uncertain.
 - **Vendor-supplied code**: Code written by a contractor or third-party supplier as part of a delivery contract should be covered by the contract terms. Ensure contracts require IP assignment to the Crown and permit open publication under an OSI licence.
 - **Contributor agreements**: Consider requiring Contributor Licence Agreements (CLAs) for significant external contributions to ensure IP is clearly assigned
 - **Export controls**: Be aware of any export control restrictions on your software
-- **Security review**: Ensure security-sensitive code is reviewed before public release; see the [Coding in the Open guidance](./coding-in-the-open.md)
+- **Security review**: Ensure security-sensitive code is reviewed before public release; see the [Coding in the Open guidance](../../using-github/coding-in-the-open.md)
 - **Mixed content**: If your repository contains both software and data/documentation, consider OGL v3.0 for consistency
 
 ## Resources

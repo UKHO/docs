@@ -1,6 +1,6 @@
 # Open Source Policy: Publishing Our Code and Contributing to External Projects
 
-We are increasingly making use of open source assets as part of our business infrastructure, as governed by our [Use of Open Source Policy](../OpenSourceUse/OpenSourceUsePolicy.md).
+We are increasingly making use of open source assets as part of our business infrastructure, as governed by our [Use of Open Source Policy](OpenSourceUsePolicy.md).
 
 In line with [GOV.UK Service Standard point 12](https://www.gov.uk/service-manual/service-standard/point-12-make-new-source-code-open), the [MOD Defence Service Manual (Section 12)](https://www.digital.mod.uk/policy-rules-standards-and-guidance/service-manual/meet-the-standard), and [GDS guidance](https://www.gov.uk/service-manual/service-standard/point-13-use-common-standards-components-patterns), our default position is that **all new source code written at UKHO should be made open**. Reusing and contributing to common components is preferred over re-inventing the wheel.
 
@@ -14,8 +14,8 @@ This document covers two distinct activities, each with different governance req
 Making our own code publicly available is the **default expectation**, not an exception. Teams do not need to seek approval to open their own repositories. The process for publishing is:
 
 1. Review the code against the [Coding in the Open guidance](../../using-github/coding-in-the-open.md) to confirm it is safe to publish (no credentials, no classified content, no unreleased policy, IP is Crown-owned or appropriately licensed)
-2. Complete the [Open Source Governance Checklist](./OpenSourceGovernanceChecklist.md)
-3. Select an appropriate open-source licence per the [Software Licensing Policy](../../using-github/software-licensing-policy.md) — MIT is recommended for most software
+2. Complete the [Open Source Governance Checklist](../../software-engineering-policies/OpenSourceContribution/OpenSourceGovernanceChecklist.md)
+3. Select an appropriate open-source licence per the [Software Licensing Policy](software-licensing-policy.md) — MIT is recommended for most software
 4. Publish the repository and continue development in the open
 
 If a team believes their code **cannot** be made open, they must provide a documented rationale with a specific reason from the approved list (see [Coding in the Open – Closed code](../../using-github/coding-in-the-open.md)) and record the expected date for opening. This must be reviewed at each service assessment.
@@ -86,7 +86,7 @@ By adhering to these best practices, we can contribute to open source projects i
 ## Related policies
 
 - [Coding in the Open](../../using-github/coding-in-the-open.md)
-- [Software Licensing Policy](../../using-github/software-licensing-policy.md)
-- [Open Source Use Policy](../OpenSourceUse/OpenSourceUsePolicy.md)
-- [Open Source Governance Checklist](./OpenSourceGovernanceChecklist.md)
-- [Open Source Governance Checklist](./OpenSourceGovernanceChecklist.md)
+- [Software Licensing Policy](software-licensing-policy.md)
+- [Open Source Use Policy](OpenSourceUsePolicy.md)
+- [Open Source Governance Checklist](../../software-engineering-policies/OpenSourceContribution/OpenSourceGovernanceChecklist.md)
+- [Open Source Governance Checklist](../../software-engineering-policies/OpenSourceContribution/OpenSourceGovernanceChecklist.md)

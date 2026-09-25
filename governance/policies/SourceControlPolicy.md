@@ -11,7 +11,7 @@
 
 ## Repository Setup
 
-Information about setting up your repository can be [found here](/software-engineering-policies/SourceControl/RepositorySetupPolicy.md)
+Information about setting up your repository can be [found here](RepositorySetupPolicy.md)
 
 ## Access control
 
@@ -31,7 +31,7 @@ So for example if someone was working on a feature to update a button the branch
 
 `1001/feature-update-button-onclick`
 
-Branch Protection should be setup against the main branch. Information is provided for [GitHub](/software-engineering-policies/SourceControl/GitBranchProtectionPolicy.md) and [Azure Devops](/software-engineering-policies/SourceControl/AzDoBranchProtection.md)
+Branch Protection should be setup against the main branch. Information is provided for [GitHub](GitBranchProtectionPolicy.md) and [Azure Devops](AzDoBranchProtection.md)
 
 ## Check-in comments
 

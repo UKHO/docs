@@ -121,7 +121,7 @@ Tests should be added at the correct level of the test pyramid which directly in
 * Safety assurance is part of our core software engineering processes (ensuring our products are safe for the end user).
 * We are working to adopt [BS EN 61508-3:2010](https://fdocuments.in/document/iec-61508-6.html) as our safety standard.
 * Safety is the responsibility of the whole team and is championed by the Test Engineer.
-* More details can be found on on the [safety assurance](safety-assurance-guidance.md) page.
+* More details can be found on on the [safety assurance](../governance/policies/safety-assurance-guidance.md) page.
 
 
 ### Security

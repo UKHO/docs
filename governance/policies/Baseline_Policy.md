@@ -74,7 +74,7 @@ Where variable values do not need to be secret, they can be placed in an Azure D
 
 The UKHO expects each product to have the appropriate level of quality control in place for all of it's products. This will be dependant on the product requirements, but as a bare minimum there MUST be controls around what is committed to the `main` branch. Code deployed to production should only come from the `main` branch. Pull requests are expected to be reviewed (not by the creator of the PR) and completed before any code is merged to `main`. Further release approvals/controls are optional and open for discussion between team and product owner/manager.
 
-Branch protection for main should be considered to avoid accidental or malicious commits to `main`. Consult [Branch Protection](BranchProtection.md) for further examples and detail.
+Branch protection for main should be considered to avoid accidental or malicious commits to `main`. Consult [Branch Protection](GitBranchProtectionPolicy.md) for further examples and detail.
 
 ### Pipeline Environment Approvals in Azure DevOps
 
@@ -88,7 +88,7 @@ When setting up checks and approvals on a Pipeline Environment; the default expi
 
 To change these to something more suitable, you must expand on the **Control Options** when setting up the approval.
 
-![Pipeline Environment - Approval and Checks - Control Options](../Resources/control-options.png)
+![Pipeline Environment - Approval and Checks - Control Options](assets/Baseline_Policy/control-options.png)
 
 #### Recommendation for Approvals
 

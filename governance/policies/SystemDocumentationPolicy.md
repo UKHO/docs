@@ -13,7 +13,7 @@ The audience for this documentation is the delivery team. The Agile principle of
 
 The documentation **must** be stored in a place relevant to the audience.
 
-Documentation **must** be treated the same as code and be subject to peer review, as per the [code review policy](../CodeReview/CodeReviewPolicy.md).
+Documentation **must** be treated the same as code and be subject to peer review, as per the [code review policy](CodeReviewPolicy.md).
 
 It is recommended that [CommonMark](https://commonmark.org/) (a standard, unambiguous syntax specification for Markdown) is used.
 

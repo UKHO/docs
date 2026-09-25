@@ -1,6 +1,6 @@
 # Requirements and Recommendations for
 
-[Back to main Readme](README.md)
+[Back to main Readme](../../governance/policies/CloudDevelopmentPolicy.md)
 
 ## Auditing
 
@@ -67,4 +67,4 @@ All Key Vault configurations and data handling processes must align with applica
 
 Any deviation from this policy requires a documented approval from the Information Security Officer and an approved risk assessment.
 
-[Back to main Readme](README.md)
+[Back to main Readme](../../governance/policies/CloudDevelopmentPolicy.md)

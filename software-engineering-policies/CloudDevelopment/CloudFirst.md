@@ -1,6 +1,6 @@
 # Cloud First Approach
 
-[Back to main Readme](README.md)
+[Back to main Readme](../../governance/policies/CloudDevelopmentPolicy.md)
 
 The Cloud First Approach is a strategic initiative aimed at prioritizing the adoption of cloud computing technologies in software engineering endeavors within the UK Hydrographic Office. This approach stems from the recognition of the transformative potential of cloud computing to enhance agility, innovation, and cost-effectiveness in delivering digital services.
 
@@ -30,4 +30,4 @@ It also presents challenges such as:
 * Operational complexity during migration and integration
 * Potential vendor lock-in risks
 
-[Back to main Readme](README.md)
+[Back to main Readme](../../governance/policies/CloudDevelopmentPolicy.md)

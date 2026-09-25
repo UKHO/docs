@@ -66,9 +66,9 @@ The description of the Technical Debt item must include the following as a minim
 
 * A **Technical debt** work item type **MUST** be created in target project. Using queries and dashboads it is then possible to monitor Technical Debt.
 
-![Example Tech Debt work item](./Example_TD_V4.PNG)
+![Example Tech Debt work item](assets/TechnicalDebtPolicy/Example_TD_V4.png)
 
- For more on requirements, review the information on [Technical Debt Monitoring](./TechnicalDebtMonitoring.md)
+ For more on requirements, review the information on [Technical Debt Monitoring](../../software-engineering-policies/TechnicalDebt/TechnicalDebtMonitoring.md)
 
 ---
 
@@ -85,7 +85,7 @@ If during refinement an imminent issue is discovered (e.g. old Technical Debt, w
 
 ## Technical Debt Tracking/Monitoring
 
-There is automated near-realtime monitoring of technical debt available for all projects within the UKHydro Azure DevOps tenant. This is made available by the DDC technical debt Prometheus exporter and relies on accurately tracked technical debt PBIs. For information on this exporter and the technology used please refer to the [technical debt monitoring](../TechnicalDebt/TechnicalDebtMonitoring.md) document.
+There is automated near-realtime monitoring of technical debt available for all projects within the UKHydro Azure DevOps tenant. This is made available by the DDC technical debt Prometheus exporter and relies on accurately tracked technical debt PBIs. For information on this exporter and the technology used please refer to the [technical debt monitoring](../../software-engineering-policies/TechnicalDebt/TechnicalDebtMonitoring.md) document.
 
 ## FAQ
 

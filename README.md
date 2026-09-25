@@ -10,7 +10,7 @@ We’re proud that we’ve created this group by recruiting people who share a c
 
 Everything we do is team based.  We take Agile seriously; your delivery team will be small but will have the people it needs to get things done - developers, testers, a product owner and a delivery manager - as well as access to infrastructure specialists, UX experts and analysts.
 
-Quality is paramount.  Our [engineering](./software-engineering-policies/README.md) and [quality assurance](./quality-assurance/README.md) policies support our teams to do good work.  Most code is done [in pairs](./software-engineering-policies/PairProgramming/PairProgrammingPolicy.md) or larger groups to ensure quality and to spread knowledge.  Everyone [reviews code](./software-engineering-policies/CodeReview/CodeReviewPolicy.md) and everyone welcomes feedback.
+Quality is paramount.  Our [engineering](./software-engineering-policies/README.md) and [quality assurance](./quality-assurance/README.md) policies support our teams to do good work.  Most code is done [in pairs](./governance/policies/PairProgrammingPolicy.md) or larger groups to ensure quality and to spread knowledge.  Everyone [reviews code](./governance/policies/CodeReviewPolicy.md) and everyone welcomes feedback.
 
 We strive to automate as much as possible: [testing](./quality-assurance/test-strategy.md), builds, deployments use the latest automation tools available.
 
@@ -22,7 +22,7 @@ We encourage the formation of specialist communities to support our interests an
 
 The community of Lead Developers provides technical leadership, recommending tools, technologies and techniques for adoption.  This group contains people with various specialisms and levels of experience who all support each other in their roles.
 
-Our [Security Champion](./security/SecurityChampions/SecurityChampionResponsibilities.md) community is made up of people interested in [application security](./software-engineering-policies/SecureDevelopment/SecureDevelopmentPolicy.md), and coaches teams to create safer software, as well as increasing their own skills and qualifications.
+Our [Security Champion](./security/SecurityChampions/SecurityChampionResponsibilities.md) community is made up of people interested in [application security](./governance/policies/SecureDevelopmentPolicy.md), and coaches teams to create safer software, as well as increasing their own skills and qualifications.
 
 We also have many other communities of interest covering such things as Accessibility, Testing, UX, Azure, AWS and .Net.
 
