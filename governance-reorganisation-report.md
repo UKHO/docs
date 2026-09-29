@@ -159,7 +159,7 @@ reference or explanation pages.
 
 ### Using GitHub
 
-- [Coding in the open](using-github/coding-in-the-open.md)
+- [Coding in the open](using-github/Processed/coding-in-the-open.md)
 - [Creating a contributing file](using-github/creating-a-contributing-file.md)
 - [Creating a README file](using-github/creating-a-readme-file.md)
 - [Migrating to GitHub](using-github/migrating-to-github.md)

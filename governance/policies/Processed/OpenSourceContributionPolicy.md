@@ -13,12 +13,12 @@ This document covers two distinct activities, each with different governance req
 
 Making our own code publicly available is the **default expectation**, not an exception. Teams do not need to seek approval to open their own repositories. The process for publishing is:
 
-1. Review the code against the [Coding in the Open guidance](../../using-github/coding-in-the-open.md) to confirm it is safe to publish (no credentials, no classified content, no unreleased policy, IP is Crown-owned or appropriately licensed)
+1. Review the code against the [Coding in the Open guidance](../../../using-github/Processed/coding-in-the-open.md) to confirm it is safe to publish (no credentials, no classified content, no unreleased policy, IP is Crown-owned or appropriately licensed)
 2. Complete the [Open Source Governance Checklist](../../software-engineering-policies/OpenSourceContribution/OpenSourceGovernanceChecklist.md)
 3. Select an appropriate open-source licence per the [Software Licensing Policy](software-licensing-policy.md) — MIT is recommended for most software
 4. Publish the repository and continue development in the open
 
-If a team believes their code **cannot** be made open, they must provide a documented rationale with a specific reason from the approved list (see [Coding in the Open – Closed code](../../using-github/coding-in-the-open.md)) and record the expected date for opening. This must be reviewed at each service assessment.
+If a team believes their code **cannot** be made open, they must provide a documented rationale with a specific reason from the approved list (see [Coding in the Open – Closed code](../../../using-github/Processed/coding-in-the-open.md)) and record the expected date for opening. This must be reviewed at each service assessment.
 
 ## Part 2: Contributing to external open source projects
 
@@ -85,7 +85,7 @@ By adhering to these best practices, we can contribute to open source projects i
 
 ## Related policies
 
-- [Coding in the Open](../../using-github/coding-in-the-open.md)
+- [Coding in the Open](../../../using-github/Processed/coding-in-the-open.md)
 - [Software Licensing Policy](software-licensing-policy.md)
 - [Open Source Use Policy](OpenSourceUsePolicy.md)
 - [Open Source Governance Checklist](../../software-engineering-policies/OpenSourceContribution/OpenSourceGovernanceChecklist.md)

@@ -67,7 +67,7 @@ When your service includes or is built on commercial software:
 
 - **Our own code remains open by default** even when it integrates with commercial products — the commercial product licence does not automatically make your code closed
 - **Vendor-supplied or vendor-owned code** must not be published without explicit permission from the vendor; check your contract and engage the legal adviser if in doubt
-- **Proprietary SDKs, APIs, or libraries** incorporated into your codebase may restrict redistribution; ensure the vendor licence is reviewed against our [Software Licensing Policy](../governance/policies/software-licensing-policy.md) before publishing
+- **Proprietary SDKs, APIs, or libraries** incorporated into your codebase may restrict redistribution; ensure the vendor licence is reviewed against our [Software Licensing Policy](../../governance/policies/software-licensing-policy.md) before publishing
 - **Configuration code for commercial tools** (e.g. Terraform modules targeting a commercial product, Helm charts, CI/CD pipeline definitions) should be open unless they contain credentials or commercially confidential configuration values
 - Where a commercial product contains **open-core** components, ensure you are publishing only the OSI-licensed portions and not conflating them with the proprietary modules
 
@@ -108,4 +108,4 @@ Most repositories should carry an open-source licence. However, there are limite
 - **Purely internal tooling** that is explicitly scoped as never-to-be-published — though teams should challenge this assumption and default to openness
 - **Third-party code** repositories where UKHO does not hold the IP and cannot grant a licence
 
-In all these cases, the absence of a licence must be documented and approved. See the [Software Licensing Policy](../governance/policies/software-licensing-policy.md) for further detail on when a licence may not be required.
+In all these cases, the absence of a licence must be documented and approved. See the [Software Licensing Policy](../../governance/policies/software-licensing-policy.md) for further detail on when a licence may not be required.

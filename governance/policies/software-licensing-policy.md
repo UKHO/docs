@@ -151,7 +151,7 @@ Contains public sector information licensed under the Open Government Licence v3
 - **Vendor-supplied code**: Code written by a contractor or third-party supplier as part of a delivery contract should be covered by the contract terms. Ensure contracts require IP assignment to the Crown and permit open publication under an OSI licence.
 - **Contributor agreements**: Consider requiring Contributor Licence Agreements (CLAs) for significant external contributions to ensure IP is clearly assigned
 - **Export controls**: Be aware of any export control restrictions on your software
-- **Security review**: Ensure security-sensitive code is reviewed before public release; see the [Coding in the Open guidance](../../using-github/coding-in-the-open.md)
+- **Security review**: Ensure security-sensitive code is reviewed before public release; see the [How to publish UKHO code openly](open-source-publishing-how-to.md)
 - **Mixed content**: If your repository contains both software and data/documentation, consider OGL v3.0 for consistency
 
 ## Resources
