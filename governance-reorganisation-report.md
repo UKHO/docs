@@ -26,7 +26,7 @@ view.
 
 #### Quality assurance
 
-- [AI usage](governance/policies/ai-usage.md)
+- [Code Generation Tools Policy (including AI use in software testing)](governance/policies/code-generation-tools.md)
 - [Automated API Testing Policy Document](governance/policies/automated-api-testing.md)
 - [Safety assurance guidance](governance/policies/safety-assurance-guidance.md)
 - [Test Policy](governance/policies/test-policy.md)
@@ -39,7 +39,7 @@ view.
 #### Software engineering
 
 - [Cloud Development Policy](governance/policies/CloudDevelopmentPolicy.md)
-- [Code Generation Tools Policy](governance/policies/CodeGenerationToolsPolicy.md)
+- [Code Generation Tools Policy](governance/policies/code-generation-tools.md)
 - [Code Reuse Policy](governance/policies/CodeReusePolicy.md)
 - [Code Review Policy](governance/policies/CodeReviewPolicy.md)
 - [Container Policy](governance/policies/ContainerPolicy.md)
