@@ -6,6 +6,8 @@ UKHO makes extensive use of open source assets to meet its goals. Incorporating 
 
 Some open source licences, particularly those with [copyleft](https://en.wikipedia.org/wiki/Copyleft) provisions, may require linked code or solutions built on incorporated code to be distributed under similar terms. This can affect UKHO's ability to exploit an asset or retain control of valuable intellectual property rights (IPR).
 
+UKHO prefers to use third-party components rather than rewrite them where practical, while taking their licence terms into account. The source policy gives GPL-3 as an example of a licence that can require linked code to be disclosed under a GPL 3.0-compatible licence. The [permitted licence list](open-source-use-reference.md#permitted-licences) supports this control by identifying licences approved for use.
+
 Open source assets may also contain code, algorithms or data that include third-party IPR not licensed for use in that code. This can require stopping use of the software, obtaining a licence, or paying damages for past use.
 
 ## Unexpected costs and restrictions

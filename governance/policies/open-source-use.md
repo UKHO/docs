@@ -14,13 +14,15 @@ Lead Engineers are accountable for checking the licence terms of all open source
 
 Any exception to the permitted-licence requirement must be agreed by the Software Engineering Team Manager. Changes to the allowlist must be agreed by the Software Engineering Team Manager and the UKHO Legal Advisor.
 
+Third-party components used in UKHO software must be released under a licence on the [approved licence list](open-source-use-reference.md#permitted-licences). Changes to third-party components must be reviewed by the team's Lead Engineer.
+
 ### Reporting and automation
 
 It must be possible to report on the licences of included packages at build time for UKHO systems. An automated process must restrict builds to packages with approved licences.
 
 ### Security vulnerabilities
 
-All referenced packages must be cross-referenced against known vulnerabilities, as set out in the [Secure Development Policy](SecureDevelopmentPolicy.md).
+All referenced packages must be cross-referenced against known vulnerabilities, as set out in the [Secure Development Policy](secure-development.md).
 
 ### FOSS evaluation
 
@@ -32,6 +34,7 @@ For other, smaller decisions, the relevant Lead Engineer is the responsible pers
 
 ## Related documents
 
+- [Checking a licence and proposing an addition](open-source-use-how-to.md)
 - [Why the FOSS policy addresses specific risks](open-source-use-explanation.md)
-- [FOSS evaluation criteria](open-source-use-reference.md)
-- [Secure Development Policy](SecureDevelopmentPolicy.md)
+- [Permitted licences and FOSS evaluation criteria](open-source-use-reference.md)
+- [Secure Development Policy](secure-development.md)

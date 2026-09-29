@@ -1,6 +1,34 @@
-# FOSS Evaluation Criteria Reference
+# Permitted Licences and FOSS Evaluation Criteria Reference
 
-The [Use of Free Open Source Software Policy](open-source-use.md) requires the responsible person to validate FOSS against these criteria. The criteria provide open-source-specific considerations and indicators for that evaluation.
+The [Use of Free Open Source Software Policy](open-source-use.md) requires the responsible person to validate FOSS against these criteria and requires open source assets to use a permitted licence.
+
+## Permitted licences
+
+The UKHO allowlist of approved licences is:
+
+- MIT License (Expat)
+- Apache License 2.0 (Apache-2.0)
+- BSD 2-Clause License (FreeBSD/Simplified)
+- BSD 3-Clause License (Revised)
+- ISC License
+- Boost Software License 1.0 (BSL-1.0)
+- Free Public License 1.0.0
+- University of Illinois - NCSA Open Source License (NCSA)
+- X11 License
+- The JSON License
+- BSD 0-Clause License (0BSD)
+- Very Simple Public License (VSPL)
+- The Don't Ask Me About It License
+- Universal Permissive License 1.0 (UPL-1.0)
+- Copyfree Open Innovation License 0.3 (COIL-0.3)
+- Microsoft Public License (Ms-PL)
+- Microsoft Shared Source Community License (MS-CL)
+
+For how to check a licence or propose an addition, see [Checking a licence and proposing an addition](open-source-use-how-to.md).
+
+## FOSS evaluation criteria
+
+The criteria below provide open-source-specific considerations and indicators for that evaluation.
 
 ## 1. Project control
 
