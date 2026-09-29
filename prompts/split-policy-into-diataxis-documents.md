@@ -101,4 +101,4 @@ In Visual Studio Code Chat, attach this prompt and the policy document you want 
 
 > Follow the attached prompt to process the attached policy document.
 
-Treat the attached policy document as the source policy. Do not require the user to paste its Markdown into the chat or into this prompt. If no policy document is attached, or it is unclear which attachment is the policy, ask the user to attach or identify it before processing.
+Treat the attached policy document as the source policy. Do not require the user to paste its Markdown into the chat or into this prompt. If no policy document is attached, or it is unclear which attachment is the policy, ask the user to attach or identify it before processing. Ignore mdlint.json as there is no local tooling to run linting, this will be handled manually.
