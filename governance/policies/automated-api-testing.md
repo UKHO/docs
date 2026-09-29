@@ -1,59 +1,49 @@
-# Automated API Testing Policy Document
+# Automated API Testing Policy
 
-## Purpose
-
-This document establishes the policy for the automated testing of .NET APIs. It delineates the approved technologies, clients and processes for API integration tests.
+This policy sets the requirements for automated testing of .NET APIs at UKHO.
 
 ## Scope
 
-This policy is applicable to all teams involved in API development and testing within the organization.
+This policy applies to all teams involved in API development and testing within the organisation.
 
-## Testing Methodology
+## Requirements
 
-### Technology
+### Use C# for automated API integration tests
 
-The standard language for developing APIs at UKHO is C#. Therefore it is expected that automated integration/API tests will also be created using C# (please note this does not apply to performance testing).
+The standard language for developing APIs at UKHO is C#. Automated integration and API tests should therefore also be created using C#, except for performance testing.
 
-#### Approved Clients
+### Approved clients
 
-Currently there are two clients that have been approved for use when writing automated tests for APIs.
+The following clients are approved for API tests:
 
-1. [HttpClient](https://learn.microsoft.com/en-us/dotnet/fundamentals/networking/http/httpclient) - Built into .NET, also used in `WebApplicationFactory`
-2. [RestSharp](https://restsharp.dev/intro.html#introduction) - Third party Nuget package.
+- [HttpClient](https://learn.microsoft.com/en-us/dotnet/fundamentals/networking/http/httpclient) - built into .NET and used in `WebApplicationFactory`
+- [RestSharp](https://restsharp.dev/intro.html#introduction) - a third-party NuGet package
 
-### Integration Testing with `WebApplicationFactory`
+### Prefer `WebApplicationFactory` for integration tests
 
-Where possible [WebApplicationFactory](https://learn.microsoft.com/en-us/aspnet/core/test/integration-tests?view=aspnetcore-8.0) should be used for conducting integration tests. `WebApplicationFactory` creates a test server hosting the application under test, allowing for a controlled, isolated testing environment.
+Where possible, [WebApplicationFactory](https://learn.microsoft.com/en-us/aspnet/core/test/integration-tests?view=aspnetcore-8.0) should be used for integration tests. `WebApplicationFactory` creates a test server that hosts the application under test in a controlled, isolated environment.
 
-#### Guidelines for `WebApplicationFactory` Usage
+Tests that verify business logic are ideal candidates for `WebApplicationFactory`.
 
-- **Business Logic Verification** - Tests that verify business logic are ideal candidates for `WebApplicationFactory`.
-- **Real Database Integration** - When applicable, integration tests should interface with a real relational database rather than an in-memory database to capture the full spectrum of interactions and potential issues. Suitable examples include a LocalSQLDB or a SQL database provisioned in a Docker container.
-- **External Dependencies** - External services can be mocked to isolate the API under test.
-- **Consistency and Reliability** - Tests should be consistent and not dependent on external environments.
-- **Continuous Integration (CI)** - These tests should be integrated into the CI pipeline.
+When applicable, integration tests should interface with a real relational database rather than an in-memory database to capture the full range of interactions and potential issues. Suitable examples include a LocalSQLDB or a SQL database provisioned in a Docker container.
 
-An example of using WebApplicationFactory with NUnit can be [found here](https://github.com/UKHO/.NET-Guild/blob/main/CleanArchitectueExample/tests/TestScribe.Api.Tests.Integration/WebApplicationFactoryTests/CreateTestSuiteTests.cs)
+External services can be mocked to isolate the API under test.
 
-### Testing with Deployed Instances
+Tests should be consistent and not dependent on external environments, and these tests should be integrated into the CI pipeline.
+
+### Use deployed instances only for specific cases
 
 Testing against deployed instances is reserved for:
 
-#### Legacy Applications
+- Legacy applications that may not be suitable for `WebApplicationFactory` because of out-of-support frameworks or dependencies
+- Security testing, including authentication and authorisation checks that should be conducted in a production-like environment
+- Safety and compliance testing, where some APIs have safety requirements that require a deployed production-like environment
+- Disaster recovery testing, where API disaster recovery mechanisms must be tested in a deployed environment
 
-Some legacy applications may not be suitable to test with `WebApplicationFactory` due to out of support frameworks or dependencies.
+### Performance and load testing
 
-#### Security Testing
+The preferred technology for performance and load testing APIs is K6. See the [performance testing checklist](https://github.com/UKHO/docs/blob/main/quality-assurance/performance-test-checklist.md) for more information.
 
-- **Authentication and Authorization** - Tests should confirm that security measures should be conducted in a production-like environment.
+## Related documents
 
-#### Safety and Compliance Testing
-
-- **Safety Compliance** - Some APIs will have safety requirements that arise from safety modeling, these tests may need to be run against a deployed production-like environment in order to meet the safety requirements.
-- **Disaster Recovery** - The APIs disaster recovery mechanisms must be tested in a deployed environment.
-
-#### Performance and Load Testing
-
-Note that the preferred technology for Performance/Load testing APIs is K6. Please see [performance testing checklist](https://github.com/UKHO/docs/blob/main/quality-assurance/performance-test-checklist.md) for more info.
-
-
+- [Why UKHO uses this automated API testing approach](automated-api-testing-explanation.md)
