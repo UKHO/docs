@@ -93,12 +93,12 @@ Before editing, briefly report:
 2. which content belongs in each category
 3. which output files will actually be created and why any category is omitted
 
-Then create the selected files. After editing, validate the generated Markdown if repository tooling is available. Report the files created and any validation result. Do not modify the original source policy unless explicitly asked.
+Then create the selected files. After editing, validate the generated Markdown if repository tooling is available. Report the files created and any validation result. Do not modify the original source policy unless explicitly asked. Move the original policy into a subfolder called "Processed".
 
-## Source policy
+## Using this prompt in Visual Studio Code
 
-Paste or attach the policy document here:
+In Visual Studio Code Chat, attach this prompt and the policy document you want to process as separate attachments. Then send a request such as:
 
-```markdown
-[INSERT POLICY DOCUMENT]
-```
+> Follow the attached prompt to process the attached policy document.
+
+Treat the attached policy document as the source policy. Do not require the user to paste its Markdown into the chat or into this prompt. If no policy document is attached, or it is unclear which attachment is the policy, ask the user to attach or identify it before processing.
