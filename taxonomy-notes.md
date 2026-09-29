@@ -6,3 +6,5 @@ ARB - Architecture Review Board? In UKHO that would be Architecture Practice For
 Open source publishing:
 References a "service assessment" - is this a real thing?
 We say that rationale for not opening must be documented but not where - README?
+
+Software licensing policy and the open source stuff feel the same
