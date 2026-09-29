@@ -9,7 +9,7 @@ The policies (and associated guidance) that should be followed during software d
 | Code Review | [Policy](../governance/policies/CodeReviewPolicy.md) | |
 | Containers | [Policy](../governance/policies/ContainerPolicy.md) | |
 | Defect Management | [Policy](../governance/policies/DefectManagementPolicy.md) | |
-| Inclusive Language | [Policy](../governance/policies/InclusiveLanguagePolicy.md) | |
+| Inclusive Language | [Policy](../governance/policies/inclusive-language.md) | [How-to](../governance/policies/inclusive-language-how-to.md) |
 | Machine learning and AI developments | [Policy on SharePoint](https://ukho.sharepoint.com/sites/DataScienceandEngineering/SitePages/Machine-learning-and-AI-developments.aspx) | [AI programming assistants guidance](https://ukho.sharepoint.com/sites/DataScienceandEngineering/SitePages/AI-programming-assistants-guidance.aspx) <br/> [Release models for machine learning models](https://ukho.sharepoint.com/sites/DataScienceandEngineering/SitePages/Release-models-for-machine-learning-models.aspx) |
 | Non Functional Requirements | [Policy](../governance/policies/NFRPolicy.md) | |
 | Open Source Contribution | [Policy](../governance/policies/OpenSourceContributionPolicy.md) | |
