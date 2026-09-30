@@ -10,8 +10,8 @@ Containers are used in Data Science and Software Engineering across development,
 
 Containers give engineering teams a way to develop and deploy applications robustly without always having to accommodate the hosting platform. This shifts more security responsibility towards development teams and away from operations teams.
 
-The policy brings image, Dockerfile, and deployment practices together. These include linting Dockerfiles and scanning container images to detect issues and vulnerabilities, limiting dependencies and privileges, controlling network access, and monitoring container health. Minimizing image dependencies also reduces the attack surface and image size.
+Using containers lets engineering teams develop and deploy applications robustly without always having to accommodate the hosting platform. The trade-off is that security responsibility shifts more towards development teams and away from operations teams.
 
-The guidance distinguishes required deployment controls from practices that are recommended or optional. This keeps mandatory controls, such as vulnerability scanning and deployment configuration, distinct from approaches teams should or could adopt.
+The policy recommends lean images because removing unnecessary dependencies reduces the attack surface and image size. It advises against running as root because the default root user on Linux container images can increase the impact of an attack. Vulnerability scanning addresses the risk that third-party dependencies become a weak link; high or higher findings are treated as release blockers and investigated for possible fixes.
 
 For the practical steps, see [How to apply container security guidance](containers-how-to.md). The policy remains the authoritative source for requirements.
