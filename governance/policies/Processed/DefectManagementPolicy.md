@@ -11,6 +11,3 @@ The Defect Management workflow *should* include the following:
 - Defect closure process
 
 It is the team's responsibility to ensure that the Defect Management workflow is adhered to.
-
-
-
