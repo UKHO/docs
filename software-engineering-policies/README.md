@@ -18,7 +18,7 @@ The policies (and associated guidance) that should be followed during software d
 | Secure Development | [Policy](../governance/policies/SecureDevelopmentPolicy.md) | |
 | &nbsp; Managing Security Concerns | [Policy](../governance/policies/managing-security-concerns.md) | |
 | Source Control | [Policy](../governance/policies/SourceControlPolicy.md) | |
-| System Documentation | [Policy](../governance/policies/SystemDocumentationPolicy.md) | |
+| System Documentation | [Policy](../governance/policies/system-documentation.md) | [Explanation](../governance/policies/system-documentation-explanation.md) |
 | Technical Debt | [Policy](../governance/policies/TechnicalDebtPolicy.md) | [Guidance](TechnicalDebt/TechnicalDebtMonitoring.md) |
 | Third-Party Licensing | [Policy](../governance/policies/ThirdPartyLicensingPolicy.md) | [Guidance](ThirdPartyLicensing/ThirdPartyLicensingGuidance.md) |
 | Unit Testing | [Policy](../governance/policies/UnitTestingPolicy.md) | [Guidance](UnitTesting/UnitTestingGuidance.md) |

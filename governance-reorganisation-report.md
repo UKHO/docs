@@ -59,7 +59,7 @@ view.
 - [Git Branch Protection Policy](governance/policies/GitBranchProtectionPolicy.md)
 - [Repository Setup Policy](governance/policies/RepositorySetupPolicy.md)
 - [Source Control Policy](governance/policies/SourceControlPolicy.md)
-- [System Documentation Policy](governance/policies/SystemDocumentationPolicy.md)
+- [System Documentation Policy](governance/policies/system-documentation.md)
 - [Technical Debt Policy](governance/policies/TechnicalDebtPolicy.md)
 - [Licensing of Third Party Libraries Policy](governance/policies/ThirdPartyLicensingPolicy.md)
 - [Unit Testing Policy](governance/policies/UnitTestingPolicy.md)
