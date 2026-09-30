@@ -14,6 +14,8 @@ Logging is primarily text data covering a wide range of issues. Metrics are real
 
 Metrics do not replace good logging practice. They work together, and specific APM events, such as errors, can be linked automatically to underlying log details.
 
+For the specific logging requirements, see the [Logging Policy](logging.md).
+
 ## Reliability objectives and outage budget
 
 Service Level Indicators (SLIs) measure service reliability, and Service Level Objectives (SLOs) set reliability targets for SLIs. The source describes SLOs as a high-level health check. Fine-tuning them over time is intended to improve reliability. SLOs help set the number of “nines”, which determines the outage budget or burn rate used to manage and improve deployments, planned maintenance, and unplanned downtime.

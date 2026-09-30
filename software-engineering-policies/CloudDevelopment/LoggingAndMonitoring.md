@@ -14,7 +14,7 @@ Logging Recommendations:
 * Agree on appropriate formats and logging levels to ensure logs are available and useful in maintaining your services
 * Consider options to control log access and ensure logs are free from unnecessary sensitive data
 
-Please view the [Software Engineering Team Logging Policy](/governance/policies/LoggingPolicy.md) and the [UKHO's security-focused Logging and Monitoring Policy](https://ukho.sharepoint.com/sites/docstore-prd/_layouts/15/Doc.aspx?sourcedoc=%7B925F1410-7556-4B0E-8437-25497AED4562%7D&file=POL210.docx&action=default&mobileredirect=true&DefaultItemOpen=1) on SharePoint for further guidance on how and what to log.
+Please view the [Software Engineering Team Logging Policy](/governance/policies/logging.md) and the [UKHO's security-focused Logging and Monitoring Policy](https://ukho.sharepoint.com/sites/docstore-prd/_layouts/15/Doc.aspx?sourcedoc=%7B925F1410-7556-4B0E-8437-25497AED4562%7D&file=POL210.docx&action=default&mobileredirect=true&DefaultItemOpen=1) on SharePoint for further guidance on how and what to log.
 
 Monitoring Recommendations
 

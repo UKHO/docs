@@ -1,6 +1,6 @@
 ﻿# Guidance for Logging to Elastic Cloud
 
-To be read in conjunction with the [Logging Policy](../../governance/policies/LoggingPolicy.md).
+To be read in conjunction with the [Logging Policy](../../governance/policies/logging.md).
 
 This section provides technical guidance for implementing the Logging Policy
 using ElasticSearch and Elastic Cloud.

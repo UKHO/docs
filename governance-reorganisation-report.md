@@ -46,7 +46,7 @@ view.
 - [Defect Management Policy](governance/policies/DefectManagementPolicy.md)
 - [Front End Policy](governance/policies/FrontEndPolicy.md)
 - [Inclusive Language Policy](governance/policies/inclusive-language.md)
-- [Logging Policy](governance/policies/LoggingPolicy.md)
+- [Logging Policy](governance/policies/logging.md)
 - [Non Functional Requirements Policy](governance/policies/NFRPolicy.md)
 - [Observability policy](governance/policies/Processed/observability_policy.md)
 - [Open Source Contribution Policy](governance/policies/Processed/OpenSourceContributionPolicy.md)
