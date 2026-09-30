@@ -4,7 +4,7 @@ This policy defines the logging requirements for services developed and
 supported by software engineering teams at UKHO.
 
 UKHO uses Elastic Cloud for log storage, aggregation, and analysis. For
-more detail about the use of Elastic for logging, see [the specific guidance](../../../software-engineering-policies/Logging/GuidanceForLoggingToElasticCloud.md).
+Elastic Cloud details, see the [logging reference](../logging-reference.md).
 
 ## Contents of Logs
 

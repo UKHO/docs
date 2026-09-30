@@ -1,6 +1,6 @@
 # Logging Policy
 
-This policy defines the logging requirements for services developed and supported by software engineering teams at UKHO. UKHO uses Elastic Cloud for log storage, aggregation, and analysis. For detail about using Elastic, see [guidance for logging to Elastic Cloud](../../software-engineering-policies/Logging/GuidanceForLoggingToElasticCloud.md).
+This policy defines the logging requirements for services developed and supported by software engineering teams at UKHO. UKHO uses Elastic Cloud for log storage, aggregation, and analysis. See the [logging reference](logging-reference.md) for Elastic Cloud naming, ingestion, and retention details.
 
 ## Requirements
 
@@ -11,6 +11,13 @@ This policy defines the logging requirements for services developed and supporte
 - On-premise services need known mitigations for failures when attempting to ingest logs, such as logging to EventViewer or sending an email notification to the supporting team.
 - When implementing logging, consider secure design practices: use structured logging instead of string concatenation to avoid log injection vulnerabilities, and ensure sensitive information (such as passwords, secret keys, and session IDs) and personal information (such as customer names, addresses, and email addresses) are not stored in logs.
 - Teams should use [UKHO.Logging.Serilog](https://github.com/UKHO/UKHO.Logging.Serilog) to implement logging. Teams should prefer it over the legacy UKHO.EventHubLogging provider; existing projects using the legacy provider should plan to migrate.
+- Teams must obtain approval from the Observability team and Architectural Practice Forum before using a logging platform other than Elastic.
+- Logs should use the index naming convention `fullServiceName.environment.category`. The Observability team automation creates indexes; teams should not need to create them manually. Teams with legacy indexes should migrate to this naming convention.
+- Logs should use the index naming convention `fullServiceName.environment.category`. The Observability team automation creates indexes; teams should not need to create them manually. Teams with legacy indexes should migrate to this naming convention.
+- Azure-hosted services should send logs to an Azure Event Hub. On-premise services should also log to an Azure Event Hub as a step towards becoming cloud services.
+- LogShipper must not be used for new code to send logs from on-premise services to on-premise Elasticsearch. Existing services using this pattern should plan to migrate to Elastic Cloud.
+- LogShipper should no longer be used for new code to send logs from on-premise services to on-premise Elasticsearch. Existing projects using this pattern should migrate to Elastic Cloud as soon as possible.
+- Before migrating the legacy Azure Event Hub > LogStash > on-premise Elasticsearch pattern, LogStash should have no errors or warnings. During development, teams using this pattern must check LogStash for errors at every stage using the DDC Grafana monitor set up for this purpose. Services should adhere to this policy before migration; see the [Elastic Cloud migration how-to](logging-how-to.md).
 
 ## Testing and assurance
 
@@ -26,4 +33,5 @@ This policy defines the logging requirements for services developed and supporte
 
 - [Logging definitions and retention](logging-reference.md)
 - [Understanding logging](logging-explanation.md)
+- [Migrating logging to Elastic Cloud](logging-how-to.md)
 - [Observability Policy](observability.md)

@@ -139,7 +139,7 @@ reference or explanation pages.
 - [Cloud users](software-engineering-policies/CloudDevelopment/Users.md)
 - [Container best practices](software-engineering-policies/Containers/ContainerBestPractices.md)
 - [Infrastructure as code with Terraform](software-engineering-policies/InfrastructureAsCode/terraform.md)
-- [Guidance for logging to Elastic Cloud](software-engineering-policies/Logging/GuidanceForLoggingToElasticCloud.md)
+- [Logging definitions and Elastic Cloud details](governance/policies/logging-reference.md)
 - [Technical debt monitoring](software-engineering-policies/TechnicalDebt/TechnicalDebtMonitoring.md)
 - [Technology governance](software-engineering-policies/TechnologyGovernance/TechnologyGovernance.md)
 

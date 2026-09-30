@@ -2,6 +2,14 @@
 
 This document explains the purposes and trade-offs of logging described in the [Logging Policy](logging.md).
 
+## Elastic Cloud context
+
+Elastic is UKHO's business logging platform. Azure Event Hubs provide the ingestion path for Azure-hosted services and are also used by on-premise services as a step towards becoming cloud services. Elastic Cloud moves ingested logs from the Hot tier to the Cold tier after two days; the Cold tier is intended for data that is still likely to be searched but is infrequently updated.
+
+Cloud resource-specific logs, such as native activity or diagnostic logs, can be useful, but are not usually ingested into Elastic. Their use can add cost, so teams need to keep that cost in view.
+
+The older LogShipper and UKHO.EventHubLogging patterns have been superseded or deprecated in favor of the Elastic Cloud and UKHO.Logging.Serilog approach. Existing services using legacy patterns need a migration path; see the [Elastic Cloud migration how-to](logging-how-to.md).
+
 ## Log categories
 
 - **Diagnostic logs** provide information about service operation and are generally useful for debugging. Projects need to balance useful information against the risk of logging too much.
