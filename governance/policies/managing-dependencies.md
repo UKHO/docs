@@ -64,7 +64,7 @@ Where remediation cannot be completed within policy timescales, teams must:
 - Define interim mitigations and owner.
 - Escalate through the team's Security Champion and/or the Lead Technical Security Engineer (Security) where required.
 
-For guidance on security concern handling, see [Managing Security Concerns](ManagingSecurityConcerns.md).
+For guidance on security concern handling, see [Managing Security Concerns](managing-security-concerns.md).
 
 ## Evidence and Auditability
 
@@ -80,11 +80,11 @@ Teams should retain evidence showing dependency management is operating effectiv
 - [Why We Manage Dependencies](managing-dependencies-explanation.md)
 - [Repository Setup Policy](repository-setup.md)
 - [Secure Development Policy](secure-development.md)
-- [Managing Security Concerns](ManagingSecurityConcerns.md)
+- [Managing Security Concerns](managing-security-concerns.md)
 
 ## References
 
 - Patch and Vulnerability Management Policy - POL218 (internal policy)
 - [Repository Setup Policy](repository-setup.md)
 - [Secure Development Policy](secure-development.md)
-- [Managing Security Concerns](ManagingSecurityConcerns.md)
+- [Managing Security Concerns](managing-security-concerns.md)

@@ -34,7 +34,7 @@ view.
 #### Security
 
 - [Managing Dependencies](governance/policies/ManagingDependencies.md)
-- [Managing Security Concerns](governance/policies/ManagingSecurityConcerns.md)
+- [Managing Security Concerns](governance/policies/managing-security-concerns.md)
 
 #### Software engineering
 
@@ -178,7 +178,7 @@ mixed or supporting material until an owner confirms their status:
 - [Managing Dependencies](governance/policies/ManagingDependencies.md) calls
   itself a policy and states minimum expectations, although its filename does
   not. It is included under policies.
-- [Managing Security Concerns](governance/policies/ManagingSecurityConcerns.md)
+- [Managing Security Concerns](governance/policies/managing-security-concerns.md)
   is linked as a policy from the Secure Development Policy and is included
   under policies.
 - [Naming Conventions](software-engineering-policies/NamingConventions/NamingConventions.md)

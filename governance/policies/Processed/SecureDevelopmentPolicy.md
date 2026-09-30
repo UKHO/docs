@@ -24,7 +24,7 @@ This can be due to several reasons, including lack of training, accidental, insu
 
 The purpose of this document is to ensure that:
 
-- It is clear what controls are expected - see [Managing Security Concerns Policy](ManagingSecurityConcerns.md)
+- It is clear what controls are expected - see [Managing Security Concerns Policy](../managing-security-concerns.md)
   
 - It is clear what roles are required.
 
@@ -76,7 +76,7 @@ The risk owner is the person who is responsible for the product. This may be the
 
 - Security considerations must be included within the Definition of Done.
 - Security-related stories (vulnerabilities, upgrades) must be raised in TFS with the ‘Security’ and ‘Security Concern’ tag.
-- See also the [Managing Security Concerns Policy](ManagingSecurityConcerns.md)
+- See also the [Managing Security Concerns Policy](../managing-security-concerns.md)
 
 ### Skills Matrix
 

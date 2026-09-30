@@ -12,4 +12,4 @@ The policy permits teams to use Snyk, Dependabot or both, provided its outcomes 
 
 Dependency and vulnerability management follows the internal **Patch and Vulnerability Management Policy - POL218**, which supplies the severity and remediation timescales used to assess dependency vulnerabilities. When remediation cannot meet those timescales, the policy requires the decision, rationale, mitigations and revised target date to be handled through team tracking and the appropriate risk owner.
 
-See the [Managing Dependencies Policy](managing-dependencies.md) for the authoritative requirements, and [Managing Security Concerns](ManagingSecurityConcerns.md) for guidance on security concern handling.
+See the [Managing Dependencies Policy](managing-dependencies.md) for the authoritative requirements, and [Managing Security Concerns](managing-security-concerns.md) for guidance on security concern handling.

@@ -39,7 +39,7 @@ Security must be included within the software development lifecycle and the agil
 
 - Security considerations must be included within the Definition of Done.
 - Security-related stories, including vulnerabilities and upgrades, must be raised in TFS with the `Security` and `Security Concern` tag.
-- See also the [Managing Security Concerns Policy](ManagingSecurityConcerns.md).
+- See also the [Managing Security Concerns Policy](managing-security-concerns.md).
 
 ### Skills Matrix
 
