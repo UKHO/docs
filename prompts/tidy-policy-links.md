@@ -42,4 +42,4 @@ Attach this prompt and the Markdown policy documents to audit, then ask:
 
 > Follow the attached prompt to audit and tidy links in the attached documents.
 
-Alternatively, identify the policy documents in the request. Do not require the user to paste their contents into the chat. If neither attachments nor document paths identify the audit scope, ask the user to provide them. Ignore mdlint.json as there is no local tooling to run linting, this will be handled manually.
+Alternatively, identify the policy documents in the request. Do not require the user to paste their contents into the chat. If neither attachments nor document paths identify the audit scope, ask the user to provide them.
