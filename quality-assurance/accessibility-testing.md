@@ -24,7 +24,7 @@ Accessibility also benefits people without disabilities, like people with changi
 
 ## Legal requirements
 
-We have a legal obligation to make websites and mobile applications conform (as a minimum) to **WCAG 2.1 AA**
+We have a legal obligation to make websites and mobile applications conform (as a minimum) to **WCAG 2.2 AA**
 
 The accessibility regulations came into force for public sector bodies on 23 September 2018. They say you must make your website or mobile app more accessible by making it ‘perceivable, operable, understandable and robust’. You need to include and update an accessibility statement on your website.
 
@@ -39,9 +39,9 @@ The accessibility regulations build on your existing obligations to people who h
 
 ## WCAG (Web Content Accessibility Guidelines)
 
-The Web Content Accessibility Guidelines (known as WCAG 2.1) are an internationally recognised set of recommendations for improving accessibility.
+The Web Content Accessibility Guidelines (known as WCAG 2.2) are an internationally recognised set of recommendations for improving accessibility.
 
-WCAG 2.1 is based on 4 design principles:
+WCAG 2.2 is based on 4 design principles:
 
 * perceivable
 * operable
@@ -52,7 +52,7 @@ It is the WCAG recommendations that are used to verify whether a website or mobi
 
 Read more about [understanding WCAG](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag).
 
-View the [list of WCAG requirements](https://www.w3.org/WAI/WCAG21/quickref/) (this can be filtered on A level).
+View the [list of WCAG requirements](https://www.w3.org/WAI/WCAG22/quickref/) (this can be filtered on A level).
 
 ## Developing your service for accessibility
 
