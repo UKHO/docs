@@ -44,6 +44,10 @@ This policy applies to all software engineering teams and individuals within the
 
 [Cloud Pilot's License](PilotsLicense.md)
 
+[PIM activation justification policy (draft)](PrivilegedIdentityManagementJustificationPolicy.md)
+
+[PIM activation justification guidance (draft)](PrivilegedIdentityManagementJustificationGuidance.md)
+
 [Tagging](Tagging.md)
 
 ### Related Policies
