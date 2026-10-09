@@ -18,6 +18,8 @@ The source requires that only code from the `main` branch is deployed to product
 
 The source treats security as a core design principle. Dependency checking, SAST, infrastructure as code scanning, and container scanning help identify risks before deployment. The policy also requires secrets to be backed by Azure Key Vault and only accessible to the service principal and maintainers who need them.
 
+Security scanners do not have the full context of an implementation and may produce false positives. Findings therefore need to be assessed against the product's risk appetite, with suitable mitigation or an agreed suppression where appropriate, rather than treated as automatically conclusive.
+
 ## Why approval placement matters
 
 The source warns that approvals on a pipeline environment alone are not best practice for security. A malicious actor could modify the YAML in GitHub to remove the environment and thus remove the approval check. Approvals on service connections and variable libraries are safer because those resources are maintained outside the YAML and are essential for deployment.

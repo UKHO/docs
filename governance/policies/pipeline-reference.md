@@ -53,13 +53,19 @@ The source distinguishes between non-secret and secret values:
 
 The source identifies the following security approaches as expected or strongly recommended:
 
-- UKHO Snyk scan task
+- [UKHO Snyk scan task](https://github.com/UKHO/ukho-azure-pipeline-scan-task) and [Snyk](https://app.eu.snyk.io/login)
 - Dependency checking
 - Static application security testing (SAST)
 - Infrastructure as code scanning
 - Container scanning
 - Azure Key Vault-backed secret storage
 - Dynamic application security testing (DAST) where appropriate, using Invicti
+
+The source also describes these scanning points in the delivery flow:
+
+- Snyk provides static analysis and software composition analysis when a pull request is raised, and scans are also run regularly.
+- Container images are scanned after they are built and before they are pushed to a container registry.
+- Infrastructure as code is scanned before cloud assets are deployed. Where possible, use Terraform modules that have already been security scanned.
 
 ## Related document
 

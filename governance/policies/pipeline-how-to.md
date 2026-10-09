@@ -37,6 +37,14 @@ The source recommends that approvals are not placed only on pipeline environment
 
 Use branch protection for `main` so that production deployments can only come from the protected branch and pull requests are reviewed before merge. The source also requires coding quality controls around what is committed to `main`.
 
+## Review security findings
+
+Use the [UKHO Snyk scan task](https://github.com/UKHO/ukho-azure-pipeline-scan-task) to add scanning to the pipeline. Review findings against the product's risk appetite and decide what remediation is needed before release. Scanning tools may report false positives because they do not have the full context of an implementation. For advice on mitigation or suppressing a finding, contact the [Cyber Security team](mailto:ukho-itso@ukho.gov.uk), a lead developer, or a security champion.
+
+## Provision infrastructure securely
+
+Scan infrastructure as code before deployment. Where possible, use Terraform modules that have already been security scanned.
+
 ## Expected outcome
 
 When this guidance is applied, the release pipeline will have automation, test coverage, security checks, environment gating, and a controlled path to production that aligns with the policy.
