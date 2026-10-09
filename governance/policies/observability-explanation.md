@@ -16,6 +16,8 @@ Metrics do not replace good logging practice. They work together, and specific A
 
 For the specific logging requirements, see the [Logging Policy](logging.md).
 
+Dashboards can give developers ongoing visibility of service health, usage, and performance. Automated alerts can help notify teams about outages or other events, but excessive or unnecessary alerts can create noise.
+
 ## Reliability objectives and outage budget
 
 Service Level Indicators (SLIs) measure service reliability, and Service Level Objectives (SLOs) set reliability targets for SLIs. The source describes SLOs as a high-level health check. Fine-tuning them over time is intended to improve reliability. SLOs help set the number of “nines”, which determines the outage budget or burn rate used to manage and improve deployments, planned maintenance, and unplanned downtime.

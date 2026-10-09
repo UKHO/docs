@@ -8,9 +8,10 @@ This policy defines the logging requirements for services developed and supporte
 - Services should produce diagnostic, audit/metric, and request/response logs. Expected minimum Production levels are Warning or Error for diagnostic logs, Information for audit/metric logs (which may differ by log type), and Information for request/response logs.
 - Teams should consider the diagnostic or audit value of each log, include information that distinguishes one request from others, and be selective about logged properties. Health-check logging is not essential and can cause log saturation; prefer health-check endpoints that can be polled.
 - Consider GDPR and avoid logging customer information. Avoid logging binary data or large files; log references to objects stored in appropriate storage instead. Use the same language and format across logs.
+- Teams should consider controlling access to logs, as well as ensuring that logs do not contain unnecessary sensitive data.
 - On-premise services need known mitigations for failures when attempting to ingest logs, such as logging to EventViewer or sending an email notification to the supporting team.
 - When implementing logging, consider secure design practices: use structured logging instead of string concatenation to avoid log injection vulnerabilities, and ensure sensitive information (such as passwords, secret keys, and session IDs) and personal information (such as customer names, addresses, and email addresses) are not stored in logs.
-- Teams should use [UKHO.Logging.Serilog](https://github.com/UKHO/UKHO.Logging.Serilog) to implement logging. Teams should prefer it over the legacy `UKHO.Logging.EventHubLogProvider` provider; existing projects using the legacy provider should plan to migrate.
+- Teams should use [`UKHO.Logging.Serilog`](https://github.com/UKHO/UKHO.Logging.Serilog) to implement logging. Teams should prefer it over the legacy `UKHO.Logging.EventHubLogProvider` provider; existing projects using the legacy provider should plan to migrate.
 - Teams must obtain approval from the Observability team and Architectural Practice Forum before using a logging platform other than Elastic.
 - Logs should use the index naming convention `fullServiceName.environment.category`. The Observability team automation creates indexes; teams should not need to create them manually. Teams with legacy indexes should migrate to this naming convention.
 - Logs should use the index naming convention `fullServiceName.environment.category`. The Observability team automation creates indexes; teams should not need to create them manually. Teams with legacy indexes should migrate to this naming convention.
@@ -35,3 +36,4 @@ This policy defines the logging requirements for services developed and supporte
 - [Understanding logging](logging-explanation.md)
 - [Migrating logging to Elastic Cloud](logging-how-to.md)
 - [Observability Policy](observability.md)
+- [UKHO's security-focused Logging and Monitoring Policy](https://ukho.sharepoint.com/sites/docstore-prd/_layouts/15/Doc.aspx?sourcedoc=%7B925F1410-7556-4B0E-8437-25497AED4562%7D&file=POL210.docx&action=default&mobileredirect=true&DefaultItemOpen=1)

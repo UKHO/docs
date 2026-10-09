@@ -9,7 +9,7 @@ This guide collects the implementation steps described by the [draft Observabili
 3. Add extra traces and metadata when finer-grained application metrics are needed. Elastic APM calls custom or business-specific metrics “labels”.
 4. Set up probes (synthetic tests) that run externally as if a user were using the application.
 5. Use Terraform to script APM and synthetic-test setup for deployment and supportability.
-6. For service dashboards, SLI/SLOs, BAU support alerts, or alert connectors, consult the Support SME. The source says internal and external dashboards are available and describes alerts with connectors to the Status Page and other systems.
+6. For service dashboards that provide developers with ongoing visibility of service health, usage, and performance; SLI/SLOs; BAU support alerts; or alert connectors, consult the Support SME. The source says internal and external dashboards are available and describes alerts with connectors to the Status Page and other systems. Balance useful outage and event alerts against unnecessary noise.
 
 For configuration examples, see [Observability definitions and settings](observability-reference.md).
 

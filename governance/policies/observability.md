@@ -14,3 +14,4 @@ This draft policy sets the monitoring standards described in the [Observability 
 - [Implement application observability](observability-how-to.md)
 - [Why observability matters](observability-explanation.md)
 - [Observability definitions and settings](observability-reference.md)
+- [UKHO's security-focused Logging and Monitoring Policy](https://ukho.sharepoint.com/sites/docstore-prd/_layouts/15/Doc.aspx?sourcedoc=%7B925F1410-7556-4B0E-8437-25497AED4562%7D&file=POL210.docx&action=default&mobileredirect=true&DefaultItemOpen=1)
