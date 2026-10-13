@@ -24,27 +24,27 @@ This policy applies to all software engineering teams and individuals within the
 
 ## Policies
 
-[Cloud First Approach](../../software-engineering-policies/CloudDevelopment/CloudFirst.md)
+[Cloud First Approach](CloudDevelopment/CloudFirst.md)
 
 [Guidance on Security with the Hub and Spoke Model](https://github.com/UKHO/how-do-i/blob/3373f41de95525cf795df0d9c1aae7ada2dcea86/docs/subscriptions.md?plain=1)
 
-[General Requirements and Recommendations](../../software-engineering-policies/CloudDevelopment/General.md)
+[General Requirements and Recommendations](CloudDevelopment/General.md)
 
-[Containers](../../software-engineering-policies/CloudDevelopment/Containers.md)
+[Containers](../governance/policies/containers.md)
 
-[Deployment](../../software-engineering-policies/CloudDevelopment/Deployment.md)
+[Deployment](Processed/CloudDevelopment/Deployment.md)
 
-[Data Use in the cloud](../../software-engineering-policies/CloudDevelopment/DataUse.md)
+[Data Use in the cloud](CloudDevelopment/DataUse.md)
 
-[Users](../../software-engineering-policies/CloudDevelopment/Users.md)
+[Users](CloudDevelopment/Users.md)
 
-[Disaster Recovery & Business Continuity](../../software-engineering-policies/CloudDevelopment/DisasterRecoveryBusinessContinuity.md)
+[Disaster Recovery & Business Continuity](CloudDevelopment/DisasterRecoveryBusinessContinuity.md)
 
-[Logging and Monitoring](../../software-engineering-policies/CloudDevelopment/LoggingAndMonitoring.md)
+[Logging and Monitoring](Processed/CloudDevelopment/LoggingAndMonitoring.md)
 
-[Cloud Pilot's License](../../software-engineering-policies/CloudDevelopment/PilotsLicense.md)
+[Cloud Pilot's License](CloudDevelopment/PilotsLicense.md)
 
-[Tagging](../../software-engineering-policies/CloudDevelopment/Tagging.md)
+[Tagging](CloudDevelopment/Tagging.md)
 
 ### Related Policies
 
@@ -52,6 +52,6 @@ This policy applies to all software engineering teams and individuals within the
 
 [Nautilus Account Types & Purposes](https://ukho.sharepoint.com/sites/SoftwareDevandTest/SitePages/Account-types.aspx)
 
-[Code Review Policy](CodeReviewPolicy.md)
+[Code Review Policy](../governance/policies/code-review.md)
 
-[Container Policy](ContainerPolicy.md)
+[Container Policy](../governance/policies/containers.md)
