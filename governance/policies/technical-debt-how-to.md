@@ -14,7 +14,7 @@ This how-to supports the [Technical Debt Policy](technical-debt.md), which remai
    * Cost, benefit and risk, including why it should be fixed and how long it might take.
 5. Raise the item even if the debt will be resolved immediately. This helps show its impact and that it was discovered.
 
-![Example technical debt work item](assets/TechnicalDebtPolicy/Example_TD_V4.png)
+![Example technical debt work item](assets/technical-debt/Example_TD_V4.png)
 
 ## Refine technical debt
 
