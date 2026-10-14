@@ -15,6 +15,7 @@ The policies (and associated guidance) that should be followed during software d
 | Open Source Contribution | [Policy](OpenSourceContribution/OpenSourceContributionPolicy.md) | |
 | Open Source Use | [Policy](OpenSourceUse/OpenSourceUsePolicy.md) | |
 | Pair Programming | [Policy](PairProgramming/PairProgrammingPolicy.md) | |
+| PIM activation justification (draft, engineers) | [Policy](CloudDevelopment/PrivilegedIdentityManagementJustificationPolicy.md) | [Guidance](CloudDevelopment/PrivilegedIdentityManagementJustificationGuidance.md) |
 | Secure Development | [Policy](SecureDevelopment/SecureDevelopmentPolicy.md) | |
 | &nbsp; Managing Security Concerns | [Policy](../security/ManagingSecurityConcerns/ManagingSecurityConcerns.md) | |
 | Source Control | [Policy](SourceControl/SourceControlPolicy.md) | |
