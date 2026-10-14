@@ -14,5 +14,5 @@ For the [UKHO NFR definition](https://ukho.sharepoint.com/sites/eagwiki/Pages/NF
 
 ## Related documents
 
-- [Discover and deliver NFRs](nfr-how-to.md)
-- [Why NFRs matter](nfr-explanation.md)
+- [Discover and deliver NFRs](non-functional-requirements-how-to.md)
+- [Why NFRs matter](non-functional-requirements-explanation.md)
