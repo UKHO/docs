@@ -12,8 +12,8 @@ This policy defines the required review practice for code changes being committe
 
 ## Related documents
 
-- [Why peer review is required](code-review-explanation.md)
-- [How to apply the peer review policy](code-review-how-to.md)
+- [Why code review is required](code-review-explanation.md)
+- [How to apply the code review policy](code-review-how-to.md)
 - [Source control policy](source-control.md)
 
 ## References

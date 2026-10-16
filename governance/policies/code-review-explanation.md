@@ -1,4 +1,4 @@
-# Why peer review is required
+# Why code review is required
 
 Engineers should review code to catch defects early, spread knowledge, and keep the codebase consistent.
 
