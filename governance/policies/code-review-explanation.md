@@ -1,23 +1,16 @@
-# Why Peer Code Review Matters
+# Why peer review is required
 
-This document explains the rationale in the [Code Review Policy](code-review.md). The policy remains the authoritative source for requirements.
+Engineers should review code to catch defects early, spread knowledge, and keep the codebase consistent.
 
-## Review as a mandatory control
+## Reasons for code reviews
 
-Peer code review is described as a valuable and mandatory part of the software development process. The source makes clear that this is not optional review for selected changes only: all changes committed to source control must be subject to review.
+- **Catching Bugs and Security Flaws**: A second pair of eyes spots logic errors, edge cases, performance bottlenecks, or security vulnerabilities that automated tools might miss.
+- **Knowledge Sharing and Mentorship**: Reviews teach team members how different parts of the system work, spreading context so no single person becomes a single point of failure.
+- **Spreading Code Ownership**: When multiple engineers look at and approve a change, the team shares responsibility for maintaining it rather than leaving it to the original author.
+- **Enforcing Standards and Consistency**: Reviews ensure the code follows established style guides, architectural patterns, and design principles so the entire codebase remains readable.
+- **Improving Documentation and Design**: Discussion during a review often forces better API design, cleaner structure, and clearer inline comments or documentation.
 
-## Review of the right code and review evidence
+## Related documents
 
-The policy requires reviews to be conducted on code directly from source control, not on code deployed to shared folders, drives, or test deployments. This keeps review focused on the actual change set and avoids reviewing a build that may not match the checked-in code.
-
-## Traceability and clarity
-
-The source expects the review to confirm that each change set is linked to an associated work item and that the change is explained by an appropriate comment or commit message. This helps teams understand what changed, why it changed, and what trackable work it supports.
-
-## Timeliness and completion
-
-The review should happen promptly, ideally within 1-2 days of the coding task being completed, so feedback is still fresh and issues can be addressed before code reaches another branch or a deployment path to a formal testing environment such as UAT. The source also makes the review a completion criterion: a PBI is not complete until code changes have been reviewed and any follow-up changes from the review are completed.
-
-## Evidence and quality gates
-
-The policy requires evidence that a check-in has been reviewed. This can be supported by an enforced review workflow or by a report that shows all reviews have been completed. The source also states that code review completion must be included in a team's definition of done.
+- [Code Review Policy](code-review.md)
+- [How to apply the code review policy](code-review-how-to.md)
