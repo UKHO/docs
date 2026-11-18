@@ -132,7 +132,7 @@ AI-assisted testing must maintain or improve existing coverage levels:
 
 This section defines how AI may use test data in prompts, uploads, code analysis, test generation or defect investigation. AI should only access data that is safe, necessary and approved.
 
-Use synthetic, anonymised or masked data by default. Sensitive, personal, operational, security-classified, credential-related or production data must not be exposed to AI tools unless formally approved.
+Use synthetic, anonymised or masked data by default. Personal information, credentials, secrets, tokens and keys must never be exposed to AI tools for software testing. Other sensitive, operational, security-classified or production data must not be exposed to AI tools unless permitted by existing policy and formally approved.
 
 If unsure, treat the data as unapproved until confirmed by the relevant data owner, security lead or governance process.
 
