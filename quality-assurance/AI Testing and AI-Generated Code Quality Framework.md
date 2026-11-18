@@ -1,4 +1,4 @@
-# AI Testing and AI-Generated Code Quality Framework
+# AI in Testing and AI-Generated Code Quality Framework
 
 
 
