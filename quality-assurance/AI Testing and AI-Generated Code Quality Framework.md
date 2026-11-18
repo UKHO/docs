@@ -147,8 +147,9 @@ If unsure, treat the data as unapproved until confirmed by the relevant data own
 |-|-|-|
 |Synthetic data|Preferred|Allowed if it contains no real personal, customer, operational, credential or sensitive information.|
 |Anonymised or masked production-like data|Allowed with controls|Use only when masking or anonymisation is validated, re-identification risk is low and tool use is approved.|
-|Documents classified above Official|Prohibited|Do not use with AI tools for software testing, as required by the [AI usage policy](ai-usage.md).|
-|Other sensitive or security-related data|Prohibited unless explicitly authorised by security policy|Do not use in general-purpose AI tools. Use only in approved sandboxes or vetted on-premises environments with access controls, auditability and required approvals; personal information and secrets remain prohibited.|
+|Documents classified above Official|Prohibited|Do not use with AI tools for software testing, as required by the [AI usage policy](ai-usage.md).|
+
+
 |Sensitive, Official+ or security-related data|Prohibited unless formally approved and sandboxed|Do not use in general-purpose AI tools. Use only in approved secure environments with access controls, auditability and data or security approval.|
 |Credentials, secrets, tokens or keys|Prohibited|Never provide to AI tools or include in prompts, screenshots, logs, evidence or code snippets.|
 
