@@ -4,7 +4,6 @@
 
 This document provides a practical framework for using AI safely and effectively in testing and AI-generated code quality assurance. It is intended for test leads, test engineers, developers, delivery teams and governance stakeholders who need clear guidance on reviewing, validating, evidencing and controlling AI-assisted outputs before they inform delivery decisions.
 
-## 
 
 ## 1\. How we will use AI to improve how we do testing
 
@@ -41,7 +40,6 @@ AI may support testers and engineers by:
    * Validate and test all AI outputs against the acceptance criteria.
    * Maintain traceability to requirements.
 
-### 
 
 ### 1.2 AI test strategy framework
 
@@ -55,7 +53,6 @@ The framework defines validation layers to confirm that AI-assisted outputs are 
 
 Apply this framework wherever AI influences testing activity. Retain evidence where outputs support a delivery decision, release recommendation or quality gate.
 
-#### 
 
 #### Validation layers for AI-assisted testing outputs
 
@@ -69,7 +66,6 @@ Apply this framework wherever AI influences testing activity. Retain evidence wh
 |Regression testing|Ensure AI-assisted changes do not break existing functionality, integrations, rules or critical workflows.|QA owns planning and execution; developers support investigation; test leads confirm scope.|Regression results, impact notes, critical-path coverage and no high-priority unintended failures.|
 |Exploratory testing|Challenge AI assumptions, gaps, hallucinations, unrealistic data and missed scenarios.|QA and test engineers lead, with business, product, developer or domain input as needed.|Exploratory notes, challenged assumptions, gaps and follow-up actions.|
 
-## 
 
 ## 2\. Policies to validate quality of AI-generated code
 
@@ -77,7 +73,6 @@ Apply this framework wherever AI influences testing activity. Retain evidence wh
 
 This section defines the mandatory policies and validation controls required before AI-generated or AI-assisted code is accepted into the codebase.
 
-### 
 
 ### 2.1 AI-generated code validation criteria
 
@@ -85,7 +80,6 @@ This section defines the mandatory policies and validation controls required bef
 
 Refer to the [AI strategy](https://github.com/UKHO/docs/blob/main/engineering/strategy/engineering-ai-strategy.md) for code validation criteria.
 
-### 
 
 ### 2.2 AI-generated test validation framework
 
@@ -103,11 +97,9 @@ AI-generated test cases must meet the following requirements:
 |Duplication|Avoid duplicating existing tests.|
 |Maintainability|Be readable and reusable.|
 
-### 
 
 ### 2.3 Test coverage strategy for AI adoption
 
-#### 
 
 #### 2.3.1 Coverage expectations
 
@@ -124,7 +116,6 @@ AI-assisted testing must maintain or improve existing coverage levels:
 |Regression|Highlight impacted areas across existing components and functionality.|
 |Non-functional|Suggest relevant performance, accessibility, reliability or security checks where not already covered.|
 
-### 
 
 ### 2.4 Test data strategy for AI usage
 
@@ -137,7 +128,6 @@ Use synthetic, anonymised or masked data by default. Personal information, crede
 
 If unsure, treat the data as unapproved until confirmed by the relevant data owner, security lead or governance process.
 
-#### 
 
 #### 2.4.1 Data usage guidelines
 
@@ -153,7 +143,7 @@ If unsure, treat the data as unapproved until confirmed by the relevant data own
 
 
 
-**Examples**
+#### Examples
 
 
 
@@ -163,7 +153,6 @@ If unsure, treat the data as unapproved until confirmed by the relevant data own
 |Notices to customers or public data|Permissible only when confirmed as public, non-sensitive and approved for the AI tool.|
 |Logs, screenshots and defect evidence|Check first for environment details, IDs, credentials, customer references or operational information.|
 
-#### 
 
 #### 2.4.2 Minimum controls before using test data with AI
 
@@ -174,7 +163,6 @@ If unsure, treat the data as unapproved until confirmed by the relevant data own
 * Record the data source, classification, sanitisation performed, approval and AI tool used where evidence is required.
 * Validate AI-generated test data before use to ensure it is realistic, relevant, non-sensitive and aligned to the test objective.
 
-### 
 
 ### 2.5 Roles and responsibilities for AI-assisted testing
 
@@ -182,7 +170,6 @@ If unsure, treat the data as unapproved until confirmed by the relevant data own
 
 This section extends existing governance roles for AI-assisted testing.
 
-#### 
 
 #### 2.5.1 Test Leads and Principal Developers
 
@@ -192,7 +179,6 @@ This section extends existing governance roles for AI-assisted testing.
 * Approve AI testing approaches.
 * Ensure regression coverage and quality gates.
 
-#### 
 
 #### 2.5.2 Test Engineers and Developers
 
@@ -202,7 +188,6 @@ This section extends existing governance roles for AI-assisted testing.
 * Perform exploratory testing to detect hallucinations.
 * Ensure test completeness.
 
-#### 
 
 #### 2.5.3 Engineering Teams
 
@@ -211,7 +196,6 @@ This section extends existing governance roles for AI-assisted testing.
 * Ensure AI outputs are reviewed and tested.
 * Do not rely solely on AI-generated logic.
 
-### 
 
 ### 2.6 Lightweight review of AI-assisted testing
 
@@ -219,7 +203,6 @@ This section extends existing governance roles for AI-assisted testing.
 
 Use existing delivery evidence to confirm AI-assisted testing has been reviewed. Do not introduce extra monitoring or metrics unless there is a clear customer need, governance requirement or delivery risk.
 
-#### 
 
 #### 2.6.1 Minimum evidence to retain
 
@@ -230,7 +213,6 @@ Use existing delivery evidence to confirm AI-assisted testing has been reviewed.
 * Any significant issue found.
 * What action was taken.
 
-### 
 
 ### 2.7 Non-functional validation for AI-generated code
 
@@ -238,7 +220,6 @@ Use existing delivery evidence to confirm AI-assisted testing has been reviewed.
 
 AI-generated or AI-assisted code must meet existing non-functional standards, including performance, security, reliability, resilience, maintainability, accessibility, observability and supportability. Evidence should be retained through existing review, testing, pipeline, security and governance processes.
 
-### 
 
 ### 2.8 AI risk mitigation from a testing perspective
 
@@ -269,7 +250,6 @@ Apply proportionate test controls to AI-assisted outputs that could affect quali
 * Use retrospectives to improve prompts, controls and training.
 * Human review and recorded mitigation are required where an AI-assisted output affects release, sign-off, delivery decisions or production.
 
-### 
 
 ### 2.9 AI testing capability development
 
@@ -279,7 +259,6 @@ Training needs and capability areas will be refined after the AI in Testing PoC.
 
 Initial capability themes may include safe AI use, prompt writing, review of AI-assisted outputs, test data handling, evidence capture and risk awareness.
 
-### 
 
 ### 2.10 Future AI testing maturity model
 
@@ -289,7 +268,6 @@ A maturity model will be developed after the AI in Testing PoC. It should be bas
 
 The model should describe how teams can move from initial AI use to governed and optimised use without introducing unnecessary process overhead.
 
-## 
 
 ## 3\. Summary
 
